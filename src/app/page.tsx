@@ -1,69 +1,164 @@
-import Image from "next/image";
+import Link from "next/link";
+import { BrandMarquee } from "@/components/BrandMarquee";
+import { BrandTile } from "@/components/BrandTile";
+import { CommunityPostCard } from "@/components/CommunityPostCard";
+import { ProductTile } from "@/components/ProductTile";
+import { ReviewCard } from "@/components/ReviewCard";
+import { SectionHeading } from "@/components/ui";
+import { brands, categories, communityPosts, products, reviews } from "@/lib/data";
 
-export default function Home() {
+export default function HomePage() {
+  const featured = products.filter((p) => p.badge).slice(0, 3);
+  const latestTalk = communityPosts.slice(0, 3);
+  const spotlightReviews = reviews.slice(0, 3);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <>
+      <section className="relative min-h-[calc(100vh-4rem)] overflow-hidden">
+        <div className="market-grid absolute inset-0 opacity-60" />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(105deg, color-mix(in oklab, #e7f2ec 88%, transparent) 0%, color-mix(in oklab, #e7f2ec 55%, transparent) 42%, transparent 68%), linear-gradient(160deg, #1f8a7a 0%, #0f5c52 38%, #142821 100%)",
+          }}
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+        <div className="absolute inset-y-0 right-0 hidden w-[54%] md:block">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(242,226,122,0.45),transparent_55%),radial-gradient(circle_at_70%_70%,rgba(255,90,60,0.28),transparent_50%)]" />
+          <div className="animate-floaty absolute left-[12%] top-[18%] h-44 w-28 rotate-[-18deg] rounded-[1.5rem] border border-white/30 bg-white/20 shadow-2xl backdrop-blur-md" />
+          <div className="animate-floaty absolute right-[18%] top-[28%] h-56 w-36 rotate-[10deg] rounded-[1.75rem] border border-white/25 bg-[color-mix(in_oklab,#f2e27a_70%,white)] shadow-2xl delay-2" />
+          <div className="animate-floaty absolute bottom-[18%] left-[28%] h-40 w-40 rounded-full border border-white/20 bg-[color-mix(in_oklab,#ff5a3c_55%,white)] opacity-90 delay-1" />
+          <div className="absolute right-[8%] bottom-[22%] max-w-[14rem] rounded-2xl border border-white/25 bg-white/15 p-4 text-sm text-white/90 backdrop-blur-md">
+            <p className="font-display text-lg font-bold">Small brands. Real labels.</p>
+            <p className="mt-1 text-white/75">Sunscreen · deodorant · protein · more</p>
+          </div>
+        </div>
+
+        <div className="relative z-10 mx-auto flex min-h-[calc(100vh-4rem)] max-w-6xl flex-col justify-center px-5 py-16 md:px-8">
+          <p className="animate-rise font-display text-5xl font-extrabold leading-[0.95] tracking-[-0.05em] text-ink md:text-7xl lg:text-8xl">
+            the tiny
+            <br />
+            marketplace
           </p>
+          <p className="animate-rise delay-1 mt-6 max-w-md text-lg text-ink-soft md:text-xl">
+            Discover small cosmetic brands, peek inside the ingredients, and talk about what actually works.
+          </p>
+          <div className="animate-rise delay-2 mt-8 flex flex-wrap gap-3">
+            <Link href="/browse" className="btn btn-primary">
+              Start browsing
+            </Link>
+            <Link href="/ingredients" className="btn btn-ghost">
+              Search ingredients
+            </Link>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      <BrandMarquee />
+
+      <section className="mx-auto max-w-6xl px-5 py-16 md:px-8">
+        <SectionHeading
+          eyebrow="Categories"
+          title="Start in the bathroom cabinet"
+          subtitle="Cosmetics & wellness first — sunscreen, deodorant, protein, skincare, hair, and oral care from brands worth rooting for."
+        />
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
+          {categories.map((cat, i) => (
+            <Link
+              key={cat.id}
+              href={`/browse?cat=${cat.id}`}
+              className="surface group rounded-[1.25rem] p-4 text-center transition hover:-translate-y-1 hover:shadow-[var(--shadow)]"
+              style={{ animationDelay: `${i * 40}ms` }}
+            >
+              <span className="font-display text-2xl text-teal-deep" aria-hidden>
+                {cat.mark}
+              </span>
+              <p className="mt-2 font-display text-lg font-bold tracking-[-0.02em]">{cat.label}</p>
+            </Link>
+          ))}
         </div>
-      </main>
-    </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-5 py-6 md:px-8">
+        <SectionHeading
+          eyebrow="Staff picks"
+          title="Little brands, loud formulas"
+          subtitle="Hand-picked products with transparent labels and reviews from people who actually use them."
+          href="/browse"
+          linkLabel="See all"
+        />
+        <div className="grid gap-5 md:grid-cols-3">
+          {featured.map((product) => (
+            <ProductTile key={product.id} product={product} />
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-5 py-16 md:px-8">
+        <SectionHeading
+          eyebrow="Meet the makers"
+          title="Shops behind the products"
+          subtitle="Every listing maps back to a small brand — follow the ones that feel like your people."
+        />
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {brands.slice(0, 6).map((brand) => (
+            <BrandTile key={brand.id} brand={brand} />
+          ))}
+        </div>
+      </section>
+
+      <section className="border-y border-line bg-[color-mix(in_oklab,var(--mist)_55%,white)]">
+        <div className="mx-auto max-w-6xl px-5 py-16 md:px-8">
+          <SectionHeading
+            eyebrow="Ingredient radar"
+            title="Know what’s in it — and what isn’t"
+            subtitle="Filter by zinc oxide, skip fragrance, hunt hemp protein. Advanced ingredient search built for curious shoppers."
+            href="/ingredients"
+            linkLabel="Open search"
+          />
+          <div className="grid gap-4 md:grid-cols-3">
+            {[
+              { title: "Contains", body: "Find products with niacinamide, hydroxyapatite, or your favorite active." },
+              { title: "Free from", body: "Dodge oxybenzone, baking soda, SLS — one tap on the avoid list." },
+              { title: "Talk it out", body: "Compare notes with other tiny-shoppers in the community threads." },
+            ].map((item) => (
+              <div key={item.title} className="surface rounded-[1.25rem] p-5">
+                <h3 className="font-display text-xl font-bold">{item.title}</h3>
+                <p className="mt-2 text-sm text-ink-soft">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-5 py-16 md:px-8">
+        <SectionHeading
+          eyebrow="Reviews"
+          title="What people are saying"
+          href="/community"
+          linkLabel="Join the talk"
+        />
+        <div className="grid gap-5 md:grid-cols-3">
+          {spotlightReviews.map((review) => (
+            <ReviewCard key={review.id} review={review} />
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-5 pb-20 md:px-8">
+        <SectionHeading
+          eyebrow="Community"
+          title="Shop talk, not sales pitches"
+          subtitle="Routines, ingredient debates, brand love letters — pull up a chair."
+          href="/community"
+          linkLabel="See all threads"
+        />
+        <div className="grid gap-5 lg:grid-cols-3">
+          {latestTalk.map((post) => (
+            <CommunityPostCard key={post.id} post={post} />
+          ))}
+        </div>
+      </section>
+    </>
   );
 }
