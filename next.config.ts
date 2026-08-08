@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
         hostname: "humblebrands.com",
         pathname: "/cdn/shop/**",
       },
+      {
+        protocol: "https",
+        hostname: "moonjuice.com",
+        pathname: "/cdn/shop/**",
+      },
     ],
   },
 };

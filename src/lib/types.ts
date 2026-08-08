@@ -5,7 +5,8 @@ export type Category =
   | "skincare"
   | "hair"
   | "oral"
-  | "electrolytes";
+  | "electrolytes"
+  | "supplements";
 
 export type Brand = {
   id: string;
@@ -37,6 +38,8 @@ export type Product = {
   accent: string;
   badge?: string;
   imageUrl?: string;
+  /** Username of who placed this direct listing */
+  placedBy?: string;
 };
 
 export type Review = {

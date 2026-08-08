@@ -1,0 +1,1193 @@
+{
+  "brand": {
+    "id": "b8",
+    "slug": "moon-juice",
+    "name": "Moon Juice",
+    "tagline": "Adaptogens, minerals + beauty for cosmic wellness",
+    "story": "LA-born adaptogen and mineral brand blending clinically-backed botanicals into daily powders and capsules — magnesium, cortisol support, beauty, and brain rituals without the junk.",
+    "location": "Los Angeles, CA",
+    "founded": 2011,
+    "categories": [
+      "supplements",
+      "electrolytes",
+      "skincare"
+    ],
+    "accent": "#5E4B45",
+    "rating": 4.8,
+    "reviewCount": 20059,
+    "followerCount": 0,
+    "website": "https://moonjuice.com"
+  },
+  "brandUuid": "00000000-0000-0000-0000-000000000003",
+  "products": [
+    {
+      "id": "mj1",
+      "uuid": "b0000000-0000-0000-0000-000000000001",
+      "slug": "neuro-magnesi-om",
+      "brandId": "b8",
+      "name": "Neuro Magnesi-Om",
+      "category": "supplements",
+      "price": 51.8,
+      "description": "Cognitive speed + brain longevity",
+      "ingredients": [
+        "Magtein Magnesium L-threonate",
+        "Organic Lion's Mane",
+        "Organic Caffeine",
+        "L-theanine"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.7,
+      "reviewCount": 35,
+      "accent": "#5E4B45",
+      "imageUrl": "https://moonjuice.com/cdn/shop/files/Ecom-Neuro_Matcha_Mag.png?v=1779567262&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/neuro-magnesi-om",
+      "size": "30 servings",
+      "howToUse": "Blend 1 rounded tsp in 6oz hot or cold water or milk, up to 2x a day. Neuro Magnesi-Om contains caffeine; it's best taken in the morning---or at least not so late in the day that it'll affect your sleep.",
+      "goodFor": "Short-term memory + cognitive speed; Mental stamina + alertness; Neuroplasticity + synaptic density",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj2",
+      "uuid": "b0000000-0000-0000-0000-000000000002",
+      "slug": "magnesi-om",
+      "brandId": "b8",
+      "name": "Magnesi-Om",
+      "category": "supplements",
+      "price": 30.8,
+      "description": "Rest, relaxation + regularity",
+      "ingredients": [
+        "Magnesium Chelate Blend (Citrate, Gluconate, and Acetyl Taurinate)",
+        "L-theanine"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.8,
+      "reviewCount": 3853,
+      "accent": "#5E4B45",
+      "badge": "Best seller",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/Mag_New_800x800_4dbf7a23-5fdf-4b50-81ee-e0618d9f8c2b.png?v=1782516533&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/magnesi-om-magnesium-supplement",
+      "size": "30 servings",
+      "howToUse": "Mix 1 tsp of our magnesium powder in water every night or when you need to chill. Or mix one serving size with Tart Cherry Juice + sparkling water to make your own Sleepy Girl Mocktail.",
+      "goodFor": "Relaxation: Enhances feelings of calm, improves mood, reduces muscle aches; Brain Health: Supports healthy cognitive aging and brain function; Regularity: Supports regular bowel movement, soothes and ",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj3",
+      "uuid": "b0000000-0000-0000-0000-000000000003",
+      "slug": "sleepy-magnesi-om",
+      "brandId": "b8",
+      "name": "Sleepy Magnesi-Om",
+      "category": "supplements",
+      "price": 34.3,
+      "description": "Plant melatonin + magnesium for deep sleep",
+      "ingredients": [
+        "L-theanine",
+        "Magnesium Chelate Blend (Bisglycinate and Gluconate)",
+        "Phytomelatonin"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.7,
+      "reviewCount": 323,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/files/9_SleepyMag.png?v=1782413613&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/sleepy-magnesiom-magnesium-powder-with-melatonin-for-sleep",
+      "size": "35 servings",
+      "howToUse": "Mix in 10oz water before bed as needed. This Magnesium and Melatonin powder for sleep is great for travel, shift work, and nights you have trouble falling asleep. Friendly for adults and kids 9+.",
+      "goodFor": "Sleep:Supports slumber without the hangover, decreases duration to fall asleep, supports sleep quality; Relaxation:Supports the body's stress response and muscle relaxation",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj4",
+      "uuid": "b0000000-0000-0000-0000-000000000004",
+      "slug": "superyou",
+      "brandId": "b8",
+      "name": "SuperYou",
+      "category": "supplements",
+      "price": 37.8,
+      "description": "Daily cortisol management. Energy, mood + focus",
+      "ingredients": [
+        "Organic Ashwagandha",
+        "Organic Amla",
+        "Organically Grown Shatavari",
+        "Wildcrafted Rhodiola"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.8,
+      "reviewCount": 3220,
+      "accent": "#5E4B45",
+      "badge": "Best seller",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/SuperYou_800x800_9fa65f73-f367-4e26-bf80-88b4ef9aff53.png?v=1762198134&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/superyou",
+      "size": "30 servings",
+      "howToUse": "Take 2 caps every morning, with or without food.",
+      "goodFor": "reduce physical, mental and emotional fatigue; reduce cortisol by 24%; boost energy and mood",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj5",
+      "uuid": "b0000000-0000-0000-0000-000000000005",
+      "slug": "superhair",
+      "brandId": "b8",
+      "name": "SuperHair",
+      "category": "supplements",
+      "price": 46.2,
+      "description": "Healthier, stronger, thicker hair",
+      "ingredients": [
+        "Multivitamin Complex A",
+        "B12",
+        "Horsetail",
+        "Wildcrafted Saw Palmetto",
+        "Iodine from Wild Harvested Kelp",
+        "Organic Ashwagandha Root Extract (KSM66)"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.7,
+      "reviewCount": 2106,
+      "accent": "#5E4B45",
+      "badge": "Best seller",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/SuperHair_800x800_1e036d6d-c5a7-4bc3-ada4-58fb5e0c09bc.png?v=1762198161&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/superhair",
+      "size": "30 servings",
+      "howToUse": "Take 4 caps of SuperHair every morning, with or without food, for healthier, thicker, stronger hair.*",
+      "goodFor": "Helps balance stress hormones and reduce the effects of oxidative stress, which can contribute to hair loss; Help inhibit the hair-destructive hormone, DHT, to support healthy hair follicles and promo",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj6",
+      "uuid": "b0000000-0000-0000-0000-000000000006",
+      "slug": "superbeauty",
+      "brandId": "b8",
+      "name": "SuperBeauty",
+      "category": "supplements",
+      "price": 46.2,
+      "description": "Cellular skin care. Collagen, elasticity + cell vitality",
+      "ingredients": [
+        "Organic Astaxanthin",
+        "Liposomal Glutathione",
+        "Vitamin C from Organic Acerola",
+        "Silica"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.9,
+      "reviewCount": 678,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/SuperBeauty_800x800_a9883c0f-7510-4398-9bf3-1514540ce66e.png?v=1762198217&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/superbeauty",
+      "size": "30 servings",
+      "howToUse": "Take 2 caps every morning, with or without food.",
+      "goodFor": "minimize the appearance of fine lines; promote collagen and elasticity; protect protein, lipids and DNA from oxidative damage* †",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj7",
+      "uuid": "b0000000-0000-0000-0000-000000000007",
+      "slug": "superpower",
+      "brandId": "b8",
+      "name": "SuperPower",
+      "category": "supplements",
+      "price": 29.4,
+      "description": "Radical immune support",
+      "ingredients": [
+        "Liposomal Vitamin C",
+        "Vitamin D2",
+        "Chelated Zinc",
+        "Beta-Glucan"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.7,
+      "reviewCount": 200,
+      "accent": "#5E4B45",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/SuperPower800x800.png?v=1762198322&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/superpower",
+      "size": "10 servings",
+      "howToUse": "For daily maintenance, take 1 capsule. If you need extra support or feel your system is compromised, take 3 capsules every day for 10 days.",
+      "goodFor": "Support healthy immunity; Activate cells for a quick response; Balance an overactive immune system",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj8",
+      "uuid": "b0000000-0000-0000-0000-000000000008",
+      "slug": "sex-dust",
+      "brandId": "b8",
+      "name": "Sex Dust",
+      "category": "supplements",
+      "price": 26.6,
+      "description": "Adaptogens for fire + creative energy",
+      "ingredients": [],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.5,
+      "reviewCount": 904,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/files/Sex_Dust_ecom.png?v=1762198103&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/sex-dust",
+      "size": "14 servings",
+      "howToUse": "Using a milk frother or blender, mix 1 tsp of this natural libido supplement into coffee, black tea, hot water with a splash of milk, or cocoa. Commit daily for maximum benefits.",
+      "goodFor": "LIBIDO + HORMONAL BALANCE; Shown to help:; Shatavarisupports healthy hormonal balance and juiciness",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj9",
+      "uuid": "b0000000-0000-0000-0000-000000000009",
+      "slug": "brain-dust",
+      "brandId": "b8",
+      "name": "Brain Dust",
+      "category": "supplements",
+      "price": 26.6,
+      "description": "Mental stamina, alertness + concentration",
+      "ingredients": [
+        "Organic Lion's Mane Mushroom Extract",
+        "Organic Maca Root Extract",
+        "Organic Astragalus Root Extract",
+        "Rhodiola root extract",
+        "Ginkgo Leaf Extract",
+        "Organic Ashwagandha Root and Leaf Extract"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.7,
+      "reviewCount": 736,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/files/Brain_dust_ecom.png?v=1762198100&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/brain-dust",
+      "size": "14 servings",
+      "howToUse": "Malty & bitter -- pairs well with tea, coffee, chocolate & milk; or add to any smoothie. Blend 1 tsp per serving.",
+      "goodFor": "Organic Lion's Mane:Known to be neuroprotective; Ginkgo:Supports speedy processing; Rhodiola:Promotes alertness and concentration",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj10",
+      "uuid": "b0000000-0000-0000-0000-000000000010",
+      "slug": "spirit-dust",
+      "brandId": "b8",
+      "name": "Spirit Dust",
+      "category": "supplements",
+      "price": 26.6,
+      "description": "Relief of tension + irritability",
+      "ingredients": [
+        "Organic Reishi Mushroom Extract",
+        "Organic Ashwagandha Root and Leaf Extract",
+        "Organic Astragalus Root Extract"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.8,
+      "reviewCount": 473,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/files/Spirit_dust_ecom.png?v=1762198101&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/spirit-dust",
+      "size": "14 servings",
+      "howToUse": "Sweet & nutty -- pairs well with tea, coffee, chocolate & milk; or add to any smoothie. Blend 1 tsp per serving.",
+      "goodFor": "Traditionally used to help:; Organic Reishi:Known to nourish and calm, providing a sense of joy and peace; Organic Ashwagandha:Helps promote emotional wellbeing",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj11",
+      "uuid": "b0000000-0000-0000-0000-000000000011",
+      "slug": "beauty-dust",
+      "brandId": "b8",
+      "name": "Beauty Dust",
+      "category": "supplements",
+      "price": 26.6,
+      "description": "Skin clarity + protection from accelerated aging",
+      "ingredients": [
+        "Organic Schisandra Berry Powder",
+        "Organic Ashwagandha Root and Leaf Extract",
+        "Organic Amla Berry Extract",
+        "Pearl Extract"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.7,
+      "reviewCount": 410,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/files/Beauty_dust_ecom.png?v=1762198098&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/beauty-dust",
+      "size": "30 servings",
+      "howToUse": "Tart, berry flavor -- pairs well with matcha, water & lemonade; or add to any smoothie. Blend 1 tsp per serving. Our berry-heavy blend Beauty Dust can clump or harden if not used regularly. This does not affect the potency. If you are a casual Duster, Beauty Dust is also available in a boxed set of 12 single serving sachets.",
+      "goodFor": "Traditionally used to help:; Organic Amla:Helps protect the skin from oxidative stress; Organic Schisandra:Traditionally used for its hydrating properties and to promote skin clarity",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj12",
+      "uuid": "b0000000-0000-0000-0000-000000000012",
+      "slug": "power-dust",
+      "brandId": "b8",
+      "name": "Power Dust",
+      "category": "supplements",
+      "price": 26.6,
+      "description": "Adaptogens for energy. Stamina, recovery + healthy immunity",
+      "ingredients": [
+        "Cordyceps",
+        "Organic Schisandra Berry Powder",
+        "Rhodiola root extract",
+        "Organic Astragalus Root Extract",
+        "Organic Ashwagandha Root and Leaf Extract"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.8,
+      "reviewCount": 321,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/files/Power_dust_ecom.png?v=1762198106&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/power-dust",
+      "size": "14 servings",
+      "howToUse": "Bright & earthy -- pairs well with citrus, tea, milk & coffee; or add to any smoothie. Blend 1 tsp per serving.",
+      "goodFor": "Traditionally used to help:; Organic Cordyceps:Traditionally used to support healthy lung capacity; Organic Ginseng:Known to help rejuvenate energy",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj13",
+      "uuid": "b0000000-0000-0000-0000-000000000013",
+      "slug": "ting",
+      "brandId": "b8",
+      "name": "Ting",
+      "category": "supplements",
+      "price": 29.4,
+      "description": "Caffeine-free pick-me-up. Energy, metabolism + mood",
+      "ingredients": [
+        "Vitamin B Complex (Vitamin B1 B2 B3 Niacin B5 B6 B9)",
+        "Vitamin B12 (Methylcobalamin)",
+        "Adaptogenic Ginseng",
+        "Folate (Metafolin Vitamin B9)",
+        "Fermented L-Glutamine"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.8,
+      "reviewCount": 674,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/Ting_800x800_69845d2f-7a2c-41e0-881b-30dce02dc809.png?v=1762198447&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/ting",
+      "size": "25 servings",
+      "howToUse": "½ tsp to 12oz of water daily. Tips: + Dissolves best when added to glass before water. + Store in the fridge for warmer months or climates. Our Tulsi and Guava plant-based B Complex can get sticky. Since we don't add any flow agents, fillers, or unwanted additives, keeping it in the fridge can help prevent any clumping.",
+      "goodFor": "Metabolism: Converts fat, protein, and carbs into cellular currency; Energy: Enhances performance; Mood: Supports normal serotonin production, brain function, and short-term memory",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj14",
+      "uuid": "b0000000-0000-0000-0000-000000000014",
+      "slug": "mini-dew",
+      "brandId": "b8",
+      "name": "Mini Dew",
+      "category": "electrolytes",
+      "price": 30.8,
+      "description": "Hydration + mineralization",
+      "ingredients": [
+        "Himalayan Pink Salt Electrolyte",
+        "Chelated Essential Minerals",
+        "Ionic Trace Minerals"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.6,
+      "reviewCount": 442,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/files/Mini_Dew_SFP_800x800_0fae2dde-03ee-45de-b9b5-9a0382b371d9.png?v=1762198818&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/mini-dew-electrolyte-powder-mix",
+      "size": "30 servings",
+      "howToUse": "Mix 1 tsp of this electrolyte drink powder in 12oz of water every day. Also great for saunas, exercise, travel, or when you're feeling blah. Friendly for adults and kids 4+.",
+      "goodFor": "Hydration supports optimal hydration by maintaining water balance in and around cells; Brain enhances memory and cognitive performance, helps reduce brain fog and mental fatigue; Hormones can reduce P",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj15",
+      "uuid": "b0000000-0000-0000-0000-000000000015",
+      "slug": "cellular-waters-sticks",
+      "brandId": "b8",
+      "name": "Cellular Waters Sticks",
+      "category": "electrolytes",
+      "price": 26.6,
+      "description": "Ting, Mini Dew & Magnesi-Om for energy, hydration & sleep. 15 sticks.",
+      "ingredients": [
+        "Ting",
+        "B complex (from Blend of Psidium Guajava, Ocimum Sanctum, Citrus Limon Extracts)",
+        "Mini Dew",
+        "Magnesi-Om"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.9,
+      "reviewCount": 31,
+      "accent": "#5E4B45",
+      "imageUrl": "https://moonjuice.com/cdn/shop/files/Cellular-Water-Sticks.png?v=1762198958&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/cellular-waters-sticks",
+      "size": "15 sticks",
+      "howToUse": "Ting 1 stick in water every day Mini Dew 1 stick in 12 oz water every day Magnesi-Om 1 stick in water every night",
+      "goodFor": "Ting:; * + Metabolismconverts fat, protein, and carbs into cellular currency; * + Energyenhances performance",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj16",
+      "uuid": "b0000000-0000-0000-0000-000000000016",
+      "slug": "cosmic-cocoa",
+      "brandId": "b8",
+      "name": "Cosmic Cocoa",
+      "category": "supplements",
+      "price": 30.8,
+      "description": "Hot chocolate for libido, mood + skin",
+      "ingredients": [
+        "Organic Cacao Powder",
+        "Organic Ashwagandha Root Extract (KSM66)",
+        "Shatavari root extract",
+        "Organic Reishi Mushroom Extract"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.8,
+      "reviewCount": 726,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/files/Cosmic-COCOA-new-label.png?v=1782322781&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/cosmic-cocoa",
+      "size": "14 servings",
+      "howToUse": "Add 2 tbsp of this adaptogen + mushroom hot chocolate blend to 8 oz hot water or hot milk of choice (almond milk, coconut milk). Blend on high. Sip in bliss.",
+      "goodFor": "Traditionally used to help:; Organic cacao:Antioxidant arousal food; Vegan creamer for skin, hair + nails.",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj17",
+      "uuid": "b0000000-0000-0000-0000-000000000017",
+      "slug": "collagen-protect",
+      "brandId": "b8",
+      "name": "Collagen Protect",
+      "category": "supplements",
+      "price": 40.6,
+      "description": "Minimize fine lines + deep skin hydration",
+      "ingredients": [
+        "Tocos",
+        "Hyaluronic Acid",
+        "Silver Ear Mushroom"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.7,
+      "reviewCount": 928,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/Collagen_Protect_Bag_800x800_1.png?v=1766547630&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/beauty-shroom-vegan-collagen-protection",
+      "size": "30 servings",
+      "howToUse": "Collagen Protect is a vegan collagen supplement. Add 1 rounded tbsp of this skin-protecting creamer to coffee or smoothies to promote healthy skin. Our plant-based collagen powder is a collagen builder that contains no additives, so it may clump. Blend for maximum yum.",
+      "goodFor": "preserve your natural collagen production; hydrate skin; improve skin elasticity",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj18",
+      "uuid": "b0000000-0000-0000-0000-000000000018",
+      "slug": "plump-jelly",
+      "brandId": "b8",
+      "name": "Plump Jelly",
+      "category": "skincare",
+      "price": 40.6,
+      "description": "A glass of water for your face",
+      "ingredients": [
+        "Hyaluronic Acid",
+        "Silver Ear Mushroom",
+        "Tocos",
+        "Beet Amino Acid",
+        "Reishi"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.8,
+      "reviewCount": 823,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/Plump_Jelly_New_800x800_e3f92bf7-9fcd-417b-b30d-ddfe337fcbdd.png?v=1762198144&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/beauty-shroom-plumping-jelly-serum",
+      "size": "",
+      "howToUse": "AM + PM. Apply 3 pumps onto damp skin. Use after in the PM. Follow with . Hydrates lips too. Tips + Cherub facial: apply 6 pumps to soaking wet face/neck + Use as a primer (let it sink in)",
+      "goodFor": "Shown to help:; hydrate in and around the cells; preserve elasticity and bounce",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj19",
+      "uuid": "b0000000-0000-0000-0000-000000000019",
+      "slug": "acid-potion",
+      "brandId": "b8",
+      "name": "Acid Potion",
+      "category": "skincare",
+      "price": 29.4,
+      "description": "Quickie liquid facial. Exfoliate, unclog + soothe",
+      "ingredients": [
+        "25% AHA + BHA Complex",
+        "Niacinamide",
+        "Reishi"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.8,
+      "reviewCount": 867,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/Acid_Potion_New_800x800_ecfe112d-af61-458c-a2b6-1564d1282f9f.png?v=1762198144&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/beauty-shroom-exfoliating-acid-potion",
+      "size": "",
+      "howToUse": "PM. Use 3 nights a week. Shake a quarter sized amount into palm and pat into clean face/neck with fingertips. Don't rinse! Follow with and . Tips + Ditch the cotton round, apply directly with palms + Use multiple nights in a row to penetrate stubborn pores + Target a specificskin concernorproblem area (doesn't have to be your full face)",
+      "goodFor": "Shown to help:; resurface skin and unclog pores; stimulate collagen production",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj20",
+      "uuid": "b0000000-0000-0000-0000-000000000020",
+      "slug": "acid-potion-travel-size",
+      "brandId": "b8",
+      "name": "Acid Potion Travel Size",
+      "category": "skincare",
+      "price": 18,
+      "description": "Quickie liquid facial. Exfoliate, unclog & soothe.",
+      "ingredients": [
+        "25% AHA + BHA Complex",
+        "Niacinamide",
+        "Reishi"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.7,
+      "reviewCount": 36,
+      "accent": "#5E4B45",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/220801_MJ_Capture_22-08-01_046.png?v=1762198641&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/acid-potion-travel-size",
+      "size": "",
+      "howToUse": "PM. Use 3 nights a week. Shake a quarter sized amount into palm and pat into clean face/neck with fingertips. Don't rinse! Follow with and .",
+      "goodFor": "Helps:; * + resurface skin and unclog pores; * + stimulate collagen production",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj21",
+      "uuid": "b0000000-0000-0000-0000-000000000021",
+      "slug": "cosmic-cream",
+      "brandId": "b8",
+      "name": "Cosmic Cream",
+      "category": "skincare",
+      "price": 40.6,
+      "description": "Moisturize + replenish",
+      "ingredients": [
+        "Ashwagandha",
+        "Schisandra",
+        "Reishi"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.8,
+      "reviewCount": 398,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/Cosmic_Cream_New_800x800_2d7fc7cb-584d-4bee-b1ba-20cd19f3e92f.png?v=1762198193&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/cosmic-cream",
+      "size": "",
+      "howToUse": "AM + PM. Swipe onto face/neck after applying or other serums. Leaves a dewy finish.",
+      "goodFor": "Shown to help:; Seal in moisture.; Improve skin's natural elasticity and firmness.",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj22",
+      "uuid": "b0000000-0000-0000-0000-000000000022",
+      "slug": "milk-cleanse",
+      "brandId": "b8",
+      "name": "Milk Cleanse",
+      "category": "skincare",
+      "price": 22.4,
+      "description": "Cleanse, soothe + nourish",
+      "ingredients": [
+        "Coconut Ferment",
+        "Silver Ear Mushroom",
+        "Reishi"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.9,
+      "reviewCount": 359,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/Milk_Cleanse_New_800x800_cc1149bb-cc99-4ac2-8678-021068b2016e.png?v=1762198193&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/milk-cleanse",
+      "size": "",
+      "howToUse": "Massage onto wet skin and rinse. AM, follow with and . PM, follow with , , and . Tips + Safe as a double cleanser + Use as a vulva wash (it's pH balanced)",
+      "goodFor": "Shown to help:; match skin's pH and never strip; hydrate and nourish",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj23",
+      "uuid": "b0000000-0000-0000-0000-000000000023",
+      "slug": "ashwagandha",
+      "brandId": "b8",
+      "name": "Ashwagandha",
+      "category": "supplements",
+      "price": 26.6,
+      "description": "15:1 full-spectrum root extract",
+      "ingredients": [
+        "Organic Ashwagandha Root Extract (KSM66)"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.8,
+      "reviewCount": 421,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/Ashwagandha_New_800x800_cfb8d640-1544-44b1-bd66-733000f40682.png?v=1762197951&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/ashwagandha-root-extract",
+      "size": "58 servings",
+      "howToUse": "A dark, brown organic Ashwagandha root powder with a bitter, molasses-like flavor. Pairs well with chocolate, coffee, maple, and baked goods. The suggested use is between 1/4--1/2 tsp daily to experience optimal Ashwagandha benefits.",
+      "goodFor": "reduce stress and regulate cortisol levels; enhance focus and mental stamina; reduce irritability and stress-related cravings",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj24",
+      "uuid": "b0000000-0000-0000-0000-000000000024",
+      "slug": "pearl",
+      "brandId": "b8",
+      "name": "Pearl",
+      "category": "supplements",
+      "price": 37.8,
+      "description": "Beauty gem for collagen hair + nails",
+      "ingredients": [
+        "Pearl Extract"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.8,
+      "reviewCount": 564,
+      "accent": "#5E4B45",
+      "badge": "Popular",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/Pearl_800x800_3431461e-5e0e-4bfe-b903-f39c29de3809.png?v=1762197964&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/pearl",
+      "size": "30 servings",
+      "howToUse": "Pairs well with everything---smoothies, coffee, tea, tonics, milks, and baking. Add a pinch to your moisturizer or raw honey for a mask, or brush directly onto skin before bed. Use 1/2 tsp daily.",
+      "goodFor": "stimulate the body's natural collagen; even skin tone; strengthen hair, skin, and nails",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj25",
+      "uuid": "b0000000-0000-0000-0000-000000000025",
+      "slug": "cordyceps",
+      "brandId": "b8",
+      "name": "Cordyceps",
+      "category": "supplements",
+      "price": 43.2,
+      "description": "Energy, stamina + lung capacity",
+      "ingredients": [
+        "Cordyceps",
+        "Sourcing",
+        "Our ingredients are 100% traceable",
+        "unadulterated",
+        "and sustainably sourced."
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.9,
+      "reviewCount": 179,
+      "accent": "#5E4B45",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/Cordyceps_800x800_08ab29c6-1823-4d35-bc4f-f6e481feaf62.png?v=1762197958&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/cordyceps",
+      "size": "36 servings",
+      "howToUse": "A golden powder with a slightly sweet anise-y, woody flavor. Pairs well with tropical fruits, citrus, ginger, chocolate, and coffee. Use between 1--3 tsp of this dietary supplement daily. Our Cordyceps mushroom extract is a key ingredient in Milk Chocolate Momentum. Find the recipe in",
+      "goodFor": "Traditionally used to help:; Sustain energy and stamina.; Encourage healthy lung capacity.",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj26",
+      "uuid": "b0000000-0000-0000-0000-000000000026",
+      "slug": "reishi",
+      "brandId": "b8",
+      "name": "Reishi",
+      "category": "supplements",
+      "price": 33.6,
+      "description": "Nootropic mushroom. Mood + concentration",
+      "ingredients": [
+        "Organic Reishi Mushroom Extract",
+        "Sourcing",
+        "Our ingredients are 100% traceable",
+        "unadulterated",
+        "and sustainably sourced."
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.9,
+      "reviewCount": 188,
+      "accent": "#5E4B45",
+      "imageUrl": "https://moonjuice.com/cdn/shop/files/Reishi_800x800_27ba2f24-b43a-4be7-bd5e-a280927ee0ee.png?v=1762197965&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/reishi",
+      "size": "14 servings",
+      "howToUse": "A dark brown powder with a strong, botanical aroma and an intensely tannic taste with some bitterness. Pairs well with chocolate and coffee. Use between 1--4 tsp daily. Reishi is a key ingredient in Queen Healer Bread. Find the recipe in .",
+      "goodFor": "Traditionally used to help:; Balance mood and support concentration.; Crowned Queen Healer in TCM because of its ability to strengthen the heart and mind.",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj27",
+      "uuid": "b0000000-0000-0000-0000-000000000027",
+      "slug": "chaga",
+      "brandId": "b8",
+      "name": "Chaga",
+      "category": "supplements",
+      "price": 33.6,
+      "description": "Protective mushroom. Energy + immunity",
+      "ingredients": [
+        "Organic Chaga Sclerotia Extract"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.9,
+      "reviewCount": 155,
+      "accent": "#5E4B45",
+      "imageUrl": "https://moonjuice.com/cdn/shop/products/Chaga_800x800_1b367417-2355-4347-8401-7cd972bed033.png?v=1762197955&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/chaga",
+      "size": "13 servings",
+      "howToUse": "This organic Chaga supplement is a dark, brown powder with a very mild and palatable earthy flavor, perfect for pairing with smoothies, lattes, coffee, andherbal tea. Use 1 tsp daily.",
+      "goodFor": "Support healthy immune system.; Balance energy.; Reduce fatigue.",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj28",
+      "uuid": "b0000000-0000-0000-0000-000000000028",
+      "slug": "supersex",
+      "brandId": "b8",
+      "name": "SuperSex",
+      "category": "supplements",
+      "price": 54,
+      "description": "Adaptogens for Fire. Libido, Hormonal Balance & Creative Energy.",
+      "ingredients": [
+        "Purified shilajit",
+        "Shatavari",
+        "Organic epimedium",
+        "Organic Schisandra",
+        "Organic maca"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 5,
+      "reviewCount": 5,
+      "accent": "#5E4B45",
+      "imageUrl": "https://moonjuice.com/cdn/shop/files/MoonJuice_PPage_SuperSex_1_V2.png?v=1762199763&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/supersex",
+      "size": "20 servings",
+      "howToUse": "Take 3 caps of SuperSex every morning, with or without food.",
+      "goodFor": "Libido:; Helps ignite desire and strengthen sensation; Hormonal Balance:",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    },
+    {
+      "id": "mj29",
+      "uuid": "b0000000-0000-0000-0000-000000000029",
+      "slug": "superbrain",
+      "brandId": "b8",
+      "name": "SuperBrain",
+      "category": "supplements",
+      "price": 54,
+      "description": "Adaptogens for focus. Mental stamina, alertness & concentration.",
+      "ingredients": [
+        "Lion's Mane",
+        "Organic rhodiola",
+        "Ginkgo",
+        "Organic astragalus",
+        "Organic maca",
+        "Ashwagandha"
+      ],
+      "freeFrom": [
+        "Fillers",
+        "Junk",
+        "Animal products"
+      ],
+      "rating": 4.8,
+      "reviewCount": 4,
+      "accent": "#5E4B45",
+      "imageUrl": "https://moonjuice.com/cdn/shop/files/MoonJuice_PPage_SuperBrain_V2.png?v=1762199756&width=800",
+      "affiliateUrl": "https://moonjuice.com/products/super-brain",
+      "size": "14 servings",
+      "howToUse": "Take 4 caps of SuperBrain every morning, with or without food.*",
+      "goodFor": "Mental Stamina:; Targets stress to promote mental stamina and clarity; Alertness:",
+      "smellsLike": "",
+      "finish": "",
+      "features": [
+        "100% Traceable",
+        "Clinically Proven Potency",
+        "3rd Party Tested",
+        "Vegan",
+        "No Fillers or Junk",
+        "Bioavailable"
+      ],
+      "placedBy": "catoegy"
+    }
+  ],
+  "placedBy": "catoegy"
+}
