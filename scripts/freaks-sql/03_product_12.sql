@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'f0000000-0000-0000-0000-000000000012',
+    'freak-family-pack-v3',
+    (select id from public.brands where slug = 'freaks-of-nature'),
+    'Freak Family Pack',
+    'skincare',
+    (select id from public.categories where slug = 'skincare'),
+    193.5,
+    'Full Freak Assortment Strengthen. Protect. Repair. Repeat.',
+    '#2F6F5E',
+    'https://freaksofnature.com/products/freak-family-pack-v3',
+    'direct',
+    'https://freaksofnature.com/cdn/shop/files/FreakFamily_Transparent.png?v=1761686298&width=2400',
+    4.8,
+    444,
+    'Daily Defender SPF30: 50 ml / 1.7 fl oz; Deeper Dive Hydrator: 50 ml / 1.7 fl oz; Peak Performance SPF50: 50 ml / 1.7 fl oz; Peak Performance Sun Stick SPF50: 0.70 oz / 20 gr; Barrier Balancing Face Wash: 100 ml / 3.4 fl oz; Everyday Endurance Deodorant: 75ml / 2.6 fl oz',
+    '**Deep Dive Hydrator** **Step 1:**After AM/PM cleansing, or when you wash yourself after a workout session, apply one pump amount into hands and gently rub onto face, neck and chest if applicable. For optimal results use in the AM and PM. **Step 2:**If heading outside apply Daily Defender SPF30 Sunscreen as the final step in the daily routine. **Daily Defender SPF30** **Step 1:**Complete the skincare routine. We recommend priming the skin with a pump of our Deep Dive Hydrator. **Step 2:**Apply Daily Defender SPF30 Sunscreen in the morning before you go outside, or 15 minutes before going in the sun, and as the final step in the daily skincare routine. Apply one pump amount or more of our Daily Defender SPF30 Sunscreen into hands and gently rub onto face, neck, chest and body if applicable. Reapply after 40 min of swimming or sweating, immediately after towel drying and at least every 2 hours when exposed to the sun. **Peak Performance SPF50** **Step 1:**Complete the skincare routine. We recommend priming the skin with a pump of our Deeper Dive Moisturizer. **Step 2:**Apply Peak Performance SPF50 Sunscreen in the morning before you go outside, or 15 minutes before going in the sun, and as the final step in the daily skincare routine. Apply one pump amount or more of our Peak Performance SPF50 Sunscreen into hands and gently rub onto face, neck, chest and body if applicable. Reapply after 80 min of swimming or sweating, immediately after towel drying and at least every 2 hours when exposed to the sun. **Peak Performance SPF50 Sun Stick** 15 minutes before going in the sun liberally apply onto face, neck, chest and body if applicable.Reapply after 80 min of swimming or sweating, immediately after towel drying and at least every 2 hours when exposed to the sun. Product can be re-applied over or under makeup. **Barrier Balancing Face Wash** **Step 1:**After a long day, sweat sesh, or time spent in the sun. Apply 1-2 pumps of barrier balancing face wash to dry or wet face. Rub into skin to release grime. **Step 2:**Add water to skin as face wash begins to froth into a milky texture, helping further cleanse and hydrate the skin. **Step 3:**Towel dry skin. For best results, apply Deeper Dive Hydrator post-cleanse **Everyday Endurance Deodorant** **Step 1:**Remove top and twist the bottom until formula begins to appear from perforated cap (Do not overtwist! A little goes a long way) **Step 2:**Apply formula directly on clean, dry underarms -- damp skin reduces effectiveness. **Step 3:**Store in a cool, dry place',
+    'All Skin Types',
+    '**Deeper Dive Hydrator:** Minerally with a slight nuttiness. Think of it like a crisp day near the lake! **Sun Stick & SPF30 & 50:** Nothing! Unlike the painfully nostalgic odor (i.e. harsh and chemically) of most sunscreens, ours is completely unscented. **Everyday Endurance Deodorant Scents:** **Santal Dune:** Warm amber and smooth santal finished with earthy spice. **Bergamot Canyon:** Bright citrus and neroli with a crisp oakmoss and bergamot finish',
+    '**Deeper Dive Hydrator:** Natural oil color and texture for maximum hydration without the greasy look. **Daily Defender SPF30:** Silky smooth and white. But do not let the color fool you, this will not leave you looking like a ghost. **Peak Performance SPF50:** Cream like consistency to be applied as last step in routine and rubbed into skin. **Peak Performance Sun Stick:** Freakishly easy to apply. Goes on silky smooth with minimal whitecast. **Barrier Balancing Face Wash:** Luxe oil-gel in a light mint blue that transforms into a white frothy milk when activated with water. **Everyday Endurance Deodorant:** A creamy texture that dries within 30 seconds. Not sticky or wet and lasts for 48 hours.',
+    array['100% mineral protection', 'Protects + strengthens skin barrier', 'Dermatologist tested', 'Broad spectrum UV protection', 'Reef safe', 'Fragrance free']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

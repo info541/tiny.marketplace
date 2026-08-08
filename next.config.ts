@@ -1,7 +1,20 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "freaksofnature.com",
+        pathname: "/cdn/shop/**",
+      },
+      {
+        protocol: "https",
+        hostname: "humblebrands.com",
+        pathname: "/cdn/shop/**",
+      },
+    ],
+  },
 };
 
 export default nextConfig;

@@ -1,0 +1,1650 @@
+{
+  "brand": {
+    "id": "b7",
+    "slug": "humble-brands",
+    "name": "Humble Brands",
+    "tagline": "Aluminum-free deodorant with real essential oil scents",
+    "story": "Santa Fe-born clean deodorant built around essential oils, baking soda and baking-soda-free formulas, plus plastic-free paperboard options - everyday odor protection without aluminum.",
+    "location": "Santa Fe, NM",
+    "founded": 2015,
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "accent": "#6A7F5C",
+    "rating": 4.7,
+    "reviewCount": 6756,
+    "followerCount": 0,
+    "website": "https://humblebrands.com"
+  },
+  "brandUuid": "00000000-0000-0000-0000-000000000002",
+  "products": [
+    {
+      "id": "hb1",
+      "uuid": "a0000000-0000-0000-0000-000000000001",
+      "slug": "palo-santo-frankincense-deodorant",
+      "brandId": "b7",
+      "name": "Palo Santo & Frankincense Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Aluminum-free Deodorant. Scent intensity 5/5 - Bold Masculine.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Dipteryx Odorata (Tonka Bean) Seed Extract",
+        "Bursera Graveolens (Palo Santo) Wood Oil",
+        "Boswellia Serrata (Frankincense) Oil",
+        "Limonene",
+        "Coumarin",
+        "Linalool"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.7,
+      "reviewCount": 672,
+      "accent": "#6A7F5C",
+      "badge": "Best seller",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250919-Humble-OFFull-PaloSanto_Frankincense-Front-WEB.jpg?v=1762360667&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/palo-santo-frankincense-natural-deodorant",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Bold Masculine",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb2",
+      "uuid": "a0000000-0000-0000-0000-000000000002",
+      "slug": "patchouli-copal-deodorant",
+      "brandId": "b7",
+      "name": "Patchouli & Copal Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Aluminum-free Deodorant. Scent intensity 4/5 - Full Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Dipteryx Odorata (Tonka Bean) Seed Extract",
+        "Pogostemon Cablin (Patchouli) Leaf Oil",
+        "Copaifera Species (Copal) Resin Oil",
+        "Boswellia Serrata (Frankincense) Oil",
+        "Limonene",
+        "Linalool",
+        "Coumarin",
+        "Eugenol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.7,
+      "reviewCount": 329,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250919-Humble-OFFull-Patchouli_Copal-Front-WEB.jpg?v=1762360667&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/patchouli-copal-natural-deodorant",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Full Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb3",
+      "uuid": "a0000000-0000-0000-0000-000000000003",
+      "slug": "palo-santo-frankincense-plastic-free-deodorant",
+      "brandId": "b7",
+      "name": "Palo Santo & Frankincense Plastic-Free Deodorant",
+      "category": "deodorant",
+      "price": 12.99,
+      "description": "Plastic Free Deodorant. Scent intensity 5/5 - Bold Masculine.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Dipteryx Odorata (Tonka Bean) Seed Extract",
+        "Bursera Graveolens (Palo Santo) Wood Oil",
+        "Boswellia Serrata (Frankincense) Oil",
+        "Limonene",
+        "Coumarin",
+        "Linalool"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.7,
+      "reviewCount": 668,
+      "accent": "#6A7F5C",
+      "badge": "Best seller",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/122222_Palo_Santo_Frankincense_Front_Web.jpg?v=1782335013&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/plastic-free-natural-deodorant-palo-santo-frankincense",
+      "size": "2.65 oz | 75 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Bold Masculine",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "Plastic-free paper packaging",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb4",
+      "uuid": "a0000000-0000-0000-0000-000000000004",
+      "slug": "moroccan-rose-deodorant",
+      "brandId": "b7",
+      "name": "Moroccan Rose Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Aluminum-free Deodorant. Scent intensity 3/5 - Balanced Feminine.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Pelargonium Graveolens (Geranium) Oil",
+        "Rosa Damascena (Rose) Extract",
+        "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil",
+        "Citral",
+        "Citronellol",
+        "Eugenol",
+        "Geraniol",
+        "Limonene",
+        "Linalool"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.5,
+      "reviewCount": 238,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250919-Humble-OF_Full-Moroccan_Rose-Front-WEB.jpg?v=1762360667&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/moroccan-rose-natural-deodorant",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Balanced Feminine",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb5",
+      "uuid": "a0000000-0000-0000-0000-000000000005",
+      "slug": "black-spruce-deodorant",
+      "brandId": "b7",
+      "name": "Black Spruce Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Aluminum-free Deodorant. Scent intensity 4/5 - Full Masculine.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Cistus Ladaniferus (Labdanum) Extract",
+        "Picea Mariana (Black Spruce) Oil",
+        "Jasminum Grandiflorum (Jasmine) Flower Extract",
+        "Limonene",
+        "Linalool",
+        "Citronellol",
+        "Benzyl Benzoate",
+        "Geraniol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.7,
+      "reviewCount": 145,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250919-Humble-OFFull-BlackSpruce-Front-WEB.jpg?v=1762360667&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/black-spruce-natural-deodorant",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Full Masculine",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb6",
+      "uuid": "a0000000-0000-0000-0000-000000000006",
+      "slug": "patchouli-copal-plastic-free-deodorant",
+      "brandId": "b7",
+      "name": "Patchouli & Copal Plastic-Free Deodorant",
+      "category": "deodorant",
+      "price": 12.99,
+      "description": "Plastic Free Deodorant. Scent intensity 4/5 - Full Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Dipteryx Odorata (Tonka Bean) Seed Extract",
+        "Pogostemon Cablin (Patchouli) Leaf Oil",
+        "Copaifera Species (Copal) Resin Oil",
+        "Boswellia Serrata (Frankincense) Oil",
+        "Limonene",
+        "Linalool",
+        "Coumarin",
+        "Eugenol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.8,
+      "reviewCount": 182,
+      "accent": "#6A7F5C",
+      "badge": "Community fave",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/122222_Patchouli_Copal_Front_Web.jpg?v=1782335013&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/plastic-free-natural-deodorant-patchouli-copal",
+      "size": "2.65 oz | 75 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Full Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "Plastic-free paper packaging",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb7",
+      "uuid": "a0000000-0000-0000-0000-000000000007",
+      "slug": "mountain-lavender-deodorant",
+      "brandId": "b7",
+      "name": "Mountain Lavender Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Aluminum-free Deodorant. Scent intensity 2/5 - Light Feminine.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Lavandula Officinalis (Lavender) Flower Oil",
+        "Linalool",
+        "Limonene",
+        "Coumarin",
+        "Geraniol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.6,
+      "reviewCount": 209,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250919-Humble-OFFull-MountainLavender-Front-WEB.jpg?v=1775084023&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/mountain-lavender-natural-deodorant",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Light Feminine",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb8",
+      "uuid": "a0000000-0000-0000-0000-000000000008",
+      "slug": "bergamot-ginger-deodorant",
+      "brandId": "b7",
+      "name": "Bergamot & Ginger Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Aluminum-free Deodorant. Scent intensity 2/5 - Light Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Lavandula Officinalis (Lavender) Flower Oil",
+        "Linalool",
+        "Limonene",
+        "Coumarin",
+        "Geraniol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.6,
+      "reviewCount": 180,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250919-Humble-OFFull-Bergamot_Ginger-Front-WEB.jpg?v=1762298058&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/bergamot-ginger-natural-deodorant",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Light Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb9",
+      "uuid": "a0000000-0000-0000-0000-000000000009",
+      "slug": "rosemary-mint-deodorant",
+      "brandId": "b7",
+      "name": "Rosemary & Mint Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Aluminum-free Deodorant. Scent intensity 3/5 - Balanced Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Rosmarinus Officinalis (Rosemary) Leaf Oil",
+        "Origanum Majorana (Marjoram) Flower Oil",
+        "Mentha Piperita (Peppermint) Oil",
+        "Mentha Spicata (Spearmint) Oil",
+        "Cinnamomum Camphora (Ho Wood) Branch/Leaf Oil",
+        "Lavandula Officinalis (Lavender) Flower Oil",
+        "Geraniol",
+        "Limonene",
+        "Linalool"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.7,
+      "reviewCount": 118,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250919-Humble-OFFull-Rosemary_Mint-Front-WEB.jpg?v=1762360667&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/natural-deodorant-rosemary-mint",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Balanced Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb10",
+      "uuid": "a0000000-0000-0000-0000-000000000010",
+      "slug": "moroccan-rose-plastic-free-deodorant",
+      "brandId": "b7",
+      "name": "Moroccan Rose Plastic-Free Deodorant",
+      "category": "deodorant",
+      "price": 12.99,
+      "description": "Plastic Free Deodorant. Scent intensity 3/5 - Balanced Feminine.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Pelargonium Graveolens (Geranium) Oil",
+        "Rosa Damascena (Rose) Extract",
+        "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil",
+        "Citral",
+        "Citronellol",
+        "Eugenol",
+        "Geraniol",
+        "Limonene",
+        "Linalool"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.7,
+      "reviewCount": 668,
+      "accent": "#6A7F5C",
+      "badge": "Best seller",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/122222_Moroccan_Rose_Front_Web_5a02bdaf-80e8-4bf2-a8ce-3662523d7ffc.jpg?v=1782335725&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/plastic-free-natural-deodorant-moroccan-rose",
+      "size": "2.65 oz | 75 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Balanced Feminine",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "Plastic-free paper packaging",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb11",
+      "uuid": "a0000000-0000-0000-0000-000000000011",
+      "slug": "bergamot-ginger-plastic-free-deodorant",
+      "brandId": "b7",
+      "name": "Bergamot & Ginger Plastic-Free Deodorant",
+      "category": "deodorant",
+      "price": 12.99,
+      "description": "Plastic Free Deodorant. Scent intensity 2/5 - Light Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Zingiber Officinale (Ginger) Root Oil",
+        "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil",
+        "Limonene",
+        "Linalool",
+        "Citral",
+        "Geraniol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.7,
+      "reviewCount": 138,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/122222_Bergamont_Ginger_Front_Web.jpg?v=1782324071&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/plastic-free-natural-deodorant-bergamot-ginger",
+      "size": "2.65 oz | 75 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Light Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "Plastic-free paper packaging",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb12",
+      "uuid": "a0000000-0000-0000-0000-000000000012",
+      "slug": "rockrose-cedar-plastic-free-deodorant",
+      "brandId": "b7",
+      "name": "Rockrose & Cedar Plastic-Free Deodorant",
+      "category": "deodorant",
+      "price": 12.99,
+      "description": "Plastic Free Deodorant. Scent intensity 5/5 - Bold Masculine.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Essential Oil & Botanical Extract for Fragrance: Cistus Ladaniferus (Cistus) Oil",
+        "Cedrus Atlantica (Cedarwood) Wood Oil",
+        "Elettaria Cardamomum (Cardamom) Seed Oil",
+        "Vetiveria Zizanoides (Vetiver) Root Oil",
+        "Copaifera Species (Copal) Resin Oil",
+        "Pogostemon Cablin (Patchouli) Leaf Oil",
+        "Cananga Odorata (Ylang Ylang) Flower Oil",
+        "Santalum Austrocaledonicum (Sandalwood) Wood Oil",
+        "Piper Nigrum (Black Pepper) Fruit Oil",
+        "Eugenia Caryophillus (Clove) Flower Oil",
+        "Naturally Occurring in Essential Oils and Botanical Extracts: Limonene",
+        "Linalool",
+        "Eugenol",
+        "Benzyl Benzoate Non-GMO"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.7,
+      "reviewCount": 668,
+      "accent": "#6A7F5C",
+      "badge": "Best seller",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/082224_Rockrose_Cedar_Front_Web.jpg?v=1782331812&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/plastic-free-natural-deodorant-rockrose-cedar-deodorant",
+      "size": "2.65 oz | 75 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Bold Masculine",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "Plastic-free paper packaging",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb13",
+      "uuid": "a0000000-0000-0000-0000-000000000013",
+      "slug": "lemongrass-sage-deodorant",
+      "brandId": "b7",
+      "name": "Lemongrass & Sage Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Aluminum-free Deodorant. Scent intensity 4/5 - Full Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil",
+        "Cymbopogon Flexuosus (Lemongrass) Oil",
+        "Salvia Officinalis (Sage) Oil",
+        "Cymbopogon Winterianus (Citronella) Leaf Oil",
+        "Citral",
+        "Citronellol",
+        "Geraniol",
+        "Limonene",
+        "Linalool",
+        "Eugenol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.7,
+      "reviewCount": 124,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250919-Humble-OF_Full-Lemongrass_Sage-Front-WEB.jpg?v=1762360667&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/lemongrass-sage-natural-deodorant",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Full Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb14",
+      "uuid": "a0000000-0000-0000-0000-000000000014",
+      "slug": "sensitive-skin-mountain-lavender-plastic-free-deodorant",
+      "brandId": "b7",
+      "name": "Sensitive Skin Mountain Lavender Plastic-Free Deodorant",
+      "category": "deodorant",
+      "price": 12.99,
+      "description": "Plastic Free Deodorant. Scent intensity 2/5 - Light Feminine.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Magnesium Hydroxide",
+        "Euphorbia Cerifera (Candelilla) Wax",
+        "Zingiber Officinale (Ginger) Root Oil",
+        "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil",
+        "Limonene",
+        "Linalool",
+        "Citral",
+        "Geraniol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Baking Soda",
+        "Phthalates"
+      ],
+      "rating": 4.7,
+      "reviewCount": 122,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/122222_Vegan_Mountain_Lavender_Front_Web.jpg?v=1782336140&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/plastic-free-natural-deodorant-mountain-lavender-vegan",
+      "size": "2.65 oz | 75 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "Sensitive skin",
+      "smellsLike": "Light Feminine",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Baking soda-free",
+        "Sensitive skin formula",
+        "Plastic-free paper packaging",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb15",
+      "uuid": "a0000000-0000-0000-0000-000000000015",
+      "slug": "palo-santo-frankincense-travel-size",
+      "brandId": "b7",
+      "name": "Palo Santo & Frankincense Travel Size",
+      "category": "deodorant",
+      "price": 3.99,
+      "description": "Travel Size Original. Scent intensity 5/5 - Bold Masculine.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Dipteryx Odorata (Tonka Bean) Seed Extract",
+        "Bursera Graveolens (Palo Santo) Wood Oil",
+        "Boswellia Serrata (Frankincense) Oil",
+        "Limonene",
+        "Coumarin",
+        "Linalool"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.7,
+      "reviewCount": 672,
+      "accent": "#6A7F5C",
+      "badge": "Best seller",
+      "imageUrl": "https://humblebrands.com/cdn/shop/products/122722_Humble_OriginalDeodorant_PaloSantoFrankincenseTravel_Front_Web_93163f2e-2ad1-4a04-bccb-ee78f6015292.jpg?v=1762457415&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/palo-santo-frankincense-travel-size-deodorant",
+      "size": ".5 oz | 14 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Bold Masculine",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "Travel mini size",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb16",
+      "uuid": "a0000000-0000-0000-0000-000000000016",
+      "slug": "lavender-holy-basil-deodorant",
+      "brandId": "b7",
+      "name": "Lavender & Holy Basil Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Aluminum-free Deodorant. Scent intensity 3/5 - Balanced Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Lavandula Officinalis (Lavender) Flower Oil",
+        "Ocimum Sanctum (Holy Basil) Oil",
+        "Linalool",
+        "Limonene",
+        "Eugenol",
+        "Geraniol",
+        "Coumarin"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.6,
+      "reviewCount": 104,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250919-Humble-OFFull-Lavender_HolyBasil-Front-WEB.jpg?v=1762360667&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/lavender-holy-basil-natural-deodorant",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Balanced Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb17",
+      "uuid": "a0000000-0000-0000-0000-000000000017",
+      "slug": "baking-soda-free-sensitive-skin-palo-santo-frankincense-deodorant",
+      "brandId": "b7",
+      "name": "Baking Soda-Free Sensitive Skin Palo Santo & Frankincense Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Sensitive Skin Deodorant. Scent intensity 5/5 - Bold Masculine.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Magnesium Hydroxide",
+        "Euphorbia Cerifera (Candelilla) Wax",
+        "Zingiber Officinale (Ginger) Root Oil",
+        "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil",
+        "Limonene",
+        "Linalool",
+        "Citral",
+        "Geraniol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Baking Soda",
+        "Phthalates"
+      ],
+      "rating": 4.8,
+      "reviewCount": 141,
+      "accent": "#6A7F5C",
+      "badge": "Community fave",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250919-Humble-VSFull-PaloSanto_Frankincense-Front-WEB.jpg?v=1762360667&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/palo-santo-frankincense-vegan-sensititive-skin-deodorant",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "Sensitive skin",
+      "smellsLike": "Bold Masculine",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Baking soda-free",
+        "Sensitive skin formula",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb18",
+      "uuid": "a0000000-0000-0000-0000-000000000018",
+      "slug": "patchouli-copal-soap",
+      "brandId": "b7",
+      "name": "Patchouli & Copal Soap",
+      "category": "skincare",
+      "price": 7.99,
+      "description": "Moisturizing bar soap - Deep earthy richness with smooth balsamic warmth and soft sweetness.",
+      "ingredients": [
+        "Organic Helianthus Annuus (Sunflower) Seed Oil",
+        "Organic Cocos Nucifera (Coconut) Oil",
+        "Aqua",
+        "Sodium Hydroxide",
+        "Organic RSPO Certified Elaeis Guineensis (Palm) Oil",
+        "Organic Fair Trade Certified Butyrospermum Parkii (Shea) Butter",
+        "Organic Olea Europaea (Olive) Oil",
+        "Rosmarinus Officinalis (Rosemary) Leaf Extract",
+        "Pogostemon Cablin (Patchouli) Leaf Oil",
+        "Boswellia Serrata (Frankincense) Oil",
+        "Copaifera Species (Copal) Resin Oil",
+        "Dipteryx Odorata (Tonka Bean) Seed Extract"
+      ],
+      "freeFrom": [
+        "Harsh Surfactants",
+        "Synthetic Fragrance"
+      ],
+      "rating": 4.7,
+      "reviewCount": 668,
+      "accent": "#6A7F5C",
+      "badge": "Best seller",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250520_Humble_Bar_Soap_Box_Naked_Patchouli_Copal_Web.jpg?v=1762457418&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/patchouli-copal-natural-bar-soap",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Wet bar. Work into a lather. Wash. Rinse. Done. Avoid contact with eyes.",
+      "goodFor": "All skin types",
+      "smellsLike": "Deep earthy richness with smooth balsamic warmth and soft sweetness.",
+      "finish": "Rich moisturizing lather",
+      "features": [
+        "Moisturizing bar soap",
+        "Recyclable packaging, made with the planet in mind"
+      ]
+    },
+    {
+      "id": "hb19",
+      "uuid": "a0000000-0000-0000-0000-000000000019",
+      "slug": "mountain-lavender-soap",
+      "brandId": "b7",
+      "name": "Mountain Lavender Soap",
+      "category": "skincare",
+      "price": 7.99,
+      "description": "Moisturizing bar soap - Clean herbal florals with gentle sweetness and green clarity",
+      "ingredients": [
+        "Organic Helianthus Annuus (Sunflower) Seed Oil",
+        "Organic Cocos Nucifera (Coconut) Oil",
+        "Aqua",
+        "Sodium Hydroxide",
+        "Organic RSPO Certified Elaeis Guineensis (Palm) Oil",
+        "Organic Fair Trade Certified Butyrospermum Parkii (Shea) Butter",
+        "Organic Olea Europaea (Olive) Oil",
+        "Rosmarinus Officinalis (Rosemary) Leaf Extract",
+        "Lavandula Officinalis (Lavender) Flower Oil"
+      ],
+      "freeFrom": [
+        "Harsh Surfactants",
+        "Synthetic Fragrance"
+      ],
+      "rating": 4.7,
+      "reviewCount": 62,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250520_Humble_Bar_Soap_Box_Naked_Mountain_Lavender_Web.jpg?v=1762457411&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/mountain-lavender-natural-bar-soap",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Wet bar. Work into a lather. Wash. Rinse. Done. Avoid contact with eyes.",
+      "goodFor": "All skin types",
+      "smellsLike": "Clean herbal florals with gentle sweetness and green clarity",
+      "finish": "Rich moisturizing lather",
+      "features": [
+        "Moisturizing bar soap",
+        "Recyclable packaging, made with the planet in mind"
+      ]
+    },
+    {
+      "id": "hb20",
+      "uuid": "a0000000-0000-0000-0000-000000000020",
+      "slug": "unscented-deodorant",
+      "brandId": "b7",
+      "name": "Unscented Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Aluminum-free Deodorant. Scent intensity 1/5 - Unscented Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.7,
+      "reviewCount": 104,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250919-Humble-OFFull-SimplyUnscented-Front-WEB.jpg?v=1762360667&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/simply-unscented-natural-deodorant",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Unscented Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb21",
+      "uuid": "a0000000-0000-0000-0000-000000000021",
+      "slug": "lemongrass-sage-soap",
+      "brandId": "b7",
+      "name": "Lemongrass & Sage Soap",
+      "category": "skincare",
+      "price": 7.99,
+      "description": "Moisturizing bar soap from Humble Brands",
+      "ingredients": [
+        "Organic Helianthus Annuus (Sunflower) Seed Oil",
+        "Organic Cocos Nucifera (Coconut) Oil",
+        "Aqua",
+        "Sodium Hydroxide",
+        "Organic RSPO Certified Elaeis Guineensis (Palm) Oil",
+        "Organic Fair Trade Certified Butyrospermum Parkii (Shea) Butter",
+        "Organic Olea Europaea (Olive) Oil",
+        "Rosmarinus Officinalis (Rosemary) Leaf Extract",
+        "Salvia Officinalis (Sage) Oil",
+        "Cymbopogon Flexuosus (Lemongrass) Oil"
+      ],
+      "freeFrom": [
+        "Harsh Surfactants",
+        "Synthetic Fragrance"
+      ],
+      "rating": 4.7,
+      "reviewCount": 62,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250520_Humble_Bar_Soap_Box_Naked_Lemongrass_and_Sage_Web.jpg?v=1775084023&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/lemongrass-sage-natural-bar-soap",
+      "size": "4 oz | 113 g",
+      "howToUse": "Wet bar. Work into a lather. Wash. Rinse. Done. Avoid contact with eyes.",
+      "goodFor": "All skin types",
+      "smellsLike": "Lemongrass & Sage",
+      "finish": "Rich moisturizing lather",
+      "features": [
+        "Moisturizing bar soap",
+        "Recyclable packaging, made with the planet in mind"
+      ]
+    },
+    {
+      "id": "hb22",
+      "uuid": "a0000000-0000-0000-0000-000000000022",
+      "slug": "baking-soda-free-sensitive-skin-moroccan-rose-deodorant",
+      "brandId": "b7",
+      "name": "Baking Soda-Free Sensitive Skin Moroccan Rose Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Sensitive Skin Deodorant. Scent intensity 3/5 - Balanced Feminine.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Magnesium Hydroxide",
+        "Euphorbia Cerifera (Candelilla) Wax",
+        "Zingiber Officinale (Ginger) Root Oil",
+        "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil",
+        "Limonene",
+        "Linalool",
+        "Citral",
+        "Geraniol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Baking Soda",
+        "Phthalates"
+      ],
+      "rating": 4.4,
+      "reviewCount": 68,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250919-Humble-VSFull-MoroccanRose-Front-WEB.jpg?v=1762360667&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/moroccan-rose-vegan",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "Sensitive skin",
+      "smellsLike": "Balanced Feminine",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Baking soda-free",
+        "Sensitive skin formula",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb23",
+      "uuid": "a0000000-0000-0000-0000-000000000023",
+      "slug": "baking-soda-free-sensitive-skin-mountain-lavender-deodorant",
+      "brandId": "b7",
+      "name": "Baking Soda-Free Sensitive Skin Mountain Lavender Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Sensitive Skin Deodorant. Scent intensity 2/5 - Light Feminine.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Magnesium Hydroxide",
+        "Euphorbia Cerifera (Candelilla) Wax",
+        "Zingiber Officinale (Ginger) Root Oil",
+        "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil",
+        "Limonene",
+        "Linalool",
+        "Citral",
+        "Geraniol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Baking Soda",
+        "Phthalates"
+      ],
+      "rating": 4.9,
+      "reviewCount": 81,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/250919-Humble-VSFull-MountainLavender-Front-WEB.jpg?v=1775083982&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/mountain-lavender-vegan-sensitive-skin-deodorant",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "Sensitive skin",
+      "smellsLike": "Light Feminine",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Baking soda-free",
+        "Sensitive skin formula",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb24",
+      "uuid": "a0000000-0000-0000-0000-000000000024",
+      "slug": "baking-soda-free-sensitive-skin-bergamot-ginger-deodorant",
+      "brandId": "b7",
+      "name": "Baking Soda-Free Sensitive Skin Bergamot & Ginger Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Sensitive Skin Deodorant. Scent intensity 2/5 - Light Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Magnesium Hydroxide",
+        "Euphorbia Cerifera (Candelilla) Wax",
+        "Zingiber Officinale (Ginger) Root Oil",
+        "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil",
+        "Limonene",
+        "Linalool",
+        "Citral",
+        "Geraniol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Baking Soda",
+        "Phthalates"
+      ],
+      "rating": 4.7,
+      "reviewCount": 80,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/Bergamot_Ginger_Senstive_Deodorant.png?v=1786120058&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/bergamot-ginger-vegan-sensitive-skin-deodorant",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "Sensitive skin",
+      "smellsLike": "Light Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Baking soda-free",
+        "Sensitive skin formula",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb25",
+      "uuid": "a0000000-0000-0000-0000-000000000025",
+      "slug": "baking-soda-free-sensitive-skin-unscented-deodorant",
+      "brandId": "b7",
+      "name": "Baking Soda-Free Sensitive Skin Unscented Deodorant",
+      "category": "deodorant",
+      "price": 10.99,
+      "description": "Sensitive Skin Deodorant. Scent intensity 1/5 - Unscented Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Magnesium Hydroxide",
+        "Euphorbia Cerifera (Candelilla) Wax",
+        "Zingiber Officinale (Ginger) Root Oil",
+        "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil",
+        "Limonene",
+        "Linalool",
+        "Citral",
+        "Geraniol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Baking Soda",
+        "Phthalates"
+      ],
+      "rating": 4.6,
+      "reviewCount": 90,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/Energize_Kit_032b623d-8109-4d3d-a99a-c99e33eb4782.png?v=1786119632&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/unscented-vegan-sensitive-skin-deodorant",
+      "size": "2.5 oz | 70 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "Sensitive skin",
+      "smellsLike": "Unscented Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Baking soda-free",
+        "Sensitive skin formula",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb26",
+      "uuid": "a0000000-0000-0000-0000-000000000026",
+      "slug": "bergamot-ginger-travel-size",
+      "brandId": "b7",
+      "name": "Bergamot & Ginger Travel Size",
+      "category": "deodorant",
+      "price": 3.99,
+      "description": "Travel Size Original. Scent intensity 2/5 - Light Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Zingiber Officinale (Ginger) Root Oil",
+        "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil",
+        "Limonene",
+        "Linalool",
+        "Citral",
+        "Geraniol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 5,
+      "reviewCount": 20,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/products/122722_Humble_OriginalDeodorant_BergamotandGingerTravel_Front_Web_61125dfa-1837-4db7-a851-c1f5573cd040.jpg?v=1762457397&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/bergamot-ginger-travel-size-single-deodorant",
+      "size": ".5 oz | 14 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Light Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "Travel mini size",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb27",
+      "uuid": "a0000000-0000-0000-0000-000000000027",
+      "slug": "lemongrass-sage-travel-size",
+      "brandId": "b7",
+      "name": "Lemongrass & Sage Travel Size",
+      "category": "deodorant",
+      "price": 3.99,
+      "description": "Travel Size Original. Scent intensity 4/5 - Full Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil",
+        "Cymbopogon Flexuosus (Lemongrass) Oil",
+        "Salvia Officinalis (Sage) Oil",
+        "Cymbopogon Winterianus (Citronella) Leaf Oil",
+        "Citral",
+        "Citronellol",
+        "Geraniol",
+        "Limonene",
+        "Linalool",
+        "Eugenol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.2,
+      "reviewCount": 20,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/products/122722_Humble_OriginalDeodorant_LemongrassSageTravel_Front_Web_747d73e0-6c61-4a1d-8f45-fcad4d097194.jpg?v=1762457411&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/lemongrass-sage-travel-size-deodorant",
+      "size": ".5 oz | 14 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Full Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "Travel mini size",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb28",
+      "uuid": "a0000000-0000-0000-0000-000000000028",
+      "slug": "black-spruce-plastic-free-deodorant",
+      "brandId": "b7",
+      "name": "Black Spruce Plastic-Free Deodorant",
+      "category": "deodorant",
+      "price": 12.99,
+      "description": "Plastic Free Deodorant. Scent intensity 4/5 - Full Masculine.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Cistus Ladaniferus (Labdanum) Extract",
+        "Picea Mariana (Black Spruce) Oil",
+        "Jasminum Grandiflorum (Jasmine) Flower Extract",
+        "Limonene",
+        "Linalool",
+        "Citronellol",
+        "Benzyl Benzoate",
+        "Geraniol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.3,
+      "reviewCount": 31,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/091624_Black_Spruce_Front_Web.jpg?v=1782335013&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/black-spruce-deodorant",
+      "size": "2.65 oz | 75 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Full Masculine",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "Plastic-free paper packaging",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb29",
+      "uuid": "a0000000-0000-0000-0000-000000000029",
+      "slug": "rosemary-mint-plastic-free-deodorant",
+      "brandId": "b7",
+      "name": "Rosemary & Mint Plastic-Free Deodorant",
+      "category": "deodorant",
+      "price": 12.99,
+      "description": "Plastic Free Deodorant. Scent intensity 3/5 - Balanced Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Rosmarinus Officinalis (Rosemary) Leaf Oil",
+        "Origanum Majorana (Marjoram) Flower Oil",
+        "Mentha Piperita (Peppermint) Oil",
+        "Mentha Spicata (Spearmint) Oil",
+        "Cinnamomum Camphora (Ho Wood) Branch/Leaf Oil",
+        "Lavandula Officinalis (Lavender) Flower Oil",
+        "Geraniol",
+        "Limonene",
+        "Linalool"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.6,
+      "reviewCount": 27,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/files/080624_Rosemary_Mint_Front_Web.jpg?v=1782324302&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/rosemary-mint-deodorant",
+      "size": "2.65 oz | 75 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Balanced Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "Plastic-free paper packaging",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb30",
+      "uuid": "a0000000-0000-0000-0000-000000000030",
+      "slug": "moroccan-rose-travel-size",
+      "brandId": "b7",
+      "name": "Moroccan Rose Travel Size",
+      "category": "deodorant",
+      "price": 3.99,
+      "description": "Travel Size Original. Scent intensity 3/5 - Balanced Feminine.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Pelargonium Graveolens (Geranium) Oil",
+        "Rosa Damascena (Rose) Extract",
+        "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil",
+        "Citral",
+        "Citronellol",
+        "Eugenol",
+        "Geraniol",
+        "Limonene",
+        "Linalool"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.6,
+      "reviewCount": 25,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/products/122722_Humble_OriginalDeodorant_MoroccanRoseTravel_Front_Web_128e8903-86b2-4f7d-b60d-251c31d8ef9d.jpg?v=1762457452&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/moroccan-rose-travel-size-deodorant",
+      "size": ".5 oz | 14 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Balanced Feminine",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "Travel mini size",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb31",
+      "uuid": "a0000000-0000-0000-0000-000000000031",
+      "slug": "patchouli-copal-travel-size",
+      "brandId": "b7",
+      "name": "Patchouli & Copal Travel Size",
+      "category": "deodorant",
+      "price": 3.99,
+      "description": "Travel Size Original. Scent intensity 4/5 - Full Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Dipteryx Odorata (Tonka Bean) Seed Extract",
+        "Pogostemon Cablin (Patchouli) Leaf Oil",
+        "Copaifera Species (Copal) Resin Oil",
+        "Boswellia Serrata (Frankincense) Oil",
+        "Limonene",
+        "Linalool",
+        "Coumarin",
+        "Eugenol"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.8,
+      "reviewCount": 27,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/products/122722_Humble_OriginalDeodorant_PatchouliCopalTravel_Front_Web_ea71ab79-496a-42bf-8902-38e0e7f0b15e.jpg?v=1762457450&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/patchouli-copal-travel-size-deodorant",
+      "size": ".5 oz | 14 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Full Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "Travel mini size",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    },
+    {
+      "id": "hb32",
+      "uuid": "a0000000-0000-0000-0000-000000000032",
+      "slug": "rosemary-mint-travel-size",
+      "brandId": "b7",
+      "name": "Rosemary & Mint Travel Size",
+      "category": "deodorant",
+      "price": 3.99,
+      "description": "Travel Size Original. Scent intensity 3/5 - Balanced Gender-neutral.",
+      "ingredients": [
+        "Caprylic/Capric Triglyceride (MCT)",
+        "Non-GMO Zea Mays (Corn) Starch",
+        "Sodium Bicarbonate (Baking Soda)",
+        "Cera Alba (Beeswax)",
+        "Rosmarinus Officinalis (Rosemary) Leaf Oil",
+        "Origanum Majorana (Marjoram) Flower Oil",
+        "Mentha Piperita (Peppermint) Oil",
+        "Mentha Spicata (Spearmint) Oil",
+        "Cinnamomum Camphora (Ho Wood) Branch/Leaf Oil",
+        "Lavandula Officinalis (Lavender) Flower Oil",
+        "Geraniol",
+        "Limonene",
+        "Linalool"
+      ],
+      "freeFrom": [
+        "Aluminum",
+        "Phthalates"
+      ],
+      "rating": 4.7,
+      "reviewCount": 13,
+      "accent": "#6A7F5C",
+      "imageUrl": "https://humblebrands.com/cdn/shop/products/122722_Humble_OriginalDeodorant_RosemaryMintTravel_Front_Web_ba8f8cbc-2e75-4e5f-9a7a-62d33a6bfc44.jpg?v=1762457777&width=800",
+      "affiliateUrl": "https://humblebrands.com/products/rosemary-mint-travel-size-deodorant",
+      "size": ".5 oz | 14 g",
+      "howToUse": "Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.",
+      "goodFor": "All skin types",
+      "smellsLike": "Balanced Gender-neutral",
+      "finish": "Cream stick that glides on smooth",
+      "features": [
+        "Aluminum-free",
+        "Original formula with baking soda",
+        "Travel mini size",
+        "75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging"
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "slug": "aluminum",
+      "name": "Aluminum"
+    },
+    {
+      "slug": "aqua",
+      "name": "Aqua"
+    },
+    {
+      "slug": "baking-soda",
+      "name": "Baking Soda"
+    },
+    {
+      "slug": "benzyl-benzoate",
+      "name": "Benzyl Benzoate"
+    },
+    {
+      "slug": "benzyl-benzoate-non-gmo",
+      "name": "Benzyl Benzoate Non-GMO"
+    },
+    {
+      "slug": "boswellia-serrata-frankincense-oil",
+      "name": "Boswellia Serrata (Frankincense) Oil"
+    },
+    {
+      "slug": "bursera-graveolens-palo-santo-wood-oil",
+      "name": "Bursera Graveolens (Palo Santo) Wood Oil"
+    },
+    {
+      "slug": "cananga-odorata-ylang-ylang-flower-oil",
+      "name": "Cananga Odorata (Ylang Ylang) Flower Oil"
+    },
+    {
+      "slug": "capryliccapric-triglyceride-mct",
+      "name": "Caprylic/Capric Triglyceride (MCT)"
+    },
+    {
+      "slug": "cedrus-atlantica-cedarwood-wood-oil",
+      "name": "Cedrus Atlantica (Cedarwood) Wood Oil"
+    },
+    {
+      "slug": "cera-alba-beeswax",
+      "name": "Cera Alba (Beeswax)"
+    },
+    {
+      "slug": "cinnamomum-camphora-ho-wood-branchleaf-oil",
+      "name": "Cinnamomum Camphora (Ho Wood) Branch/Leaf Oil"
+    },
+    {
+      "slug": "cistus-ladaniferus-labdanum-extract",
+      "name": "Cistus Ladaniferus (Labdanum) Extract"
+    },
+    {
+      "slug": "citral",
+      "name": "Citral"
+    },
+    {
+      "slug": "citronellol",
+      "name": "Citronellol"
+    },
+    {
+      "slug": "citrus-aurantium-bergamia-bergamot-bergaptene-free-peel-oil",
+      "name": "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil"
+    },
+    {
+      "slug": "copaifera-species-copal-resin-oil",
+      "name": "Copaifera Species (Copal) Resin Oil"
+    },
+    {
+      "slug": "coumarin",
+      "name": "Coumarin"
+    },
+    {
+      "slug": "cymbopogon-flexuosus-lemongrass-oil",
+      "name": "Cymbopogon Flexuosus (Lemongrass) Oil"
+    },
+    {
+      "slug": "cymbopogon-winterianus-citronella-leaf-oil",
+      "name": "Cymbopogon Winterianus (Citronella) Leaf Oil"
+    },
+    {
+      "slug": "dipteryx-odorata-tonka-bean-seed-extract",
+      "name": "Dipteryx Odorata (Tonka Bean) Seed Extract"
+    },
+    {
+      "slug": "elettaria-cardamomum-cardamom-seed-oil",
+      "name": "Elettaria Cardamomum (Cardamom) Seed Oil"
+    },
+    {
+      "slug": "essential-oil-botanical-extract-for-fragrance-cistus-ladaniferus-cistus-oil",
+      "name": "Essential Oil & Botanical Extract for Fragrance: Cistus Ladaniferus (Cistus) Oil"
+    },
+    {
+      "slug": "eugenia-caryophillus-clove-flower-oil",
+      "name": "Eugenia Caryophillus (Clove) Flower Oil"
+    },
+    {
+      "slug": "eugenol",
+      "name": "Eugenol"
+    },
+    {
+      "slug": "euphorbia-cerifera-candelilla-wax",
+      "name": "Euphorbia Cerifera (Candelilla) Wax"
+    },
+    {
+      "slug": "geraniol",
+      "name": "Geraniol"
+    },
+    {
+      "slug": "harsh-surfactants",
+      "name": "Harsh Surfactants"
+    },
+    {
+      "slug": "jasminum-grandiflorum-jasmine-flower-extract",
+      "name": "Jasminum Grandiflorum (Jasmine) Flower Extract"
+    },
+    {
+      "slug": "lavandula-officinalis-lavender-flower-oil",
+      "name": "Lavandula Officinalis (Lavender) Flower Oil"
+    },
+    {
+      "slug": "limonene",
+      "name": "Limonene"
+    },
+    {
+      "slug": "linalool",
+      "name": "Linalool"
+    },
+    {
+      "slug": "magnesium-hydroxide",
+      "name": "Magnesium Hydroxide"
+    },
+    {
+      "slug": "mentha-piperita-peppermint-oil",
+      "name": "Mentha Piperita (Peppermint) Oil"
+    },
+    {
+      "slug": "mentha-spicata-spearmint-oil",
+      "name": "Mentha Spicata (Spearmint) Oil"
+    },
+    {
+      "slug": "naturally-occurring-in-essential-oils-and-botanical-extracts-limonene",
+      "name": "Naturally Occurring in Essential Oils and Botanical Extracts: Limonene"
+    },
+    {
+      "slug": "non-gmo-zea-mays-corn-starch",
+      "name": "Non-GMO Zea Mays (Corn) Starch"
+    },
+    {
+      "slug": "ocimum-sanctum-holy-basil-oil",
+      "name": "Ocimum Sanctum (Holy Basil) Oil"
+    },
+    {
+      "slug": "organic-cocos-nucifera-coconut-oil",
+      "name": "Organic Cocos Nucifera (Coconut) Oil"
+    },
+    {
+      "slug": "organic-fair-trade-certified-butyrospermum-parkii-shea-butter",
+      "name": "Organic Fair Trade Certified Butyrospermum Parkii (Shea) Butter"
+    },
+    {
+      "slug": "organic-helianthus-annuus-sunflower-seed-oil",
+      "name": "Organic Helianthus Annuus (Sunflower) Seed Oil"
+    },
+    {
+      "slug": "organic-olea-europaea-olive-oil",
+      "name": "Organic Olea Europaea (Olive) Oil"
+    },
+    {
+      "slug": "organic-rspo-certified-elaeis-guineensis-palm-oil",
+      "name": "Organic RSPO Certified Elaeis Guineensis (Palm) Oil"
+    },
+    {
+      "slug": "origanum-majorana-marjoram-flower-oil",
+      "name": "Origanum Majorana (Marjoram) Flower Oil"
+    },
+    {
+      "slug": "pelargonium-graveolens-geranium-oil",
+      "name": "Pelargonium Graveolens (Geranium) Oil"
+    },
+    {
+      "slug": "phthalates",
+      "name": "Phthalates"
+    },
+    {
+      "slug": "picea-mariana-black-spruce-oil",
+      "name": "Picea Mariana (Black Spruce) Oil"
+    },
+    {
+      "slug": "piper-nigrum-black-pepper-fruit-oil",
+      "name": "Piper Nigrum (Black Pepper) Fruit Oil"
+    },
+    {
+      "slug": "pogostemon-cablin-patchouli-leaf-oil",
+      "name": "Pogostemon Cablin (Patchouli) Leaf Oil"
+    },
+    {
+      "slug": "rosa-damascena-rose-extract",
+      "name": "Rosa Damascena (Rose) Extract"
+    },
+    {
+      "slug": "rosmarinus-officinalis-rosemary-leaf-extract",
+      "name": "Rosmarinus Officinalis (Rosemary) Leaf Extract"
+    },
+    {
+      "slug": "rosmarinus-officinalis-rosemary-leaf-oil",
+      "name": "Rosmarinus Officinalis (Rosemary) Leaf Oil"
+    },
+    {
+      "slug": "salvia-officinalis-sage-oil",
+      "name": "Salvia Officinalis (Sage) Oil"
+    },
+    {
+      "slug": "santalum-austrocaledonicum-sandalwood-wood-oil",
+      "name": "Santalum Austrocaledonicum (Sandalwood) Wood Oil"
+    },
+    {
+      "slug": "sodium-bicarbonate-baking-soda",
+      "name": "Sodium Bicarbonate (Baking Soda)"
+    },
+    {
+      "slug": "sodium-hydroxide",
+      "name": "Sodium Hydroxide"
+    },
+    {
+      "slug": "synthetic-fragrance",
+      "name": "Synthetic Fragrance"
+    },
+    {
+      "slug": "vetiveria-zizanoides-vetiver-root-oil",
+      "name": "Vetiveria Zizanoides (Vetiver) Root Oil"
+    },
+    {
+      "slug": "zea-mays-corn-starch",
+      "name": "Zea Mays (Corn) Starch"
+    },
+    {
+      "slug": "zingiber-officinale-ginger-root-oil",
+      "name": "Zingiber Officinale (Ginger) Root Oil"
+    }
+  ],
+  "brandCats": [
+    "deodorant",
+    "skincare"
+  ]
+}

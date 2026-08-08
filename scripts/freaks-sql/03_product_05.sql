@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'f0000000-0000-0000-0000-000000000005',
+    'peak-performance-sunscreen',
+    (select id from public.brands where slug = 'freaks-of-nature'),
+    'Peak Performance SPF50',
+    'sunscreen',
+    (select id from public.categories where slug = 'sunscreen'),
+    38,
+    '100% Mineral Sunscreen High-performance, lightweight non-greasy, broad spectrum protection for the long haul.',
+    '#2F6F5E',
+    'https://freaksofnature.com/products/peak-performance-sunscreen',
+    'direct',
+    'https://freaksofnature.com/cdn/shop/files/SPF50-web-optimized-transparent.png?v=1743441572&width=1920',
+    4.8,
+    76,
+    '50 ml / 1.7 fl oz',
+    '**Step 1:**Complete the skincare routine. We recommend priming the skin with a pump of our Deeper Dive Moisturizer. **Step 2:**Apply Peak Performance SPF50 Sunscreen in the morning before you go outside, or 15 minutes before going in the sun, and as the final step in the daily skincare routine. Apply one pump amount or more of our Peak Performance SPF50 Sunscreen into hands and gently rub onto face, neck, chest and body if applicable. Reapply after 80 min of swimming or sweating, immediately after towel drying and at least every 2 hours when exposed to the sun.',
+    'All Skin Types',
+    'Nothing! Unlike the painfully nostalgic odor (i.e. harsh and chemically) of most sunscreens, ours is completely unscented.',
+    'Cream like consistency to be applied as last step in routine and rubbed into skin.',
+    array['100% mineral protection', 'Water resistant (40 min)', 'Dermatologist tested', 'Broad spectrum UV protection', 'Reef safe', 'Fragrance free', 'Minimal white cast', 'Protects + strengthens skin barrier']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

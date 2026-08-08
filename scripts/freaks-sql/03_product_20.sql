@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'f0000000-0000-0000-0000-000000000020',
+    'skin-support-electrolyte',
+    (select id from public.brands where slug = 'freaks-of-nature'),
+    'Skin Support Electrolyte',
+    'skincare',
+    (select id from public.categories where slug = 'skincare'),
+    55,
+    'Whole-body hydration and protection from the inside out',
+    '#2F6F5E',
+    'https://freaksofnature.com/products/skin-support-electrolyte',
+    'direct',
+    'https://freaksofnature.com/cdn/shop/files/Update_ProductCard.png?v=1773719331&width=1920',
+    4.9,
+    42,
+    '1 sachet / 13.1 g',
+    'Mix one sachet into 16--20 oz of cold water, shake or stir until dissolved, and drink daily. Best enjoyed whenever you want--before, during, or after training. The North Shore flavor makes it easy to stay consistent. Just mix and sip.',
+    'All skin types.',
+    'Tangy passionfruit, guava, and a hint of zesty lime.',
+    '',
+    array['Hydrates + soothes', 'Protects + strengthens skin barrier']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'f0000000-0000-0000-0000-000000000013',
+    'freak-trio',
+    (select id from public.brands where slug = 'freaks-of-nature'),
+    'Freak Trio',
+    'sunscreen',
+    (select id from public.categories where slug = 'sunscreen'),
+    108.9,
+    'SPF50 Sunscreen & SPF30 Sunscreen & Hydrator Strengthen. Protect. Repair. Repeat.',
+    '#2F6F5E',
+    'https://freaksofnature.com/products/freak-trio',
+    'direct',
+    'https://freaksofnature.com/cdn/shop/files/SPF50-_-SPF30-_-HYDRATOR-web-optimized-transparent_2.png?v=1743566002&width=1920',
+    4.9,
+    247,
+    '50 ml / 1.7 fl oz per product',
+    '**Daily Defender SPF30** **Step 1:**Complete the skincare routine. We recommend priming the skin with a pump of our Deep Dive Hydrator. **Step 2:**Apply Daily Defender SPF30 Sunscreen in the morning before you go outside, or 15 minutes before going in the sun, and as the final step in the daily skincare routine. Apply one pump amount or more of our Daily Defender SPF30 Sunscreen into hands and gently rub onto face, neck, chest and body if applicable. Reapply after 40 min of swimming or sweating, immediately after towel drying and at least every 2 hours when exposed to the sun. **Peak Performance SPF50** **Step 1:**Complete the skincare routine. We recommend priming the skin with a pump of our Deeper Dive Moisturizer. **Step 2:**Apply Peak Performance SPF50 Sunscreen in the morning before you go outside, or 15 minutes before going in the sun, and as the final step in the daily skincare routine. Apply one pump amount or more of our Peak Performance SPF50 Sunscreen into hands and gently rub onto face, neck, chest and body if applicable. Reapply after 80 min of swimming or sweating, immediately after towel drying and at least every 2 hours when exposed to the sun. **Deep Dive Hydrator** **Step 1:**After AM/PM cleansing, or when you wash yourself after a workout session, apply one pump amount into hands and gently rub onto face, neck and chest if applicable. For optimal results use in the AM and PM. **Step 2:**If heading outside apply Daily Defender SPF30 Sunscreen as the final step in the daily routine.',
+    '',
+    '',
+    '',
+    array['100% mineral protection', 'No chemical filters', 'Broad spectrum UV protection', 'Minimal white cast', 'Dermatologist tested']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

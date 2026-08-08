@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'f0000000-0000-0000-0000-000000000003',
+    'everyday-endurance-deodorant',
+    (select id from public.brands where slug = 'freaks-of-nature'),
+    'Everyday Endurance Deodorant',
+    'deodorant',
+    (select id from public.categories where slug = 'deodorant'),
+    20,
+    'All natural with 48-hour odor protection',
+    '#2F6F5E',
+    'https://freaksofnature.com/products/everyday-endurance-deodorant',
+    'direct',
+    'https://freaksofnature.com/cdn/shop/files/Single_Deo.png?v=1776275794&width=1920',
+    4.2,
+    55,
+    '75ml / 2.6 fl oz',
+    '**Step 1:**Remove top and twist the bottom until formula begins to appear from perforated cap (Do not overtwist! A little goes a long way) **Step 2:**Apply formula directly on clean, dry underarms -- damp skin reduces effectiveness. **Step 3:**Apply formula directly on underarm For best results, keep deodorant at room temperature (68°F to 77°F / 20°C to 25°C)',
+    'All skin types',
+    'Warm amber and smooth santal finished with earthy spice.',
+    'A creamy texture that dries within 30 seconds. Not sticky or wet and lasts for 48 hours. In our perception study 93% of users found that the deo did not leave stains or marks on clothing.',
+    array['Dermatologist tested', 'Protects + strengthens skin barrier', 'Fragrance free']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

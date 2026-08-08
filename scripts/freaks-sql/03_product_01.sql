@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'f0000000-0000-0000-0000-000000000001',
+    'solar-shield-spray',
+    (select id from public.brands where slug = 'freaks-of-nature'),
+    'Solar Shield SPF 30 Spray',
+    'sunscreen',
+    (select id from public.categories where slug = 'sunscreen'),
+    26,
+    'Full-body mineral protection',
+    '#2F6F5E',
+    'https://freaksofnature.com/products/solar-shield-spray',
+    'direct',
+    'https://freaksofnature.com/cdn/shop/files/3D_SPRAY_E-COMM.png?v=1777037746&width=1920',
+    4.9,
+    117,
+    '6 oz / 170 g',
+    'Shake well before use. Hold container 4--6 inches from skin and spray liberally and evenly across the body. Rub into skin. Apply 15 minutes before sun exposure. Reapply after 40 minutes of swimming or sweating, immediately after towel drying, and at least every 2 hours.',
+    'All skin types',
+    'Nothing! Unlike the painfully nostalgic odor (i.e. harsh and chemically) of most sunscreens, ours is completely unscented.',
+    'Lightweight, breathable, and nearly invisible on skin.',
+    array['100% mineral protection', 'Air-powered continuous spray', 'Minimal white cast', 'Hydrates + soothes', 'Protects + strengthens skin barrier', 'No chemical filters', 'Water resistant (40 min)', 'Dermatologist tested', 'Broad spectrum UV protection', 'Reef safe', 'Fragrance free']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

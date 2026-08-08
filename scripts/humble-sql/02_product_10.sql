@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'a0000000-0000-0000-0000-000000000010',
+    'moroccan-rose-plastic-free-deodorant',
+    (select id from public.brands where slug = 'humble-brands'),
+    'Moroccan Rose Plastic-Free Deodorant',
+    'deodorant',
+    (select id from public.categories where slug = 'deodorant'),
+    12.99,
+    'Plastic Free Deodorant. Scent intensity 3/5 - Balanced Feminine.',
+    '#6A7F5C',
+    'https://humblebrands.com/products/plastic-free-natural-deodorant-moroccan-rose',
+    'direct',
+    'https://humblebrands.com/cdn/shop/files/122222_Moroccan_Rose_Front_Web_5a02bdaf-80e8-4bf2-a8ce-3662523d7ffc.jpg?v=1782335725&width=800',
+    4.7,
+    668,
+    '2.65 oz | 75 g',
+    'Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.',
+    'All skin types',
+    'Balanced Feminine',
+    'Cream stick that glides on smooth',
+    array['Aluminum-free', 'Original formula with baking soda', 'Plastic-free paper packaging', '75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

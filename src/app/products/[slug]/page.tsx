@@ -22,45 +22,59 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const productReviews = reviewsForProduct(product.id);
 
   return (
-    <div className="mx-auto max-w-6xl px-5 py-12 md:px-8">
+    <div className="mx-auto max-w-5xl px-5 py-10 md:px-8 md:py-14">
       <Link href="/browse" className="text-sm font-semibold text-ink-soft hover:text-ink">
         ← Back to browse
       </Link>
 
-      <div className="mt-8 grid gap-10 lg:grid-cols-[1.05fr_0.95fr]">
+      {/* Compact header: small image left, details right */}
+      <div className="mt-8 flex flex-col gap-6 sm:flex-row sm:items-start sm:gap-8">
         <div
-          className="pack relative min-h-[360px] overflow-hidden rounded-[2rem] p-8 text-white shadow-[var(--shadow)]"
+          className="mx-auto h-44 w-44 shrink-0 overflow-hidden rounded-2xl border border-line sm:mx-0 sm:h-52 sm:w-52"
           style={{
-            background: `linear-gradient(150deg, ${product.accent}, color-mix(in oklab, ${product.accent} 45%, #142821))`,
+            background: `linear-gradient(160deg, color-mix(in oklab, ${product.accent} 14%, #ffffff), color-mix(in oklab, ${product.accent} 24%, #eef3ef))`,
           }}
         >
-          <div className="absolute right-10 top-12 h-40 w-24 rotate-12 rounded-2xl border border-white/40 bg-white/25 backdrop-blur-sm" />
-          <div className="absolute bottom-16 left-12 h-28 w-28 rounded-full bg-white/20 blur-sm" />
-          {product.badge ? (
-            <span className="relative z-10 inline-block rounded-full bg-ink px-3 py-1 text-xs font-bold uppercase tracking-wide text-lemon">
-              {product.badge}
-            </span>
-          ) : null}
-          <h1 className="relative z-10 mt-6 max-w-md font-display text-4xl font-extrabold tracking-[-0.04em] md:text-5xl">
-            {product.name}
-          </h1>
-          <p className="relative z-10 mt-4 text-lg text-white/85">{brand?.name}</p>
-          <p className="relative z-10 mt-auto pt-24 font-display text-4xl font-bold">${product.price}</p>
+          {product.imageUrl ? (
+            // eslint-disable-next-line @next/next/no-img-element -- remote Shopify CDN URLs; avoid next/image fill sizing issues
+            <img
+              src={product.imageUrl}
+              alt={product.name}
+              width={208}
+              height={208}
+              className="h-full w-full object-contain p-3"
+            />
+          ) : (
+            <div className="flex h-full items-center justify-center p-4 text-center">
+              <p className="font-display text-lg font-bold leading-tight text-ink">{product.name}</p>
+            </div>
+          )}
         </div>
 
-        <div>
-          <div className="flex flex-wrap items-center gap-3 text-sm font-semibold">
-            <span className="rounded-full bg-lemon px-3 py-1">★ {product.rating.toFixed(1)}</span>
+        <div className="min-w-0 flex-1">
+          {brand ? (
+            <Link
+              href={`/brands/${brand.slug}`}
+              className="text-sm font-semibold text-teal-deep hover:underline"
+            >
+              {brand.name}
+            </Link>
+          ) : null}
+          <h1 className="mt-1 font-display text-3xl font-extrabold tracking-[-0.04em] md:text-4xl">
+            {product.name}
+          </h1>
+          <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
+            <span className="font-display text-2xl font-bold tracking-tight">${product.price}</span>
+            <span className="font-semibold">★ {product.rating.toFixed(1)}</span>
             <span className="text-ink-soft">{product.reviewCount} reviews</span>
-            {brand ? (
-              <Link href={`/brands/${brand.slug}`} className="text-teal-deep hover:underline">
-                Visit {brand.name}
-              </Link>
+            {product.badge ? (
+              <span className="rounded-full bg-ink px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide text-lemon">
+                {product.badge}
+              </span>
             ) : null}
           </div>
-          <p className="mt-5 text-lg leading-relaxed text-ink-soft">{product.description}</p>
-
-          <div className="mt-8 flex flex-wrap gap-3">
+          <p className="mt-4 max-w-xl leading-relaxed text-ink-soft">{product.description}</p>
+          <div className="mt-6 flex flex-wrap gap-3">
             <button type="button" className="btn btn-primary" disabled>
               View on brand shop (soon)
             </button>
@@ -68,44 +82,60 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
               Talk about it
             </Link>
           </div>
-
-          <div className="mt-10 grid gap-6 sm:grid-cols-2">
-            <div className="surface rounded-[1.25rem] p-5">
-              <h2 className="font-display text-xl font-bold">Ingredients</h2>
-              <ul className="mt-3 space-y-2">
-                {product.ingredients.map((ing) => (
-                  <li key={ing}>
-                    <Link
-                      href={`/ingredients?q=${encodeURIComponent(ing)}`}
-                      className="text-sm font-semibold text-teal-deep hover:underline"
-                    >
-                      {ing}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="surface rounded-[1.25rem] p-5">
-              <h2 className="font-display text-xl font-bold">Free from</h2>
-              <ul className="mt-3 space-y-2">
-                {product.freeFrom.map((ing) => (
-                  <li key={ing}>
-                    <Link
-                      href={`/ingredients?q=${encodeURIComponent(ing)}&mode=free-from`}
-                      className="text-sm font-semibold text-ink-soft hover:text-ink hover:underline"
-                    >
-                      {ing}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
 
-      <section className="mt-16">
-        <h2 className="font-display text-3xl font-extrabold tracking-[-0.03em]">Reviews</h2>
+      {/* Full-width scannable ingredients */}
+      <section className="mt-12 border-t border-line pt-10">
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <h2 className="font-display text-2xl font-extrabold tracking-[-0.03em]">Ingredients</h2>
+            <p className="mt-1 text-sm text-ink-soft">
+              {product.ingredients.length} in this formula · tap any to explore
+            </p>
+          </div>
+          <Link href="/ingredients" className="text-sm font-semibold text-teal-deep hover:underline">
+            Ingredient explorer →
+          </Link>
+        </div>
+
+        <ol className="mt-6 grid gap-0 sm:grid-cols-2 sm:gap-x-10">
+          {product.ingredients.map((ing, index) => (
+            <li key={`${ing}-${index}`} className="border-b border-line/70 py-2.5">
+              <Link
+                href={`/ingredients?q=${encodeURIComponent(ing)}`}
+                className="group flex items-baseline gap-3 text-sm hover:text-teal-deep"
+              >
+                <span className="w-6 shrink-0 font-mono text-xs text-ink-soft/55">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <span className="font-medium group-hover:underline">{ing}</span>
+              </Link>
+            </li>
+          ))}
+        </ol>
+
+        {product.freeFrom.length > 0 ? (
+          <div className="mt-10">
+            <h3 className="text-sm font-bold uppercase tracking-[0.12em] text-ink-soft">Free from</h3>
+            <ul className="mt-3 flex flex-wrap gap-2">
+              {product.freeFrom.map((ing) => (
+                <li key={ing}>
+                  <Link
+                    href={`/ingredients?q=${encodeURIComponent(ing)}&mode=free-from`}
+                    className="inline-block rounded-full border border-line bg-white/70 px-3 py-1.5 text-sm font-semibold text-ink-soft hover:border-teal hover:text-teal-deep"
+                  >
+                    {ing}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
+      </section>
+
+      <section className="mt-12 border-t border-line pt-10">
+        <h2 className="font-display text-2xl font-extrabold tracking-[-0.03em]">Reviews</h2>
         <div className="mt-6 grid gap-5 md:grid-cols-2">
           {productReviews.length ? (
             productReviews.map((review) => <ReviewCard key={review.id} review={review} />)

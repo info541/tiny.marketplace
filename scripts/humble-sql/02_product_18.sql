@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'a0000000-0000-0000-0000-000000000018',
+    'patchouli-copal-soap',
+    (select id from public.brands where slug = 'humble-brands'),
+    'Patchouli & Copal Soap',
+    'skincare',
+    (select id from public.categories where slug = 'skincare'),
+    7.99,
+    'Moisturizing bar soap - Deep earthy richness with smooth balsamic warmth and soft sweetness.',
+    '#6A7F5C',
+    'https://humblebrands.com/products/patchouli-copal-natural-bar-soap',
+    'direct',
+    'https://humblebrands.com/cdn/shop/files/250520_Humble_Bar_Soap_Box_Naked_Patchouli_Copal_Web.jpg?v=1762457418&width=800',
+    4.7,
+    668,
+    '2.5 oz | 70 g',
+    'Wet bar. Work into a lather. Wash. Rinse. Done. Avoid contact with eyes.',
+    'All skin types',
+    'Deep earthy richness with smooth balsamic warmth and soft sweetness.',
+    'Rich moisturizing lather',
+    array['Moisturizing bar soap', 'Recyclable packaging, made with the planet in mind']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

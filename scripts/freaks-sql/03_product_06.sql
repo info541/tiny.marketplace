@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'f0000000-0000-0000-0000-000000000006',
+    'deeper-dive-moisturizer',
+    (select id from public.brands where slug = 'freaks-of-nature'),
+    'Deeper Dive Hydrator',
+    'skincare',
+    (select id from public.categories where slug = 'skincare'),
+    48,
+    'Ultralight Moisturizer A deeper moisture that strengthens the skin barrier.',
+    '#2F6F5E',
+    'https://freaksofnature.com/products/deeper-dive-moisturizer',
+    'direct',
+    'https://freaksofnature.com/cdn/shop/files/HYDRATOR-web-optimized_transparent.png?v=1743441773&width=1920',
+    5,
+    62,
+    '50 ml / 1.7 fl oz',
+    '**Step 1:**After AM/PM cleansing, or when you wash yourself after a workout session, apply one pump amount into hands and gently rub onto face, neck and chest if applicable. For optimal results use in the AM and PM. **Step 2:**If heading outside apply Daily Defender SPF30 Sunscreen as the final step in the daily routine.',
+    'All Skin Types',
+    'Minerally with a slight nuttiness. Think of it like a crisp day near the lake!',
+    'Natural oil color and texture for maximum hydration without the greasy look.',
+    array['Hydrates + soothes', 'Protects + strengthens skin barrier', 'Dermatologist tested']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

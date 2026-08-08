@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'f0000000-0000-0000-0000-000000000019',
+    'deo-duo-bundle',
+    (select id from public.brands where slug = 'freaks-of-nature'),
+    'Everyday Endurance Duo',
+    'deodorant',
+    (select id from public.categories where slug = 'deodorant'),
+    36,
+    'Two all natural scents with 48-hour odor protection',
+    '#2F6F5E',
+    'https://freaksofnature.com/products/deo-duo-bundle',
+    'direct',
+    'https://freaksofnature.com/cdn/shop/files/Duo.png?v=1761526305&width=1920',
+    4.2,
+    55,
+    '75ml / 2.6 fl oz (per stick)',
+    '**Step 1:**Remove cap **Step 2:**Twist bottom of bottle until formula begins to appear from perforated cap (Do not overtwist! A little goes a long way) **Step 3:**Apply formula directly on underarm For best results, keep deodorant at room temperature (68°F to 77°F / 20°C to 25°C)',
+    'All skin types',
+    '**Santal Dune:** Warm amber and smooth santal finished with earthy spice. **Bergamot Canyon:** Bright citrus and neroli with a crisp oakmoss and bergamot finish',
+    'A creamy texture that dries within 30 seconds. Not sticky or wet and lasts for 48 hours. In our perception study 93% of users found that the deo did not leave stains or marks on clothing.',
+    array['Dermatologist tested', 'Protects + strengthens skin barrier', 'Fragrance free']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

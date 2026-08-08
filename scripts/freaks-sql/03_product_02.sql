@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'f0000000-0000-0000-0000-000000000002',
+    'sun-stick-spf50',
+    (select id from public.brands where slug = 'freaks-of-nature'),
+    'Peak Performance Sun Stick SPF50',
+    'sunscreen',
+    (select id from public.categories where slug = 'sunscreen'),
+    24,
+    '100% Mineral Sunscreen High-performance, lightweight non-greasy, broad spectrum protection for the long haul.',
+    '#2F6F5E',
+    'https://freaksofnature.com/products/sun-stick-spf50',
+    'direct',
+    'https://freaksofnature.com/cdn/shop/files/STICK-web-optimized-transparent.png?v=1775474333&width=1920',
+    4.9,
+    189,
+    '0.70 oz / 20 gr',
+    '15 minutes before going in the sun liberally apply onto face, neck, chest and body if applicable. Reapply after 80 min of swimming or sweating, immediately after towel drying and at least every 2 hours when exposed to the sun. Product can be re-applied over or under makeup.',
+    'All Skin Types',
+    'Nothing! Unlike the painfully nostalgic odor (i.e. harsh and chemically) of most sunscreens, ours is completely unscented.',
+    'Goes on silky smooth, clear, and easily with a bare skin feel that will not warp, slip or drip into the eyes.',
+    array['100% mineral protection', 'Water resistant (40 min)', 'Protects + strengthens skin barrier', 'Broad spectrum UV protection', 'Fragrance free', 'Reef safe', 'Dermatologist tested', 'Minimal white cast']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

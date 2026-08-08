@@ -1,0 +1,7 @@
+-- Run these IN ORDER in the SQL Editor (clear editor between each if needed):
+-- 1) 01_schema.sql
+-- 2) 02_brand.sql
+-- 3) 03_product_01.sql through 03_product_21.sql (or 03_products.sql all at once)
+-- 4) 04_ingredients.sql
+--
+-- Full combined file: supabase/migrations/20260808200000_freaks_of_nature.sql

@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'f0000000-0000-0000-0000-000000000015',
+    'balanced-skin-set',
+    (select id from public.brands where slug = 'freaks-of-nature'),
+    'Balanced Skin Set',
+    'skincare',
+    (select id from public.categories where slug = 'skincare'),
+    70,
+    'Deeper Dive & Barrier Balancing Face Wash',
+    '#2F6F5E',
+    'https://freaksofnature.com/products/balanced-skin-set',
+    'direct',
+    'https://freaksofnature.com/cdn/shop/files/3D_HYDRATOR_CLEANSER-LIGHTBLUE_E-COMM.png?v=1748543058&width=1920',
+    4.9,
+    101,
+    '100 ml / 3.4 fl oz (Face Wash), 50 ml / 1.7 fl oz (Hydrator)',
+    '**Barrier Balancing Cleanser** **Step 1:**After a long day, sweat sesh, or time spent in the sun. Apply 1-2 pumps of barrier balancing face wash to dry or wet face. Rub into skin to release grime. **Step 2:**Add water to skin as face wash begins to froth into a milky texture, helping further cleanse and hydrate the skin. **Step 3:**Towel dry skin. For best results, apply Deeper Dive Hydrator post-cleanse. **Deep Dive Hydrator** **Step 1:**After AM/PM cleansing, or when you wash yourself after a workout session, apply one pump amount into hands and gently rub onto face, neck and chest if applicable. For optimal results use in the AM and PM. **Step 2:**If heading outside apply Daily Defender SPF30 Sunscreen as the final step in the daily routine.',
+    'All skin types',
+    'Fragrance free',
+    'Firm, smooth, and clear',
+    array['Fragrance free', 'Dermatologist tested', 'Protects + strengthens skin barrier']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'f0000000-0000-0000-0000-000000000018',
+    'endurance-system-sport-mode',
+    (select id from public.brands where slug = 'freaks-of-nature'),
+    'Endurance System -- Sport Mode',
+    'sunscreen',
+    (select id from public.categories where slug = 'sunscreen'),
+    64.2,
+    'SPF50 Stick & Hydrator Strengthen. Protect. Repair. Repeat.',
+    '#2F6F5E',
+    'https://freaksofnature.com/products/endurance-system-sport-mode',
+    'direct',
+    'https://freaksofnature.com/cdn/shop/files/HYDRATOR-_-STICK-web-optimized-transparent_V2.png?v=1743565980&width=1920',
+    4.9,
+    205,
+    'Stick: 0.70 oz / 20 gr || Moisturizer: 50 ml / 1.7 fl oz',
+    '**Deeper Dive Moisturizer:** **Step 1:**After AM/PM cleansing, or when you wash yourself after a workout session, apply one pump amount into hands and gently rub onto face, neck and chest if applicable. For optimal results use in the AM and PM. **Step 2:**If heading outside apply Peak Performance SPF50 Sun Stick as the final step in the daily routine. Reapply after 80 min of swimming or sweating, immediately after towel drying and at least every 2 hours when exposed to the sun. Product can be re-applied over or under makeup.',
+    'All Skin Types',
+    'Deeper Dive Hydrator: Minerally with a slight nuttiness. Think of it like a crisp day near the lake! Peak Performance Sun Stick: Nothing! Unlike the painfully nostalgic odor (i.e. harsh and chemically) of most sunscreens, ours is completely unscented.',
+    'Deeper Dive Hydrator: Natural oil color and texture for maximum hydration without the greasy look. Peak Performance Sun Stick: Goes on silky smooth, clear, and easily with a bare skin feel that will not warp, slip or drip into the eyes.',
+    array['Water resistant (40 min)', '100% mineral protection', 'No chemical filters', 'Protects + strengthens skin barrier', 'Minimal white cast', 'Broad spectrum UV protection', 'Dermatologist tested', 'Reef safe']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

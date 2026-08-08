@@ -4,7 +4,8 @@ export type Category =
   | "protein"
   | "skincare"
   | "hair"
-  | "oral";
+  | "oral"
+  | "electrolytes";
 
 export type Brand = {
   id: string;
@@ -35,6 +36,7 @@ export type Product = {
   reviewCount: number;
   accent: string;
   badge?: string;
+  imageUrl?: string;
 };
 
 export type Review = {

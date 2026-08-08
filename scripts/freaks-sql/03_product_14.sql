@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'f0000000-0000-0000-0000-000000000014',
+    'peak-performance-duo',
+    (select id from public.brands where slug = 'freaks-of-nature'),
+    'Peak Performance Duo',
+    'sunscreen',
+    (select id from public.categories where slug = 'sunscreen'),
+    55.8,
+    'SPF50 Sunscreen & SPF50 Stick High-performance, lightweight non-greasy, broad spectrum protection for the long haul.',
+    '#2F6F5E',
+    'https://freaksofnature.com/products/peak-performance-duo',
+    'direct',
+    'https://freaksofnature.com/cdn/shop/files/SPF50-_-STICK-web-optimized-transparent_V2.png?v=1743565960&width=1920',
+    4.8,
+    241,
+    'Stick: 0.70 oz / 20 gr || SPF: 50 ml / 1.7 fl oz',
+    '**Peak Performance SPF50** **Step 1:**Complete the skincare routine. We recommend priming the skin with a pump of our Deeper Dive Moisturizer. **Step 2:**Apply Peak Performance SPF50 Sunscreen in the morning before you go outside, or 15 minutes before going in the sun, and as the final step in the daily skincare routine. Apply one pump amount or more of our Peak Performance SPF50 Sunscreen into hands and gently rub onto face, neck, chest and body if applicable. Reapply after 80 min of swimming or sweating, immediately after towel drying and at least every 2 hours when exposed to the sun. **Peak Performance SPF50 Sun Stick** Easy to bring with you on the go to be applied liberally onto face, neck, chest and body if applicable. Reapply after 80 min of swimming or sweating, immediately after towel drying and at least every 2 hours when exposed to the sun. Product can be re-applied over or under makeup.',
+    'All Skin Types',
+    'Nothing! Unlike the painfully nostalgic odor (i.e. harsh and chemically) of most sunscreens, ours is completely unscented.',
+    'Peak Performance SPF50: Cream like consistency to be applied as last step in routine and rubbed into skin. Peak Performance Stick: Goes on silky smooth, clear, and easily with a bare skin feel that will not warp, slip or drip into the eyes.',
+    array['Water resistant (40 min)', 'Protects + strengthens skin barrier', 'Broad spectrum UV protection', '100% mineral protection', 'Fragrance free', 'Reef safe', 'Dermatologist tested', 'Minimal white cast']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

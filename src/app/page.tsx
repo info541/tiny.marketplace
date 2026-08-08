@@ -30,7 +30,7 @@ export default function HomePage() {
           <div className="animate-floaty absolute bottom-[18%] left-[28%] h-40 w-40 rounded-full border border-white/20 bg-[color-mix(in_oklab,#ff5a3c_55%,white)] opacity-90 delay-1" />
           <div className="absolute right-[8%] bottom-[22%] max-w-[14rem] rounded-2xl border border-white/25 bg-white/15 p-4 text-sm text-white/90 backdrop-blur-md">
             <p className="font-display text-lg font-bold">Small brands. Real labels.</p>
-            <p className="mt-1 text-white/75">Sunscreen · deodorant · protein · more</p>
+            <p className="mt-1 text-white/75">Sunscreen · deodorant · electrolytes · more</p>
           </div>
         </div>
 
@@ -60,9 +60,9 @@ export default function HomePage() {
         <SectionHeading
           eyebrow="Categories"
           title="Start in the bathroom cabinet"
-          subtitle="Cosmetics & wellness first — sunscreen, deodorant, protein, skincare, hair, and oral care from brands worth rooting for."
+          subtitle="Cosmetics & wellness first — sunscreen, deodorant, protein, electrolytes, skincare, hair, and oral care from brands worth rooting for."
         />
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-7">
           {categories.map((cat, i) => (
             <Link
               key={cat.id}

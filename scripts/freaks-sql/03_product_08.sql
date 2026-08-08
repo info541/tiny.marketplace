@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'f0000000-0000-0000-0000-000000000008',
+    'barrier-balancing-cleanser',
+    (select id from public.brands where slug = 'freaks-of-nature'),
+    'Barrier Balancing Face Wash',
+    'skincare',
+    (select id from public.categories where slug = 'skincare'),
+    30,
+    'Foaming Gel-to-Oil',
+    '#2F6F5E',
+    'https://freaksofnature.com/products/barrier-balancing-cleanser',
+    'direct',
+    'https://freaksofnature.com/cdn/shop/files/3D_CLEANSER_LIGHTBLUE_E-COMM.png?v=1748386004&width=1920',
+    4.6,
+    25,
+    '100 ml / 3.4 fl oz',
+    '**Step 1:**After a long day, sweat sesh, or time spent in the sun. Apply 1-2 pumps of barrier balancing cleanser to dry or wet face. Rub into skin to release grime. **Step 2:**Add water to skin as cleanser begins to froth into a milky texture, helping further cleanse and hydrate the skin. **Step 3:**Towel dry skin. For best results, apply Deeper Dive Hydrator post-cleanse',
+    'All Skin Types',
+    'Light mineral scent',
+    'Luxe oil-gel in a light mint blue that transforms into a white frothy milk when activated with water',
+    array['Hydrates + soothes', 'Protects + strengthens skin barrier', 'Dermatologist tested', 'Fragrance free']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

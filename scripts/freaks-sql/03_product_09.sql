@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'f0000000-0000-0000-0000-000000000009',
+    'freaks-full-coverage-bundle',
+    (select id from public.brands where slug = 'freaks-of-nature'),
+    'Freaks Full Coverage Bundle',
+    'sunscreen',
+    (select id from public.categories where slug = 'sunscreen'),
+    84,
+    'Jumbo + Original Sun Stick & SPF Spray',
+    '#2F6F5E',
+    'https://freaksofnature.com/products/freaks-full-coverage-bundle',
+    'direct',
+    'https://freaksofnature.com/cdn/shop/files/STICK_JUMBO_SPRAY_E-COMM-copy1.png?v=1777478755&width=1920',
+    4.9,
+    301,
+    'Solar Shield SPF 30 Spray: 6 oz / 170 g; Peak Performance Jumbo Sun Stick: 2.60 oz / 75 gr; Peak Performance Sun Stick: 0.70 oz / 20 gr',
+    '**Sun Stick SPF 50** 15 minutes before going in the sun liberally apply onto face, neck, chest and body if applicable. Reapply after 80 min of swimming or sweating, immediately after towel drying and at least every 2 hours when exposed to the sun. Product can be reapplied over or under makeup. **Solar Shield SPF 30 Spray** Shake well before use. Hold container 4--6 inches from skin and spray liberally and evenly across the body. Rub into skin. Apply 15 minutes before sun exposure. Reapply after 40 minutes of swimming or sweating, immediately after towel drying, and at least every 2 hours.',
+    '',
+    '',
+    '',
+    array['100% mineral protection', 'Air-powered continuous spray', 'Minimal white cast', 'Hydrates + soothes', 'Protects + strengthens skin barrier', 'No chemical filters', 'Water resistant (40 min)', 'Dermatologist tested', 'Broad spectrum UV protection', 'Reef safe', 'Fragrance free']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;

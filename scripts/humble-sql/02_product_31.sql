@@ -1,0 +1,46 @@
+insert into public.products (
+  id, slug, brand_id, name, category, category_id, price, description, accent,
+  affiliate_url, affiliate_network, image_url, rating, review_count,
+  size, how_to_use, good_for, smells_like, finish, features, is_published
+) values
+  (
+    'a0000000-0000-0000-0000-000000000031',
+    'patchouli-copal-travel-size',
+    (select id from public.brands where slug = 'humble-brands'),
+    'Patchouli & Copal Travel Size',
+    'deodorant',
+    (select id from public.categories where slug = 'deodorant'),
+    3.99,
+    'Travel Size Original. Scent intensity 4/5 - Full Gender-neutral.',
+    '#6A7F5C',
+    'https://humblebrands.com/products/patchouli-copal-travel-size-deodorant',
+    'direct',
+    'https://humblebrands.com/cdn/shop/products/122722_Humble_OriginalDeodorant_PatchouliCopalTravel_Front_Web_ea71ab79-496a-42bf-8902-38e0e7f0b15e.jpg?v=1762457450&width=800',
+    4.8,
+    27,
+    '.5 oz | 14 g',
+    'Apply 2-3 swipes to underarms and rub in any excess. Do not apply to broken skin. Patch test before use. If irritation occurs, discontinue use.',
+    'All skin types',
+    'Full Gender-neutral',
+    'Cream stick that glides on smooth',
+    array['Aluminum-free', 'Original formula with baking soda', 'Travel mini size', '75% Post Consumer Recycled Plastic (PCR) and Plastic Free Paper packaging']::text[],
+    true
+  )
+on conflict (slug) do update set
+  brand_id = excluded.brand_id,
+  name = excluded.name,
+  category = excluded.category,
+  category_id = excluded.category_id,
+  price = excluded.price,
+  description = excluded.description,
+  affiliate_url = excluded.affiliate_url,
+  image_url = excluded.image_url,
+  rating = excluded.rating,
+  review_count = excluded.review_count,
+  size = excluded.size,
+  how_to_use = excluded.how_to_use,
+  good_for = excluded.good_for,
+  smells_like = excluded.smells_like,
+  finish = excluded.finish,
+  features = excluded.features,
+  is_published = excluded.is_published;
