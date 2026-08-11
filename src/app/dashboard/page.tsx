@@ -115,18 +115,18 @@ export default async function DashboardPage() {
   });
 
   return (
-    <div className="mx-auto max-w-6xl px-5 py-12 md:px-8">
+    <div className="mx-auto max-w-6xl px-4 py-10 sm:px-5 sm:py-12 md:px-8">
       <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-        <div>
+        <div className="min-w-0">
           <p className="text-xs font-bold uppercase tracking-[0.16em] text-ink-soft/70">Dashboard</p>
-          <h1 className="mt-2 font-display text-4xl font-extrabold tracking-[-0.04em] md:text-5xl">
+          <h1 className="mt-2 font-display text-3xl font-extrabold tracking-[-0.04em] sm:text-4xl md:text-5xl">
             Hey, {displayName}
           </h1>
-          <p className="mt-2 max-w-xl text-ink-soft">
+          <p className="mt-2 max-w-xl text-sm text-ink-soft sm:text-base">
             Your saves, reviews, and talk — all in one tiny corner.
           </p>
         </div>
-        <Link href="/profile" className="btn btn-ghost self-start !py-2 text-sm md:self-auto">
+        <Link href="/profile" className="btn btn-ghost btn-stack !min-h-0 self-stretch !py-2 text-sm sm:self-start md:self-auto">
           Edit profile
         </Link>
       </div>
@@ -166,13 +166,13 @@ export default async function DashboardPage() {
         ))}
       </div>
 
-      <section className="mt-14">
-        <div className="mb-5 flex items-end justify-between gap-3">
-          <div>
-            <h2 className="font-display text-3xl font-extrabold tracking-[-0.03em]">Saved brands</h2>
+      <section className="mt-12 sm:mt-14">
+        <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between sm:gap-3">
+          <div className="min-w-0">
+            <h2 className="font-display text-2xl font-extrabold tracking-[-0.03em] sm:text-3xl">Saved brands</h2>
             <p className="mt-1 text-sm text-ink-soft">Makers you’re following from the marketplace.</p>
           </div>
-          <Link href="/browse" className="text-sm font-bold text-teal-deep hover:underline">
+          <Link href="/browse" className="shrink-0 text-sm font-bold text-teal-deep hover:underline">
             Find more →
           </Link>
         </div>
@@ -207,12 +207,10 @@ export default async function DashboardPage() {
         )}
       </section>
 
-      <section className="mt-14">
-        <div className="mb-5 flex items-end justify-between gap-3">
-          <div>
-            <h2 className="font-display text-3xl font-extrabold tracking-[-0.03em]">Saved products</h2>
-            <p className="mt-1 text-sm text-ink-soft">Shelf notes for later.</p>
-          </div>
+      <section className="mt-12 sm:mt-14">
+        <div className="mb-5">
+          <h2 className="font-display text-2xl font-extrabold tracking-[-0.03em] sm:text-3xl">Saved products</h2>
+          <p className="mt-1 text-sm text-ink-soft">Shelf notes for later.</p>
         </div>
         {productRows.length ? (
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -242,9 +240,9 @@ export default async function DashboardPage() {
         )}
       </section>
 
-      <section className="mt-14">
+      <section className="mt-12 sm:mt-14">
         <div className="mb-5">
-          <h2 className="font-display text-3xl font-extrabold tracking-[-0.03em]">Your reviews</h2>
+          <h2 className="font-display text-2xl font-extrabold tracking-[-0.03em] sm:text-3xl">Your reviews</h2>
           <p className="mt-1 text-sm text-ink-soft">Past comments you’ve left on products and brands.</p>
         </div>
         {reviewRows.length ? (
@@ -280,13 +278,13 @@ export default async function DashboardPage() {
         )}
       </section>
 
-      <section className="mt-14 mb-8">
-        <div className="mb-5 flex items-end justify-between gap-3">
-          <div>
-            <h2 className="font-display text-3xl font-extrabold tracking-[-0.03em]">Your talk</h2>
+      <section className="mb-8 mt-12 sm:mt-14">
+        <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between sm:gap-3">
+          <div className="min-w-0">
+            <h2 className="font-display text-2xl font-extrabold tracking-[-0.03em] sm:text-3xl">Your talk</h2>
             <p className="mt-1 text-sm text-ink-soft">Threads you’ve started in the community.</p>
           </div>
-          <Link href="/community" className="text-sm font-bold text-teal-deep hover:underline">
+          <Link href="/community" className="shrink-0 text-sm font-bold text-teal-deep hover:underline">
             Open talk →
           </Link>
         </div>

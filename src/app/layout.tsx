@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Bricolage_Grotesque, Figtree } from "next/font/google";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -23,6 +23,13 @@ export const metadata: Metadata = {
   },
   description:
     "A fun marketplace for small cosmetic & wellness brands — discover products, hunt ingredients, leave reviews, and talk shop.",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: "#f7fbf8",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

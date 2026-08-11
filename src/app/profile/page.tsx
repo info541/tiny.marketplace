@@ -12,10 +12,10 @@ export default async function ProfilePage() {
   const profile = await ensureProfile(supabase, user);
 
   return (
-    <div className="mx-auto max-w-2xl px-5 py-12 md:px-8">
+    <div className="mx-auto max-w-2xl px-4 py-10 sm:px-5 sm:py-12 md:px-8">
       <p className="text-xs font-bold uppercase tracking-[0.16em] text-ink-soft/70">Account</p>
-      <h1 className="mt-2 font-display text-4xl font-extrabold tracking-[-0.04em]">Your profile</h1>
-      <p className="mt-2 text-ink-soft">
+      <h1 className="mt-2 font-display text-3xl font-extrabold tracking-[-0.04em] sm:text-4xl">Your profile</h1>
+      <p className="mt-2 text-sm text-ink-soft sm:text-base">
         This is how you show up across reviews and talk.{" "}
         <Link href="/dashboard" className="font-semibold text-teal-deep hover:underline">
           Back to dashboard

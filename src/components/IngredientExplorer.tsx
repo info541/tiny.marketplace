@@ -22,7 +22,7 @@ export function IngredientExplorer({
 
   return (
     <div className="space-y-8">
-      <div className="surface rounded-[1.5rem] p-5 md:p-7">
+      <div className="surface rounded-[1.5rem] p-4 sm:p-5 md:p-7">
         <div className="flex flex-col gap-4 md:flex-row md:items-center">
           <label className="flex-1">
             <span className="mb-2 block text-xs font-bold uppercase tracking-[0.14em] text-ink-soft/70">
@@ -35,18 +35,18 @@ export function IngredientExplorer({
               className="w-full rounded-2xl border border-line bg-white/80 px-4 py-3.5 text-base outline-none ring-lemon transition focus:ring-4"
             />
           </label>
-          <div className="flex gap-2 md:pt-6">
+          <div className="flex w-full gap-2 md:w-auto md:pt-6">
             <button
               type="button"
               onClick={() => setMode("contains")}
-              className={`chip ${mode === "contains" ? "chip-active" : ""}`}
+              className={`chip flex-1 justify-center md:flex-none ${mode === "contains" ? "chip-active" : ""}`}
             >
               Contains
             </button>
             <button
               type="button"
               onClick={() => setMode("free-from")}
-              className={`chip ${mode === "free-from" ? "chip-active" : ""}`}
+              className={`chip flex-1 justify-center md:flex-none ${mode === "free-from" ? "chip-active" : ""}`}
             >
               Free from
             </button>
@@ -94,7 +94,7 @@ export function IngredientExplorer({
             </>
           ) : null}
         </p>
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
           {results.map((product) => (
             <ProductTile key={product.id} product={product} />
           ))}

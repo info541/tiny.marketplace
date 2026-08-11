@@ -51,7 +51,7 @@ export function ProductTile({ product }: { product: Product }) {
       </div>
       <div className="flex flex-1 flex-col gap-3 p-4">
         <div className="flex items-start justify-between gap-3">
-          <div>
+          <div className="min-w-0">
             {product.imageUrl ? (
               <p className="font-display text-lg font-bold leading-tight tracking-[-0.02em] text-ink">
                 {product.name}
@@ -62,7 +62,7 @@ export function ProductTile({ product }: { product: Product }) {
             </p>
             <p className="mt-1 line-clamp-2 text-sm text-ink-soft/80">{product.description}</p>
           </div>
-          <p className="shrink-0 font-display text-xl font-bold tracking-tight">${product.price}</p>
+          <p className="shrink-0 font-display text-lg font-bold tracking-tight sm:text-xl">${product.price}</p>
         </div>
         <div className="mt-auto flex flex-wrap gap-1.5">
           {product.ingredients.slice(0, 3).map((ing) => (

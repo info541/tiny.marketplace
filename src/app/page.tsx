@@ -34,20 +34,20 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="relative z-10 mx-auto flex min-h-[calc(100vh-4rem)] max-w-6xl flex-col justify-center px-5 py-16 md:px-8">
-          <p className="animate-rise font-display text-5xl font-extrabold leading-[0.95] tracking-[-0.05em] text-ink md:text-7xl lg:text-8xl">
+        <div className="relative z-10 mx-auto flex min-h-[calc(100vh-4rem)] max-w-6xl flex-col justify-center px-4 py-12 sm:px-5 sm:py-16 md:px-8">
+          <p className="animate-rise font-display text-[2.75rem] font-extrabold leading-[0.95] tracking-[-0.05em] text-ink sm:text-5xl md:text-7xl lg:text-8xl">
             the tiny
             <br />
             marketplace
           </p>
-          <p className="animate-rise delay-1 mt-6 max-w-md text-lg text-ink-soft md:text-xl">
+          <p className="animate-rise delay-1 mt-5 max-w-md text-base text-ink-soft sm:mt-6 sm:text-lg md:text-xl">
             Discover small cosmetic brands, peek inside the ingredients, and talk about what actually works.
           </p>
-          <div className="animate-rise delay-2 mt-8 flex flex-wrap gap-3">
-            <Link href="/browse" className="btn btn-primary">
+          <div className="animate-rise delay-2 mt-7 flex w-full max-w-md flex-col gap-3 sm:mt-8 sm:max-w-none sm:flex-row sm:flex-wrap">
+            <Link href="/browse" className="btn btn-primary btn-stack">
               Start browsing
             </Link>
-            <Link href="/ingredients" className="btn btn-ghost">
+            <Link href="/ingredients" className="btn btn-ghost btn-stack">
               Search ingredients
             </Link>
           </div>
@@ -56,30 +56,30 @@ export default function HomePage() {
 
       <BrandMarquee />
 
-      <section className="mx-auto max-w-6xl px-5 py-16 md:px-8">
+      <section className="mx-auto max-w-6xl px-4 py-12 sm:px-5 sm:py-16 md:px-8">
         <SectionHeading
           eyebrow="Categories"
           title="Start in the bathroom cabinet"
           subtitle="Cosmetics & wellness first — sunscreen, deodorant, protein, electrolytes, skincare, hair, and oral care from brands worth rooting for."
         />
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-7">
+        <div className="grid grid-cols-2 gap-2.5 sm:gap-3 md:grid-cols-4 lg:grid-cols-7">
           {categories.map((cat, i) => (
             <Link
               key={cat.id}
               href={`/browse?cat=${cat.id}`}
-              className="surface group rounded-[1.25rem] p-4 text-center transition hover:-translate-y-1 hover:shadow-[var(--shadow)]"
+              className="surface group rounded-[1.25rem] p-3 text-center transition hover:-translate-y-1 hover:shadow-[var(--shadow)] sm:p-4"
               style={{ animationDelay: `${i * 40}ms` }}
             >
-              <span className="font-display text-2xl text-teal-deep" aria-hidden>
+              <span className="font-display text-xl text-teal-deep sm:text-2xl" aria-hidden>
                 {cat.mark}
               </span>
-              <p className="mt-2 font-display text-lg font-bold tracking-[-0.02em]">{cat.label}</p>
+              <p className="mt-1.5 font-display text-base font-bold tracking-[-0.02em] sm:mt-2 sm:text-lg">{cat.label}</p>
             </Link>
           ))}
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-5 py-6 md:px-8">
+      <section className="mx-auto max-w-6xl px-4 py-6 sm:px-5 md:px-8">
         <SectionHeading
           eyebrow="Staff picks"
           title="Little brands, loud formulas"
@@ -87,20 +87,20 @@ export default function HomePage() {
           href="/browse"
           linkLabel="See all"
         />
-        <div className="grid gap-5 md:grid-cols-3">
+        <div className="grid gap-4 sm:gap-5 md:grid-cols-3">
           {featured.map((product) => (
             <ProductTile key={product.id} product={product} />
           ))}
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-5 py-16 md:px-8">
+      <section className="mx-auto max-w-6xl px-4 py-12 sm:px-5 sm:py-16 md:px-8">
         <SectionHeading
           eyebrow="Meet the makers"
           title="Shops behind the products"
           subtitle="Every listing maps back to a small brand — follow the ones that feel like your people."
         />
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
           {brands.slice(0, 6).map((brand) => (
             <BrandTile key={brand.id} brand={brand} />
           ))}
@@ -108,7 +108,7 @@ export default function HomePage() {
       </section>
 
       <section className="border-y border-line bg-[color-mix(in_oklab,var(--mist)_55%,white)]">
-        <div className="mx-auto max-w-6xl px-5 py-16 md:px-8">
+        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-5 sm:py-16 md:px-8">
           <SectionHeading
             eyebrow="Ingredient radar"
             title="Know what’s in it — and what isn’t"
@@ -131,21 +131,21 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-5 py-16 md:px-8">
+      <section className="mx-auto max-w-6xl px-4 py-12 sm:px-5 sm:py-16 md:px-8">
         <SectionHeading
           eyebrow="Reviews"
           title="What people are saying"
           href="/community"
           linkLabel="Join the talk"
         />
-        <div className="grid gap-5 md:grid-cols-3">
+        <div className="grid gap-4 sm:gap-5 md:grid-cols-3">
           {spotlightReviews.map((review) => (
             <ReviewCard key={review.id} review={review} />
           ))}
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-5 pb-20 md:px-8">
+      <section className="mx-auto max-w-6xl px-4 pb-16 sm:px-5 sm:pb-20 md:px-8">
         <SectionHeading
           eyebrow="Community"
           title="Shop talk, not sales pitches"
@@ -153,7 +153,7 @@ export default function HomePage() {
           href="/community"
           linkLabel="See all threads"
         />
-        <div className="grid gap-5 lg:grid-cols-3">
+        <div className="grid gap-4 sm:gap-5 lg:grid-cols-3">
           {latestTalk.map((post) => (
             <CommunityPostCard key={post.id} post={post} />
           ))}

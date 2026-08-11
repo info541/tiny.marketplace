@@ -53,7 +53,7 @@ export function ProfileForm({ initialDisplayName, initialBio, email }: Props) {
   }
 
   return (
-    <form onSubmit={onSubmit} className="surface space-y-4 rounded-[1.5rem] p-6 md:p-8">
+    <form onSubmit={onSubmit} className="surface space-y-4 rounded-[1.5rem] p-5 sm:p-6 md:p-8">
       <label className="block">
         <span className="mb-1.5 block text-xs font-bold uppercase tracking-[0.14em] text-ink-soft/70">
           Email
@@ -97,7 +97,7 @@ export function ProfileForm({ initialDisplayName, initialBio, email }: Props) {
       ) : null}
       {message ? <p className="rounded-xl bg-mist px-3 py-2 text-sm font-semibold">{message}</p> : null}
 
-      <button type="submit" disabled={loading} className="btn btn-primary disabled:opacity-60">
+      <button type="submit" disabled={loading} className="btn btn-primary btn-stack disabled:opacity-60">
         {loading ? "Saving…" : "Save profile"}
       </button>
     </form>

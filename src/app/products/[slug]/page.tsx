@@ -22,13 +22,13 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const productReviews = reviewsForProduct(product.id);
 
   return (
-    <div className="mx-auto max-w-5xl px-5 py-10 md:px-8 md:py-14">
+    <div className="mx-auto max-w-5xl px-4 py-8 sm:px-5 sm:py-10 md:px-8 md:py-14">
       <Link href="/browse" className="text-sm font-semibold text-ink-soft hover:text-ink">
         ← Back to browse
       </Link>
 
       {/* Compact header: small image left, details right */}
-      <div className="mt-8 flex flex-col gap-6 sm:flex-row sm:items-start sm:gap-8">
+      <div className="mt-6 flex flex-col gap-6 sm:mt-8 sm:flex-row sm:items-start sm:gap-8">
         <div
           className="mx-auto h-44 w-44 shrink-0 overflow-hidden rounded-2xl border border-line sm:mx-0 sm:h-52 sm:w-52"
           style={{
@@ -51,7 +51,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           )}
         </div>
 
-        <div className="min-w-0 flex-1">
+        <div className="min-w-0 flex-1 text-center sm:text-left">
           {brand ? (
             <Link
               href={`/brands/${brand.slug}`}
@@ -60,10 +60,10 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
               {brand.name}
             </Link>
           ) : null}
-          <h1 className="mt-1 font-display text-3xl font-extrabold tracking-[-0.04em] md:text-4xl">
+          <h1 className="mt-1 font-display text-[1.75rem] font-extrabold tracking-[-0.04em] sm:text-3xl md:text-4xl">
             {product.name}
           </h1>
-          <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
+          <div className="mt-3 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm sm:justify-start">
             <span className="font-display text-2xl font-bold tracking-tight">${product.price}</span>
             <span className="font-semibold">★ {product.rating.toFixed(1)}</span>
             <span className="text-ink-soft">{product.reviewCount} reviews</span>
@@ -73,12 +73,12 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
               </span>
             ) : null}
           </div>
-          <p className="mt-4 max-w-xl leading-relaxed text-ink-soft">{product.description}</p>
-          <div className="mt-6 flex flex-wrap gap-3">
-            <button type="button" className="btn btn-primary" disabled>
+          <p className="mt-4 max-w-xl text-sm leading-relaxed text-ink-soft sm:mx-0 sm:text-base">{product.description}</p>
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <button type="button" className="btn btn-primary btn-stack" disabled>
               View on brand shop (soon)
             </button>
-            <Link href="/community" className="btn btn-ghost">
+            <Link href="/community" className="btn btn-ghost btn-stack">
               Talk about it
             </Link>
           </div>
@@ -86,10 +86,10 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
       </div>
 
       {/* Full-width scannable ingredients */}
-      <section className="mt-12 border-t border-line pt-10">
-        <div className="flex flex-wrap items-end justify-between gap-3">
+      <section className="mt-10 border-t border-line pt-8 sm:mt-12 sm:pt-10">
+        <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-end sm:justify-between sm:gap-3">
           <div>
-            <h2 className="font-display text-2xl font-extrabold tracking-[-0.03em]">Ingredients</h2>
+            <h2 className="font-display text-xl font-extrabold tracking-[-0.03em] sm:text-2xl">Ingredients</h2>
             <p className="mt-1 text-sm text-ink-soft">
               {product.ingredients.length} in this formula · tap any to explore
             </p>
@@ -109,7 +109,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 <span className="w-6 shrink-0 font-mono text-xs text-ink-soft/55">
                   {String(index + 1).padStart(2, "0")}
                 </span>
-                <span className="font-medium group-hover:underline">{ing}</span>
+                <span className="min-w-0 break-words font-medium group-hover:underline">{ing}</span>
               </Link>
             </li>
           ))}
@@ -134,9 +134,9 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         ) : null}
       </section>
 
-      <section className="mt-12 border-t border-line pt-10">
-        <h2 className="font-display text-2xl font-extrabold tracking-[-0.03em]">Reviews</h2>
-        <div className="mt-6 grid gap-5 md:grid-cols-2">
+      <section className="mt-10 border-t border-line pt-8 sm:mt-12 sm:pt-10">
+        <h2 className="font-display text-xl font-extrabold tracking-[-0.03em] sm:text-2xl">Reviews</h2>
+        <div className="mt-6 grid gap-4 sm:gap-5 md:grid-cols-2">
           {productReviews.length ? (
             productReviews.map((review) => <ReviewCard key={review.id} review={review} />)
           ) : (

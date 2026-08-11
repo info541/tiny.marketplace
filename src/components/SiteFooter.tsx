@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export function SiteFooter() {
   return (
-    <footer className="relative z-10 mt-20 border-t border-line bg-[color-mix(in_oklab,var(--mist)_70%,white)]">
-      <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 md:grid-cols-[1.4fr_1fr_1fr] md:px-8">
+    <footer className="relative z-10 mt-14 border-t border-line bg-[color-mix(in_oklab,var(--mist)_70%,white)] pb-[env(safe-area-inset-bottom)] sm:mt-20">
+      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:gap-10 sm:px-5 sm:py-14 md:grid-cols-[1.4fr_1fr_1fr] md:px-8">
         <div>
-          <p className="font-display text-3xl font-extrabold tracking-[-0.04em]">the tiny marketplace</p>
+          <p className="font-display text-2xl font-extrabold tracking-[-0.04em] sm:text-3xl">the tiny marketplace</p>
           <p className="mt-3 max-w-sm text-ink-soft">
             Curating small brands and their Shopify shops so you can find better cosmetics, cleaner labels, and people who care about the same things.
           </p>
