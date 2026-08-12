@@ -14,7 +14,7 @@ export default function HomePage() {
 
   return (
     <>
-      <section className="relative min-h-[calc(100vh-4rem)] overflow-hidden">
+      <section className="relative overflow-hidden md:min-h-[calc(100vh-4rem)]">
         <div className="market-grid absolute inset-0 opacity-60" />
         <div
           className="absolute inset-0"
@@ -34,20 +34,20 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="relative z-10 mx-auto flex min-h-[calc(100vh-4rem)] max-w-6xl flex-col justify-center px-4 py-12 sm:px-5 sm:py-16 md:px-8">
-          <p className="animate-rise font-display text-[2.75rem] font-extrabold leading-[0.95] tracking-[-0.05em] text-ink sm:text-5xl md:text-7xl lg:text-8xl">
+        <div className="relative z-10 mx-auto flex max-w-6xl flex-col justify-center px-4 py-8 sm:px-5 sm:py-12 md:min-h-[calc(100vh-4rem)] md:px-8 md:py-16">
+          <p className="animate-rise font-display text-[2.35rem] font-extrabold leading-[0.95] tracking-[-0.05em] text-ink sm:text-5xl md:text-7xl lg:text-8xl">
             the tiny
             <br />
             marketplace
           </p>
-          <p className="animate-rise delay-1 mt-5 max-w-md text-base text-ink-soft sm:mt-6 sm:text-lg md:text-xl">
+          <p className="animate-rise delay-1 mt-3 max-w-md text-sm text-ink-soft sm:mt-6 sm:text-lg md:text-xl">
             Discover small cosmetic brands, peek inside the ingredients, and talk about what actually works.
           </p>
-          <div className="animate-rise delay-2 mt-7 flex w-full max-w-md flex-col gap-3 sm:mt-8 sm:max-w-none sm:flex-row sm:flex-wrap">
-            <Link href="/browse" className="btn btn-primary btn-stack">
+          <div className="animate-rise delay-2 mt-5 flex w-full max-w-md flex-row flex-wrap gap-2.5 sm:mt-8 sm:max-w-none sm:gap-3">
+            <Link href="/browse" className="btn btn-primary !min-h-0 flex-1 !px-4 !py-2.5 text-sm sm:flex-none sm:!min-h-[2.75rem] sm:!px-[1.4rem] sm:!py-[0.85rem] sm:text-base">
               Start browsing
             </Link>
-            <Link href="/ingredients" className="btn btn-ghost btn-stack">
+            <Link href="/ingredients" className="btn btn-ghost !min-h-0 flex-1 !px-4 !py-2.5 text-sm sm:flex-none sm:!min-h-[2.75rem] sm:!px-[1.4rem] sm:!py-[0.85rem] sm:text-base">
               Search ingredients
             </Link>
           </div>

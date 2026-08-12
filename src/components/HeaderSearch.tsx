@@ -74,7 +74,13 @@ function Highlighted({ text, query }: { text: string; query: string }) {
   );
 }
 
-export function HeaderSearch({ className = "" }: { className?: string }) {
+export function HeaderSearch({
+  className = "",
+  inputId = "site-search",
+}: {
+  className?: string;
+  inputId?: string;
+}) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const listboxId = useId();
@@ -172,13 +178,13 @@ export function HeaderSearch({ className = "" }: { className?: string }) {
       className={`relative z-50 min-w-0 flex-1 ${className}`}
       role="search"
     >
-      <label htmlFor="site-search" className="sr-only">
+      <label htmlFor={inputId} className="sr-only">
         Search products and brands
       </label>
       <div className="relative">
         <input
           ref={inputRef}
-          id="site-search"
+          id={inputId}
           type="text"
           value={query}
           onChange={(e) => {

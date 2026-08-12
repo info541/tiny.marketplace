@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { IngredientList } from "@/components/IngredientList";
 import { ReviewCard } from "@/components/ReviewCard";
 import { getBrand, getProduct, reviewsForProduct } from "@/lib/data";
 
@@ -91,7 +92,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           <div>
             <h2 className="font-display text-xl font-extrabold tracking-[-0.03em] sm:text-2xl">Ingredients</h2>
             <p className="mt-1 text-sm text-ink-soft">
-              {product.ingredients.length} in this formula · tap any to explore
+              {product.ingredients.length} in this formula · tap any for a quick explainer
             </p>
           </div>
           <Link href="/ingredients" className="text-sm font-semibold text-teal-deep hover:underline">
@@ -99,39 +100,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           </Link>
         </div>
 
-        <ol className="mt-6 grid gap-0 sm:grid-cols-2 sm:gap-x-10">
-          {product.ingredients.map((ing, index) => (
-            <li key={`${ing}-${index}`} className="border-b border-line/70 py-2.5">
-              <Link
-                href={`/ingredients?q=${encodeURIComponent(ing)}`}
-                className="group flex items-baseline gap-3 text-sm hover:text-teal-deep"
-              >
-                <span className="w-6 shrink-0 font-mono text-xs text-ink-soft/55">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
-                <span className="min-w-0 break-words font-medium group-hover:underline">{ing}</span>
-              </Link>
-            </li>
-          ))}
-        </ol>
-
-        {product.freeFrom.length > 0 ? (
-          <div className="mt-10">
-            <h3 className="text-sm font-bold uppercase tracking-[0.12em] text-ink-soft">Free from</h3>
-            <ul className="mt-3 flex flex-wrap gap-2">
-              {product.freeFrom.map((ing) => (
-                <li key={ing}>
-                  <Link
-                    href={`/ingredients?q=${encodeURIComponent(ing)}&mode=free-from`}
-                    className="inline-block rounded-full border border-line bg-white/70 px-3 py-1.5 text-sm font-semibold text-ink-soft hover:border-teal hover:text-teal-deep"
-                  >
-                    {ing}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ) : null}
+        <IngredientList ingredients={product.ingredients} freeFrom={product.freeFrom} />
       </section>
 
       <section className="mt-10 border-t border-line pt-8 sm:mt-12 sm:pt-10">

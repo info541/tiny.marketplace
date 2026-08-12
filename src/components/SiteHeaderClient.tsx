@@ -172,47 +172,56 @@ export function SiteHeaderClient({ email }: Props) {
 
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-[color-mix(in_oklab,white_88%,transparent)] pt-[env(safe-area-inset-top)] backdrop-blur-xl">
-      {/* Desktop: single row */}
-      <div className="mx-auto hidden max-w-6xl items-center justify-between gap-4 px-8 py-3.5 md:flex">
-        <Link href="/" className="group flex min-w-0 items-baseline gap-2">
-          <span className="font-display text-2xl font-extrabold tracking-[-0.04em]">the tiny marketplace</span>
-          <span className="hidden text-xs font-semibold uppercase tracking-[0.18em] text-ink-soft/70 lg:inline">
-            cosmetics first
+      {/* Desktop: logo · search · nav · auth */}
+      <div className="mx-auto hidden max-w-6xl items-center gap-4 px-8 py-3.5 md:flex">
+        <Link href="/" className="group flex shrink-0 items-baseline gap-2">
+          <span className="font-display text-xl font-extrabold tracking-[-0.04em] lg:text-2xl">
+            the tiny marketplace
           </span>
         </Link>
 
         {!hideChrome ? (
-          <div className="flex items-center gap-3">
-            <nav className="flex items-center gap-1 md:gap-2">
-              {links.map((link) => {
-                const active = pathname === link.href || pathname.startsWith(`${link.href}/`);
-                return (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    className={`rounded-full px-3 py-1.5 text-sm font-semibold transition ${
-                      active ? "bg-ink text-foam" : "text-ink-soft hover:bg-mist"
-                    }`}
-                  >
-                    {link.label}
-                  </Link>
-                );
-              })}
-            </nav>
+          <>
+            <Suspense
+              fallback={
+                <div className="h-11 min-w-0 flex-1 rounded-full border border-line bg-white" aria-hidden />
+              }
+            >
+              <HeaderSearch inputId="site-search-desktop" className="mx-2 max-w-xl" />
+            </Suspense>
 
-            {email ? (
-              <UserMenu email={email} />
-            ) : (
-              <Link
-                href="/login"
-                className="rounded-full bg-lemon px-3.5 py-1.5 text-sm font-bold tracking-[-0.01em] text-ink shadow-[0_6px_18px_color-mix(in_oklab,var(--lemon)_45%,transparent)] transition hover:-translate-y-0.5 hover:brightness-[1.03]"
-              >
-                Log in
-              </Link>
-            )}
-          </div>
+            <div className="flex shrink-0 items-center gap-3">
+              <nav className="flex items-center gap-1 lg:gap-2">
+                {links.map((link) => {
+                  const active = pathname === link.href || pathname.startsWith(`${link.href}/`);
+                  return (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className={`rounded-full px-2.5 py-1.5 text-sm font-semibold transition lg:px-3 ${
+                        active ? "bg-ink text-foam" : "text-ink-soft hover:bg-mist"
+                      }`}
+                    >
+                      {link.label}
+                    </Link>
+                  );
+                })}
+              </nav>
+
+              {email ? (
+                <UserMenu email={email} />
+              ) : (
+                <Link
+                  href="/login"
+                  className="rounded-full bg-lemon px-3.5 py-1.5 text-sm font-bold tracking-[-0.01em] text-ink shadow-[0_6px_18px_color-mix(in_oklab,var(--lemon)_45%,transparent)] transition hover:-translate-y-0.5 hover:brightness-[1.03]"
+                >
+                  Log in
+                </Link>
+              )}
+            </div>
+          </>
         ) : (
-          <Link href="/" className="text-sm font-semibold text-ink-soft hover:text-ink">
+          <Link href="/" className="ml-auto text-sm font-semibold text-ink-soft hover:text-ink">
             ← Back
           </Link>
         )}
@@ -250,7 +259,7 @@ export function SiteHeaderClient({ email }: Props) {
                 <div className="h-11 min-w-0 flex-1 rounded-full border border-line bg-white" aria-hidden />
               }
             >
-              <HeaderSearch />
+              <HeaderSearch inputId="site-search-mobile" />
             </Suspense>
           </div>
         ) : null}
