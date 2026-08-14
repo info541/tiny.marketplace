@@ -24,6 +24,11 @@ export function SiteFooter() {
               </Link>
             </li>
             <li>
+              <Link href="/blog" className="hover:text-white">
+                Blog
+              </Link>
+            </li>
+            <li>
               <Link href="/community" className="hover:text-white">
                 Community talk
               </Link>

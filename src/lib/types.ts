@@ -68,3 +68,18 @@ export type CommunityPost = {
   hoursAgo: number;
   tags: string[];
 };
+
+export type BlogBlock =
+  | { type: "paragraph"; text: string }
+  | { type: "heading"; text: string }
+  | { type: "product"; slug: string };
+
+export type BlogPost = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  publishedAt: string;
+  author: string;
+  productSlugs: string[];
+  body: BlogBlock[];
+};
