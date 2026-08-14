@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ingredientHref } from "@/lib/ingredients";
 import type { CommunityPost } from "@/lib/types";
 
 export function CommunityPostCard({ post }: { post: CommunityPost }) {
@@ -14,7 +15,7 @@ export function CommunityPostCard({ post }: { post: CommunityPost }) {
       <p className="mt-2 text-sm leading-relaxed text-ink-soft">{post.body}</p>
       <div className="mt-4 flex flex-wrap gap-2">
         {post.tags.map((tag) => (
-          <Link key={tag} href={`/ingredients?q=${encodeURIComponent(tag)}`} className="chip !py-1 text-xs">
+          <Link key={tag} href={ingredientHref(tag)} className="chip !py-1 text-xs">
             #{tag}
           </Link>
         ))}

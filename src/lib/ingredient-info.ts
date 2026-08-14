@@ -7,7 +7,7 @@ export type IngredientInfo = {
 
 const byNormalized = new Map<string, IngredientInfo>();
 
-function normalizeIngredientKey(name: string) {
+export function normalizeIngredientKey(name: string) {
   return name
     .toLowerCase()
     .replace(/[’']/g, "'")
@@ -1545,7 +1545,7 @@ export function getIngredientInfo(name: string): IngredientInfo {
   return {
     name,
     role: "Formula ingredient",
-    description: `${name} appears on this product’s ingredient list. Open ingredient search to compare other formulas that share it.`,
+    description: `${name} appears on this product’s ingredient list. Open its page to learn what it does and see other formulas that share it.`,
   };
 }
 

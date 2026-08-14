@@ -87,11 +87,11 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           <div>
             <h2 className="font-display text-xl font-medium tracking-tight sm:text-2xl">Ingredients</h2>
             <p className="mt-1 text-sm text-ink-soft">
-              {product.ingredients.length} in this formula · tap any for a quick explainer
+              {product.ingredients.length} in this formula · tap any to learn more
             </p>
           </div>
           <Link href="/ingredients" className="text-sm font-medium text-ink underline-offset-4 hover:underline">
-            Ingredient explorer →
+            All ingredients →
           </Link>
         </div>
 

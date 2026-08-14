@@ -1,4 +1,5 @@
 import { brands, categories, getBrand, products } from "@/lib/data";
+import { listIngredients } from "@/lib/ingredients";
 
 export type SearchHit =
   | {
@@ -53,22 +54,7 @@ function scoreMatch(haystack: string, needle: string) {
   return 0;
 }
 
-function uniqueIngredients(limit = 80) {
-  const seen = new Set<string>();
-  const out: string[] = [];
-  for (const product of products) {
-    for (const ing of product.ingredients) {
-      const key = ing.toLowerCase();
-      if (seen.has(key)) continue;
-      seen.add(key);
-      out.push(ing);
-      if (out.length >= limit) return out;
-    }
-  }
-  return out;
-}
-
-const ingredientIndex = uniqueIngredients(120);
+const ingredientIndex = listIngredients();
 
 export function searchCatalog(query: string, limit = 8): SearchHit[] {
   const needle = query.trim();
@@ -125,14 +111,14 @@ export function searchCatalog(query: string, limit = 8): SearchHit[] {
   }
 
   for (const ing of ingredientIndex) {
-    const score = scoreMatch(ing, needle);
+    const score = scoreMatch(ing.name, needle);
     if (score < 50) continue;
     hits.push({
       type: "ingredient",
-      id: ing,
-      href: `/ingredients?q=${encodeURIComponent(ing)}`,
-      title: ing,
-      subtitle: "Ingredient",
+      id: ing.slug,
+      href: `/ingredient/${ing.slug}`,
+      title: ing.name,
+      subtitle: ing.role,
       score: score - 5,
     });
   }

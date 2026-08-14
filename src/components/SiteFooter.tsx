@@ -20,7 +20,7 @@ export function SiteFooter() {
             </li>
             <li>
               <Link href="/ingredients" className="hover:text-white">
-                Ingredient search
+                Ingredients
               </Link>
             </li>
             <li>

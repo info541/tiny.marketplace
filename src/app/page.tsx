@@ -37,15 +37,15 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Ingredient radar"
             title="Know what’s in it — and what isn’t"
-            subtitle="Filter by zinc oxide, skip fragrance, hunt hemp protein. Advanced ingredient search built for curious shoppers."
+            subtitle="Look up zinc oxide, skip the jargon, and see every product that uses an ingredient you care about."
             href="/ingredients"
-            linkLabel="Open search"
+            linkLabel="Browse ingredients"
           />
           <div className="grid divide-y divide-line border border-line bg-white md:grid-cols-3 md:divide-x md:divide-y-0">
             {[
-              { title: "Contains", body: "Find products with niacinamide, hydroxyapatite, or your favorite active." },
-              { title: "Free from", body: "Dodge oxybenzone, baking soda, SLS — one tap on the avoid list." },
-              { title: "Talk it out", body: "Compare notes with other tiny-shoppers in the community threads." },
+              { title: "Look up", body: "A glossary of what’s actually on these labels — actives, oils, minerals, and the rest." },
+              { title: "Learn", body: "Each ingredient has a plain-language page covering what it is and why it’s in a formula." },
+              { title: "Shop it", body: "Under every explainer, see every product in the marketplace that lists that ingredient." },
             ].map((item) => (
               <div key={item.title} className="p-6 sm:p-8">
                 <h3 className="font-display text-2xl font-medium tracking-tight">{item.title}</h3>
