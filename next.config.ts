@@ -18,6 +18,11 @@ const nextConfig: NextConfig = {
         hostname: "moonjuice.com",
         pathname: "/cdn/shop/**",
       },
+      {
+        protocol: "https",
+        hostname: "www.tomsofmaine.com",
+        pathname: "/cdn/shop/**",
+      },
     ],
   },
 };

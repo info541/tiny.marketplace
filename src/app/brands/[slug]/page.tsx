@@ -61,6 +61,16 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
             <span className="rounded-full bg-white/70 px-3 py-1.5">
               {brand.followerCount.toLocaleString()} following
             </span>
+            {brand.websiteUrl ? (
+              <a
+                href={brand.websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-ink px-3 py-1.5 text-white hover:opacity-90"
+              >
+                Visit shop ↗
+              </a>
+            ) : null}
             {dbBrand?.id ? <SaveBrandButton brandId={dbBrand.id} initialSaved={initialSaved} /> : null}
           </div>
         </div>

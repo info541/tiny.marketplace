@@ -53,6 +53,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "description": "An aluminum-based antiperspirant salt that blocks sweat. Many natural deodorants market themselves as aluminum-free."
   },
   {
+    "name": "Ananas Sativus (Pineapple) Fruit Juice",
+    "role": "Fruit juice flavor",
+    "description": "Pineapple juice used in kids' oral care for naturally derived flavor instead of artificial candy notes."
+  },
+  {
     "name": "and Sodium Hyaluronate",
     "role": "Mineral",
     "description": "and Sodium Hyaluronate supplies mineral support for wellness, electrolytes, or topical function depending on the product type."
@@ -76,6 +81,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "name": "Aqua / Water",
     "role": "Solvent",
     "description": "Purified water used as the main solvent in emulsions, gels, and water-based formulas."
+  },
+  {
+    "name": "Arginine Bicarbonate",
+    "role": "Sensitivity active",
+    "description": "An arginine salt used in toothpaste to help seal exposed dentin pathways and ease tooth sensitivity."
   },
   {
     "name": "Arrowroot Powder",
@@ -153,6 +163,16 @@ const INGREDIENTS: IngredientInfo[] = [
     "description": "A absorbent clay that can bind oils and impurities; common in masks and natural deodorants."
   },
   {
+    "name": "Benzoic Acid",
+    "role": "Preservative",
+    "description": "A mild organic acid that helps keep water-based formulas stable against microbes, used at low levels."
+  },
+  {
+    "name": "Benzyl Alcohol",
+    "role": "Preservative",
+    "description": "A fragrance component and mild preservative that helps keep formulas fresh; some people prefer to skip it if they're reactive."
+  },
+  {
     "name": "Benzyl Benzoate",
     "role": "Fragrance / solvent",
     "description": "An aromatic ester used in fragrance blends and as a solvent; also an EU-listed potential allergen."
@@ -186,6 +206,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "name": "Bursera Graveolens (Palo Santo) Wood Oil",
     "role": "Essential or carrier oil",
     "description": "Palo Santo oil used for aroma and skin feel. Essential oils are concentrated—beautiful in small amounts, and worth patch-testing if your skin is reactive."
+  },
+  {
+    "name": "Butylene Glycol",
+    "role": "Humectant / solvent",
+    "description": "A light hydrator and solvent that helps dissolve ingredients and keep textures from drying out."
   },
   {
     "name": "C13-15 Alkane",
@@ -248,6 +273,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "description": "A polymer that improves wear, reduces shine, and can help sunscreen actives stay evenly spread."
   },
   {
+    "name": "Carrageenan",
+    "role": "Thickener",
+    "description": "A seaweed-derived gum that gives toothpaste and gels their body so the paste stays on the brush."
+  },
+  {
     "name": "Cedarwood Oil",
     "role": "Essential oil",
     "description": "Woody cedar scent oil used for grounding fragrance in natural deodorants and balms."
@@ -281,6 +311,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "name": "Cetyl Alcohol",
     "role": "Fatty alcohol",
     "description": "A waxy fatty alcohol that thickens and softens creams—despite the name, it’s not a drying alcohol."
+  },
+  {
+    "name": "Charcoal Powder",
+    "role": "Absorbent / polish",
+    "description": "Finely milled charcoal used in some pastes to help lift surface stains; it is an abrasive, so use as directed."
   },
   {
     "name": "Chelated Essential Minerals",
@@ -346,6 +381,16 @@ const INGREDIENTS: IngredientInfo[] = [
     "name": "Citrus Aurantium Bergamia (Bergamot, Bergaptene Free) Peel Oil",
     "role": "Essential or carrier oil",
     "description": "Bergamot oil used for aroma and skin feel. Essential oils are concentrated—beautiful in small amounts, and worth patch-testing if your skin is reactive."
+  },
+  {
+    "name": "Citrus Aurantium Dulcis (Orange) Juice",
+    "role": "Fruit juice flavor",
+    "description": "Orange juice used for naturally derived citrus flavor in kids' toothpaste and rinses."
+  },
+  {
+    "name": "Citrus Limon (Lemon) Juice",
+    "role": "Fruit juice flavor",
+    "description": "Lemon juice used for naturally derived citrus flavor in oral-care formulas."
   },
   {
     "name": "Coco-Caprylate/Caprate",
@@ -418,6 +463,16 @@ const INGREDIENTS: IngredientInfo[] = [
     "description": "Tonka Bean is included for plant-derived compounds that support skin comfort, antioxidant defense, or formula character depending on concentration."
   },
   {
+    "name": "Disodium Cocoyl Glutamate",
+    "role": "Mild surfactant",
+    "description": "A coconut-and-amino-acid cleanser that helps paste foam and lift debris without classic SLS harshness."
+  },
+  {
+    "name": "Disodium Phosphate",
+    "role": "pH buffer",
+    "description": "A phosphate salt that helps keep toothpaste pH stable so fluoride and other actives can do their job."
+  },
+  {
     "name": "DL-Alpha Tocopherol",
     "role": "Antioxidant (vitamin E)",
     "description": "A form of vitamin E added as an antioxidant to help keep oils fresh and support skin comfort."
@@ -488,6 +543,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "description": "A bioactive folate (5-MTHF / Metafolin) form of vitamin B9 used for methylation support."
   },
   {
+    "name": "Fragaria Ananassa (Strawberry) Fruit Juice",
+    "role": "Fruit juice flavor",
+    "description": "Strawberry juice used for naturally derived flavor in kids' toothpaste."
+  },
+  {
     "name": "Fragrance",
     "role": "Commonly avoided",
     "description": "Fragrance is listed among ingredients some shoppers prefer to avoid."
@@ -538,6 +598,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "description": "A monoester that softens skin and can support emulsion stability and mild antimicrobial boost."
   },
   {
+    "name": "Glycyrrhiza Uralensis (Licorice) Root Extract",
+    "role": "Botanical extract",
+    "description": "Licorice root extract used for flavor and a hint of botanical character in oral-care formulas."
+  },
+  {
     "name": "Harsh Surfactants",
     "role": "Commonly avoided",
     "description": "Strong detergents that can disrupt the skin barrier—gentle brands highlight milder cleansing systems."
@@ -571,6 +636,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "name": "Hyaluronic Acid",
     "role": "Humectant",
     "description": "A moisture-binding ingredient that helps skin feel plump and hydrated by attracting and holding water."
+  },
+  {
+    "name": "Hydrated Silica",
+    "role": "Mild abrasive",
+    "description": "A mineral polish that helps scrub away plaque and surface stains without the grit of harsher abrasives."
   },
   {
     "name": "Hydrogenated Methyl Abietate",
@@ -733,6 +803,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "description": "A fruit-derived AHA that can support gentle exfoliation and brighter-looking skin depending on strength."
   },
   {
+    "name": "Mangifera Indica (Mango) Juice",
+    "role": "Fruit juice flavor",
+    "description": "Mango juice used for naturally derived flavor in kids' toothpaste."
+  },
+  {
     "name": "Maranta Arundinacea (Arrowroot) Root Extract",
     "role": "Absorbent botanical",
     "description": "Arrowroot-derived extract used for silky feel and light moisture absorption in clean formulas."
@@ -746,6 +821,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "name": "Mentha Spicata (Spearmint) Oil",
     "role": "Oil",
     "description": "Spearmint adds emollience, slip, or scent. Plant oils condition skin; essential oils mainly scent and should stay diluted."
+  },
+  {
+    "name": "Menthol",
+    "role": "Cooling flavor",
+    "description": "A mint compound that gives toothpaste and mouthwash that familiar cooling tingle."
   },
   {
     "name": "Methylcellulose",
@@ -781,6 +861,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "name": "Natural Flavors",
     "role": "Flavoring",
     "description": "Flavor compounds derived from natural sources to improve taste in powders and drinks."
+  },
+  {
+    "name": "Natural Fragrance",
+    "role": "Scent",
+    "description": "A blend of naturally derived aroma materials. 'Natural' does not always mean hypoallergenic—check the full list if you're scent-sensitive."
   },
   {
     "name": "Naturally Occurring in Essential Oils and Botanical Extracts: Limonene",
@@ -1018,6 +1103,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "description": "A widely used preservative that protects water-containing products from microbial growth."
   },
   {
+    "name": "Phosphoric Acid",
+    "role": "pH adjuster",
+    "description": "A food-grade acid used in tiny amounts to lower pH so a formula stays in the right range."
+  },
+  {
     "name": "Phthalates",
     "role": "Commonly avoided",
     "description": "Plasticizer chemicals historically used in some fragrances; many clean brands formulate without them."
@@ -1113,9 +1203,19 @@ const INGREDIENTS: IngredientInfo[] = [
     "description": "A mineral salt crystal traditionally used to inhibit odor-causing bacteria on contact with moisture."
   },
   {
+    "name": "Potassium Hydroxide",
+    "role": "pH adjuster",
+    "description": "A strong alkali used in tiny amounts to raise pH; in finished toothpaste it is neutralized into the base."
+  },
+  {
     "name": "Propanediol",
     "role": "Humectant / solvent",
     "description": "A plant-derived glycol that hydrates, improves texture, and helps dissolve other ingredients."
+  },
+  {
+    "name": "Propylene Glycol",
+    "role": "Humectant / solvent",
+    "description": "A common hydrator and solvent that keeps formulas from drying out and helps dissolve other ingredients."
   },
   {
     "name": "Prototheca Moriformis (Microalgae) Oil",
@@ -1253,14 +1353,34 @@ const INGREDIENTS: IngredientInfo[] = [
     "description": "Sodium bicarbonate used to neutralize odor. Effective for many people, though sensitive skin may prefer baking-soda-free formulas."
   },
   {
+    "name": "Sodium Chloride",
+    "role": "Mineral salt",
+    "description": "Table-salt chemistry used for flavor, thickness, or ionic strength depending on the formula."
+  },
+  {
     "name": "Sodium Citrate",
     "role": "pH / chelator",
     "description": "A buffering salt that helps stabilize pH and can assist with chelation in water-based products."
   },
   {
+    "name": "Sodium Cocoate",
+    "role": "Soap surfactant",
+    "description": "The sodium salt of coconut fatty acids—the cleansing part of a bar soap."
+  },
+  {
     "name": "Sodium Cocoyl Apple Amino Acids",
     "role": "Mild surfactant",
     "description": "An amino-acid cleanser from coconut/apple chemistry—known for soft foam and mild skin feel."
+  },
+  {
+    "name": "Sodium Fluoride",
+    "role": "Anticavity active",
+    "description": "A fluoride salt that helps remineralize enamel and prevent cavities when used as directed in toothpaste."
+  },
+  {
+    "name": "Sodium Gluconate",
+    "role": "Chelator",
+    "description": "A sugar-derived chelator that binds metal ions so formulas stay stable and clear."
   },
   {
     "name": "Sodium Hydroxide",
@@ -1273,9 +1393,39 @@ const INGREDIENTS: IngredientInfo[] = [
     "description": "A gentle sugar-derived surfactant used in sulfate-free cleansing systems."
   },
   {
+    "name": "Sodium Lauryl Sulfate",
+    "role": "Foaming surfactant",
+    "description": "SLS is a strong foamer that some people skip due to mouth or skin irritation; many natural pastes offer SLS-free options."
+  },
+  {
+    "name": "Sodium Monofluorophosphate",
+    "role": "Anticavity active",
+    "description": "A fluoride compound used in toothpaste to help strengthen enamel and fight cavities."
+  },
+  {
+    "name": "Sodium Palm Kernelate",
+    "role": "Soap surfactant",
+    "description": "The sodium salt of palm-kernel fatty acids, used with other soap salts to make a solid cleansing bar."
+  },
+  {
+    "name": "Sodium Palmate",
+    "role": "Soap surfactant",
+    "description": "The sodium salt of palm fatty acids—a classic bar-soap cleanser."
+  },
+  {
+    "name": "Sodium Phosphate",
+    "role": "pH buffer",
+    "description": "A phosphate salt that helps hold toothpaste pH in a range where cleaning and fluoride can work."
+  },
+  {
     "name": "Sodium Phytate",
     "role": "Chelator",
     "description": "A plant-derived chelator that binds metal ions to help keep formulas stable and preservatives effective."
+  },
+  {
+    "name": "Sodium Stearate",
+    "role": "Thickener / soap",
+    "description": "A fatty-acid salt that firms sticks and bars and can contribute to cleansing."
   },
   {
     "name": "Sodium Stearoyl Glutamate",
@@ -1291,6 +1441,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "name": "Sorbitan Olivate",
     "role": "Emulsifier",
     "description": "An olive-based emulsifier that helps form stable, skin-friendly cream textures."
+  },
+  {
+    "name": "Sorbitol",
+    "role": "Humectant / sweetener",
+    "description": "A sugar alcohol that keeps toothpaste moist on the shelf and adds a mild sweetness."
   },
   {
     "name": "Sourcing",
@@ -1351,6 +1506,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "name": "Synthetic Fragrance",
     "role": "Commonly avoided",
     "description": "Synthetic Fragrance is listed among ingredients some shoppers prefer to avoid."
+  },
+  {
+    "name": "Tetrasodium Pyrophosphate",
+    "role": "Antitartar",
+    "description": "A phosphate that helps keep tartar from hardening on teeth by binding calcium in saliva."
   },
   {
     "name": "Theobroma Cacao (Cocoa) Seed Butter",
@@ -1508,6 +1668,11 @@ const INGREDIENTS: IngredientInfo[] = [
     "description": "A trace mineral used for immune and skin support; topical zinc salts can also help with oil and odor control."
   },
   {
+    "name": "Zinc Citrate",
+    "role": "Oral care mineral",
+    "description": "A zinc salt used in toothpaste and mouthwash to help with fresh breath and plaque control."
+  },
+  {
     "name": "Zinc Oxide",
     "role": "Mineral UV filter",
     "description": "A mineral sunscreen agent that sits on skin and reflects UVA/UVB. Common in reef-conscious formulas and gentle enough for many sensitive skin types."
@@ -1522,6 +1687,7 @@ const INGREDIENTS: IngredientInfo[] = [
     "role": "Essential or carrier oil",
     "description": "Ginger oil used for aroma and skin feel. Essential oils are concentrated—beautiful in small amounts, and worth patch-testing if your skin is reactive."
   }
+
 ];
 
 for (const info of INGREDIENTS) {
@@ -1533,7 +1699,15 @@ const ALIASES: Record<string, string> = {
   "caprylic / capric triglyceride": "caprylic/capric triglyceride",
   "caprylic/capric triglyceride (mct)": "caprylic/capric triglyceride (mct)",
   "aloe barbendensis leaf juice": "aloe barbendensis leaf juice",
+  "aloe barbadensis leaf juice (organic)": "aloe vera",
   "and sodium hyaluronate": "sodium hyaluronate",
+  "butyrospermum parkii (shea) butter": "shea butter",
+  "cocos nucifera (coconut) oil (organic)": "coconut oil",
+  "methylheptyl glycerin": "methylheptylglycerin",
+  "natural flavor": "natural flavors",
+  "propanediol (vegetable derived)": "propanediol",
+  "rebaudioside a": "rebaudioside a (stevia leaf extract)",
+  "sodium bicarbonate": "sodium bicarbonate (baking soda)",
 };
 
 export function getIngredientInfo(name: string): IngredientInfo {

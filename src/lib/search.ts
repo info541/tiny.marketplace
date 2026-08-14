@@ -127,6 +127,53 @@ export function searchCatalog(query: string, limit = 8): SearchHit[] {
   return hits.slice(0, limit);
 }
 
+export type ProductSearchHit = Extract<SearchHit, { type: "product" }>;
+
+export type CompareSuggestion = {
+  slug: string;
+  name: string;
+  brandName: string;
+  price: number;
+  imageUrl?: string;
+  accent: string;
+};
+
+export function searchProducts(
+  query: string,
+  options?: { excludeSlugs?: string[]; limit?: number },
+): ProductSearchHit[] {
+  const exclude = new Set(options?.excludeSlugs ?? []);
+  const limit = options?.limit ?? 8;
+
+  return searchCatalog(query, 40)
+    .filter((hit): hit is ProductSearchHit => hit.type === "product")
+    .filter((hit) => !exclude.has(hit.href.replace("/products/", "")))
+    .slice(0, limit);
+}
+
+export function getCompareSuggestions(currentSlug: string, limit = 8): CompareSuggestion[] {
+  const current = products.find((p) => p.slug === currentSlug);
+  if (!current) return [];
+
+  const pool = products.filter((p) => p.slug !== currentSlug);
+  const ranked = [
+    ...pool.filter((p) => p.category === current.category),
+    ...pool.filter((p) => p.category !== current.category),
+  ];
+
+  return ranked.slice(0, limit).map((p) => {
+    const brand = getBrand(p.brandId);
+    return {
+      slug: p.slug,
+      name: p.name,
+      brandName: brand?.name ?? "",
+      price: p.price,
+      imageUrl: p.imageUrl,
+      accent: p.accent,
+    };
+  });
+}
+
 export function highlightMatch(text: string, query: string) {
   const needle = query.trim();
   if (!needle) return [{ text, match: false }];

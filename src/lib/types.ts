@@ -21,6 +21,7 @@ export type Brand = {
   rating: number;
   reviewCount: number;
   followerCount: number;
+  websiteUrl?: string;
 };
 
 export type Product = {
@@ -38,6 +39,8 @@ export type Product = {
   accent: string;
   badge?: string;
   imageUrl?: string;
+  /** Shop / affiliate link (brand site or Amazon Associates) */
+  affiliateUrl?: string;
   /** Username of who placed this direct listing */
   placedBy?: string;
 };
