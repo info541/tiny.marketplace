@@ -1,17 +1,18 @@
 import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
-import { Bricolage_Grotesque, Figtree } from "next/font/google";
+import { DM_Sans, Playfair_Display } from "next/font/google";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import "./globals.css";
 
-const display = Bricolage_Grotesque({
+const display = Playfair_Display({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["500", "600", "700", "800"],
+  style: ["normal", "italic"],
+  weight: ["400", "500", "600", "700"],
 });
 
-const body = Figtree({
+const body = DM_Sans({
   variable: "--font-body",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
@@ -23,14 +24,14 @@ export const metadata: Metadata = {
     template: "%s · the tiny marketplace",
   },
   description:
-    "A fun marketplace for small cosmetic & wellness brands — discover products, hunt ingredients, leave reviews, and talk shop.",
+    "A marketplace for small cosmetic & wellness brands — discover products, hunt ingredients, leave reviews, and talk shop.",
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
-  themeColor: "#f7fbf8",
+  themeColor: "#1a1a1a",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

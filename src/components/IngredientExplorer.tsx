@@ -22,7 +22,7 @@ export function IngredientExplorer({
 
   return (
     <div className="space-y-8">
-      <div className="surface rounded-[1.5rem] p-4 sm:p-5 md:p-7">
+      <div className="surface p-4 sm:p-5 md:p-7">
         <div className="flex flex-col gap-4 md:flex-row md:items-center">
           <label className="flex-1">
             <span className="mb-2 block text-xs font-bold uppercase tracking-[0.14em] text-ink-soft/70">
@@ -32,7 +32,7 @@ export function IngredientExplorer({
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Try zinc oxide, fragrance, hemp protein…"
-              className="w-full rounded-2xl border border-line bg-white/80 px-4 py-3.5 text-base outline-none ring-lemon transition focus:ring-4"
+              className="w-full rounded-lg border border-line bg-white px-4 py-3.5 text-base outline-none transition focus:border-ink/30 focus:ring-2 focus:ring-ink/10"
             />
           </label>
           <div className="flex w-full gap-2 md:w-auto md:pt-6">

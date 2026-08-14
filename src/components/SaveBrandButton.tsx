@@ -64,7 +64,7 @@ export function SaveBrandButton({ brandId, initialSaved }: Props) {
         type="button"
         onClick={toggle}
         disabled={loading}
-        className={`btn !py-2 text-sm ${saved ? "btn-ghost" : "btn-lemon"} disabled:opacity-60`}
+        className={`btn !py-2 text-sm ${saved ? "btn-ghost" : "btn-primary"} disabled:opacity-60`}
       >
         {loading ? "Saving…" : saved ? "Saved ✓" : "Save brand"}
       </button>

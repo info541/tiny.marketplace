@@ -43,7 +43,7 @@ export function IngredientList({ ingredients, freeFrom = [] }: Props) {
             <button
               type="button"
               onClick={() => setActive(ing)}
-              className="group flex w-full items-baseline gap-3 text-left text-sm hover:text-teal-deep"
+              className="group flex w-full items-baseline gap-3 text-left text-sm hover:text-ink"
             >
               <span className="w-6 shrink-0 font-mono text-xs text-ink-soft/55">
                 {String(index + 1).padStart(2, "0")}
@@ -63,7 +63,7 @@ export function IngredientList({ ingredients, freeFrom = [] }: Props) {
                 <button
                   type="button"
                   onClick={() => setActive(ing)}
-                  className="inline-block rounded-full border border-line bg-white/70 px-3 py-1.5 text-sm font-semibold text-ink-soft transition hover:border-teal hover:text-teal-deep"
+                  className="inline-block border border-line bg-white px-3 py-1.5 text-sm font-medium text-ink-soft transition hover:border-ink hover:text-ink"
                 >
                   {ing}
                 </button>
@@ -85,7 +85,7 @@ export function IngredientList({ ingredients, freeFrom = [] }: Props) {
           <div className="flex flex-col">
             <div className="border-b border-line px-5 py-4">
               <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-ink-soft/70">{info.role}</p>
-              <h3 id={titleId} className="mt-1 font-display text-xl font-extrabold tracking-[-0.03em]">
+              <h3 id={titleId} className="mt-1 font-display text-xl font-medium tracking-tight">
                 {info.name}
               </h3>
             </div>

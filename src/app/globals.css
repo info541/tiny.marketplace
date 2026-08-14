@@ -1,21 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --ink: #142821;
-  --ink-soft: #2a4038;
-  --mist: #e7f2ec;
-  --foam: #f7fbf8;
-  --lemon: #f2e27a;
-  --coral: #ff5a3c;
-  --teal: #1f8a7a;
-  --teal-deep: #0f5c52;
-  --sky: #8ecae6;
-  --lilac: #c4b5e0;
-  --line: color-mix(in oklab, var(--ink) 12%, transparent);
-  --shadow: 0 18px 50px color-mix(in oklab, var(--ink) 12%, transparent);
-  --radius: 1.25rem;
+  --ink: #1a1a1a;
+  --ink-soft: #6e6e6e;
+  --mist: #f3f3f1;
+  --foam: #f7f7f5;
+  --lemon: #1a1a1a;
+  --coral: #b42318;
+  --teal: #1a1a1a;
+  --teal-deep: #1a1a1a;
+  --sky: #d4d4d0;
+  --lilac: #d4d4d0;
+  --line: #e8e8e6;
+  --shadow: 0 12px 40px color-mix(in oklab, var(--ink) 8%, transparent);
+  --radius: 0.75rem;
   --background: var(--foam);
   --foreground: var(--ink);
+  --header: #1a1a1a;
+  --header-search: #2a2a2a;
 }
 
 @theme inline {
@@ -32,8 +34,9 @@
   --color-sky: var(--sky);
   --color-lilac: var(--lilac);
   --color-line: var(--line);
-  --font-sans: var(--font-body);
-  --font-display: var(--font-display);
+  --color-header: var(--header);
+  --font-sans: "DM Sans", "DM Sans Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", "Playfair Display Fallback", Georgia, serif;
 }
 
 * {
@@ -48,24 +51,9 @@ body {
   margin: 0;
   min-height: 100vh;
   color: var(--ink);
-  background:
-    radial-gradient(1200px 600px at 10% -10%, color-mix(in oklab, var(--lemon) 55%, white), transparent 60%),
-    radial-gradient(900px 500px at 100% 0%, color-mix(in oklab, var(--sky) 45%, white), transparent 55%),
-    radial-gradient(800px 500px at 50% 100%, color-mix(in oklab, var(--mist) 80%, white), transparent 50%),
-    var(--foam);
-  font-family: var(--font-body), system-ui, sans-serif;
+  background: var(--foam);
+  font-family: var(--font-body), "DM Sans", system-ui, sans-serif;
   overflow-x: hidden;
-}
-
-body::before {
-  content: "";
-  pointer-events: none;
-  position: fixed;
-  inset: 0;
-  opacity: 0.35;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.45'/%3E%3C/svg%3E");
-  mix-blend-mode: multiply;
-  z-index: 50;
 }
 
 a {
@@ -74,30 +62,12 @@ a {
 }
 
 ::selection {
-  background: var(--lemon);
-  color: var(--ink);
+  background: var(--ink);
+  color: white;
 }
 
 .font-display {
   font-family: var(--font-display), Georgia, serif;
-}
-
-.market-grid {
-  background-image:
-    linear-gradient(color-mix(in oklab, var(--ink) 6%, transparent) 1px, transparent 1px),
-    linear-gradient(90deg, color-mix(in oklab, var(--ink) 6%, transparent) 1px, transparent 1px);
-  background-size: 28px 28px;
-  mask-image: linear-gradient(to bottom, black, transparent 90%);
-}
-
-@keyframes floaty {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
 }
 
 @keyframes marquee {
@@ -112,7 +82,7 @@ a {
 @keyframes rise-in {
   from {
     opacity: 0;
-    transform: translateY(18px);
+    transform: translateY(14px);
   }
   to {
     opacity: 1;
@@ -120,21 +90,8 @@ a {
   }
 }
 
-@keyframes shimmer {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
-}
-
-.animate-floaty {
-  animation: floaty 5s ease-in-out infinite;
-}
-
 .animate-marquee {
-  animation: marquee 28s linear infinite;
+  animation: marquee 36s linear infinite;
 }
 
 .animate-rise {
@@ -158,14 +115,14 @@ a {
   gap: 0.5rem;
   min-height: 2.75rem;
   border-radius: 999px;
-  padding: 0.85rem 1.4rem;
-  font-weight: 650;
+  padding: 0.8rem 1.35rem;
+  font-weight: 500;
   letter-spacing: -0.01em;
   transition:
-    transform 180ms ease,
     background 180ms ease,
-    box-shadow 180ms ease,
-    color 180ms ease;
+    color 180ms ease,
+    border-color 180ms ease,
+    opacity 180ms ease;
 }
 
 @media (max-width: 639px) {
@@ -174,50 +131,51 @@ a {
   }
 }
 
-.btn:hover {
-  transform: translateY(-2px);
-}
-
 .btn-primary {
-  background: var(--ink);
-  color: var(--foam);
-  box-shadow: 0 10px 30px color-mix(in oklab, var(--ink) 25%, transparent);
+  background: #6a6a6a;
+  color: white;
 }
 
 .btn-primary:hover {
-  background: var(--teal-deep);
+  background: var(--ink);
 }
 
 .btn-lemon {
-  background: var(--lemon);
-  color: var(--ink);
-  box-shadow: 0 10px 28px color-mix(in oklab, var(--lemon) 45%, transparent);
+  background: var(--ink);
+  color: white;
+}
+
+.btn-lemon:hover {
+  background: #333;
 }
 
 .btn-ghost {
-  background: color-mix(in oklab, white 70%, transparent);
-  border: 1px solid var(--line);
-  backdrop-filter: blur(8px);
+  background: transparent;
+  border: 1px solid #cfcfcf;
+  color: var(--ink);
+}
+
+.btn-ghost:hover {
+  border-color: var(--ink);
 }
 
 .chip {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  min-height: 2.25rem;
+  min-height: 2.15rem;
   border-radius: 999px;
-  padding: 0.45rem 0.9rem;
+  padding: 0.4rem 0.9rem;
   font-size: 0.85rem;
-  font-weight: 600;
+  font-weight: 500;
   border: 1px solid var(--line);
-  background: color-mix(in oklab, white 75%, transparent);
+  background: white;
   transition:
     background 160ms ease,
     border-color 160ms ease,
-    transform 160ms ease;
+    color 160ms ease;
 }
 
-/* Avoid iOS zoom on focus for form controls under 16px */
 input,
 textarea,
 select {
@@ -226,19 +184,17 @@ select {
 
 .chip:hover {
   border-color: color-mix(in oklab, var(--ink) 28%, transparent);
-  transform: translateY(-1px);
 }
 
 .chip-active {
   background: var(--ink);
-  color: var(--foam);
+  color: white;
   border-color: var(--ink);
 }
 
 .surface {
-  background: color-mix(in oklab, white 78%, transparent);
+  background: white;
   border: 1px solid var(--line);
-  backdrop-filter: blur(10px);
 }
 
 .pack {
@@ -247,20 +203,7 @@ select {
   isolation: isolate;
 }
 
-.pack::after {
-  content: "";
-  position: absolute;
-  inset: auto -20% -30% auto;
-  width: 60%;
-  height: 60%;
-  border-radius: 50%;
-  background: color-mix(in oklab, white 35%, transparent);
-  filter: blur(8px);
-  z-index: -1;
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .animate-floaty,
   .animate-marquee,
   .animate-rise {
     animation: none !important;

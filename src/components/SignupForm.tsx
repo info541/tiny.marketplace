@@ -45,7 +45,7 @@ export function SignupForm() {
   }
 
   return (
-    <form onSubmit={onSubmit} className="surface space-y-4 rounded-[1.5rem] p-5 sm:p-6 md:p-8">
+    <form onSubmit={onSubmit} className="surface space-y-4 p-5 sm:p-6 md:p-8">
       <label className="block">
         <span className="mb-1.5 block text-xs font-bold uppercase tracking-[0.14em] text-ink-soft/70">
           Email
@@ -56,7 +56,7 @@ export function SignupForm() {
           autoComplete="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full rounded-2xl border border-line bg-white/80 px-4 py-3 outline-none ring-lemon transition focus:ring-4"
+          className="w-full rounded-lg border border-line bg-white px-4 py-3 outline-none transition focus:border-ink/30 focus:ring-2 focus:ring-ink/10"
           placeholder="you@email.com"
         />
       </label>
@@ -72,7 +72,7 @@ export function SignupForm() {
           minLength={6}
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="w-full rounded-2xl border border-line bg-white/80 px-4 py-3 outline-none ring-lemon transition focus:ring-4"
+          className="w-full rounded-lg border border-line bg-white px-4 py-3 outline-none transition focus:border-ink/30 focus:ring-2 focus:ring-ink/10"
           placeholder="At least 6 characters"
         />
       </label>
@@ -93,7 +93,7 @@ export function SignupForm() {
 
       <p className="text-center text-sm text-ink-soft">
         Already have an account?{" "}
-        <Link href="/login" className="font-bold text-teal-deep hover:underline">
+        <Link href="/login" className="font-medium text-ink underline-offset-4 hover:underline">
           Sign in
         </Link>
       </p>

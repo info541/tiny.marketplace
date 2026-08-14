@@ -105,7 +105,7 @@ export function BrowseClient() {
 
       <p className="mt-8 text-center text-sm text-ink-soft">
         Hunting a specific molecule?{" "}
-        <Link href="/ingredients" className="font-bold text-teal-deep underline-offset-2 hover:underline">
+        <Link href="/ingredients" className="font-medium text-ink underline-offset-4 hover:underline">
           Open ingredient search
         </Link>
       </p>

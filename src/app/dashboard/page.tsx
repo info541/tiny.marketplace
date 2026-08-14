@@ -119,7 +119,7 @@ export default async function DashboardPage() {
       <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div className="min-w-0">
           <p className="text-xs font-bold uppercase tracking-[0.16em] text-ink-soft/70">Dashboard</p>
-          <h1 className="mt-2 font-display text-3xl font-extrabold tracking-[-0.04em] sm:text-4xl md:text-5xl">
+          <h1 className="mt-2 font-display text-3xl font-medium tracking-tight sm:text-4xl md:text-5xl">
             Hey, {displayName}
           </h1>
           <p className="mt-2 max-w-xl text-sm text-ink-soft sm:text-base">
@@ -142,7 +142,7 @@ export default async function DashboardPage() {
             in the{" "}
             <a
               href="https://supabase.com/dashboard/project/crxvkpamidsnrezguntl/sql/new"
-              className="font-semibold text-teal-deep underline"
+              className="font-medium text-ink underline"
               target="_blank"
               rel="noreferrer"
             >
@@ -161,7 +161,7 @@ export default async function DashboardPage() {
         ].map((stat) => (
           <div key={stat.label} className="surface rounded-[1.25rem] p-5">
             <p className="text-xs font-bold uppercase tracking-[0.14em] text-ink-soft/70">{stat.label}</p>
-            <p className="mt-2 font-display text-4xl font-extrabold tracking-tight">{stat.value}</p>
+            <p className="mt-2 font-display text-4xl font-medium tracking-tight">{stat.value}</p>
           </div>
         ))}
       </div>
@@ -169,10 +169,10 @@ export default async function DashboardPage() {
       <section className="mt-12 sm:mt-14">
         <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between sm:gap-3">
           <div className="min-w-0">
-            <h2 className="font-display text-2xl font-extrabold tracking-[-0.03em] sm:text-3xl">Saved brands</h2>
+            <h2 className="font-display text-2xl font-medium tracking-tight sm:text-3xl">Saved brands</h2>
             <p className="mt-1 text-sm text-ink-soft">Makers you’re following from the marketplace.</p>
           </div>
-          <Link href="/browse" className="shrink-0 text-sm font-bold text-teal-deep hover:underline">
+          <Link href="/browse" className="shrink-0 text-sm font-medium text-ink underline-offset-4 hover:underline">
             Find more →
           </Link>
         </div>
@@ -209,7 +209,7 @@ export default async function DashboardPage() {
 
       <section className="mt-12 sm:mt-14">
         <div className="mb-5">
-          <h2 className="font-display text-2xl font-extrabold tracking-[-0.03em] sm:text-3xl">Saved products</h2>
+          <h2 className="font-display text-2xl font-medium tracking-tight sm:text-3xl">Saved products</h2>
           <p className="mt-1 text-sm text-ink-soft">Shelf notes for later.</p>
         </div>
         {productRows.length ? (
@@ -242,7 +242,7 @@ export default async function DashboardPage() {
 
       <section className="mt-12 sm:mt-14">
         <div className="mb-5">
-          <h2 className="font-display text-2xl font-extrabold tracking-[-0.03em] sm:text-3xl">Your reviews</h2>
+          <h2 className="font-display text-2xl font-medium tracking-tight sm:text-3xl">Your reviews</h2>
           <p className="mt-1 text-sm text-ink-soft">Past comments you’ve left on products and brands.</p>
         </div>
         {reviewRows.length ? (
@@ -250,20 +250,20 @@ export default async function DashboardPage() {
             {reviewRows.map((review) => (
               <article key={review.id} className="surface rounded-[1.25rem] p-5">
                 <div className="flex flex-wrap items-center justify-between gap-2">
-                  <p className="rounded-full bg-lemon px-2.5 py-1 text-sm font-bold">★ {review.rating}.0</p>
+                  <p className="text-sm font-medium">★ {review.rating}.0</p>
                   <p className="text-xs text-ink-soft">{daysAgo(review.created_at)}d ago</p>
                 </div>
                 <h3 className="mt-3 font-display text-xl font-bold tracking-[-0.02em]">{review.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink-soft">{review.body}</p>
                 <p className="mt-3 text-sm font-semibold">
                   {review.products ? (
-                    <Link href={`/products/${review.products.slug}`} className="text-teal-deep hover:underline">
+                    <Link href={`/products/${review.products.slug}`} className="text-ink underline-offset-4 hover:underline">
                       {review.products.name}
                     </Link>
                   ) : null}
                   {review.products && review.brands ? " · " : null}
                   {review.brands ? (
-                    <Link href={`/brands/${review.brands.slug}`} className="text-teal-deep hover:underline">
+                    <Link href={`/brands/${review.brands.slug}`} className="text-ink underline-offset-4 hover:underline">
                       {review.brands.name}
                     </Link>
                   ) : null}
@@ -281,10 +281,10 @@ export default async function DashboardPage() {
       <section className="mb-8 mt-12 sm:mt-14">
         <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between sm:gap-3">
           <div className="min-w-0">
-            <h2 className="font-display text-2xl font-extrabold tracking-[-0.03em] sm:text-3xl">Your talk</h2>
+            <h2 className="font-display text-2xl font-medium tracking-tight sm:text-3xl">Your talk</h2>
             <p className="mt-1 text-sm text-ink-soft">Threads you’ve started in the community.</p>
           </div>
-          <Link href="/community" className="shrink-0 text-sm font-bold text-teal-deep hover:underline">
+          <Link href="/community" className="shrink-0 text-sm font-medium text-ink underline-offset-4 hover:underline">
             Open talk →
           </Link>
         </div>
@@ -292,7 +292,7 @@ export default async function DashboardPage() {
           <div className="space-y-4">
             {postRows.map((post) => (
               <article key={post.id} className="surface rounded-[1.25rem] p-5">
-                <p className="text-xs font-bold uppercase tracking-[0.12em] text-teal-deep">{post.topic}</p>
+                <p className="text-xs font-medium uppercase tracking-[0.12em] text-ink-soft">{post.topic}</p>
                 <h3 className="mt-2 font-display text-xl font-bold">{post.title}</h3>
                 <p className="mt-2 text-sm text-ink-soft">{post.body}</p>
                 <p className="mt-3 text-sm font-semibold text-ink-soft">
@@ -304,7 +304,7 @@ export default async function DashboardPage() {
         ) : (
           <div className="surface rounded-[1.25rem] p-6 text-sm text-ink-soft">
             No threads yet — hop into{" "}
-            <Link href="/community" className="font-semibold text-teal-deep hover:underline">
+            <Link href="/community" className="font-medium text-ink underline-offset-4 hover:underline">
               Talk
             </Link>{" "}
             when you’re ready to post.

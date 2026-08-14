@@ -7,6 +7,7 @@ import { HeaderSearch } from "@/components/HeaderSearch";
 
 const links = [
   { href: "/browse", label: "Browse" },
+  { href: "/#brands", label: "Brands" },
   { href: "/ingredients", label: "Ingredients" },
   { href: "/community", label: "Talk" },
 ];
@@ -55,7 +56,7 @@ function UserMenu({ email }: { email: string }) {
         aria-expanded={open}
         aria-controls={menuId}
         onClick={() => setOpen((value) => !value)}
-        className="flex h-10 w-10 items-center justify-center rounded-full bg-ink text-xs font-bold tracking-wide text-lemon shadow-[0_6px_16px_color-mix(in_oklab,var(--ink)_22%,transparent)] transition hover:-translate-y-0.5 hover:bg-teal-deep"
+        className="flex h-9 w-9 items-center justify-center rounded-full border border-white/25 text-[11px] font-medium tracking-wide text-white transition hover:bg-white/10"
         title="Account menu"
       >
         {initials}
@@ -65,18 +66,18 @@ function UserMenu({ email }: { email: string }) {
         <div
           id={menuId}
           role="menu"
-          className="absolute right-0 z-50 mt-2 w-[min(14rem,calc(100vw-2rem))] overflow-hidden rounded-2xl border border-line bg-white/95 shadow-[var(--shadow)] backdrop-blur-xl"
+          className="absolute right-0 z-50 mt-2 w-[min(14rem,calc(100vw-2rem))] overflow-hidden border border-line bg-white shadow-[var(--shadow)]"
         >
           <div className="border-b border-line px-4 py-3">
-            <p className="text-xs font-bold uppercase tracking-[0.14em] text-ink-soft/70">Signed in</p>
-            <p className="mt-1 truncate text-sm font-semibold text-ink">{email}</p>
+            <p className="text-[11px] font-medium uppercase tracking-[0.16em] text-ink-soft">Signed in</p>
+            <p className="mt-1 truncate text-sm font-medium text-ink">{email}</p>
           </div>
           <div className="p-1.5">
             <Link
               href="/dashboard"
               role="menuitem"
               onClick={() => setOpen(false)}
-              className="block rounded-xl px-3 py-2.5 text-sm font-semibold text-ink transition hover:bg-mist"
+              className="block px-3 py-2.5 text-sm font-medium text-ink transition hover:bg-mist"
             >
               Dashboard
             </Link>
@@ -84,7 +85,7 @@ function UserMenu({ email }: { email: string }) {
               href="/profile"
               role="menuitem"
               onClick={() => setOpen(false)}
-              className="block rounded-xl px-3 py-2.5 text-sm font-semibold text-ink transition hover:bg-mist"
+              className="block px-3 py-2.5 text-sm font-medium text-ink transition hover:bg-mist"
             >
               Profile
             </Link>
@@ -94,7 +95,7 @@ function UserMenu({ email }: { email: string }) {
               <button
                 type="submit"
                 role="menuitem"
-                className="w-full rounded-xl px-3 py-2.5 text-left text-sm font-bold text-coral transition hover:bg-[color-mix(in_oklab,var(--coral)_12%,white)]"
+                className="w-full px-3 py-2.5 text-left text-sm font-medium text-coral transition hover:bg-[color-mix(in_oklab,var(--coral)_10%,white)]"
               >
                 Log out
               </button>
@@ -122,22 +123,22 @@ function MenuButton({
       aria-controls={controls}
       aria-label={open ? "Close menu" : "Open menu"}
       onClick={onClick}
-      className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[color-mix(in_oklab,var(--mist)_85%,white)] text-ink transition hover:bg-mist"
+      className="flex h-10 w-10 shrink-0 items-center justify-center text-white transition hover:bg-white/10"
     >
       <span className="sr-only">{open ? "Close menu" : "Open menu"}</span>
       <span className="relative block h-3.5 w-4" aria-hidden>
         <span
-          className={`absolute left-0 top-0 h-0.5 w-4 rounded-full bg-ink transition ${
+          className={`absolute top-0 left-0 h-px w-4 bg-white transition ${
             open ? "translate-y-[6px] rotate-45" : ""
           }`}
         />
         <span
-          className={`absolute left-0 top-[6px] h-0.5 w-4 rounded-full bg-ink transition ${
+          className={`absolute top-[6px] left-0 h-px w-4 bg-white transition ${
             open ? "opacity-0" : ""
           }`}
         />
         <span
-          className={`absolute left-0 top-[12px] h-0.5 w-4 rounded-full bg-ink transition ${
+          className={`absolute top-[12px] left-0 h-px w-4 bg-white transition ${
             open ? "-translate-y-[6px] -rotate-45" : ""
           }`}
         />
@@ -150,11 +151,13 @@ export function SiteHeaderClient({ email }: Props) {
   const pathname = usePathname();
   const hideChrome = pathname === "/login" || pathname === "/signup";
   const [menuOpen, setMenuOpen] = useState(false);
+  const [menuPath, setMenuPath] = useState(pathname);
   const menuId = useId();
 
-  useEffect(() => {
+  if (pathname !== menuPath) {
+    setMenuPath(pathname);
     setMenuOpen(false);
-  }, [pathname]);
+  }
 
   useEffect(() => {
     if (!menuOpen) return;
@@ -171,116 +174,92 @@ export function SiteHeaderClient({ email }: Props) {
   }, [menuOpen]);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-line bg-[color-mix(in_oklab,white_88%,transparent)] pt-[env(safe-area-inset-top)] backdrop-blur-xl">
-      {/* Desktop: logo · search · nav · auth */}
-      <div className="mx-auto hidden max-w-6xl items-center gap-4 px-8 py-3.5 md:flex">
-        <Link href="/" className="group flex shrink-0 items-baseline gap-2">
-          <span className="font-display text-xl font-extrabold tracking-[-0.04em] lg:text-2xl">
-            the tiny marketplace
+    <header className="sticky top-0 z-40 bg-header pt-[env(safe-area-inset-top)] text-white">
+      <div className="flex items-center gap-4 px-4 py-3 sm:px-5 md:gap-6 md:px-8">
+        <Link href="/" className="shrink-0">
+          <span className="font-display text-[1.65rem] leading-none font-normal tracking-tight lowercase sm:text-[1.8rem]">
+            tiny
           </span>
+          <span className="sr-only">the tiny marketplace</span>
         </Link>
 
-        {!hideChrome ? (
+        {hideChrome ? (
+          <Link href="/" className="ml-auto text-sm text-white/70 hover:text-white">
+            ← Back
+          </Link>
+        ) : (
           <>
-            <Suspense
-              fallback={
-                <div className="h-11 min-w-0 flex-1 rounded-full border border-line bg-white" aria-hidden />
-              }
-            >
-              <HeaderSearch inputId="site-search-desktop" className="mx-2 max-w-xl" />
-            </Suspense>
+            <nav className="hidden items-center gap-5 lg:flex">
+              {links.map((link) => {
+                const active =
+                  link.href !== "/#brands" &&
+                  (pathname === link.href || pathname.startsWith(`${link.href}/`));
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className={`text-[13px] transition ${
+                      active ? "text-white" : "text-white/70 hover:text-white"
+                    }`}
+                  >
+                    {link.label}
+                  </Link>
+                );
+              })}
+            </nav>
 
-            <div className="flex shrink-0 items-center gap-3">
-              <nav className="flex items-center gap-1 lg:gap-2">
-                {links.map((link) => {
-                  const active = pathname === link.href || pathname.startsWith(`${link.href}/`);
-                  return (
-                    <Link
-                      key={link.href}
-                      href={link.href}
-                      className={`rounded-full px-2.5 py-1.5 text-sm font-semibold transition lg:px-3 ${
-                        active ? "bg-ink text-foam" : "text-ink-soft hover:bg-mist"
-                      }`}
-                    >
-                      {link.label}
-                    </Link>
-                  );
-                })}
-              </nav>
-
+            <div className="ml-auto flex min-w-0 items-center gap-2 sm:gap-3">
               {email ? (
                 <UserMenu email={email} />
               ) : (
-                <Link
-                  href="/login"
-                  className="rounded-full bg-lemon px-3.5 py-1.5 text-sm font-bold tracking-[-0.01em] text-ink shadow-[0_6px_18px_color-mix(in_oklab,var(--lemon)_45%,transparent)] transition hover:-translate-y-0.5 hover:brightness-[1.03]"
-                >
-                  Log in
-                </Link>
+                <>
+                  <Link
+                    href="/login"
+                    className="hidden text-[13px] text-white/80 transition hover:text-white sm:inline"
+                  >
+                    Log in
+                  </Link>
+                  <Link
+                    href="/signup"
+                    className="hidden rounded-full border border-white/40 px-3.5 py-1.5 text-[13px] text-white transition hover:border-white hover:bg-white/10 sm:inline"
+                  >
+                    Sign Up
+                  </Link>
+                </>
               )}
+
+              <Suspense
+                fallback={
+                  <div className="h-10 min-w-0 flex-1 rounded-full bg-[#2a2a2a] md:w-56 md:flex-none" aria-hidden />
+                }
+              >
+                <HeaderSearch
+                  inputId="site-search"
+                  className="min-w-0 flex-1 md:w-56 md:flex-none lg:w-72"
+                />
+              </Suspense>
+
+              <span className="lg:hidden">
+                <MenuButton open={menuOpen} controls={menuId} onClick={() => setMenuOpen((value) => !value)} />
+              </span>
             </div>
           </>
-        ) : (
-          <Link href="/" className="ml-auto text-sm font-semibold text-ink-soft hover:text-ink">
-            ← Back
-          </Link>
         )}
       </div>
 
-      {/* Mobile: logo + auth on top, hamburger + search below */}
-      <div className="md:hidden">
-        <div className="flex items-center justify-between gap-3 px-4 pt-3 sm:px-5">
-          <Link href="/" className="min-w-0">
-            <span className="font-display text-[1.15rem] font-extrabold tracking-[-0.04em] sm:text-[1.35rem]">
-              the tiny marketplace
-            </span>
-          </Link>
-
-          {!hideChrome ? (
-            email ? (
-              <UserMenu email={email} />
-            ) : (
-              <Link href="/login" className="shrink-0 text-sm font-bold text-ink">
-                Log in
-              </Link>
-            )
-          ) : (
-            <Link href="/" className="shrink-0 text-sm font-semibold text-ink-soft hover:text-ink">
-              ← Back
-            </Link>
-          )}
-        </div>
-
-        {!hideChrome ? (
-          <div className="flex items-center gap-2.5 px-4 pb-3 pt-2.5 sm:px-5">
-            <MenuButton open={menuOpen} controls={menuId} onClick={() => setMenuOpen((value) => !value)} />
-            <Suspense
-              fallback={
-                <div className="h-11 min-w-0 flex-1 rounded-full border border-line bg-white" aria-hidden />
-              }
-            >
-              <HeaderSearch inputId="site-search-mobile" />
-            </Suspense>
-          </div>
-        ) : null}
-      </div>
-
       {!hideChrome && menuOpen ? (
-        <div
-          id={menuId}
-          className="border-t border-line bg-[color-mix(in_oklab,white_94%,transparent)] backdrop-blur-xl md:hidden"
-        >
-          <nav className="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-3 sm:px-5">
+        <div id={menuId} className="border-t border-white/10 bg-header lg:hidden">
+          <nav className="flex flex-col px-4 py-3 sm:px-5">
             {links.map((link) => {
-              const active = pathname === link.href || pathname.startsWith(`${link.href}/`);
+              const active =
+                link.href !== "/#brands" &&
+                (pathname === link.href || pathname.startsWith(`${link.href}/`));
               return (
                 <Link
                   key={link.href}
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
-                  className={`rounded-2xl px-4 py-3 text-base font-semibold transition ${
-                    active ? "bg-ink text-foam" : "text-ink hover:bg-mist"
-                  }`}
+                  className={`px-1 py-3 text-base ${active ? "text-white" : "text-white/75"}`}
                 >
                   {link.label}
                 </Link>
@@ -291,19 +270,36 @@ export function SiteHeaderClient({ email }: Props) {
                 <Link
                   href="/dashboard"
                   onClick={() => setMenuOpen(false)}
-                  className="rounded-2xl px-4 py-3 text-base font-semibold text-ink hover:bg-mist"
+                  className="px-1 py-3 text-base text-white/75"
                 >
                   Dashboard
                 </Link>
                 <Link
                   href="/profile"
                   onClick={() => setMenuOpen(false)}
-                  className="rounded-2xl px-4 py-3 text-base font-semibold text-ink hover:bg-mist"
+                  className="px-1 py-3 text-base text-white/75"
                 >
                   Profile
                 </Link>
               </>
-            ) : null}
+            ) : (
+              <>
+                <Link
+                  href="/login"
+                  onClick={() => setMenuOpen(false)}
+                  className="px-1 py-3 text-base text-white/75 sm:hidden"
+                >
+                  Log in
+                </Link>
+                <Link
+                  href="/signup"
+                  onClick={() => setMenuOpen(false)}
+                  className="px-1 py-3 text-base text-white sm:hidden"
+                >
+                  Sign Up
+                </Link>
+              </>
+            )}
           </nav>
         </div>
       ) : null}

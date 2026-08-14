@@ -16,16 +16,16 @@ function HitIcon({ hit }: { hit: SearchHit }) {
   if (hit.type === "product") {
     return (
       <span
-        className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-line"
+        className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden border border-line bg-mist"
         style={{
-          background: `linear-gradient(145deg, color-mix(in oklab, ${hit.accent} 28%, white), color-mix(in oklab, ${hit.accent} 45%, #e8efe9))`,
+          background: `linear-gradient(145deg, color-mix(in oklab, ${hit.accent} 18%, white), color-mix(in oklab, ${hit.accent} 28%, #f3f3f1))`,
         }}
       >
         {hit.imageUrl ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={hit.imageUrl} alt="" className="h-full w-full object-contain p-1" />
         ) : (
-          <span className="font-display text-xs font-bold text-ink/70">P</span>
+          <span className="font-display text-xs font-medium text-ink/70">P</span>
         )}
       </span>
     );
@@ -34,8 +34,8 @@ function HitIcon({ hit }: { hit: SearchHit }) {
   if (hit.type === "brand") {
     return (
       <span
-        className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-line text-xs font-bold text-ink"
-        style={{ background: `color-mix(in oklab, ${hit.accent} 35%, white)` }}
+        className="flex h-9 w-9 shrink-0 items-center justify-center border border-line text-xs font-medium text-ink"
+        style={{ background: `color-mix(in oklab, ${hit.accent} 28%, white)` }}
       >
         {hit.title.slice(0, 1)}
       </span>
@@ -44,14 +44,14 @@ function HitIcon({ hit }: { hit: SearchHit }) {
 
   if (hit.type === "category") {
     return (
-      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-line bg-mist font-display text-base text-teal-deep">
+      <span className="flex h-9 w-9 shrink-0 items-center justify-center border border-line bg-mist font-display text-base text-ink">
         {hit.mark}
       </span>
     );
   }
 
   return (
-    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-line bg-white text-[10px] font-bold uppercase tracking-wide text-ink-soft">
+    <span className="flex h-9 w-9 shrink-0 items-center justify-center border border-line bg-white text-[10px] font-medium uppercase tracking-wide text-ink-soft">
       ING
     </span>
   );
@@ -63,7 +63,7 @@ function Highlighted({ text, query }: { text: string; query: string }) {
     <>
       {parts.map((part, i) =>
         part.match ? (
-          <mark key={i} className="rounded-sm bg-lemon/80 px-0.5 text-ink">
+          <mark key={i} className="rounded-sm bg-mist px-0.5 text-ink">
             {part.text}
           </mark>
         ) : (
@@ -86,20 +86,25 @@ export function HeaderSearch({
   const listboxId = useId();
   const rootRef = useRef<HTMLFormElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
-  const [query, setQuery] = useState(() => searchParams.get("q") ?? "");
+  const urlQuery = searchParams.get("q") ?? "";
+  const [query, setQuery] = useState(urlQuery);
+  const [prevUrlQuery, setPrevUrlQuery] = useState(urlQuery);
   const [open, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [indexedQuery, setIndexedQuery] = useState(query);
 
-  useEffect(() => {
-    setQuery(searchParams.get("q") ?? "");
-  }, [searchParams]);
+  if (urlQuery !== prevUrlQuery) {
+    setPrevUrlQuery(urlQuery);
+    setQuery(urlQuery);
+  }
+
+  if (query !== indexedQuery) {
+    setIndexedQuery(query);
+    setActiveIndex(0);
+  }
 
   const hits = useMemo(() => searchCatalog(query, 8), [query]);
   const showDropdown = open && query.trim().length > 0;
-
-  useEffect(() => {
-    setActiveIndex(0);
-  }, [query]);
 
   useEffect(() => {
     function onPointerDown(event: MouseEvent) {
@@ -182,6 +187,16 @@ export function HeaderSearch({
         Search products and brands
       </label>
       <div className="relative">
+        <button
+          type="submit"
+          aria-label="Search"
+          className="absolute top-1/2 left-3 flex h-5 w-5 -translate-y-1/2 items-center justify-center text-white/55 transition hover:text-white"
+        >
+          <svg viewBox="0 0 20 20" fill="none" aria-hidden className="h-4 w-4">
+            <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" strokeWidth="1.6" />
+            <path d="M12.75 12.75 16.5 16.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+          </svg>
+        </button>
         <input
           ref={inputRef}
           id={inputId}
@@ -193,7 +208,7 @@ export function HeaderSearch({
           }}
           onFocus={() => setOpen(true)}
           onKeyDown={onKeyDown}
-          placeholder="Search sunscreen, zinc, brands…"
+          placeholder="What are you shopping for?"
           autoComplete="off"
           enterKeyHint="search"
           role="combobox"
@@ -203,33 +218,23 @@ export function HeaderSearch({
           aria-activedescendant={
             showDropdown && flatHits[activeIndex] ? `${listboxId}-opt-${activeIndex}` : undefined
           }
-          className="h-11 w-full rounded-full border border-line bg-white py-0 pl-4 pr-12 text-base text-ink outline-none placeholder:text-ink-soft/55 focus:border-ink/25 focus:ring-4 focus:ring-lemon/50"
+          className="h-10 w-full rounded-full bg-[#2a2a2a] py-0 pr-4 pl-10 text-sm text-white outline-none placeholder:text-white/40 focus:bg-[#323232]"
         />
-        <button
-          type="submit"
-          aria-label="Search"
-          className="absolute top-1/2 right-1.5 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-ink text-foam transition hover:bg-teal-deep"
-        >
-          <svg viewBox="0 0 20 20" fill="none" aria-hidden className="h-4 w-4">
-            <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" strokeWidth="1.8" />
-            <path d="M12.75 12.75 16.5 16.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-          </svg>
-        </button>
       </div>
 
       {showDropdown ? (
         <div
           id={listboxId}
           role="listbox"
-          className="absolute left-0 right-0 top-[calc(100%+0.4rem)] max-h-[min(70vh,24rem)] overflow-auto rounded-2xl border border-line bg-white/95 shadow-[var(--shadow)] backdrop-blur-xl"
+          className="absolute right-0 left-0 top-[calc(100%+0.4rem)] max-h-[min(70vh,24rem)] overflow-auto border border-line bg-white shadow-[var(--shadow)]"
         >
           {flatHits.length === 0 ? (
             <div className="px-4 py-5 text-sm text-ink-soft">
-              No matches for <span className="font-semibold text-ink">“{query.trim()}”</span>
+              No matches for <span className="font-medium text-ink">“{query.trim()}”</span>
               <button
                 type="button"
                 onClick={() => goToBrowse(query)}
-                className="mt-3 block w-full rounded-xl bg-mist px-3 py-2.5 text-left text-sm font-semibold text-ink transition hover:bg-[color-mix(in_oklab,var(--mist)_70%,white)]"
+                className="mt-3 block w-full bg-mist px-3 py-2.5 text-left text-sm font-medium text-ink transition hover:bg-[#ecece8]"
               >
                 Search all products →
               </button>
@@ -238,7 +243,7 @@ export function HeaderSearch({
             <>
               {grouped.map((group) => (
                 <div key={group.type}>
-                  <p className="sticky top-0 z-[1] border-b border-line/70 bg-[color-mix(in_oklab,white_92%,var(--mist))] px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.14em] text-ink-soft/70">
+                  <p className="sticky top-0 z-[1] border-b border-line bg-mist px-3 py-1.5 text-[10px] font-medium uppercase tracking-[0.14em] text-ink-soft">
                     {TYPE_LABEL[group.type]}
                   </p>
                   <ul>
@@ -258,14 +263,14 @@ export function HeaderSearch({
                           >
                             <HitIcon hit={hit} />
                             <span className="min-w-0 flex-1">
-                              <span className="block truncate text-sm font-semibold text-ink">
+                              <span className="block truncate text-sm font-medium text-ink">
                                 <Highlighted text={hit.title} query={query} />
                               </span>
                               <span className="mt-0.5 block truncate text-xs text-ink-soft">
                                 {hit.subtitle}
                               </span>
                             </span>
-                            <span className="shrink-0 text-[10px] font-bold uppercase tracking-wide text-ink-soft/55">
+                            <span className="shrink-0 text-[10px] font-medium uppercase tracking-wide text-ink-soft/55">
                               {hit.type}
                             </span>
                           </Link>
@@ -278,7 +283,7 @@ export function HeaderSearch({
               <button
                 type="button"
                 onClick={() => goToBrowse(query)}
-                className="sticky bottom-0 flex w-full items-center justify-between border-t border-line bg-white px-4 py-3 text-left text-sm font-bold text-teal-deep transition hover:bg-mist"
+                className="sticky bottom-0 flex w-full items-center justify-between border-t border-line bg-white px-4 py-3 text-left text-sm font-medium text-ink transition hover:bg-mist"
               >
                 <span>See all results for “{query.trim()}”</span>
                 <span aria-hidden>→</span>

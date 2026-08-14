@@ -2943,6 +2943,18 @@ export function reviewsForBrand(brandId: string) {
   return reviews.filter((r) => r.brandId === brandId);
 }
 
+export function productsWithImages() {
+  return products.filter((p) => p.imageUrl);
+}
+
+export function coverProductForBrand(brandId: string) {
+  return products.find((p) => p.brandId === brandId && p.imageUrl);
+}
+
+export function coverProductForCategory(categoryId: string) {
+  return products.find((p) => p.category === categoryId && p.imageUrl);
+}
+
 export function searchByIngredient(query: string, mode: "contains" | "free-from" = "contains") {
   const q = query.trim().toLowerCase();
   if (!q) return products;

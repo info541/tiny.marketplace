@@ -72,7 +72,7 @@ export function ProfileForm({ initialDisplayName, initialBio, email }: Props) {
         <input
           value={displayName}
           onChange={(e) => setDisplayName(e.target.value)}
-          className="w-full rounded-2xl border border-line bg-white/80 px-4 py-3 outline-none ring-lemon transition focus:ring-4"
+          className="w-full rounded-lg border border-line bg-white px-4 py-3 outline-none transition focus:border-ink/30 focus:ring-2 focus:ring-ink/10"
           placeholder="How you show up in reviews"
         />
       </label>
@@ -85,7 +85,7 @@ export function ProfileForm({ initialDisplayName, initialBio, email }: Props) {
           value={bio}
           onChange={(e) => setBio(e.target.value)}
           rows={4}
-          className="w-full resize-y rounded-2xl border border-line bg-white/80 px-4 py-3 outline-none ring-lemon transition focus:ring-4"
+          className="w-full resize-y rounded-lg border border-line bg-white px-4 py-3 outline-none transition focus:border-ink/30 focus:ring-2 focus:ring-ink/10"
           placeholder="Skin type, favorite categories, what you’re hunting for…"
         />
       </label>

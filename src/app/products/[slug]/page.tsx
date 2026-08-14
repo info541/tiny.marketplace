@@ -30,12 +30,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
       {/* Compact header: small image left, details right */}
       <div className="mt-6 flex flex-col gap-6 sm:mt-8 sm:flex-row sm:items-start sm:gap-8">
-        <div
-          className="mx-auto h-44 w-44 shrink-0 overflow-hidden rounded-2xl border border-line sm:mx-0 sm:h-52 sm:w-52"
-          style={{
-            background: `linear-gradient(160deg, color-mix(in oklab, ${product.accent} 14%, #ffffff), color-mix(in oklab, ${product.accent} 24%, #eef3ef))`,
-          }}
-        >
+        <div className="mx-auto h-44 w-44 shrink-0 overflow-hidden border border-line bg-mist sm:mx-0 sm:h-52 sm:w-52">
           {product.imageUrl ? (
             // eslint-disable-next-line @next/next/no-img-element -- remote Shopify CDN URLs; avoid next/image fill sizing issues
             <img
@@ -56,12 +51,12 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           {brand ? (
             <Link
               href={`/brands/${brand.slug}`}
-              className="text-sm font-semibold text-teal-deep hover:underline"
+              className="text-sm font-medium text-ink underline-offset-4 hover:underline"
             >
               {brand.name}
             </Link>
           ) : null}
-          <h1 className="mt-1 font-display text-[1.75rem] font-extrabold tracking-[-0.04em] sm:text-3xl md:text-4xl">
+          <h1 className="mt-1 font-display text-[1.75rem] font-medium tracking-tight sm:text-3xl md:text-4xl">
             {product.name}
           </h1>
           <div className="mt-3 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm sm:justify-start">
@@ -69,7 +64,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             <span className="font-semibold">★ {product.rating.toFixed(1)}</span>
             <span className="text-ink-soft">{product.reviewCount} reviews</span>
             {product.badge ? (
-              <span className="rounded-full bg-ink px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide text-lemon">
+              <span className="bg-ink px-2.5 py-1 text-[11px] font-medium uppercase tracking-wide text-white">
                 {product.badge}
               </span>
             ) : null}
@@ -90,12 +85,12 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
       <section className="mt-10 border-t border-line pt-8 sm:mt-12 sm:pt-10">
         <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-end sm:justify-between sm:gap-3">
           <div>
-            <h2 className="font-display text-xl font-extrabold tracking-[-0.03em] sm:text-2xl">Ingredients</h2>
+            <h2 className="font-display text-xl font-medium tracking-tight sm:text-2xl">Ingredients</h2>
             <p className="mt-1 text-sm text-ink-soft">
               {product.ingredients.length} in this formula · tap any for a quick explainer
             </p>
           </div>
-          <Link href="/ingredients" className="text-sm font-semibold text-teal-deep hover:underline">
+          <Link href="/ingredients" className="text-sm font-medium text-ink underline-offset-4 hover:underline">
             Ingredient explorer →
           </Link>
         </div>
@@ -104,7 +99,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
       </section>
 
       <section className="mt-10 border-t border-line pt-8 sm:mt-12 sm:pt-10">
-        <h2 className="font-display text-xl font-extrabold tracking-[-0.03em] sm:text-2xl">Reviews</h2>
+        <h2 className="font-display text-xl font-medium tracking-tight sm:text-2xl">Reviews</h2>
         <div className="mt-6 grid gap-4 sm:gap-5 md:grid-cols-2">
           {productReviews.length ? (
             productReviews.map((review) => <ReviewCard key={review.id} review={review} />)
