@@ -39,6 +39,11 @@ export function BrandMosaic() {
           );
         })}
       </div>
+      <div className="border-t border-line bg-mist px-4 py-3 text-center sm:px-5">
+        <Link href="/brands" className="text-sm font-semibold text-ink underline-offset-4 hover:underline">
+          Browse all {brands.length} brands →
+        </Link>
+      </div>
     </section>
   );
 }

@@ -22,6 +22,8 @@ export type Brand = {
   reviewCount: number;
   followerCount: number;
   websiteUrl?: string;
+  /** Local or remote brand logo path */
+  logoUrl?: string;
 };
 
 export type Product = {

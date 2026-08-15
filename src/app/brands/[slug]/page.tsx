@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { BrandLogo } from "@/components/BrandLogo";
 import { ProductTile } from "@/components/ProductTile";
 import { ReviewCard } from "@/components/ReviewCard";
 import { SaveBrandButton } from "@/components/SaveBrandButton";
@@ -46,12 +47,19 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
     <div>
       <section className="relative overflow-hidden border-b border-line bg-mist">
         <div className="mx-auto max-w-6xl px-4 py-10 sm:px-5 sm:py-14 md:px-8 md:py-20">
-          <Link href="/browse" className="text-sm font-semibold text-ink-soft hover:text-ink">
-            ← Back to browse
+          <Link href="/brands" className="text-sm font-semibold text-ink-soft hover:text-ink">
+            ← All brands
           </Link>
-          <p className="mt-5 text-xs font-bold uppercase tracking-[0.16em] text-ink-soft/70 sm:mt-6">
-            {brand.location} · Est. {brand.founded}
-          </p>
+          <div className="mt-5 flex flex-wrap items-center gap-4 sm:mt-6">
+            {brand.logoUrl ? (
+              <span className="flex h-16 w-16 items-center justify-center overflow-hidden border border-line bg-white p-2 sm:h-20 sm:w-20">
+                <BrandLogo src={brand.logoUrl} name={brand.name} size={72} />
+              </span>
+            ) : null}
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-ink-soft/70">
+              {brand.location} · Est. {brand.founded}
+            </p>
+          </div>
           <h1 className="mt-2 font-display text-4xl font-medium tracking-tight sm:text-5xl md:text-6xl">{brand.name}</h1>
           <p className="mt-3 max-w-xl text-lg text-ink-soft sm:text-xl">{brand.tagline}</p>
           <p className="mt-5 max-w-2xl text-sm leading-relaxed text-ink-soft sm:text-base">{brand.story}</p>

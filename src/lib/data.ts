@@ -1,3 +1,5 @@
+import { catalogBrands } from "./catalog-brands";
+import { catalogProducts } from "./catalog-products";
 import type { Brand, CommunityPost, Product, Review } from "./types";
 
 export const categories = [
@@ -27,6 +29,7 @@ export const brands: Brand[] = [
     reviewCount: 444,
     followerCount: 0,
     websiteUrl: "https://freaksofnature.com",
+    logoUrl: "/brands/freaks-of-nature.svg",
   },
   {
     id: "b7",
@@ -43,6 +46,7 @@ export const brands: Brand[] = [
     reviewCount: 6756,
     followerCount: 0,
     websiteUrl: "https://humblebrands.com",
+    logoUrl: "/brands/humble-brands.svg",
   },
   {
     id: "b8",
@@ -59,6 +63,7 @@ export const brands: Brand[] = [
     reviewCount: 20059,
     followerCount: 0,
     websiteUrl: "https://moonjuice.com",
+    logoUrl: "/brands/moon-juice.svg",
   },
   {
     id: "b9",
@@ -75,6 +80,7 @@ export const brands: Brand[] = [
     reviewCount: 0,
     followerCount: 0,
     websiteUrl: "https://www.tomsofmaine.com",
+    logoUrl: "/brands/toms-of-maine.png",
   },
   {
     id: "b1",
@@ -90,6 +96,7 @@ export const brands: Brand[] = [
     rating: 4.8,
     reviewCount: 312,
     followerCount: 1840,
+    logoUrl: "/brands/solara-lab.png",
   },
   {
     id: "b2",
@@ -105,6 +112,7 @@ export const brands: Brand[] = [
     rating: 4.6,
     reviewCount: 528,
     followerCount: 3201,
+    logoUrl: "/brands/pine-and-alum.svg",
   },
   {
     id: "b3",
@@ -120,6 +128,7 @@ export const brands: Brand[] = [
     rating: 4.7,
     reviewCount: 891,
     followerCount: 5120,
+    logoUrl: "/brands/nourish-co.png",
   },
   {
     id: "b4",
@@ -135,6 +144,7 @@ export const brands: Brand[] = [
     rating: 4.9,
     reviewCount: 1204,
     followerCount: 8900,
+    logoUrl: "/brands/dewdrop.png",
   },
   {
     id: "b5",
@@ -150,6 +160,7 @@ export const brands: Brand[] = [
     rating: 4.5,
     reviewCount: 267,
     followerCount: 1450,
+    logoUrl: "/brands/root-ritual.svg",
   },
   {
     id: "b6",
@@ -165,7 +176,9 @@ export const brands: Brand[] = [
     rating: 4.4,
     reviewCount: 189,
     followerCount: 980,
+    logoUrl: "/brands/mint-theory.png",
   },
+  ...catalogBrands,
 ];
 
 export const products: Product[] = [
@@ -4092,6 +4105,7 @@ export const products: Product[] = [
     reviewCount: 156,
     accent: "#45B69C",
   },
+  ...catalogProducts,
 ];
 
 export const reviews: Review[] = [
@@ -4250,12 +4264,21 @@ export function getBrand(idOrSlug: string) {
   return brands.find((b) => b.id === idOrSlug || b.slug === idOrSlug);
 }
 
+const productsById = new Map(products.map((p) => [p.id, p]));
+const productsBySlug = new Map(products.map((p) => [p.slug, p]));
+const productsByBrandId = products.reduce((map, p) => {
+  const list = map.get(p.brandId);
+  if (list) list.push(p);
+  else map.set(p.brandId, [p]);
+  return map;
+}, new Map<string, Product[]>());
+
 export function getProduct(idOrSlug: string) {
-  return products.find((p) => p.id === idOrSlug || p.slug === idOrSlug);
+  return productsById.get(idOrSlug) ?? productsBySlug.get(idOrSlug);
 }
 
 export function productsForBrand(brandId: string) {
-  return products.filter((p) => p.brandId === brandId);
+  return productsByBrandId.get(brandId) ?? [];
 }
 
 export function reviewsForProduct(productId: string) {

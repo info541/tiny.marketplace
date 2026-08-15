@@ -1,0 +1,664 @@
+{
+  "results": [
+    {
+      "slug": "100-percent-pure",
+      "file": "/brands/100-percent-pure.png",
+      "bytes": 6472,
+      "source": "raster"
+    },
+    {
+      "slug": "act-and-acre",
+      "file": "/brands/act-and-acre.svg",
+      "bytes": 406,
+      "source": "monogram"
+    },
+    {
+      "slug": "acure",
+      "file": "/brands/acure.png",
+      "bytes": 5416,
+      "source": "raster"
+    },
+    {
+      "slug": "agent-nateur",
+      "file": "/brands/agent-nateur.png",
+      "bytes": 18722,
+      "source": "raster"
+    },
+    {
+      "slug": "all-good",
+      "file": "/brands/all-good.png",
+      "bytes": 17698,
+      "source": "raster"
+    },
+    {
+      "slug": "alpyn-beauty",
+      "file": "/brands/alpyn-beauty.svg",
+      "bytes": 406,
+      "source": "monogram"
+    },
+    {
+      "slug": "ancient-nutrition",
+      "file": "/brands/ancient-nutrition.png",
+      "bytes": 7246,
+      "source": "raster"
+    },
+    {
+      "slug": "athletic-greens",
+      "file": "/brands/athletic-greens.png",
+      "bytes": 7560,
+      "source": "raster"
+    },
+    {
+      "slug": "attitude",
+      "file": "/brands/attitude.svg",
+      "bytes": 406,
+      "source": "monogram"
+    },
+    {
+      "slug": "aveeno",
+      "file": "/brands/aveeno.png",
+      "bytes": 4175,
+      "source": "raster"
+    },
+    {
+      "slug": "badger",
+      "file": "/brands/badger.png",
+      "bytes": 39322,
+      "source": "raster"
+    },
+    {
+      "slug": "bare-republic",
+      "file": "/brands/bare-republic.svg",
+      "bytes": 407,
+      "source": "monogram"
+    },
+    {
+      "slug": "beautycounter",
+      "file": "/brands/beautycounter.png",
+      "bytes": 3834,
+      "source": "raster"
+    },
+    {
+      "slug": "biore",
+      "file": "/brands/biore.png",
+      "bytes": 13414,
+      "source": "raster"
+    },
+    {
+      "slug": "biossance",
+      "file": "/brands/biossance.png",
+      "bytes": 5044,
+      "source": "raster"
+    },
+    {
+      "slug": "bite",
+      "file": "/brands/bite.svg",
+      "bytes": 406,
+      "source": "monogram"
+    },
+    {
+      "slug": "blue-lizard",
+      "file": "/brands/blue-lizard.png",
+      "bytes": 22269,
+      "source": "raster"
+    },
+    {
+      "slug": "boka",
+      "file": "/brands/boka.png",
+      "bytes": 16424,
+      "source": "raster"
+    },
+    {
+      "slug": "briogeo",
+      "file": "/brands/briogeo.png",
+      "bytes": 10410,
+      "source": "raster"
+    },
+    {
+      "slug": "burt-bees",
+      "file": "/brands/burt-bees.png",
+      "bytes": 3413,
+      "source": "raster"
+    },
+    {
+      "slug": "byoma",
+      "file": "/brands/byoma.png",
+      "bytes": 7460,
+      "source": "raster"
+    },
+    {
+      "slug": "care-of",
+      "file": "/brands/care-of.png",
+      "bytes": 5696,
+      "source": "raster"
+    },
+    {
+      "slug": "cerave",
+      "file": "/brands/cerave.png",
+      "bytes": 3914,
+      "source": "raster"
+    },
+    {
+      "slug": "cocokind",
+      "file": "/brands/cocokind.svg",
+      "bytes": 406,
+      "source": "monogram"
+    },
+    {
+      "slug": "coola",
+      "file": "/brands/coola.png",
+      "bytes": 2612,
+      "source": "raster"
+    },
+    {
+      "slug": "corpus",
+      "file": "/brands/corpus.png",
+      "bytes": 12054,
+      "source": "raster"
+    },
+    {
+      "slug": "davines",
+      "file": "/brands/davines.png",
+      "bytes": 12461,
+      "source": "raster"
+    },
+    {
+      "slug": "dewdrop",
+      "file": "/brands/dewdrop.png",
+      "bytes": 5495,
+      "source": "raster"
+    },
+    {
+      "slug": "dieux",
+      "file": "/brands/dieux.svg",
+      "bytes": 406,
+      "source": "monogram"
+    },
+    {
+      "slug": "dr-bronner",
+      "file": "/brands/dr-bronner.png",
+      "bytes": 40892,
+      "source": "raster"
+    },
+    {
+      "slug": "dripdrop",
+      "file": "/brands/dripdrop.png",
+      "bytes": 3748,
+      "source": "raster"
+    },
+    {
+      "slug": "drunk-elephant",
+      "file": "/brands/drunk-elephant.png",
+      "bytes": 6617,
+      "source": "raster"
+    },
+    {
+      "slug": "each-and-every",
+      "file": "/brands/each-and-every.png",
+      "bytes": 15706,
+      "source": "raster"
+    },
+    {
+      "slug": "earth-mama",
+      "file": "/brands/earth-mama.png",
+      "bytes": 9879,
+      "source": "raster"
+    },
+    {
+      "slug": "ethique",
+      "file": "/brands/ethique.svg",
+      "bytes": 1337,
+      "source": "svg-logo"
+    },
+    {
+      "slug": "freaks-of-nature",
+      "file": "/brands/freaks-of-nature.svg",
+      "bytes": 1760,
+      "source": "svg-logo"
+    },
+    {
+      "slug": "function-of-beauty",
+      "file": "/brands/function-of-beauty.png",
+      "bytes": 7680,
+      "source": "raster"
+    },
+    {
+      "slug": "georganics",
+      "file": "/brands/georganics.png",
+      "bytes": 12042,
+      "source": "raster"
+    },
+    {
+      "slug": "glow-recipe",
+      "file": "/brands/glow-recipe.png",
+      "bytes": 15332,
+      "source": "raster"
+    },
+    {
+      "slug": "golde",
+      "file": "/brands/golde.svg",
+      "bytes": 19764,
+      "source": "svg-logo"
+    },
+    {
+      "slug": "good-molecules",
+      "file": "/brands/good-molecules.png",
+      "bytes": 3697,
+      "source": "raster"
+    },
+    {
+      "slug": "hanni",
+      "file": "/brands/hanni.svg",
+      "bytes": 406,
+      "source": "monogram"
+    },
+    {
+      "slug": "hello",
+      "file": "/brands/hello.png",
+      "bytes": 11051,
+      "source": "raster"
+    },
+    {
+      "slug": "herbivore",
+      "file": "/brands/herbivore.svg",
+      "bytes": 407,
+      "source": "monogram"
+    },
+    {
+      "slug": "hi-bar",
+      "file": "/brands/hi-bar.svg",
+      "bytes": 406,
+      "source": "monogram"
+    },
+    {
+      "slug": "honest",
+      "file": "/brands/honest.png",
+      "bytes": 19095,
+      "source": "raster"
+    },
+    {
+      "slug": "hum-nutrition",
+      "file": "/brands/hum-nutrition.png",
+      "bytes": 5301,
+      "source": "raster"
+    },
+    {
+      "slug": "humble-brands",
+      "file": "/brands/humble-brands.svg",
+      "bytes": 407,
+      "source": "monogram"
+    },
+    {
+      "slug": "ilia",
+      "file": "/brands/ilia.svg",
+      "bytes": 406,
+      "source": "monogram"
+    },
+    {
+      "slug": "innisfree",
+      "file": "/brands/innisfree.png",
+      "bytes": 24583,
+      "source": "raster"
+    },
+    {
+      "slug": "isdin",
+      "file": "/brands/isdin.png",
+      "bytes": 5373,
+      "source": "raster"
+    },
+    {
+      "slug": "jurlique",
+      "file": "/brands/jurlique.png",
+      "bytes": 5564,
+      "source": "raster"
+    },
+    {
+      "slug": "kopari",
+      "file": "/brands/kopari.png",
+      "bytes": 11647,
+      "source": "raster"
+    },
+    {
+      "slug": "kora-organics",
+      "file": "/brands/kora-organics.png",
+      "bytes": 33124,
+      "source": "raster"
+    },
+    {
+      "slug": "kosas",
+      "file": "/brands/kosas.png",
+      "bytes": 4943,
+      "source": "raster"
+    },
+    {
+      "slug": "krave-beauty",
+      "file": "/brands/krave-beauty.svg",
+      "bytes": 2568,
+      "source": "svg-logo"
+    },
+    {
+      "slug": "la-roche-posay",
+      "file": "/brands/la-roche-posay.png",
+      "bytes": 8054,
+      "source": "raster"
+    },
+    {
+      "slug": "laird-superfood",
+      "file": "/brands/laird-superfood.png",
+      "bytes": 7781,
+      "source": "raster"
+    },
+    {
+      "slug": "laneige",
+      "file": "/brands/laneige.png",
+      "bytes": 6167,
+      "source": "raster"
+    },
+    {
+      "slug": "liquid-iv",
+      "file": "/brands/liquid-iv.png",
+      "bytes": 4408,
+      "source": "raster"
+    },
+    {
+      "slug": "lmnt",
+      "file": "/brands/lmnt.png",
+      "bytes": 114030,
+      "source": "raster"
+    },
+    {
+      "slug": "meow-meow-tweet",
+      "file": "/brands/meow-meow-tweet.png",
+      "bytes": 10516,
+      "source": "raster"
+    },
+    {
+      "slug": "merit",
+      "file": "/brands/merit.png",
+      "bytes": 5015,
+      "source": "raster"
+    },
+    {
+      "slug": "mint-theory",
+      "file": "/brands/mint-theory.png",
+      "bytes": 5495,
+      "source": "raster"
+    },
+    {
+      "slug": "moon-juice",
+      "file": "/brands/moon-juice.svg",
+      "bytes": 406,
+      "source": "monogram"
+    },
+    {
+      "slug": "native",
+      "file": "/brands/native.png",
+      "bytes": 2322,
+      "source": "raster"
+    },
+    {
+      "slug": "necessaire",
+      "file": "/brands/necessaire.png",
+      "bytes": 2554,
+      "source": "raster"
+    },
+    {
+      "slug": "nourish-co",
+      "file": "/brands/nourish-co.png",
+      "bytes": 13830,
+      "source": "raster"
+    },
+    {
+      "slug": "nuun",
+      "file": "/brands/nuun.png",
+      "bytes": 6160,
+      "source": "raster"
+    },
+    {
+      "slug": "orgain",
+      "file": "/brands/orgain.png",
+      "bytes": 7027,
+      "source": "raster"
+    },
+    {
+      "slug": "osea",
+      "file": "/brands/osea.png",
+      "bytes": 5975,
+      "source": "raster"
+    },
+    {
+      "slug": "ouai",
+      "file": "/brands/ouai.png",
+      "bytes": 5617,
+      "source": "raster"
+    },
+    {
+      "slug": "pacifica",
+      "file": "/brands/pacifica.png",
+      "bytes": 15087,
+      "source": "raster"
+    },
+    {
+      "slug": "pattern",
+      "file": "/brands/pattern.svg",
+      "bytes": 28749,
+      "source": "svg-logo"
+    },
+    {
+      "slug": "paulas-choice",
+      "file": "/brands/paulas-choice.png",
+      "bytes": 12479,
+      "source": "raster"
+    },
+    {
+      "slug": "peach-and-lily",
+      "file": "/brands/peach-and-lily.png",
+      "bytes": 5061,
+      "source": "raster"
+    },
+    {
+      "slug": "pine-and-alum",
+      "file": "/brands/pine-and-alum.svg",
+      "bytes": 407,
+      "source": "monogram"
+    },
+    {
+      "slug": "pipette",
+      "file": "/brands/pipette.png",
+      "bytes": 8805,
+      "source": "raster"
+    },
+    {
+      "slug": "primally-pure",
+      "file": "/brands/primally-pure.svg",
+      "bytes": 407,
+      "source": "monogram"
+    },
+    {
+      "slug": "ren",
+      "file": "/brands/ren.png",
+      "bytes": 4030,
+      "source": "raster"
+    },
+    {
+      "slug": "risewell",
+      "file": "/brands/risewell.svg",
+      "bytes": 6858,
+      "source": "svg-logo"
+    },
+    {
+      "slug": "ritual",
+      "file": "/brands/ritual.png",
+      "bytes": 3452,
+      "source": "raster"
+    },
+    {
+      "slug": "rms-beauty",
+      "file": "/brands/rms-beauty.png",
+      "bytes": 3204,
+      "source": "raster"
+    },
+    {
+      "slug": "root-ritual",
+      "file": "/brands/root-ritual.svg",
+      "bytes": 407,
+      "source": "monogram"
+    },
+    {
+      "slug": "saie",
+      "file": "/brands/saie.svg",
+      "bytes": 406,
+      "source": "monogram"
+    },
+    {
+      "slug": "sakara",
+      "file": "/brands/sakara.png",
+      "bytes": 4455,
+      "source": "raster"
+    },
+    {
+      "slug": "salt-and-stone",
+      "file": "/brands/salt-and-stone.svg",
+      "bytes": 4003,
+      "source": "svg-logo"
+    },
+    {
+      "slug": "schmidts",
+      "file": "/brands/schmidts.png",
+      "bytes": 8724,
+      "source": "raster"
+    },
+    {
+      "slug": "seed",
+      "file": "/brands/seed.svg",
+      "bytes": 406,
+      "source": "monogram"
+    },
+    {
+      "slug": "skratch",
+      "file": "/brands/skratch.png",
+      "bytes": 4192,
+      "source": "raster"
+    },
+    {
+      "slug": "solara-lab",
+      "file": "/brands/solara-lab.png",
+      "bytes": 2921,
+      "source": "raster"
+    },
+    {
+      "slug": "summer-fridays",
+      "file": "/brands/summer-fridays.png",
+      "bytes": 36350,
+      "source": "raster"
+    },
+    {
+      "slug": "sun-bum",
+      "file": "/brands/sun-bum.png",
+      "bytes": 5125,
+      "source": "raster"
+    },
+    {
+      "slug": "supergoop",
+      "file": "/brands/supergoop.png",
+      "bytes": 13594,
+      "source": "raster"
+    },
+    {
+      "slug": "tata-harper",
+      "file": "/brands/tata-harper.png",
+      "bytes": 11639,
+      "source": "raster"
+    },
+    {
+      "slug": "tatcha",
+      "file": "/brands/tatcha.png",
+      "bytes": 19241,
+      "source": "raster"
+    },
+    {
+      "slug": "the-ordinary",
+      "file": "/brands/the-ordinary.png",
+      "bytes": 3340,
+      "source": "raster"
+    },
+    {
+      "slug": "thinkbaby",
+      "file": "/brands/thinkbaby.png",
+      "bytes": 5495,
+      "source": "raster"
+    },
+    {
+      "slug": "toms-of-maine",
+      "file": "/brands/toms-of-maine.png",
+      "bytes": 12114,
+      "source": "raster"
+    },
+    {
+      "slug": "topicals",
+      "file": "/brands/topicals.png",
+      "bytes": 4628,
+      "source": "raster"
+    },
+    {
+      "slug": "tower-28",
+      "file": "/brands/tower-28.svg",
+      "bytes": 2130,
+      "source": "svg-logo"
+    },
+    {
+      "slug": "true-botanicals",
+      "file": "/brands/true-botanicals.svg",
+      "bytes": 924,
+      "source": "svg-logo"
+    },
+    {
+      "slug": "truvani",
+      "file": "/brands/truvani.png",
+      "bytes": 20630,
+      "source": "raster"
+    },
+    {
+      "slug": "ultima-replenisher",
+      "file": "/brands/ultima-replenisher.png",
+      "bytes": 11517,
+      "source": "raster"
+    },
+    {
+      "slug": "ursa-major",
+      "file": "/brands/ursa-major.png",
+      "bytes": 7578,
+      "source": "raster"
+    },
+    {
+      "slug": "vanicream",
+      "file": "/brands/vanicream.png",
+      "bytes": 14195,
+      "source": "raster"
+    },
+    {
+      "slug": "versed",
+      "file": "/brands/versed.png",
+      "bytes": 8073,
+      "source": "raster"
+    },
+    {
+      "slug": "vital-proteins",
+      "file": "/brands/vital-proteins.png",
+      "bytes": 10562,
+      "source": "raster"
+    },
+    {
+      "slug": "weleda",
+      "file": "/brands/weleda.png",
+      "bytes": 6199,
+      "source": "raster"
+    },
+    {
+      "slug": "youth-to-the-people",
+      "file": "/brands/youth-to-the-people.png",
+      "bytes": 4601,
+      "source": "raster"
+    }
+  ]
+}

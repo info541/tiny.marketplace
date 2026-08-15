@@ -32,6 +32,14 @@ function HitIcon({ hit }: { hit: SearchHit }) {
   }
 
   if (hit.type === "brand") {
+    if (hit.imageUrl) {
+      return (
+        <span className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden border border-line bg-white p-1">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={hit.imageUrl} alt="" className="h-full w-full object-contain" />
+        </span>
+      );
+    }
     return (
       <span
         className="flex h-9 w-9 shrink-0 items-center justify-center border border-line text-xs font-medium text-ink"

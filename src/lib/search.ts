@@ -19,6 +19,7 @@ export type SearchHit =
       title: string;
       subtitle: string;
       accent: string;
+      imageUrl?: string;
       score: number;
     }
   | {
@@ -92,6 +93,7 @@ export function searchCatalog(query: string, limit = 8): SearchHit[] {
       title: brand.name,
       subtitle: brand.tagline,
       accent: brand.accent,
+      imageUrl: brand.logoUrl,
       score: score + 2,
     });
   }

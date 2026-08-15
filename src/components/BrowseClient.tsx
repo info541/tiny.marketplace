@@ -7,6 +7,7 @@ import { ProductTile } from "@/components/ProductTile";
 import { categories, getBrand, products } from "@/lib/data";
 import type { Category } from "@/lib/types";
 
+const PAGE_SIZE = 24;
 const categoryIds = new Set(categories.map((c) => c.id));
 
 function parseCategory(value: string | null): Category | "all" {
@@ -19,11 +20,17 @@ export function BrowseClient() {
   const [category, setCategory] = useState<Category | "all">(() => parseCategory(searchParams.get("cat")));
   const [query, setQuery] = useState(() => searchParams.get("q")?.trim() ?? "");
   const [sort, setSort] = useState<"featured" | "rating" | "price-asc" | "price-desc">("featured");
+  const [page, setPage] = useState(1);
 
   useEffect(() => {
     setCategory(parseCategory(searchParams.get("cat")));
     setQuery(searchParams.get("q")?.trim() ?? "");
+    setPage(1);
   }, [searchParams]);
+
+  useEffect(() => {
+    setPage(1);
+  }, [category, sort]);
 
   const filtered = useMemo(() => {
     let list = category === "all" ? [...products] : products.filter((p) => p.category === category);
@@ -45,6 +52,10 @@ export function BrowseClient() {
     if (sort === "price-desc") list.sort((a, b) => b.price - a.price);
     return list;
   }, [category, query, sort]);
+
+  const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const currentPage = Math.min(page, pageCount);
+  const visible = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
 
   return (
     <div>
@@ -92,15 +103,39 @@ export function BrowseClient() {
       </div>
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
-        {filtered.map((product) => (
+        {visible.map((product) => (
           <ProductTile key={product.id} product={product} />
         ))}
       </div>
 
       {filtered.length === 0 ? (
         <p className="surface mt-2 rounded-2xl p-8 text-center text-ink-soft">
-          No products matched{query ? ` “${query}”` : ""}. Try another search or clear filters.
+          No products matched{query ? ` “{query}”` : ""}. Try another search or clear filters.
         </p>
+      ) : null}
+
+      {pageCount > 1 ? (
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+          <button
+            type="button"
+            disabled={currentPage <= 1}
+            onClick={() => setPage((p) => Math.max(1, p - 1))}
+            className="min-h-11 rounded-full border border-line bg-white px-4 py-2 text-sm font-semibold disabled:opacity-40"
+          >
+            Previous
+          </button>
+          <p className="text-sm font-semibold text-ink-soft">
+            Page {currentPage} of {pageCount}
+          </p>
+          <button
+            type="button"
+            disabled={currentPage >= pageCount}
+            onClick={() => setPage((p) => Math.min(pageCount, p + 1))}
+            className="min-h-11 rounded-full border border-line bg-white px-4 py-2 text-sm font-semibold disabled:opacity-40"
+          >
+            Next
+          </button>
+        </div>
       ) : null}
 
       <p className="mt-8 text-center text-sm text-ink-soft">
