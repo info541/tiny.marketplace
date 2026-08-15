@@ -48,7 +48,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 15600,
     followerCount: 78000,
     websiteUrl: "https://www.herbivorebotanicals.com",
-    logoUrl: "/brands/herbivore.png",
+    logoUrl: "/brands/herbivore.svg",
   },
   {
     id: "c004",
@@ -96,7 +96,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 7400,
     followerCount: 41000,
     websiteUrl: "https://truebotanicals.com",
-    logoUrl: "/brands/true-botanicals.png",
+    logoUrl: "/brands/true-botanicals.svg",
   },
   {
     id: "c007",
@@ -224,7 +224,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 3200,
     followerCount: 18000,
     websiteUrl: "https://alpynbeauty.com",
-    logoUrl: "/brands/alpyn-beauty.png",
+    logoUrl: "/brands/alpyn-beauty.svg",
   },
   {
     id: "c015",
@@ -304,7 +304,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 18200,
     followerCount: 95000,
     websiteUrl: "https://www.cocokind.com",
-    logoUrl: "/brands/cocokind.png",
+    logoUrl: "/brands/cocokind.svg",
   },
   {
     id: "c020",
@@ -352,7 +352,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 12100,
     followerCount: 76000,
     websiteUrl: "https://kravebeauty.com",
-    logoUrl: "/brands/krave-beauty.png",
+    logoUrl: "/brands/krave-beauty.svg",
   },
   {
     id: "c023",
@@ -384,7 +384,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 9400,
     followerCount: 81000,
     websiteUrl: "https://tower28beauty.com",
-    logoUrl: "/brands/tower-28.png",
+    logoUrl: "/brands/tower-28.svg",
   },
   {
     id: "c025",
@@ -400,7 +400,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 15200,
     followerCount: 98000,
     websiteUrl: "https://www.iliabeauty.com",
-    logoUrl: "/brands/ilia.png",
+    logoUrl: "/brands/ilia.svg",
   },
   {
     id: "c026",
@@ -432,7 +432,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 8700,
     followerCount: 74000,
     websiteUrl: "https://saiehello.com",
-    logoUrl: "/brands/saie.png",
+    logoUrl: "/brands/saie.svg",
   },
   {
     id: "c028",
@@ -544,7 +544,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 8900,
     followerCount: 28000,
     websiteUrl: "https://attitudeliving.com",
-    logoUrl: "/brands/attitude.png",
+    logoUrl: "/brands/attitude.svg",
   },
   {
     id: "c035",
@@ -592,7 +592,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 9400,
     followerCount: 19000,
     websiteUrl: "https://www.barerepublic.com",
-    logoUrl: "/brands/bare-republic.png",
+    logoUrl: "/brands/bare-republic.svg",
   },
   {
     id: "c038",
@@ -752,7 +752,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 11200,
     followerCount: 64000,
     websiteUrl: "https://primallypure.com",
-    logoUrl: "/brands/primally-pure.png",
+    logoUrl: "/brands/primally-pure.svg",
   },
   {
     id: "c048",
@@ -768,7 +768,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 7800,
     followerCount: 45000,
     websiteUrl: "https://saltandstone.com",
-    logoUrl: "/brands/salt-and-stone.png",
+    logoUrl: "/brands/salt-and-stone.svg",
   },
   {
     id: "c049",
@@ -832,7 +832,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 14300,
     followerCount: 72000,
     websiteUrl: "https://ethique.com",
-    logoUrl: "/brands/ethique.png",
+    logoUrl: "/brands/ethique.svg",
   },
   {
     id: "c053",
@@ -880,7 +880,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 16700,
     followerCount: 142000,
     websiteUrl: "https://www.patternbeauty.com",
-    logoUrl: "/brands/pattern.png",
+    logoUrl: "/brands/pattern.svg",
   },
   {
     id: "c056",
@@ -928,7 +928,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 4300,
     followerCount: 27000,
     websiteUrl: "https://actandacre.com",
-    logoUrl: "/brands/act-and-acre.png",
+    logoUrl: "/brands/act-and-acre.svg",
   },
   {
     id: "c059",
@@ -944,7 +944,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 9200,
     followerCount: 38000,
     websiteUrl: "https://risewell.com",
-    logoUrl: "/brands/risewell.png",
+    logoUrl: "/brands/risewell.svg",
   },
   {
     id: "c060",
@@ -992,7 +992,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 15800,
     followerCount: 82000,
     websiteUrl: "https://bitetoothpaste.com",
-    logoUrl: "/brands/bite.png",
+    logoUrl: "/brands/bite.svg",
   },
   {
     id: "c063",
@@ -1072,7 +1072,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 12600,
     followerCount: 87000,
     websiteUrl: "https://seed.com",
-    logoUrl: "/brands/seed.png",
+    logoUrl: "/brands/seed.svg",
   },
   {
     id: "c068",
@@ -1104,7 +1104,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 5400,
     followerCount: 72000,
     websiteUrl: "https://www.golde.co",
-    logoUrl: "/brands/golde.png",
+    logoUrl: "/brands/golde.svg",
   },
   {
     id: "c070",
@@ -1376,7 +1376,7 @@ export const catalogBrands: Brand[] = [
     reviewCount: 6400,
     followerCount: 53000,
     websiteUrl: "https://dieuxskin.com",
-    logoUrl: "/brands/dieux.png",
+    logoUrl: "/brands/dieux.svg",
   },
   {
     id: "c087",

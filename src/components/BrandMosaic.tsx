@@ -1,55 +1,48 @@
+import Image from "next/image";
 import Link from "next/link";
-import { BrandLogo } from "@/components/BrandLogo";
-import { brands } from "@/lib/data";
+import { brands, coverProductForBrand } from "@/lib/data";
 
 export function BrandMosaic() {
-  return (
-    <section id="brands" className="scroll-mt-16 border-y border-line bg-mist">
-      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-5 sm:py-16 md:px-8">
-        <p className="text-xs font-bold uppercase tracking-[0.16em] text-ink-soft/70">Brands</p>
-        <div className="mt-2 flex flex-wrap items-end justify-between gap-4">
-          <h2 className="font-display text-3xl font-medium tracking-tight sm:text-4xl">
-            {brands.length} brands on the shelf
-          </h2>
-          <Link href="/brands" className="text-sm font-semibold text-ink underline-offset-4 hover:underline">
-            Browse all →
-          </Link>
-        </div>
-        <p className="mt-3 max-w-2xl text-sm text-ink-soft sm:text-base">
-          Clean-leaning skincare, mineral SPF, natural deodorant, oral care, and supplements we&apos;re stocking next.
-        </p>
+  const tiles = brands.slice(0, 8);
 
-        <div className="mt-8 grid grid-cols-3 gap-2 sm:grid-cols-4 sm:gap-3 md:grid-cols-6 lg:grid-cols-8">
-          {brands.map((brand) => (
+  return (
+    <section id="brands" className="scroll-mt-16">
+      <div className="grid grid-cols-2 gap-px bg-white md:grid-cols-4">
+        {tiles.map((brand) => {
+          const cover = coverProductForBrand(brand.id);
+          return (
             <Link
               key={brand.id}
               href={`/brands/${brand.slug}`}
-              className="group flex aspect-square flex-col items-center justify-center gap-2 border border-line bg-white p-3 transition hover:border-ink/30"
-              title={brand.name}
+              className="group relative aspect-square overflow-hidden bg-ink"
             >
-              <span className="relative flex h-12 w-12 items-center justify-center overflow-hidden sm:h-14 sm:w-14">
-                {brand.logoUrl ? (
-                  <BrandLogo
-                    src={brand.logoUrl}
-                    name={brand.name}
-                    size={56}
-                    className="h-full w-full object-contain p-0.5 transition duration-300 group-hover:scale-105"
-                  />
-                ) : (
-                  <span
-                    className="flex h-full w-full items-center justify-center font-display text-lg text-white"
-                    style={{ background: brand.accent }}
-                  >
-                    {brand.name.slice(0, 1)}
-                  </span>
-                )}
-              </span>
-              <span className="line-clamp-2 text-center text-[10px] font-medium leading-tight text-ink-soft sm:text-[11px]">
+              <div
+                className="absolute inset-0 transition duration-500 group-hover:scale-105"
+                style={{
+                  background: `linear-gradient(160deg, color-mix(in oklab, ${brand.accent} 55%, #2a2a2a), #1a1a1a)`,
+                }}
+              />
+              {cover?.imageUrl ? (
+                <Image
+                  src={cover.imageUrl}
+                  alt=""
+                  fill
+                  className="object-cover opacity-80 transition duration-500 group-hover:scale-105 group-hover:opacity-90"
+                  sizes="(max-width: 768px) 50vw, 25vw"
+                />
+              ) : null}
+              <div className="absolute inset-0 bg-ink/30 transition group-hover:bg-ink/20" />
+              <span className="absolute inset-0 flex items-center justify-center px-4 text-center font-display text-xl font-medium tracking-tight text-white drop-shadow-sm sm:text-2xl">
                 {brand.name}
               </span>
             </Link>
-          ))}
-        </div>
+          );
+        })}
+      </div>
+      <div className="border-t border-line bg-mist px-4 py-3 text-center sm:px-5">
+        <Link href="/brands" className="text-sm font-semibold text-ink underline-offset-4 hover:underline">
+          Browse all {brands.length} brands →
+        </Link>
       </div>
     </section>
   );

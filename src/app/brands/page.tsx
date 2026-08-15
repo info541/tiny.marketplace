@@ -21,32 +21,31 @@ export default function BrandsIndexPage() {
         From mineral SPF to hydroxyapatite toothpaste — browse the brands we&apos;re featuring and stocking next.
       </p>
 
-      <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-5">
         {sorted.map((brand) => (
           <Link
             key={brand.id}
             href={`/brands/${brand.slug}`}
-            className="group flex gap-4 border border-line bg-white p-4 transition hover:border-ink/25 sm:p-5"
+            className="group flex flex-col border border-line bg-white p-4 transition hover:border-ink/25 sm:p-5"
           >
-            <span className="flex h-16 w-16 shrink-0 items-center justify-center overflow-hidden border border-line bg-mist p-2">
+            <span className="mx-auto flex h-20 w-20 items-center justify-center overflow-hidden border border-line bg-mist p-2 sm:h-24 sm:w-24">
               {brand.logoUrl ? (
-                <BrandLogo src={brand.logoUrl} name={brand.name} size={56} />
+                <BrandLogo src={brand.logoUrl} name={brand.name} size={88} />
               ) : (
-                <span className="font-display text-xl" style={{ color: brand.accent }}>
+                <span className="font-display text-2xl" style={{ color: brand.accent }}>
                   {brand.name.slice(0, 1)}
                 </span>
               )}
             </span>
-            <span className="min-w-0">
-              <span className="block font-display text-xl font-medium tracking-tight group-hover:underline">
-                {brand.name}
-              </span>
-              <span className="mt-1 block text-sm text-ink-soft line-clamp-2">{brand.tagline}</span>
-              <span className="mt-2 block text-[11px] font-medium uppercase tracking-[0.14em] text-ink-soft/70">
-                {brand.categories
-                  .map((id) => categories.find((c) => c.id === id)?.label ?? id)
-                  .join(" · ")}
-              </span>
+            <span className="mt-4 block text-center font-display text-lg font-medium tracking-tight group-hover:underline sm:text-xl">
+              {brand.name}
+            </span>
+            <span className="mt-1 line-clamp-2 text-center text-xs text-ink-soft sm:text-sm">{brand.tagline}</span>
+            <span className="mt-3 block text-center text-[10px] font-medium uppercase tracking-[0.14em] text-ink-soft/70">
+              {brand.categories
+                .map((id) => categories.find((c) => c.id === id)?.label ?? id)
+                .slice(0, 2)
+                .join(" · ")}
             </span>
           </Link>
         ))}

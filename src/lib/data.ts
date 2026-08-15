@@ -28,7 +28,7 @@ export const brands: Brand[] = [
     reviewCount: 444,
     followerCount: 0,
     websiteUrl: "https://freaksofnature.com",
-    logoUrl: "/brands/freaks-of-nature.png",
+    logoUrl: "/brands/freaks-of-nature.svg",
   },
   {
     id: "b7",
@@ -45,7 +45,7 @@ export const brands: Brand[] = [
     reviewCount: 6756,
     followerCount: 0,
     websiteUrl: "https://humblebrands.com",
-    logoUrl: "/brands/humble-brands.png",
+    logoUrl: "/brands/humble-brands.svg",
   },
   {
     id: "b8",
@@ -62,7 +62,7 @@ export const brands: Brand[] = [
     reviewCount: 20059,
     followerCount: 0,
     websiteUrl: "https://moonjuice.com",
-    logoUrl: "/brands/moon-juice.png",
+    logoUrl: "/brands/moon-juice.svg",
   },
   {
     id: "b9",
@@ -111,7 +111,7 @@ export const brands: Brand[] = [
     rating: 4.6,
     reviewCount: 528,
     followerCount: 3201,
-    logoUrl: "/brands/pine-and-alum.png",
+    logoUrl: "/brands/pine-and-alum.svg",
   },
   {
     id: "b3",
@@ -159,7 +159,7 @@ export const brands: Brand[] = [
     rating: 4.5,
     reviewCount: 267,
     followerCount: 1450,
-    logoUrl: "/brands/root-ritual.png",
+    logoUrl: "/brands/root-ritual.svg",
   },
   {
     id: "b6",
