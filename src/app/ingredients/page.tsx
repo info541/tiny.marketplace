@@ -12,7 +12,14 @@ export default async function IngredientsPage({
   searchParams: Promise<{ q?: string }>;
 }) {
   const params = await searchParams;
-  const ingredients = listIngredients();
+  // Omit description from the client payload — the index only shows name/role/counts.
+  const ingredients = listIngredients().map(({ slug, name, role, productCount }) => ({
+    slug,
+    name,
+    role,
+    productCount,
+    description: "",
+  }));
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 sm:px-5 sm:py-12 md:px-8">

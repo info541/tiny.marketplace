@@ -1,0 +1,22 @@
+{
+  "finishedAt": "2026-08-15T06:23:52.215Z",
+  "processed": 44269,
+  "filled": 12031,
+  "skipped": 32238,
+  "bySource": {
+    "shopify-html:inci-blob": 5431,
+    "shopify-html:text-marker": 2485,
+    "shopify-html:view-all-p": 965,
+    "openbeautyfacts": 580,
+    "shopify-json:inci-blob": 543,
+    "shopify-html:json:ingredients": 173,
+    "shopify-json:text-marker": 1722,
+    "shopify-html:json:ingredients_list": 4,
+    "openfoodfacts": 44,
+    "shopify-json:view-all-p": 67,
+    "shopify-html:data-attr": 17
+  },
+  "totalProducts": 45041,
+  "withIngredients": 12760,
+  "coveragePct": 28.3
+}
