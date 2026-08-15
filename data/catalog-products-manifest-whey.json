@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-08-15T04:15:14.986Z",
+  "wheyProducts": 1564,
+  "wheyBrandsWithProducts": 25,
+  "totalProducts": 20500,
+  "brandCount": 204,
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "raw-organic-whey",
+      "brandId": "c201",
+      "raw": 6,
+      "kept": 6,
+      "shopBase": "https://www.raworganicwhey.com"
+    },
+    {
+      "slug": "levels-protein",
+      "brandId": "c202",
+      "raw": 9,
+      "kept": 8,
+      "shopBase": "https://levelsprotein.com"
+    },
+    {
+      "slug": "natural-force",
+      "brandId": "c203",
+      "raw": 10,
+      "kept": 10,
+      "shopBase": "https://naturalforce.com"
+    },
+    {
+      "slug": "promix",
+      "brandId": "c204",
+      "raw": 140,
+      "kept": 133,
+      "shopBase": "https://promixnutrition.com"
+    },
+    {
+      "slug": "transparent-labs",
+      "brandId": "c205",
+      "raw": 74,
+      "kept": 73,
+      "shopBase": "https://www.transparentlabs.com"
+    },
+    {
+      "slug": "jay-robb",
+      "brandId": "c206",
+      "raw": 80,
+      "kept": 77,
+      "shopBase": "https://www.jayrobb.com"
+    },
+    {
+      "slug": "kaizen",
+      "brandId": "c207",
+      "raw": 11,
+      "kept": 11,
+      "shopBase": "https://kaizennaturals.com"
+    },
+    {
+      "slug": "just-ingredients",
+      "brandId": "c208",
+      "raw": 1636,
+      "kept": 286,
+      "shopBase": "https://justingredients.us"
+    },
+    {
+      "slug": "flavcity",
+      "brandId": "c209",
+      "raw": 66,
+      "kept": 65,
+      "shopBase": "https://flavcity.com"
+    },
+    {
+      "slug": "be-well-by-kelly",
+      "brandId": "c210",
+      "raw": 38,
+      "kept": 36,
+      "shopBase": "https://bewellbykelly.com"
+    },
+    {
+      "slug": "bulletproof",
+      "brandId": "c211",
+      "raw": 132,
+      "kept": 132,
+      "shopBase": "https://shop.bulletproof.com"
+    },
+    {
+      "slug": "wild-foods",
+      "brandId": "c212",
+      "raw": 88,
+      "kept": 58,
+      "shopBase": "https://www.wildfoods.co"
+    },
+    {
+      "slug": "bubs-naturals",
+      "brandId": "c213",
+      "raw": 60,
+      "kept": 60,
+      "shopBase": "https://www.bubsnaturals.com"
+    },
+    {
+      "slug": "equip-foods",
+      "brandId": "c214",
+      "raw": 32,
+      "kept": 23,
+      "shopBase": "https://equipfoods.com"
+    },
+    {
+      "slug": "paleopro",
+      "brandId": "c215",
+      "raw": 21,
+      "kept": 19,
+      "shopBase": "https://paleopro.com"
+    },
+    {
+      "slug": "four-sigmatic",
+      "brandId": "c216",
+      "raw": 95,
+      "kept": 90,
+      "shopBase": "https://foursigmatic.com"
+    },
+    {
+      "slug": "gainful",
+      "brandId": "c217",
+      "raw": 41,
+      "kept": 40,
+      "shopBase": "https://www.gainful.com"
+    },
+    {
+      "slug": "native-path",
+      "brandId": "c218",
+      "raw": 86,
+      "kept": 84,
+      "shopBase": "https://www.nativepath.com"
+    },
+    {
+      "slug": "further-food",
+      "brandId": "c219",
+      "raw": 44,
+      "kept": 43,
+      "shopBase": "https://www.furtherfood.com"
+    },
+    {
+      "slug": "hunter-gather",
+      "brandId": "c220",
+      "raw": 59,
+      "kept": 58,
+      "shopBase": "https://hunterandgatherfoods.com"
+    },
+    {
+      "slug": "ancient-supplements",
+      "brandId": "c221",
+      "raw": 52,
+      "kept": 51,
+      "shopBase": "https://ancestralsupplements.com"
+    },
+    {
+      "slug": "heart-and-soil",
+      "brandId": "c222",
+      "raw": 75,
+      "kept": 56,
+      "shopBase": "https://shop.heartandsoil.co"
+    },
+    {
+      "slug": "force-of-nature",
+      "brandId": "c223",
+      "raw": 80,
+      "kept": 76,
+      "shopBase": "https://forceofnature.com"
+    },
+    {
+      "slug": "peak-refuel",
+      "brandId": "c224",
+      "raw": 37,
+      "kept": 37,
+      "shopBase": "https://peakrefuel.com"
+    },
+    {
+      "slug": "good-protein",
+      "brandId": "c225",
+      "raw": 34,
+      "kept": 32,
+      "shopBase": "https://goodprotein.ca"
+    }
+  ],
+  "failures": []
+}
