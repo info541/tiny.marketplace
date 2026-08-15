@@ -1,0 +1,723 @@
+{
+  "generatedAt": "2026-08-15T02:51:50.064Z",
+  "totalProducts": 18528,
+  "batch2Products": 11763,
+  "batch2BrandsWithProducts": 98,
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "about-face",
+      "brandId": "c101",
+      "raw": 79,
+      "kept": 70,
+      "shopBase": "https://www.aboutface.com"
+    },
+    {
+      "slug": "amika",
+      "brandId": "c102",
+      "raw": 154,
+      "kept": 137,
+      "shopBase": "https://www.loveamika.com"
+    },
+    {
+      "slug": "annmarie",
+      "brandId": "c103",
+      "raw": 247,
+      "kept": 206,
+      "shopBase": "https://shop.annmariegianni.com"
+    },
+    {
+      "slug": "athena-club",
+      "brandId": "c104",
+      "raw": 192,
+      "kept": 188,
+      "shopBase": "https://athenaclub.com"
+    },
+    {
+      "slug": "axis-y",
+      "brandId": "c105",
+      "raw": 36,
+      "kept": 36,
+      "shopBase": "https://axis-y.com"
+    },
+    {
+      "slug": "bag-balm",
+      "brandId": "c106",
+      "raw": 48,
+      "kept": 48,
+      "shopBase": "https://www.bagbalm.com"
+    },
+    {
+      "slug": "beam",
+      "brandId": "c107",
+      "raw": 69,
+      "kept": 65,
+      "shopBase": "https://beamorganics.com"
+    },
+    {
+      "slug": "beardo",
+      "brandId": "c108",
+      "raw": 528,
+      "kept": 524,
+      "shopBase": "https://beardo.in"
+    },
+    {
+      "slug": "beauty-of-joseon",
+      "brandId": "c109",
+      "raw": 134,
+      "kept": 131,
+      "shopBase": "https://beautyofjoseon.com"
+    },
+    {
+      "slug": "billie",
+      "brandId": "c110",
+      "raw": 28,
+      "kept": 27,
+      "shopBase": "https://shop.mybillie.com"
+    },
+    {
+      "slug": "blind-barber",
+      "brandId": "c111",
+      "raw": 59,
+      "kept": 59,
+      "shopBase": "https://blindbarber.com"
+    },
+    {
+      "slug": "blueland",
+      "brandId": "c112",
+      "raw": 77,
+      "kept": 76,
+      "shopBase": "https://blueland.com"
+    },
+    {
+      "slug": "bondi-boost",
+      "brandId": "c113",
+      "raw": 129,
+      "kept": 128,
+      "shopBase": "https://bondiboost.com"
+    },
+    {
+      "slug": "boy-smells",
+      "brandId": "c114",
+      "raw": 103,
+      "kept": 102,
+      "shopBase": "https://boysmells.com"
+    },
+    {
+      "slug": "branch-basics",
+      "brandId": "c115",
+      "raw": 102,
+      "kept": 38,
+      "shopBase": "https://branchbasics.com"
+    },
+    {
+      "slug": "brush-on-block",
+      "brandId": "c116",
+      "raw": 32,
+      "kept": 31,
+      "shopBase": "https://brushonblock.com"
+    },
+    {
+      "slug": "burst",
+      "brandId": "c117",
+      "raw": 100,
+      "kept": 98,
+      "shopBase": "https://www.burstoralcare.com"
+    },
+    {
+      "slug": "camille-rose",
+      "brandId": "c118",
+      "raw": 92,
+      "kept": 92,
+      "shopBase": "https://camillerose.com"
+    },
+    {
+      "slug": "cosrx",
+      "brandId": "c119",
+      "raw": 141,
+      "kept": 136,
+      "shopBase": "https://www.cosrx.com"
+    },
+    {
+      "slug": "crown-affair",
+      "brandId": "c120",
+      "raw": 69,
+      "kept": 63,
+      "shopBase": "https://www.crownaffair.com"
+    },
+    {
+      "slug": "cymbiotika",
+      "brandId": "c121",
+      "raw": 51,
+      "kept": 49,
+      "shopBase": "https://cymbiotika.com"
+    },
+    {
+      "slug": "danessa-myricks",
+      "brandId": "c122",
+      "raw": 53,
+      "kept": 52,
+      "shopBase": "https://danessamyricksbeauty.com"
+    },
+    {
+      "slug": "davids",
+      "brandId": "c123",
+      "raw": 35,
+      "kept": 35,
+      "shopBase": "https://davids-usa.com"
+    },
+    {
+      "slug": "dedcool",
+      "brandId": "c124",
+      "raw": 189,
+      "kept": 146,
+      "shopBase": "https://dedcool.com"
+    },
+    {
+      "slug": "eadem",
+      "brandId": "c125",
+      "raw": 21,
+      "kept": 19,
+      "shopBase": "https://eadem.co"
+    },
+    {
+      "slug": "ellis-brooklyn",
+      "brandId": "c126",
+      "raw": 137,
+      "kept": 137,
+      "shopBase": "https://ellisbrooklyn.com"
+    },
+    {
+      "slug": "evan-healy",
+      "brandId": "c127",
+      "raw": 284,
+      "kept": 119,
+      "shopBase": "https://evanhealy.com"
+    },
+    {
+      "slug": "every-man-jack",
+      "brandId": "c128",
+      "raw": 75,
+      "kept": 70,
+      "shopBase": "https://www.everymanjack.com"
+    },
+    {
+      "slug": "fable-mane",
+      "brandId": "c129",
+      "raw": 57,
+      "kept": 48,
+      "shopBase": "https://www.fableandmane.com"
+    },
+    {
+      "slug": "farmaesthetics",
+      "brandId": "c130",
+      "raw": 65,
+      "kept": 64,
+      "shopBase": "https://farmaesthetics.com"
+    },
+    {
+      "slug": "fatco",
+      "brandId": "c131",
+      "raw": 159,
+      "kept": 156,
+      "shopBase": "https://www.fatco.com"
+    },
+    {
+      "slug": "first-aid-beauty",
+      "brandId": "c132",
+      "raw": 91,
+      "kept": 83,
+      "shopBase": "https://firstaidbeauty.com"
+    },
+    {
+      "slug": "flamingo",
+      "brandId": "c133",
+      "raw": 44,
+      "kept": 43,
+      "shopBase": "https://shopflamingo.com"
+    },
+    {
+      "slug": "gisou",
+      "brandId": "c134",
+      "raw": 58,
+      "kept": 54,
+      "shopBase": "https://www.gisou.com"
+    },
+    {
+      "slug": "grown-alchemist",
+      "brandId": "c135",
+      "raw": 171,
+      "kept": 165,
+      "shopBase": "https://grownalchemist.com"
+    },
+    {
+      "slug": "haeckels",
+      "brandId": "c136",
+      "raw": 180,
+      "kept": 171,
+      "shopBase": "https://haeckels.co.uk"
+    },
+    {
+      "slug": "hanz-de-fuko",
+      "brandId": "c137",
+      "raw": 22,
+      "kept": 22,
+      "shopBase": "https://hanzdefuko.com"
+    },
+    {
+      "slug": "haruharu",
+      "brandId": "c138",
+      "raw": 41,
+      "kept": 41,
+      "shopBase": "https://haruharuwonder.com"
+    },
+    {
+      "slug": "hero-cosmetics",
+      "brandId": "c139",
+      "raw": 42,
+      "kept": 42,
+      "shopBase": "https://herocosmetics.us"
+    },
+    {
+      "slug": "homesick",
+      "brandId": "c140",
+      "raw": 245,
+      "kept": 245,
+      "shopBase": "https://homesick.com"
+    },
+    {
+      "slug": "indie-lee",
+      "brandId": "c141",
+      "raw": 50,
+      "kept": 48,
+      "shopBase": "https://indielee.com"
+    },
+    {
+      "slug": "inkey-list",
+      "brandId": "c142",
+      "raw": 121,
+      "kept": 115,
+      "shopBase": "https://www.theinkeylist.com"
+    },
+    {
+      "slug": "innersense",
+      "brandId": "c143",
+      "raw": 136,
+      "kept": 132,
+      "shopBase": "https://www.innersensebeauty.com"
+    },
+    {
+      "slug": "jones-road",
+      "brandId": "c144",
+      "raw": 91,
+      "kept": 88,
+      "shopBase": "https://jonesroadbeauty.com"
+    },
+    {
+      "slug": "josh-rosebrook",
+      "brandId": "c145",
+      "raw": 58,
+      "kept": 47,
+      "shopBase": "https://joshrosebrook.com"
+    },
+    {
+      "slug": "juice-beauty",
+      "brandId": "c146",
+      "raw": 61,
+      "kept": 55,
+      "shopBase": "https://juicebeauty.com"
+    },
+    {
+      "slug": "k18",
+      "brandId": "c147",
+      "raw": 34,
+      "kept": 27,
+      "shopBase": "https://www.k18hair.com"
+    },
+    {
+      "slug": "kahina",
+      "brandId": "c148",
+      "raw": 23,
+      "kept": 22,
+      "shopBase": "https://kahina-givingbeauty.com"
+    },
+    {
+      "slug": "kaia-naturals",
+      "brandId": "c149",
+      "raw": 35,
+      "kept": 35,
+      "shopBase": "https://kaianaturals.com"
+    },
+    {
+      "slug": "kinship",
+      "brandId": "c150",
+      "raw": 26,
+      "kept": 24,
+      "shopBase": "https://lovekinship.com"
+    },
+    {
+      "slug": "lanolips",
+      "brandId": "c151",
+      "raw": 86,
+      "kept": 79,
+      "shopBase": "https://lanolips.com"
+    },
+    {
+      "slug": "little-seed-farm",
+      "brandId": "c152",
+      "raw": 108,
+      "kept": 105,
+      "shopBase": "https://littleseedfarm.com"
+    },
+    {
+      "slug": "living-libations",
+      "brandId": "c153",
+      "raw": 571,
+      "kept": 565,
+      "shopBase": "https://www.livinglibations.com"
+    },
+    {
+      "slug": "lume",
+      "brandId": "c154",
+      "raw": 0,
+      "kept": 0,
+      "shopBase": "https://lumedeodorant.com",
+      "error": "not-json"
+    },
+    {
+      "slug": "makeup-by-mario",
+      "brandId": "c155",
+      "raw": 60,
+      "kept": 59,
+      "shopBase": "https://makeupbymario.com"
+    },
+    {
+      "slug": "may-lindstrom",
+      "brandId": "c156",
+      "raw": 126,
+      "kept": 25,
+      "shopBase": "https://www.maylindstrom.com"
+    },
+    {
+      "slug": "meliora",
+      "brandId": "c157",
+      "raw": 23,
+      "kept": 23,
+      "shopBase": "https://meliorameansbetter.com"
+    },
+    {
+      "slug": "mielle",
+      "brandId": "c158",
+      "raw": 74,
+      "kept": 73,
+      "shopBase": "https://mielleorganics.com"
+    },
+    {
+      "slug": "momentous",
+      "brandId": "c159",
+      "raw": 89,
+      "kept": 88,
+      "shopBase": "https://www.livemomentous.com"
+    },
+    {
+      "slug": "moon-oral",
+      "brandId": "c160",
+      "raw": 23,
+      "kept": 23,
+      "shopBase": "https://www.moonoralbeauty.com"
+    },
+    {
+      "slug": "naturium",
+      "brandId": "c161",
+      "raw": 138,
+      "kept": 135,
+      "shopBase": "https://naturium.com"
+    },
+    {
+      "slug": "nest-new-york",
+      "brandId": "c162",
+      "raw": 369,
+      "kept": 358,
+      "shopBase": "https://www.nestnewyork.com"
+    },
+    {
+      "slug": "odacite",
+      "brandId": "c163",
+      "raw": 125,
+      "kept": 123,
+      "shopBase": "https://odacite.com"
+    },
+    {
+      "slug": "one-love-organics",
+      "brandId": "c164",
+      "raw": 40,
+      "kept": 38,
+      "shopBase": "https://oneloveorganics.com"
+    },
+    {
+      "slug": "otherland",
+      "brandId": "c165",
+      "raw": 56,
+      "kept": 56,
+      "shopBase": "https://www.otherland.com"
+    },
+    {
+      "slug": "p-f-candle",
+      "brandId": "c166",
+      "raw": 80,
+      "kept": 79,
+      "shopBase": "https://pfcandleco.com"
+    },
+    {
+      "slug": "package-free",
+      "brandId": "c167",
+      "raw": 116,
+      "kept": 115,
+      "shopBase": "https://packagefreeshop.com"
+    },
+    {
+      "slug": "pai-skincare",
+      "brandId": "c168",
+      "raw": 63,
+      "kept": 62,
+      "shopBase": "https://www.paiskincare.com"
+    },
+    {
+      "slug": "phlur",
+      "brandId": "c169",
+      "raw": 137,
+      "kept": 132,
+      "shopBase": "https://www.phlur.com"
+    },
+    {
+      "slug": "public-goods",
+      "brandId": "c170",
+      "raw": 165,
+      "kept": 164,
+      "shopBase": "https://www.publicgoods.com"
+    },
+    {
+      "slug": "quip",
+      "brandId": "c171",
+      "raw": 109,
+      "kept": 108,
+      "shopBase": "https://www.getquip.com"
+    },
+    {
+      "slug": "rahua",
+      "brandId": "c172",
+      "raw": 79,
+      "kept": 77,
+      "shopBase": "https://rahua.com"
+    },
+    {
+      "slug": "raw-elements",
+      "brandId": "c173",
+      "raw": 81,
+      "kept": 80,
+      "shopBase": "https://rawelementsusa.com"
+    },
+    {
+      "slug": "recess",
+      "brandId": "c174",
+      "raw": 114,
+      "kept": 112,
+      "shopBase": "https://shop.takearecess.com"
+    },
+    {
+      "slug": "refy",
+      "brandId": "c175",
+      "raw": 61,
+      "kept": 60,
+      "shopBase": "https://refybeauty.com"
+    },
+    {
+      "slug": "revitin",
+      "brandId": "c176",
+      "raw": 20,
+      "kept": 18,
+      "shopBase": "https://revitin.com"
+    },
+    {
+      "slug": "rose-inc",
+      "brandId": "c177",
+      "raw": 62,
+      "kept": 57,
+      "shopBase": "https://www.roseinc.com"
+    },
+    {
+      "slug": "skin1004",
+      "brandId": "c178",
+      "raw": 96,
+      "kept": 96,
+      "shopBase": "https://skin1004.com"
+    },
+    {
+      "slug": "spotlight-oral",
+      "brandId": "c179",
+      "raw": 0,
+      "kept": 0,
+      "shopBase": "https://www.spotlightoralcare.com"
+    },
+    {
+      "slug": "starface",
+      "brandId": "c180",
+      "raw": 50,
+      "kept": 47,
+      "shopBase": "https://starface.world"
+    },
+    {
+      "slug": "stream2sea",
+      "brandId": "c181",
+      "raw": 81,
+      "kept": 77,
+      "shopBase": "https://www.stream2sea.com"
+    },
+    {
+      "slug": "suavecito",
+      "brandId": "c182",
+      "raw": 860,
+      "kept": 858,
+      "shopBase": "https://suavecito.com"
+    },
+    {
+      "slug": "susanne-kaufmann",
+      "brandId": "c183",
+      "raw": 82,
+      "kept": 75,
+      "shopBase": "https://www.susannekaufmann.com"
+    },
+    {
+      "slug": "the-nue-co",
+      "brandId": "c184",
+      "raw": 41,
+      "kept": 30,
+      "shopBase": "https://thenueco.com"
+    },
+    {
+      "slug": "three-ships",
+      "brandId": "c185",
+      "raw": 97,
+      "kept": 75,
+      "shopBase": "https://threeshipsbeauty.com"
+    },
+    {
+      "slug": "vegamour",
+      "brandId": "c186",
+      "raw": 63,
+      "kept": 63,
+      "shopBase": "https://vegamour.com"
+    },
+    {
+      "slug": "verb",
+      "brandId": "c187",
+      "raw": 89,
+      "kept": 76,
+      "shopBase": "https://verbproducts.com"
+    },
+    {
+      "slug": "vintners-daughter",
+      "brandId": "c188",
+      "raw": 30,
+      "kept": 19,
+      "shopBase": "https://www.vintnersdaughter.com"
+    },
+    {
+      "slug": "voluspa",
+      "brandId": "c189",
+      "raw": 904,
+      "kept": 851,
+      "shopBase": "https://voluspa.com"
+    },
+    {
+      "slug": "well-people",
+      "brandId": "c190",
+      "raw": 60,
+      "kept": 60,
+      "shopBase": "https://wellpeople.com"
+    },
+    {
+      "slug": "american-crew",
+      "brandId": "c191",
+      "raw": 60,
+      "kept": 59,
+      "shopBase": "https://www.americancrew.com"
+    },
+    {
+      "slug": "diptyque",
+      "brandId": "c192",
+      "raw": 407,
+      "kept": 405,
+      "shopBase": "https://www.diptyqueparis.com"
+    },
+    {
+      "slug": "dollar-shave",
+      "brandId": "c193",
+      "raw": 122,
+      "kept": 108,
+      "shopBase": "https://www.dollarshaveclub.com"
+    },
+    {
+      "slug": "fenty-skin",
+      "brandId": "c194",
+      "raw": 930,
+      "kept": 921,
+      "shopBase": "https://fentybeauty.com"
+    },
+    {
+      "slug": "glossier",
+      "brandId": "c195",
+      "raw": 114,
+      "kept": 96,
+      "shopBase": "https://www.glossier.com"
+    },
+    {
+      "slug": "harry-s",
+      "brandId": "c196",
+      "raw": 86,
+      "kept": 86,
+      "shopBase": "https://harrys.com"
+    },
+    {
+      "slug": "haus-labs",
+      "brandId": "c197",
+      "raw": 48,
+      "kept": 37,
+      "shopBase": "https://www.hauslabs.com"
+    },
+    {
+      "slug": "milk-makeup",
+      "brandId": "c198",
+      "raw": 86,
+      "kept": 81,
+      "shopBase": "https://www.milkmakeup.com"
+    },
+    {
+      "slug": "olaplex",
+      "brandId": "c199",
+      "raw": 85,
+      "kept": 85,
+      "shopBase": "https://olaplex.com"
+    },
+    {
+      "slug": "rare-beauty",
+      "brandId": "c200",
+      "raw": 139,
+      "kept": 135,
+      "shopBase": "https://www.rarebeauty.com"
+    }
+  ],
+  "failures": [
+    {
+      "slug": "lume",
+      "error": "not-json"
+    },
+    {
+      "slug": "spotlight-oral",
+      "error": "no-products"
+    }
+  ]
+}
