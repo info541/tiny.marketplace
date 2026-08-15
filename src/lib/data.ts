@@ -1,6 +1,7 @@
 import { catalogBrands } from "./catalog-brands";
 import { catalogBrandsBatch2 } from "./catalog-brands-batch2";
 import { catalogBrandsWhey } from "./catalog-brands-whey";
+import { catalogBrandsDeo } from "./catalog-brands-deo";
 import { catalogProducts } from "./catalog-products";
 import type { Brand, CommunityPost, Product, Review } from "./types";
 
@@ -183,6 +184,7 @@ export const brands: Brand[] = [
   ...catalogBrands,
   ...catalogBrandsBatch2,
   ...catalogBrandsWhey,
+  ...catalogBrandsDeo,
 ];
 
 export const products: Product[] = [
