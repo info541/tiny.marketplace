@@ -1,4 +1,5 @@
 import { catalogBrands } from "./catalog-brands";
+import { catalogBrandsBatch2 } from "./catalog-brands-batch2";
 import { catalogProducts } from "./catalog-products";
 import type { Brand, CommunityPost, Product, Review } from "./types";
 
@@ -179,6 +180,7 @@ export const brands: Brand[] = [
     logoUrl: "/brands/mint-theory.png",
   },
   ...catalogBrands,
+  ...catalogBrandsBatch2,
 ];
 
 export const products: Product[] = [
