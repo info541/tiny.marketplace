@@ -1,4 +1,5 @@
 import { catalogBrands } from "./catalog-brands";
+import { catalogProducts } from "./catalog-products";
 import type { Brand, CommunityPost, Product, Review } from "./types";
 
 export const categories = [
@@ -4104,6 +4105,7 @@ export const products: Product[] = [
     reviewCount: 156,
     accent: "#45B69C",
   },
+  ...catalogProducts,
 ];
 
 export const reviews: Review[] = [
@@ -4262,12 +4264,21 @@ export function getBrand(idOrSlug: string) {
   return brands.find((b) => b.id === idOrSlug || b.slug === idOrSlug);
 }
 
+const productsById = new Map(products.map((p) => [p.id, p]));
+const productsBySlug = new Map(products.map((p) => [p.slug, p]));
+const productsByBrandId = products.reduce((map, p) => {
+  const list = map.get(p.brandId);
+  if (list) list.push(p);
+  else map.set(p.brandId, [p]);
+  return map;
+}, new Map<string, Product[]>());
+
 export function getProduct(idOrSlug: string) {
-  return products.find((p) => p.id === idOrSlug || p.slug === idOrSlug);
+  return productsById.get(idOrSlug) ?? productsBySlug.get(idOrSlug);
 }
 
 export function productsForBrand(brandId: string) {
-  return products.filter((p) => p.brandId === brandId);
+  return productsByBrandId.get(brandId) ?? [];
 }
 
 export function reviewsForProduct(productId: string) {
