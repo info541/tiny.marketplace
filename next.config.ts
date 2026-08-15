@@ -23,6 +23,26 @@ const nextConfig: NextConfig = {
         hostname: "www.tomsofmaine.com",
         pathname: "/cdn/shop/**",
       },
+      {
+        protocol: "https",
+        hostname: "cdn.shopify.com",
+        pathname: "/s/files/**",
+      },
+      {
+        protocol: "https",
+        hostname: "images.openbeautyfacts.org",
+        pathname: "/images/**",
+      },
+      {
+        protocol: "https",
+        hostname: "schmidts-assets.nyc3.cdn.digitaloceanspaces.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.sanity.io",
+        pathname: "/images/**",
+      },
     ],
   },
 };

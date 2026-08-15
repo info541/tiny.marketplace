@@ -1,0 +1,510 @@
+{
+  "generatedAt": "2026-08-15T02:51:05.494Z",
+  "summary": {
+    "google-favicon": 52,
+    "uplead": 47,
+    "generated-svg": 1
+  },
+  "results": [
+    {
+      "slug": "about-face",
+      "source": "google-favicon",
+      "file": "/brands/about-face.png"
+    },
+    {
+      "slug": "amika",
+      "source": "uplead",
+      "file": "/brands/amika.png"
+    },
+    {
+      "slug": "annmarie",
+      "source": "uplead",
+      "file": "/brands/annmarie.png"
+    },
+    {
+      "slug": "athena-club",
+      "source": "generated-svg",
+      "file": "/brands/athena-club.svg"
+    },
+    {
+      "slug": "axis-y",
+      "source": "google-favicon",
+      "file": "/brands/axis-y.png"
+    },
+    {
+      "slug": "bag-balm",
+      "source": "uplead",
+      "file": "/brands/bag-balm.png"
+    },
+    {
+      "slug": "beam",
+      "source": "google-favicon",
+      "file": "/brands/beam.png"
+    },
+    {
+      "slug": "beardo",
+      "source": "uplead",
+      "file": "/brands/beardo.png"
+    },
+    {
+      "slug": "beauty-of-joseon",
+      "source": "google-favicon",
+      "file": "/brands/beauty-of-joseon.png"
+    },
+    {
+      "slug": "billie",
+      "source": "uplead",
+      "file": "/brands/billie.png"
+    },
+    {
+      "slug": "blind-barber",
+      "source": "uplead",
+      "file": "/brands/blind-barber.png"
+    },
+    {
+      "slug": "blueland",
+      "source": "google-favicon",
+      "file": "/brands/blueland.png"
+    },
+    {
+      "slug": "bondi-boost",
+      "source": "google-favicon",
+      "file": "/brands/bondi-boost.png"
+    },
+    {
+      "slug": "boy-smells",
+      "source": "google-favicon",
+      "file": "/brands/boy-smells.png"
+    },
+    {
+      "slug": "branch-basics",
+      "source": "uplead",
+      "file": "/brands/branch-basics.png"
+    },
+    {
+      "slug": "brush-on-block",
+      "source": "uplead",
+      "file": "/brands/brush-on-block.png"
+    },
+    {
+      "slug": "burst",
+      "source": "uplead",
+      "file": "/brands/burst.png"
+    },
+    {
+      "slug": "camille-rose",
+      "source": "google-favicon",
+      "file": "/brands/camille-rose.png"
+    },
+    {
+      "slug": "cosrx",
+      "source": "google-favicon",
+      "file": "/brands/cosrx.png"
+    },
+    {
+      "slug": "crown-affair",
+      "source": "google-favicon",
+      "file": "/brands/crown-affair.png"
+    },
+    {
+      "slug": "cymbiotika",
+      "source": "google-favicon",
+      "file": "/brands/cymbiotika.png"
+    },
+    {
+      "slug": "danessa-myricks",
+      "source": "google-favicon",
+      "file": "/brands/danessa-myricks.png"
+    },
+    {
+      "slug": "davids",
+      "source": "google-favicon",
+      "file": "/brands/davids.png"
+    },
+    {
+      "slug": "dedcool",
+      "source": "google-favicon",
+      "file": "/brands/dedcool.png"
+    },
+    {
+      "slug": "eadem",
+      "source": "google-favicon",
+      "file": "/brands/eadem.png"
+    },
+    {
+      "slug": "ellis-brooklyn",
+      "source": "google-favicon",
+      "file": "/brands/ellis-brooklyn.png"
+    },
+    {
+      "slug": "evan-healy",
+      "source": "uplead",
+      "file": "/brands/evan-healy.png"
+    },
+    {
+      "slug": "every-man-jack",
+      "source": "uplead",
+      "file": "/brands/every-man-jack.png"
+    },
+    {
+      "slug": "fable-mane",
+      "source": "google-favicon",
+      "file": "/brands/fable-mane.png"
+    },
+    {
+      "slug": "farmaesthetics",
+      "source": "uplead",
+      "file": "/brands/farmaesthetics.png"
+    },
+    {
+      "slug": "fatco",
+      "source": "uplead",
+      "file": "/brands/fatco.png"
+    },
+    {
+      "slug": "first-aid-beauty",
+      "source": "uplead",
+      "file": "/brands/first-aid-beauty.png"
+    },
+    {
+      "slug": "flamingo",
+      "source": "google-favicon",
+      "file": "/brands/flamingo.png"
+    },
+    {
+      "slug": "gisou",
+      "source": "google-favicon",
+      "file": "/brands/gisou.png"
+    },
+    {
+      "slug": "grown-alchemist",
+      "source": "google-favicon",
+      "file": "/brands/grown-alchemist.png"
+    },
+    {
+      "slug": "haeckels",
+      "source": "uplead",
+      "file": "/brands/haeckels.png"
+    },
+    {
+      "slug": "hanz-de-fuko",
+      "source": "uplead",
+      "file": "/brands/hanz-de-fuko.png"
+    },
+    {
+      "slug": "haruharu",
+      "source": "google-favicon",
+      "file": "/brands/haruharu.png"
+    },
+    {
+      "slug": "hero-cosmetics",
+      "source": "google-favicon",
+      "file": "/brands/hero-cosmetics.png"
+    },
+    {
+      "slug": "homesick",
+      "source": "google-favicon",
+      "file": "/brands/homesick.png"
+    },
+    {
+      "slug": "indie-lee",
+      "source": "uplead",
+      "file": "/brands/indie-lee.png"
+    },
+    {
+      "slug": "inkey-list",
+      "source": "google-favicon",
+      "file": "/brands/inkey-list.png"
+    },
+    {
+      "slug": "innersense",
+      "source": "uplead",
+      "file": "/brands/innersense.png"
+    },
+    {
+      "slug": "jones-road",
+      "source": "google-favicon",
+      "file": "/brands/jones-road.png"
+    },
+    {
+      "slug": "josh-rosebrook",
+      "source": "uplead",
+      "file": "/brands/josh-rosebrook.png"
+    },
+    {
+      "slug": "juice-beauty",
+      "source": "uplead",
+      "file": "/brands/juice-beauty.png"
+    },
+    {
+      "slug": "k18",
+      "source": "google-favicon",
+      "file": "/brands/k18.png"
+    },
+    {
+      "slug": "kahina",
+      "source": "google-favicon",
+      "file": "/brands/kahina.png"
+    },
+    {
+      "slug": "kaia-naturals",
+      "source": "uplead",
+      "file": "/brands/kaia-naturals.png"
+    },
+    {
+      "slug": "kinship",
+      "source": "google-favicon",
+      "file": "/brands/kinship.png"
+    },
+    {
+      "slug": "lanolips",
+      "source": "uplead",
+      "file": "/brands/lanolips.png"
+    },
+    {
+      "slug": "little-seed-farm",
+      "source": "google-favicon",
+      "file": "/brands/little-seed-farm.png"
+    },
+    {
+      "slug": "living-libations",
+      "source": "uplead",
+      "file": "/brands/living-libations.png"
+    },
+    {
+      "slug": "lume",
+      "source": "google-favicon",
+      "file": "/brands/lume.png"
+    },
+    {
+      "slug": "makeup-by-mario",
+      "source": "google-favicon",
+      "file": "/brands/makeup-by-mario.png"
+    },
+    {
+      "slug": "may-lindstrom",
+      "source": "uplead",
+      "file": "/brands/may-lindstrom.png"
+    },
+    {
+      "slug": "meliora",
+      "source": "google-favicon",
+      "file": "/brands/meliora.png"
+    },
+    {
+      "slug": "mielle",
+      "source": "uplead",
+      "file": "/brands/mielle.png"
+    },
+    {
+      "slug": "momentous",
+      "source": "uplead",
+      "file": "/brands/momentous.png"
+    },
+    {
+      "slug": "moon-oral",
+      "source": "google-favicon",
+      "file": "/brands/moon-oral.png"
+    },
+    {
+      "slug": "naturium",
+      "source": "google-favicon",
+      "file": "/brands/naturium.png"
+    },
+    {
+      "slug": "nest-new-york",
+      "source": "google-favicon",
+      "file": "/brands/nest-new-york.png"
+    },
+    {
+      "slug": "odacite",
+      "source": "uplead",
+      "file": "/brands/odacite.png"
+    },
+    {
+      "slug": "one-love-organics",
+      "source": "uplead",
+      "file": "/brands/one-love-organics.png"
+    },
+    {
+      "slug": "otherland",
+      "source": "google-favicon",
+      "file": "/brands/otherland.png"
+    },
+    {
+      "slug": "p-f-candle",
+      "source": "uplead",
+      "file": "/brands/p-f-candle.png"
+    },
+    {
+      "slug": "package-free",
+      "source": "google-favicon",
+      "file": "/brands/package-free.png"
+    },
+    {
+      "slug": "pai-skincare",
+      "source": "uplead",
+      "file": "/brands/pai-skincare.png"
+    },
+    {
+      "slug": "phlur",
+      "source": "uplead",
+      "file": "/brands/phlur.png"
+    },
+    {
+      "slug": "public-goods",
+      "source": "uplead",
+      "file": "/brands/public-goods.png"
+    },
+    {
+      "slug": "quip",
+      "source": "uplead",
+      "file": "/brands/quip.png"
+    },
+    {
+      "slug": "rahua",
+      "source": "uplead",
+      "file": "/brands/rahua.png"
+    },
+    {
+      "slug": "raw-elements",
+      "source": "uplead",
+      "file": "/brands/raw-elements.png"
+    },
+    {
+      "slug": "recess",
+      "source": "google-favicon",
+      "file": "/brands/recess.png"
+    },
+    {
+      "slug": "refy",
+      "source": "google-favicon",
+      "file": "/brands/refy.png"
+    },
+    {
+      "slug": "revitin",
+      "source": "google-favicon",
+      "file": "/brands/revitin.png"
+    },
+    {
+      "slug": "rose-inc",
+      "source": "google-favicon",
+      "file": "/brands/rose-inc.png"
+    },
+    {
+      "slug": "skin1004",
+      "source": "google-favicon",
+      "file": "/brands/skin1004.png"
+    },
+    {
+      "slug": "spotlight-oral",
+      "source": "google-favicon",
+      "file": "/brands/spotlight-oral.png"
+    },
+    {
+      "slug": "starface",
+      "source": "google-favicon",
+      "file": "/brands/starface.png"
+    },
+    {
+      "slug": "stream2sea",
+      "source": "uplead",
+      "file": "/brands/stream2sea.png"
+    },
+    {
+      "slug": "suavecito",
+      "source": "google-favicon",
+      "file": "/brands/suavecito.png"
+    },
+    {
+      "slug": "susanne-kaufmann",
+      "source": "google-favicon",
+      "file": "/brands/susanne-kaufmann.png"
+    },
+    {
+      "slug": "the-nue-co",
+      "source": "uplead",
+      "file": "/brands/the-nue-co.png"
+    },
+    {
+      "slug": "three-ships",
+      "source": "google-favicon",
+      "file": "/brands/three-ships.png"
+    },
+    {
+      "slug": "vegamour",
+      "source": "google-favicon",
+      "file": "/brands/vegamour.png"
+    },
+    {
+      "slug": "verb",
+      "source": "uplead",
+      "file": "/brands/verb.png"
+    },
+    {
+      "slug": "vintners-daughter",
+      "source": "uplead",
+      "file": "/brands/vintners-daughter.png"
+    },
+    {
+      "slug": "voluspa",
+      "source": "uplead",
+      "file": "/brands/voluspa.png"
+    },
+    {
+      "slug": "well-people",
+      "source": "google-favicon",
+      "file": "/brands/well-people.png"
+    },
+    {
+      "slug": "american-crew",
+      "source": "uplead",
+      "file": "/brands/american-crew.png"
+    },
+    {
+      "slug": "diptyque",
+      "source": "uplead",
+      "file": "/brands/diptyque.png"
+    },
+    {
+      "slug": "dollar-shave",
+      "source": "uplead",
+      "file": "/brands/dollar-shave.png"
+    },
+    {
+      "slug": "fenty-skin",
+      "source": "google-favicon",
+      "file": "/brands/fenty-skin.png"
+    },
+    {
+      "slug": "glossier",
+      "source": "uplead",
+      "file": "/brands/glossier.png"
+    },
+    {
+      "slug": "harry-s",
+      "source": "uplead",
+      "file": "/brands/harry-s.png"
+    },
+    {
+      "slug": "haus-labs",
+      "source": "google-favicon",
+      "file": "/brands/haus-labs.png"
+    },
+    {
+      "slug": "milk-makeup",
+      "source": "uplead",
+      "file": "/brands/milk-makeup.png"
+    },
+    {
+      "slug": "olaplex",
+      "source": "uplead",
+      "file": "/brands/olaplex.png"
+    },
+    {
+      "slug": "rare-beauty",
+      "source": "google-favicon",
+      "file": "/brands/rare-beauty.png"
+    }
+  ]
+}
