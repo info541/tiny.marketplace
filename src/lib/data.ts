@@ -1,3 +1,4 @@
+import { catalogBrands } from "./catalog-brands";
 import type { Brand, CommunityPost, Product, Review } from "./types";
 
 export const categories = [
@@ -27,6 +28,7 @@ export const brands: Brand[] = [
     reviewCount: 444,
     followerCount: 0,
     websiteUrl: "https://freaksofnature.com",
+    logoUrl: "/brands/freaks-of-nature.png",
   },
   {
     id: "b7",
@@ -43,6 +45,7 @@ export const brands: Brand[] = [
     reviewCount: 6756,
     followerCount: 0,
     websiteUrl: "https://humblebrands.com",
+    logoUrl: "/brands/humble-brands.png",
   },
   {
     id: "b8",
@@ -59,6 +62,7 @@ export const brands: Brand[] = [
     reviewCount: 20059,
     followerCount: 0,
     websiteUrl: "https://moonjuice.com",
+    logoUrl: "/brands/moon-juice.png",
   },
   {
     id: "b9",
@@ -75,6 +79,7 @@ export const brands: Brand[] = [
     reviewCount: 0,
     followerCount: 0,
     websiteUrl: "https://www.tomsofmaine.com",
+    logoUrl: "/brands/toms-of-maine.png",
   },
   {
     id: "b1",
@@ -90,6 +95,7 @@ export const brands: Brand[] = [
     rating: 4.8,
     reviewCount: 312,
     followerCount: 1840,
+    logoUrl: "/brands/solara-lab.png",
   },
   {
     id: "b2",
@@ -105,6 +111,7 @@ export const brands: Brand[] = [
     rating: 4.6,
     reviewCount: 528,
     followerCount: 3201,
+    logoUrl: "/brands/pine-and-alum.png",
   },
   {
     id: "b3",
@@ -120,6 +127,7 @@ export const brands: Brand[] = [
     rating: 4.7,
     reviewCount: 891,
     followerCount: 5120,
+    logoUrl: "/brands/nourish-co.png",
   },
   {
     id: "b4",
@@ -135,6 +143,7 @@ export const brands: Brand[] = [
     rating: 4.9,
     reviewCount: 1204,
     followerCount: 8900,
+    logoUrl: "/brands/dewdrop.png",
   },
   {
     id: "b5",
@@ -150,6 +159,7 @@ export const brands: Brand[] = [
     rating: 4.5,
     reviewCount: 267,
     followerCount: 1450,
+    logoUrl: "/brands/root-ritual.png",
   },
   {
     id: "b6",
@@ -165,7 +175,9 @@ export const brands: Brand[] = [
     rating: 4.4,
     reviewCount: 189,
     followerCount: 980,
+    logoUrl: "/brands/mint-theory.png",
   },
+  ...catalogBrands,
 ];
 
 export const products: Product[] = [
