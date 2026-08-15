@@ -52,6 +52,36 @@ function firstParagraph(html) {
   return cut.replace(/\s+\S*$/, "") + "…";
 }
 
+function extractIngredients(bodyHtml) {
+  if (!bodyHtml) return [];
+  const text = stripHtml(bodyHtml);
+  const markers = [
+    /ingredients?:\s*([\s\S]{10,900}?)(?:\. (?:directions|how to|warning|free from|what'?s not)|$)/i,
+    /full ingredients?:\s*([\s\S]{10,900}?)(?:\. (?:directions|how to)|$)/i,
+  ];
+  for (const re of markers) {
+    const m = text.match(re);
+    if (!m) continue;
+    const chunk = m[1]
+      .split(/[.;\n]/)
+      .map((s) => s.trim())
+      .filter((s) => s.length > 1 && s.length < 80)
+      .slice(0, 40);
+    if (chunk.length >= 3) return chunk;
+  }
+  const m2 = text.match(
+    /ingredients?[:\s]+([A-Za-z][^.]{40,700}(?:,\s*[A-Za-z][^,]{2,60}){4,})/i,
+  );
+  if (m2) {
+    return m2[1]
+      .split(",")
+      .map((s) => s.trim())
+      .filter(Boolean)
+      .slice(0, 40);
+  }
+  return [];
+}
+
 function inferCategory(brandCategories, title, productType, tags) {
   const hay = `${title} ${productType} ${(tags || []).join(" ")}`.toLowerCase();
   const rules = [
@@ -135,6 +165,7 @@ function mapProduct(raw, brand, brandId, index) {
   const handle = raw.handle || slugify(title);
   const id = `${brand.slug.replace(/[^a-z0-9]+/g, "").slice(0, 10)}${String(index + 1).padStart(3, "0")}`;
   const base = shopBaseBySlug[brand.slug] || brand.websiteUrl || "";
+  const ingredients = extractIngredients(body);
 
   return {
     id,
@@ -149,7 +180,7 @@ function mapProduct(raw, brand, brandId, index) {
     ),
     price: Math.round(price * 100) / 100,
     description,
-    ingredients: [],
+    ingredients,
     freeFrom: [],
     rating: Math.round((4.4 + (index % 5) * 0.1) * 10) / 10,
     reviewCount: 30 + ((index * 17) % 480),
