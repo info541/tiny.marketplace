@@ -7,7 +7,7 @@ import { HeaderSearch } from "@/components/HeaderSearch";
 
 const links = [
   { href: "/browse", label: "Browse" },
-  { href: "/#brands", label: "Brands" },
+  { href: "/brands", label: "Brands" },
   { href: "/ingredients", label: "Ingredients" },
   { href: "/blog", label: "Blog" },
   { href: "/community", label: "Talk" },
@@ -192,9 +192,7 @@ export function SiteHeaderClient({ email }: Props) {
           <>
             <nav className="hidden items-center gap-5 lg:flex">
               {links.map((link) => {
-                const active =
-                  link.href !== "/#brands" &&
-                  (pathname === link.href || pathname.startsWith(`${link.href}/`));
+                const active = pathname === link.href || pathname.startsWith(`${link.href}/`);
                 return (
                   <Link
                     key={link.href}
@@ -252,9 +250,7 @@ export function SiteHeaderClient({ email }: Props) {
         <div id={menuId} className="border-t border-white/10 bg-header lg:hidden">
           <nav className="flex flex-col px-4 py-3 sm:px-5">
             {links.map((link) => {
-              const active =
-                link.href !== "/#brands" &&
-                (pathname === link.href || pathname.startsWith(`${link.href}/`));
+              const active = pathname === link.href || pathname.startsWith(`${link.href}/`);
               return (
                 <Link
                   key={link.href}
