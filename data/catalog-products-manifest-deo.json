@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-08-15T04:40:47.465Z",
+  "deoProducts": 501,
+  "deoBrandsWithProducts": 25,
+  "totalProducts": 21001,
+  "brandCount": 229,
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "hume-supernatural",
+      "brandId": "c226",
+      "raw": 29,
+      "kept": 14,
+      "shopBase": "https://humesupernatural.com"
+    },
+    {
+      "slug": "nelson-naturals",
+      "brandId": "c227",
+      "raw": 90,
+      "kept": 8,
+      "shopBase": "https://nelsonnaturals.com"
+    },
+    {
+      "slug": "earth-conscious",
+      "brandId": "c228",
+      "raw": 50,
+      "kept": 27,
+      "shopBase": "https://earthconscious.co.uk"
+    },
+    {
+      "slug": "fussy",
+      "brandId": "c229",
+      "raw": 182,
+      "kept": 9,
+      "shopBase": "https://fussy.com"
+    },
+    {
+      "slug": "coconut-matter",
+      "brandId": "c230",
+      "raw": 37,
+      "kept": 6,
+      "shopBase": "https://coconutmatter.com"
+    },
+    {
+      "slug": "erbaviva",
+      "brandId": "c231",
+      "raw": 60,
+      "kept": 5,
+      "shopBase": "https://erbaviva.com"
+    },
+    {
+      "slug": "penny-lane-organics",
+      "brandId": "c232",
+      "raw": 228,
+      "kept": 18,
+      "shopBase": "https://pennylaneorganics.com"
+    },
+    {
+      "slug": "pretty-frank",
+      "brandId": "c233",
+      "raw": 21,
+      "kept": 20,
+      "shopBase": "https://prettyfrank.com"
+    },
+    {
+      "slug": "routine",
+      "brandId": "c234",
+      "raw": 255,
+      "kept": 86,
+      "shopBase": "https://routinecream.com"
+    },
+    {
+      "slug": "akt-london",
+      "brandId": "c235",
+      "raw": 21,
+      "kept": 8,
+      "shopBase": "https://aktlondon.com"
+    },
+    {
+      "slug": "no-tox-life",
+      "brandId": "c236",
+      "raw": 80,
+      "kept": 14,
+      "shopBase": "https://notoxlife.com"
+    },
+    {
+      "slug": "herban-cowboy",
+      "brandId": "c237",
+      "raw": 31,
+      "kept": 5,
+      "shopBase": "https://herbancowboy.com"
+    },
+    {
+      "slug": "lavera",
+      "brandId": "c238",
+      "raw": 584,
+      "kept": 36,
+      "shopBase": "https://lavera.com"
+    },
+    {
+      "slug": "dr-squatch",
+      "brandId": "c239",
+      "raw": 539,
+      "kept": 108,
+      "shopBase": "https://drsquatch.com"
+    },
+    {
+      "slug": "duke-cannon",
+      "brandId": "c240",
+      "raw": 166,
+      "kept": 13,
+      "shopBase": "https://dukecannon.com"
+    },
+    {
+      "slug": "brickell",
+      "brandId": "c241",
+      "raw": 178,
+      "kept": 3,
+      "shopBase": "https://brickellmensproducts.com"
+    },
+    {
+      "slug": "green-beaver",
+      "brandId": "c242",
+      "raw": 62,
+      "kept": 15,
+      "shopBase": "https://greenbeaver.com"
+    },
+    {
+      "slug": "eo-products",
+      "brandId": "c243",
+      "raw": 228,
+      "kept": 17,
+      "shopBase": "https://eoproducts.com"
+    },
+    {
+      "slug": "megababe",
+      "brandId": "c244",
+      "raw": 71,
+      "kept": 16,
+      "shopBase": "https://megababebeauty.com"
+    },
+    {
+      "slug": "neals-yard",
+      "brandId": "c245",
+      "raw": 332,
+      "kept": 4,
+      "shopBase": "https://nealsyardremedies.com"
+    },
+    {
+      "slug": "simple-alchemy",
+      "brandId": "c246",
+      "raw": 26,
+      "kept": 4,
+      "shopBase": "https://simplealchemyco.com"
+    },
+    {
+      "slug": "toms-of-maine",
+      "brandId": "c247",
+      "raw": 76,
+      "kept": 13,
+      "shopBase": "https://tomsofmaine.com"
+    },
+    {
+      "slug": "raw-sugar",
+      "brandId": "c248",
+      "raw": 96,
+      "kept": 4,
+      "shopBase": "https://rawsugarliving.com"
+    },
+    {
+      "slug": "bulldog",
+      "brandId": "c249",
+      "raw": 91,
+      "kept": 10,
+      "shopBase": "https://bulldogskincare.com"
+    },
+    {
+      "slug": "bare-anatomy",
+      "brandId": "c250",
+      "raw": 332,
+      "kept": 38,
+      "shopBase": "https://bareanatomy.com"
+    }
+  ],
+  "failures": []
+}
