@@ -1,0 +1,2274 @@
+{
+  "ok": [
+    {
+      "slug": "indie-lee",
+      "name": "Indie Lee",
+      "domain": "indielee.com",
+      "websiteUrl": "https://indielee.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Clean clinical skincare that works",
+      "story": "Founded after a health wake-up call — results-driven clean formulas with transparent ingredients.",
+      "location": "New York",
+      "founded": 2010,
+      "accent": "#C4B7A6",
+      "shopify": true,
+      "shopBase": "https://indielee.com"
+    },
+    {
+      "slug": "odacite",
+      "name": "Odacité",
+      "domain": "odacite.com",
+      "websiteUrl": "https://odacite.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Synergy blends of pure plant oils",
+      "story": "Paris-meets-LA botanical skincare built around cold-pressed oils and concentrated plant actives.",
+      "location": "Los Angeles, CA",
+      "founded": 2009,
+      "accent": "#7A9E7E",
+      "shopify": true,
+      "shopBase": "https://odacite.com"
+    },
+    {
+      "slug": "kinship",
+      "name": "Kinship",
+      "domain": "lovekinship.com",
+      "websiteUrl": "https://lovekinship.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Probiotic skincare for sensitive skin",
+      "story": "Brooklyn-born probiotic formulas that calm sensitive, reactive skin without the harsh actives parade.",
+      "location": "Brooklyn, NY",
+      "founded": 2018,
+      "accent": "#E8A598",
+      "shopify": true,
+      "shopBase": "https://lovekinship.com"
+    },
+    {
+      "slug": "josh-rosebrook",
+      "name": "Josh Rosebrook",
+      "domain": "joshrosebrook.com",
+      "websiteUrl": "https://joshrosebrook.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Vital nutrient herbal skincare",
+      "story": "Herbalist-made nutrient skincare from the California coast — botanicals and hydration without synthetic overload.",
+      "location": "California",
+      "founded": 2013,
+      "accent": "#8B6B4A",
+      "shopify": true,
+      "shopBase": "https://joshrosebrook.com"
+    },
+    {
+      "slug": "three-ships",
+      "name": "Three Ships",
+      "domain": "threeshipsbeauty.com",
+      "websiteUrl": "https://threeshipsbeauty.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Plant-powered, proven clean beauty",
+      "story": "Toronto clean beauty with plant actives and clinical receipts — transparent formulas without the junk.",
+      "location": "Toronto, Canada",
+      "founded": 2017,
+      "accent": "#5B8C5A",
+      "shopify": true,
+      "shopBase": "https://threeshipsbeauty.com"
+    },
+    {
+      "slug": "well-people",
+      "name": "W3LL PEOPLE",
+      "domain": "wellpeople.com",
+      "websiteUrl": "https://wellpeople.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Clean makeup and skin that behaves",
+      "story": "Austin clean beauty for everyday makeup and skin — plant-powered formulas that skip the suspect stuff.",
+      "location": "Austin, TX",
+      "founded": 2008,
+      "accent": "#6B8F71",
+      "shopify": true,
+      "shopBase": "https://wellpeople.com"
+    },
+    {
+      "slug": "pai-skincare",
+      "name": "Pai Skincare",
+      "domain": "paiskincare.com",
+      "websiteUrl": "https://www.paiskincare.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Sensitive-skin specialists",
+      "story": "London clean brand built for reactive skin — gentle plant formulas with serious patch-test energy.",
+      "location": "London, UK",
+      "founded": 2007,
+      "accent": "#D4A5A5",
+      "shopify": true,
+      "shopBase": "https://www.paiskincare.com"
+    },
+    {
+      "slug": "eadem",
+      "name": "Eadem",
+      "domain": "eadem.co",
+      "websiteUrl": "https://eadem.co",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Melanin-aware clean skincare",
+      "story": "Skincare designed with melanin-rich skin in mind — brightening and barrier care without one-shade myths.",
+      "location": "New York, NY",
+      "founded": 2020,
+      "accent": "#B8956C",
+      "shopify": true,
+      "shopBase": "https://eadem.co"
+    },
+    {
+      "slug": "juice-beauty",
+      "name": "Juice Beauty",
+      "domain": "juicebeauty.com",
+      "websiteUrl": "https://juicebeauty.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Organic boutique skincare",
+      "story": "Sonoma-made organic skincare rooted in antioxidant fruit juices and certified organic botanicals.",
+      "location": "Sonoma, CA",
+      "founded": 2005,
+      "accent": "#C45C26",
+      "shopify": true,
+      "shopBase": "https://juicebeauty.com"
+    },
+    {
+      "slug": "evan-healy",
+      "name": "evan healy",
+      "domain": "evanhealy.com",
+      "websiteUrl": "https://evanhealy.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Holistic plant skincare",
+      "story": "Holistic facial care built around plant hydrosols and oils that respect skin’s own intelligence.",
+      "location": "United States",
+      "founded": 1999,
+      "accent": "#9CAF88",
+      "shopify": true,
+      "shopBase": "https://evanhealy.com"
+    },
+    {
+      "slug": "living-libations",
+      "name": "Living Libations",
+      "domain": "livinglibations.com",
+      "websiteUrl": "https://www.livinglibations.com",
+      "categories": [
+        "skincare",
+        "oral",
+        "hair"
+      ],
+      "tagline": "Beyond organic botanical beauty",
+      "story": "Canadian botanical apothecary with wildcrafted oils for skin, smile, and hair.",
+      "location": "Ontario, Canada",
+      "founded": 2000,
+      "accent": "#6B4F3A",
+      "shopify": true,
+      "shopBase": "https://www.livinglibations.com"
+    },
+    {
+      "slug": "vintners-daughter",
+      "name": "Vintner's Daughter",
+      "domain": "vintnersdaughter.com",
+      "websiteUrl": "https://www.vintnersdaughter.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Active botanical face oil",
+      "story": "Napa-rooted botanical face oil with a devoted following — dense plant actives in one daily ritual.",
+      "location": "Napa, CA",
+      "founded": 2014,
+      "accent": "#8B4513",
+      "shopify": true,
+      "shopBase": "https://www.vintnersdaughter.com"
+    },
+    {
+      "slug": "hero-cosmetics",
+      "name": "Hero Cosmetics",
+      "domain": "herocosmetics.us",
+      "websiteUrl": "https://herocosmetics.us",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Mighty patches for breakouts",
+      "story": "The Mighty Patch people — hydrocolloid heroes and gentle skin helpers for breakout days.",
+      "location": "United States",
+      "founded": 2017,
+      "accent": "#FF6B6B",
+      "shopify": true,
+      "shopBase": "https://herocosmetics.us"
+    },
+    {
+      "slug": "starface",
+      "name": "Starface",
+      "domain": "starface.world",
+      "websiteUrl": "https://starface.world",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Star-shaped pimple patches",
+      "story": "Playful hydrocolloid patches and skin care with a cosmic smile — breakouts, but make it cute.",
+      "location": "New York, NY",
+      "founded": 2019,
+      "accent": "#FFE66D",
+      "shopify": true,
+      "shopBase": "https://starface.world"
+    },
+    {
+      "slug": "may-lindstrom",
+      "name": "May Lindstrom Skin",
+      "domain": "maylindstrom.com",
+      "websiteUrl": "https://www.maylindstrom.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Sensorial botanical skincare",
+      "story": "Handcrafted botanical rituals that feel like a spa in a jar — rich oils, masks, and cleansers.",
+      "location": "Los Angeles, CA",
+      "founded": 2010,
+      "accent": "#C9A9A6",
+      "shopify": true,
+      "shopBase": "https://www.maylindstrom.com"
+    },
+    {
+      "slug": "naturium",
+      "name": "Naturium",
+      "domain": "naturium.com",
+      "websiteUrl": "https://naturium.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Science-backed accessible skincare",
+      "story": "Dermatologist-loved actives at approachable prices — serums and treatments that punch up.",
+      "location": "United States",
+      "founded": 2020,
+      "accent": "#4A7C59",
+      "shopify": true,
+      "shopBase": "https://naturium.com"
+    },
+    {
+      "slug": "inkey-list",
+      "name": "The Inkey List",
+      "domain": "theinkeylist.com",
+      "websiteUrl": "https://www.theinkeylist.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Key ingredients, clear prices",
+      "story": "Demystified actives with honest pricing — know what you’re putting on and why it costs that.",
+      "location": "United Kingdom",
+      "founded": 2018,
+      "accent": "#1A1A1A",
+      "shopify": true,
+      "shopBase": "https://www.theinkeylist.com"
+    },
+    {
+      "slug": "cosrx",
+      "name": "COSRX",
+      "domain": "cosrx.com",
+      "websiteUrl": "https://www.cosrx.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Simple, effective K-beauty",
+      "story": "Short formulas, big results — snail mucin, actives, and barrier care that became a staple.",
+      "location": "South Korea",
+      "founded": 2013,
+      "accent": "#2C2C2C",
+      "shopify": true,
+      "shopBase": "https://www.cosrx.com"
+    },
+    {
+      "slug": "beauty-of-joseon",
+      "name": "Beauty of Joseon",
+      "domain": "beautyofjoseon.com",
+      "websiteUrl": "https://beautyofjoseon.com",
+      "categories": [
+        "skincare",
+        "sunscreen"
+      ],
+      "tagline": "Hanbang meets modern skin science",
+      "story": "Korean heritage botanicals in modern textures — ginseng, rice, and SPF with a cult following.",
+      "location": "South Korea",
+      "founded": 2017,
+      "accent": "#E8D5B7",
+      "shopify": true,
+      "shopBase": "https://beautyofjoseon.com"
+    },
+    {
+      "slug": "haruharu",
+      "name": "Haruharu Wonder",
+      "domain": "haruharuwonder.com",
+      "websiteUrl": "https://haruharuwonder.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Black rice wonder skincare",
+      "story": "Black rice and gentle ferment formulas from Korea — soothing and fragrance-mindful.",
+      "location": "South Korea",
+      "founded": 2016,
+      "accent": "#4A3728",
+      "shopify": true,
+      "shopBase": "https://haruharuwonder.com"
+    },
+    {
+      "slug": "axis-y",
+      "name": "AXIS-Y",
+      "domain": "axis-y.com",
+      "websiteUrl": "https://axis-y.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Vegan K-beauty for uneven tone",
+      "story": "Vegan Korean skincare for dullness and uneven tone — dark spot care with a soft finish.",
+      "location": "South Korea",
+      "founded": 2018,
+      "accent": "#6B5B95",
+      "shopify": true,
+      "shopBase": "https://axis-y.com"
+    },
+    {
+      "slug": "skin1004",
+      "name": "SKIN1004",
+      "domain": "skin1004.com",
+      "websiteUrl": "https://skin1004.com",
+      "categories": [
+        "skincare",
+        "sunscreen"
+      ],
+      "tagline": "Centella from Madagascar",
+      "story": "Madagascar centella in calming serums and sunscreens — barrier care for sensitive days.",
+      "location": "South Korea",
+      "founded": 2016,
+      "accent": "#3D8B6E",
+      "shopify": true,
+      "shopBase": "https://skin1004.com"
+    },
+    {
+      "slug": "first-aid-beauty",
+      "name": "First Aid Beauty",
+      "domain": "firstaidbeauty.com",
+      "websiteUrl": "https://firstaidbeauty.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Skin first aid that actually soothes",
+      "story": "Ultra Repair and friends — sensitive-skin staples that calm dryness and irritation fast.",
+      "location": "Boston, MA",
+      "founded": 2009,
+      "accent": "#E74C3C",
+      "shopify": true,
+      "shopBase": "https://firstaidbeauty.com"
+    },
+    {
+      "slug": "jones-road",
+      "name": "Jones Road",
+      "domain": "jonesroadbeauty.com",
+      "websiteUrl": "https://jonesroadbeauty.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "No-makeup makeup essentials",
+      "story": "Bobbi Brown’s clean-leaning color line — Miracle Balm energy for effortless skin-first makeup.",
+      "location": "New York, NY",
+      "founded": 2020,
+      "accent": "#C4A484",
+      "shopify": true,
+      "shopBase": "https://jonesroadbeauty.com"
+    },
+    {
+      "slug": "annmarie",
+      "name": "Annmarie Skin Care",
+      "domain": "annmariegianni.com",
+      "websiteUrl": "https://www.annmariegianni.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Wildcrafted organic skincare",
+      "story": "Small-batch organic formulas with wildcrafted botanicals — pure, potent, and intentionally made.",
+      "location": "California",
+      "founded": 2008,
+      "accent": "#A67C52",
+      "shopify": true,
+      "shopBase": "https://shop.annmariegianni.com"
+    },
+    {
+      "slug": "raw-elements",
+      "name": "Raw Elements",
+      "domain": "rawelementsusa.com",
+      "websiteUrl": "https://rawelementsusa.com",
+      "categories": [
+        "sunscreen"
+      ],
+      "tagline": "Reef-safe mineral sunscreen",
+      "story": "Certified natural mineral sunscreen for people who live outside — reef-conscious and water-ready.",
+      "location": "United States",
+      "founded": 2010,
+      "accent": "#2E8B57",
+      "shopify": true,
+      "shopBase": "https://rawelementsusa.com"
+    },
+    {
+      "slug": "stream2sea",
+      "name": "Stream2Sea",
+      "domain": "stream2sea.com",
+      "websiteUrl": "https://www.stream2sea.com",
+      "categories": [
+        "sunscreen",
+        "hair"
+      ],
+      "tagline": "Reef-safe sun and swim care",
+      "story": "Dive-tested reef-safe sunscreen and hair care for oceans, lakes, and chlorinated weekends.",
+      "location": "Florida",
+      "founded": 2012,
+      "accent": "#1E90FF",
+      "shopify": true,
+      "shopBase": "https://www.stream2sea.com"
+    },
+    {
+      "slug": "brush-on-block",
+      "name": "Brush On Block",
+      "domain": "brushonblock.com",
+      "websiteUrl": "https://brushonblock.com",
+      "categories": [
+        "sunscreen"
+      ],
+      "tagline": "Powder sunscreen on the go",
+      "story": "Mineral powder SPF in a brush — touch-up protection that lives in your bag.",
+      "location": "United States",
+      "founded": 2013,
+      "accent": "#F5DEB3",
+      "shopify": true,
+      "shopBase": "https://brushonblock.com"
+    },
+    {
+      "slug": "little-seed-farm",
+      "name": "Little Seed Farm",
+      "domain": "littleseedfarm.com",
+      "websiteUrl": "https://littleseedfarm.com",
+      "categories": [
+        "deodorant",
+        "skincare"
+      ],
+      "tagline": "Farm-made natural deodorant",
+      "story": "Tennessee farmstead deodorant and balms — simple ingredients, small batches, serious odor control.",
+      "location": "Tennessee",
+      "founded": 2015,
+      "accent": "#8FBC8F",
+      "shopify": true,
+      "shopBase": "https://littleseedfarm.com"
+    },
+    {
+      "slug": "lume",
+      "name": "Lume",
+      "domain": "lumedeodorant.com",
+      "websiteUrl": "https://lumedeodorant.com",
+      "categories": [
+        "deodorant"
+      ],
+      "tagline": "Whole-body odor control",
+      "story": "Acidified deodorant for underarms and everywhere else odor shows up — clinical and cult.",
+      "location": "Minnesota",
+      "founded": 2017,
+      "accent": "#E91E8C",
+      "shopify": true,
+      "shopBase": "https://lumedeodorant.com"
+    },
+    {
+      "slug": "kaia-naturals",
+      "name": "Kaia Naturals",
+      "domain": "kaianaturals.com",
+      "websiteUrl": "https://kaianaturals.com",
+      "categories": [
+        "deodorant"
+      ],
+      "tagline": "The take-it-all-off detox set",
+      "story": "Toronto natural deodorant famous for the charcoal detox reset — clean underarms without aluminum.",
+      "location": "Toronto, Canada",
+      "founded": 2012,
+      "accent": "#4A4A4A",
+      "shopify": true,
+      "shopBase": "https://kaianaturals.com"
+    },
+    {
+      "slug": "fatco",
+      "name": "FATCO",
+      "domain": "fatco.com",
+      "websiteUrl": "https://www.fatco.com",
+      "categories": [
+        "deodorant",
+        "skincare"
+      ],
+      "tagline": "Ancestral fat-based body care",
+      "story": "Tallow-based balms and deodorant for skin that likes ancestral ingredients over petroleum.",
+      "location": "United States",
+      "founded": 2013,
+      "accent": "#8B7355",
+      "shopify": true,
+      "shopBase": "https://www.fatco.com"
+    },
+    {
+      "slug": "crown-affair",
+      "name": "Crown Affair",
+      "domain": "crownaffair.com",
+      "websiteUrl": "https://www.crownaffair.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Hair care as daily ritual",
+      "story": "Elevated brushes, mists, and oils for hair that wants a ritual — not just another shampoo.",
+      "location": "New York, NY",
+      "founded": 2019,
+      "accent": "#F5F0E6",
+      "shopify": true,
+      "shopBase": "https://www.crownaffair.com"
+    },
+    {
+      "slug": "fable-mane",
+      "name": "Fable & Mane",
+      "domain": "fableandmane.com",
+      "websiteUrl": "https://www.fableandmane.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Ayurvedic hair rituals",
+      "story": "Modern Ayurvedic hair care with hollis oil and scalp rituals — growth-minded and scent-obsessed.",
+      "location": "London / US",
+      "founded": 2019,
+      "accent": "#8B4513",
+      "shopify": true,
+      "shopBase": "https://www.fableandmane.com"
+    },
+    {
+      "slug": "vegamour",
+      "name": "Vegamour",
+      "domain": "vegamour.com",
+      "websiteUrl": "https://vegamour.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Plant-based hair wellness",
+      "story": "Clean plant actives for thinning hair concerns — serums and systems with a clinical-clean vibe.",
+      "location": "Los Angeles, CA",
+      "founded": 2016,
+      "accent": "#2E8B57",
+      "shopify": true,
+      "shopBase": "https://vegamour.com"
+    },
+    {
+      "slug": "innersense",
+      "name": "Innersense Organic Beauty",
+      "domain": "innersensebeauty.com",
+      "websiteUrl": "https://www.innersensebeauty.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Organic salon hair care",
+      "story": "Certified organic hair care used in salons — essential oils, clean formulas, pro results.",
+      "location": "California",
+      "founded": 2007,
+      "accent": "#C4A484",
+      "shopify": true,
+      "shopBase": "https://www.innersensebeauty.com"
+    },
+    {
+      "slug": "rahua",
+      "name": "Rahua",
+      "domain": "rahua.com",
+      "websiteUrl": "https://rahua.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Amazon oil hair care",
+      "story": "Symbiotic Amazon oils in luxurious hair care — rainforest-sourced and salon-polished.",
+      "location": "New York, NY",
+      "founded": 2008,
+      "accent": "#1B4D3E",
+      "shopify": true,
+      "shopBase": "https://rahua.com"
+    },
+    {
+      "slug": "k18",
+      "name": "K18",
+      "domain": "k18hair.com",
+      "websiteUrl": "https://www.k18hair.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Molecular repair hair mask",
+      "story": "Peptide-powered hair repair that changed the bleach-damage conversation.",
+      "location": "United States",
+      "founded": 2021,
+      "accent": "#1A1A1A",
+      "shopify": true,
+      "shopBase": "https://www.k18hair.com"
+    },
+    {
+      "slug": "amika",
+      "name": "amika",
+      "domain": "loveamika.com",
+      "websiteUrl": "https://www.loveamika.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Born in Brooklyn hair energy",
+      "story": "Playful, performance hair care from Brooklyn — sea buckthorn formulas with serious range.",
+      "location": "Brooklyn, NY",
+      "founded": 2008,
+      "accent": "#FF6B9D",
+      "shopify": true,
+      "shopBase": "https://www.loveamika.com"
+    },
+    {
+      "slug": "gisou",
+      "name": "Gisou",
+      "domain": "gisou.com",
+      "websiteUrl": "https://www.gisou.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Honey-infused hair care",
+      "story": "Mirsalehi honey hair care from a beekeeping family — shine, scent, and soft hair.",
+      "location": "Amsterdam",
+      "founded": 2015,
+      "accent": "#F4C430",
+      "shopify": true,
+      "shopBase": "https://www.gisou.com"
+    },
+    {
+      "slug": "bondi-boost",
+      "name": "BondiBoost",
+      "domain": "bondiboost.com",
+      "websiteUrl": "https://bondiboost.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Australian hair growth care",
+      "story": "Aussie hair care aimed at thinning and growth goals — clean-leaning with beachy energy.",
+      "location": "Australia",
+      "founded": 2015,
+      "accent": "#00A8E8",
+      "shopify": true,
+      "shopBase": "https://bondiboost.com"
+    },
+    {
+      "slug": "verb",
+      "name": "VERB",
+      "domain": "verbproducts.com",
+      "websiteUrl": "https://verbproducts.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Ghost oil and modern hair tools",
+      "story": "Accessible pro hair care with ghost oil fame — shiny results without heavy price panic.",
+      "location": "United States",
+      "founded": 2012,
+      "accent": "#7F8C8D",
+      "shopify": true,
+      "shopBase": "https://verbproducts.com"
+    },
+    {
+      "slug": "camille-rose",
+      "name": "Camille Rose",
+      "domain": "camillerose.com",
+      "websiteUrl": "https://camillerose.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Natural curls, rich botanicals",
+      "story": "Curl care with honey, cocoa, and botanicals — moisture-forward formulas for textured hair.",
+      "location": "Atlanta, GA",
+      "founded": 2008,
+      "accent": "#A0522D",
+      "shopify": true,
+      "shopBase": "https://camillerose.com"
+    },
+    {
+      "slug": "mielle",
+      "name": "Mielle Organics",
+      "domain": "mielleorganics.com",
+      "websiteUrl": "https://mielleorganics.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Rosemary and organics for curls",
+      "story": "Rosemary mint fame and organic-inspired curl care for growth, moisture, and definition.",
+      "location": "United States",
+      "founded": 2014,
+      "accent": "#228B22",
+      "shopify": true,
+      "shopBase": "https://mielleorganics.com"
+    },
+    {
+      "slug": "spotlight-oral",
+      "name": "Spotlight Oral Care",
+      "domain": "spotlightoralcare.com",
+      "websiteUrl": "https://www.spotlightoralcare.com",
+      "categories": [
+        "oral"
+      ],
+      "tagline": "Dentist-designed oral care",
+      "story": "Irish dentist-founded whitening and oral care — clinical goals with a clean aesthetic.",
+      "location": "Ireland",
+      "founded": 2018,
+      "accent": "#1ABC9C",
+      "shopify": true,
+      "shopBase": "https://www.spotlightoralcare.com"
+    },
+    {
+      "slug": "davids",
+      "name": "Davids",
+      "domain": "davids-usa.com",
+      "websiteUrl": "https://davids-usa.com",
+      "categories": [
+        "oral"
+      ],
+      "tagline": "Premium natural toothpaste",
+      "story": "Metal-tube natural toothpaste with a design-forward bathroom presence.",
+      "location": "Los Angeles, CA",
+      "founded": 2015,
+      "accent": "#2C3E50",
+      "shopify": true,
+      "shopBase": "https://davids-usa.com"
+    },
+    {
+      "slug": "moon-oral",
+      "name": "MOON",
+      "domain": "moonoralbeauty.com",
+      "websiteUrl": "https://www.moonoralbeauty.com",
+      "categories": [
+        "oral"
+      ],
+      "tagline": "Oral beauty, elevated",
+      "story": "Whitening and oral care with a beauty-shelf vibe — clean aesthetic, everyday brightening.",
+      "location": "United States",
+      "founded": 2018,
+      "accent": "#F8F1E3",
+      "shopify": true,
+      "shopBase": "https://www.moonoralbeauty.com"
+    },
+    {
+      "slug": "burst",
+      "name": "BURST",
+      "domain": "burstoralcare.com",
+      "websiteUrl": "https://www.burstoralcare.com",
+      "categories": [
+        "oral"
+      ],
+      "tagline": "Hygienist-founded electric care",
+      "story": "Sonic brushes and oral care built with dental hygienists — performance cleaning.",
+      "location": "United States",
+      "founded": 2017,
+      "accent": "#9B59B6",
+      "shopify": true,
+      "shopBase": "https://www.burstoralcare.com"
+    },
+    {
+      "slug": "quip",
+      "name": "quip",
+      "domain": "getquip.com",
+      "websiteUrl": "https://www.getquip.com",
+      "categories": [
+        "oral"
+      ],
+      "tagline": "Electric brush subscription simple",
+      "story": "Sleek electric brushes and refill rituals that make oral care feel modern.",
+      "location": "New York, NY",
+      "founded": 2015,
+      "accent": "#5DADE2",
+      "shopify": true,
+      "shopBase": "https://www.getquip.com"
+    },
+    {
+      "slug": "revitin",
+      "name": "Revitin",
+      "domain": "revitin.com",
+      "websiteUrl": "https://revitin.com",
+      "categories": [
+        "oral"
+      ],
+      "tagline": "Prebiotic toothpaste",
+      "story": "Microbiome-minded toothpaste that supports oral balance instead of scorched-earth mint.",
+      "location": "United States",
+      "founded": 2016,
+      "accent": "#27AE60",
+      "shopify": true,
+      "shopBase": "https://revitin.com"
+    },
+    {
+      "slug": "cymbiotika",
+      "name": "Cymbiotika",
+      "domain": "cymbiotika.com",
+      "websiteUrl": "https://cymbiotika.com",
+      "categories": [
+        "supplements"
+      ],
+      "tagline": "Bioavailable clean supplements",
+      "story": "Liposomal and clean-label supplements for people who care how nutrients absorb.",
+      "location": "San Diego, CA",
+      "founded": 2018,
+      "accent": "#1ABC9C",
+      "shopify": true,
+      "shopBase": "https://cymbiotika.com"
+    },
+    {
+      "slug": "the-nue-co",
+      "name": "The Nue Co",
+      "domain": "thenueco.com",
+      "websiteUrl": "https://thenueco.com",
+      "categories": [
+        "supplements",
+        "skincare"
+      ],
+      "tagline": "Functional wellness, design-first",
+      "story": "London wellness for stress, gut, and skin — functional formulas with a design-forward ritual.",
+      "location": "London, UK",
+      "founded": 2017,
+      "accent": "#2C2C2C",
+      "shopify": true,
+      "shopBase": "https://thenueco.com"
+    },
+    {
+      "slug": "momentous",
+      "name": "Momentous",
+      "domain": "livemomentous.com",
+      "websiteUrl": "https://www.livemomentous.com",
+      "categories": [
+        "supplements",
+        "protein"
+      ],
+      "tagline": "NSF-certified performance nutrition",
+      "story": "Athlete-trusted supplements with serious testing — protein, creatine, and recovery.",
+      "location": "United States",
+      "founded": 2016,
+      "accent": "#1A5276",
+      "shopify": true,
+      "shopBase": "https://www.livemomentous.com"
+    },
+    {
+      "slug": "beam",
+      "name": "BEAM",
+      "domain": "beamorganics.com",
+      "websiteUrl": "https://beamorganics.com",
+      "categories": [
+        "supplements"
+      ],
+      "tagline": "Wellness powders that taste good",
+      "story": "Functional mushroom and wellness blends for calm, focus, and recovery.",
+      "location": "United States",
+      "founded": 2018,
+      "accent": "#F39C12",
+      "shopify": true,
+      "shopBase": "https://beamorganics.com"
+    },
+    {
+      "slug": "ellis-brooklyn",
+      "name": "Ellis Brooklyn",
+      "domain": "ellisbrooklyn.com",
+      "websiteUrl": "https://ellisbrooklyn.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Clean fine fragrance",
+      "story": "Clean fragrance with literary names and serious scent architecture.",
+      "location": "New York, NY",
+      "founded": 2016,
+      "accent": "#4A3728",
+      "shopify": true,
+      "shopBase": "https://ellisbrooklyn.com"
+    },
+    {
+      "slug": "dedcool",
+      "name": "DedCool",
+      "domain": "dedcool.com",
+      "websiteUrl": "https://dedcool.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Genderless cult fragrance",
+      "story": "LA fragrance for everyone — milky, clean, and weird-in-a-good-way scents with body care.",
+      "location": "Los Angeles, CA",
+      "founded": 2015,
+      "accent": "#E8E8E8",
+      "shopify": true,
+      "shopBase": "https://dedcool.com"
+    },
+    {
+      "slug": "lanolips",
+      "name": "Lanolips",
+      "domain": "lanolips.com",
+      "websiteUrl": "https://lanolips.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "101 ointment cult balm",
+      "story": "Australian lanolin balms for lips, cuticles, and dry patches — one tube, many emergencies.",
+      "location": "Australia",
+      "founded": 2010,
+      "accent": "#F4A6C4",
+      "shopify": true,
+      "shopBase": "https://lanolips.com"
+    },
+    {
+      "slug": "bag-balm",
+      "name": "Bag Balm",
+      "domain": "bagbalm.com",
+      "websiteUrl": "https://www.bagbalm.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Vermont farmstead ointment",
+      "story": "The green tin classic — farm-born ointment for cracked skin that’s been in cabinets for generations.",
+      "location": "Vermont",
+      "founded": 1899,
+      "accent": "#228B22",
+      "shopify": true,
+      "shopBase": "https://www.bagbalm.com"
+    },
+    {
+      "slug": "phlur",
+      "name": "Phlur",
+      "domain": "phlur.com",
+      "websiteUrl": "https://phlur.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Conscious fragrance house",
+      "story": "Transparent fragrance with social impact baked in — modern scents and body mists.",
+      "location": "Austin, TX",
+      "founded": 2015,
+      "accent": "#E8D5C4",
+      "shopify": true,
+      "shopBase": "https://www.phlur.com"
+    },
+    {
+      "slug": "grown-alchemist",
+      "name": "Grown Alchemist",
+      "domain": "grownalchemist.com",
+      "websiteUrl": "https://grownalchemist.com",
+      "categories": [
+        "skincare",
+        "hair"
+      ],
+      "tagline": "Botanical laboratory beauty",
+      "story": "Melbourne botanical formulations with a lab-apothecary aesthetic — skin and hair with plant precision.",
+      "location": "Melbourne, Australia",
+      "founded": 2009,
+      "accent": "#5D6D7E",
+      "shopify": true,
+      "shopBase": "https://grownalchemist.com"
+    },
+    {
+      "slug": "recess",
+      "name": "Recess",
+      "domain": "takearecess.com",
+      "websiteUrl": "https://takearecess.com",
+      "categories": [
+        "supplements",
+        "electrolytes"
+      ],
+      "tagline": "Calm in a can",
+      "story": "Adaptogen and magnesium drinks for modern nervous systems — soft focus without the crash.",
+      "location": "New York, NY",
+      "founded": 2019,
+      "accent": "#BB8FCE",
+      "shopify": true,
+      "shopBase": "https://shop.takearecess.com"
+    },
+    {
+      "slug": "haeckels",
+      "name": "Haeckels",
+      "domain": "haeckels.co.uk",
+      "websiteUrl": "https://haeckels.co.uk",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Coastal foraging skincare",
+      "story": "Margate seaweed and coastal botanicals — experimental British skincare with shoreline soul.",
+      "location": "Margate, UK",
+      "founded": 2012,
+      "accent": "#1ABC9C",
+      "shopify": true,
+      "shopBase": "https://haeckels.co.uk"
+    },
+    {
+      "slug": "farmaesthetics",
+      "name": "Farmaesthetics",
+      "domain": "farmaesthetics.com",
+      "websiteUrl": "https://farmaesthetics.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Heirloom farm botanicals",
+      "story": "Rhode Island farm botanicals in small-batch skin rituals — heirloom herbs for modern skin.",
+      "location": "Rhode Island",
+      "founded": 1999,
+      "accent": "#9A7B4F",
+      "shopify": true,
+      "shopBase": "https://farmaesthetics.com"
+    },
+    {
+      "slug": "susanne-kaufmann",
+      "name": "Susanne Kaufmann",
+      "domain": "susannekaufmann.com",
+      "websiteUrl": "https://www.susannekaufmann.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Alpine botanical spa care",
+      "story": "Austrian Alps botanicals in spa-grade formulas — calm, precise, and quietly luxurious.",
+      "location": "Austria",
+      "founded": 2003,
+      "accent": "#A9CCE3",
+      "shopify": true,
+      "shopBase": "https://www.susannekaufmann.com"
+    },
+    {
+      "slug": "one-love-organics",
+      "name": "One Love Organics",
+      "domain": "oneloveorganics.com",
+      "websiteUrl": "https://oneloveorganics.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Island-born organic skincare",
+      "story": "Georgia sea island botanicals in cheerful organic skincare — vitamin B oil and glow staples.",
+      "location": "Georgia",
+      "founded": 2008,
+      "accent": "#E8A598",
+      "shopify": true,
+      "shopBase": "https://oneloveorganics.com"
+    },
+    {
+      "slug": "olaplex",
+      "name": "Olaplex",
+      "domain": "olaplex.com",
+      "websiteUrl": "https://olaplex.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Bond-building hair repair",
+      "story": "The bond-building system that changed color damage recovery — science-first hair repair.",
+      "location": "United States",
+      "founded": 2014,
+      "accent": "#000000",
+      "shopify": true,
+      "shopBase": "https://olaplex.com"
+    },
+    {
+      "slug": "kahina",
+      "name": "Kahina Giving Beauty",
+      "domain": "kahina-givingbeauty.com",
+      "websiteUrl": "https://kahina-givingbeauty.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Argan oil with impact",
+      "story": "Moroccan argan and giving-back beauty — luxurious oils tied to women’s cooperatives.",
+      "location": "New York / Morocco",
+      "founded": 2008,
+      "accent": "#C4A484",
+      "shopify": true,
+      "shopBase": "https://kahina-givingbeauty.com"
+    },
+    {
+      "slug": "fenty-skin",
+      "name": "Fenty Skin",
+      "domain": "fentybeauty.com",
+      "websiteUrl": "https://fentybeauty.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Inclusive skin essentials",
+      "story": "Rihanna’s skin line for real routines — cleansers, moisturizers, and SPF built for all tones.",
+      "location": "United States",
+      "founded": 2020,
+      "accent": "#8B0000",
+      "shopify": true,
+      "shopBase": "https://fentybeauty.com"
+    },
+    {
+      "slug": "rhode",
+      "name": "Rhode",
+      "domain": "rhodeskin.com",
+      "websiteUrl": "https://rhodeskin.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Skin barrier essentials",
+      "story": "Hailey’s barrier-first skin essentials — peptide glazing and pocket-sized rituals.",
+      "location": "United States",
+      "founded": 2022,
+      "accent": "#F5D0C5",
+      "shopify": true,
+      "shopBase": "https://rhodeskin.com"
+    },
+    {
+      "slug": "rare-beauty",
+      "name": "Rare Beauty",
+      "domain": "rarebeauty.com",
+      "websiteUrl": "https://www.rarebeauty.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Mental health–minded beauty",
+      "story": "Selena’s inclusive beauty brand with mental health at the center — soft pigments and kind formulas.",
+      "location": "United States",
+      "founded": 2020,
+      "accent": "#C39BD3",
+      "shopify": true,
+      "shopBase": "https://www.rarebeauty.com"
+    },
+    {
+      "slug": "sol-de-janeiro",
+      "name": "Sol de Janeiro",
+      "domain": "soldejaneiro.com",
+      "websiteUrl": "https://www.soldejaneiro.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Brazilian body care joy",
+      "story": "Cheirosa scents and body care with beachy Brazilian energy — glow, scent, and soft skin.",
+      "location": "Brazil / US",
+      "founded": 2015,
+      "accent": "#E67E22",
+      "shopify": true,
+      "shopBase": "https://www.soldejaneiro.com"
+    },
+    {
+      "slug": "rose-inc",
+      "name": "Rose Inc",
+      "domain": "roseinc.com",
+      "websiteUrl": "https://www.roseinc.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Clean color, skin-first",
+      "story": "Rosie Huntington-Whiteley’s clean color line — skin tints and care with a soft-focus finish.",
+      "location": "United States",
+      "founded": 2021,
+      "accent": "#E6B0AA",
+      "shopify": true,
+      "shopBase": "https://www.roseinc.com"
+    },
+    {
+      "slug": "westman-atelier",
+      "name": "Westman Atelier",
+      "domain": "westman-atelier.com",
+      "websiteUrl": "https://www.westman-atelier.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Clean luxury makeup",
+      "story": "Gucci Westman’s clean luxury makeup — artist formulas that still feel like skin.",
+      "location": "New York, NY",
+      "founded": 2018,
+      "accent": "#F5EEE6",
+      "shopify": true,
+      "shopBase": "https://www.westman-atelier.com"
+    },
+    {
+      "slug": "danessa-myricks",
+      "name": "Danessa Myricks Beauty",
+      "domain": "danessamyricksbeauty.com",
+      "websiteUrl": "https://danessamyricksbeauty.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Artist-built color craft",
+      "story": "Pro artist color with grounding and blurring cult products — makeup as craft.",
+      "location": "United States",
+      "founded": 2017,
+      "accent": "#6C3483",
+      "shopify": true,
+      "shopBase": "https://danessamyricksbeauty.com"
+    },
+    {
+      "slug": "about-face",
+      "name": "About-Face",
+      "domain": "aboutface.com",
+      "websiteUrl": "https://www.aboutface.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Halsey’s experimental color",
+      "story": "Playful, experimental makeup from Halsey — color that doesn’t take itself too seriously.",
+      "location": "United States",
+      "founded": 2021,
+      "accent": "#E74C3C",
+      "shopify": true,
+      "shopBase": "https://www.aboutface.com"
+    },
+    {
+      "slug": "makeup-by-mario",
+      "name": "Makeup By Mario",
+      "domain": "makeupbymario.com",
+      "websiteUrl": "https://makeupbymario.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Pro makeup for everyone",
+      "story": "Mario Dedivanovic’s pro makeup line — soft sculpts and everyday glam tools.",
+      "location": "New York, NY",
+      "founded": 2020,
+      "accent": "#F5CBA7",
+      "shopify": true,
+      "shopBase": "https://makeupbymario.com"
+    },
+    {
+      "slug": "milk-makeup",
+      "name": "Milk Makeup",
+      "domain": "milkmakeup.com",
+      "websiteUrl": "https://www.milkmakeup.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Live your look, NYC",
+      "story": "Cool-girl makeup sticks and skin hybrids born in NYC — fast, fun, and camera-ready.",
+      "location": "New York, NY",
+      "founded": 2016,
+      "accent": "#FFFFFF",
+      "shopify": true,
+      "shopBase": "https://www.milkmakeup.com"
+    },
+    {
+      "slug": "glossier",
+      "name": "Glossier",
+      "domain": "glossier.com",
+      "websiteUrl": "https://www.glossier.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Skin first, makeup second",
+      "story": "The millennial skin-first beauty brand — cloud textures, pink packaging, cult classics.",
+      "location": "New York, NY",
+      "founded": 2014,
+      "accent": "#F7CAC9",
+      "shopify": true,
+      "shopBase": "https://www.glossier.com"
+    },
+    {
+      "slug": "haus-labs",
+      "name": "HAUS LABS",
+      "domain": "hauslabs.com",
+      "websiteUrl": "https://www.hauslabs.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Cleanish color by Lady Gaga",
+      "story": "Lady Gaga’s artistry-minded makeup — pigment, performance, and inclusive shades.",
+      "location": "United States",
+      "founded": 2019,
+      "accent": "#000000",
+      "shopify": true,
+      "shopBase": "https://www.hauslabs.com"
+    },
+    {
+      "slug": "refy",
+      "name": "REFY",
+      "domain": "refybeauty.com",
+      "websiteUrl": "https://refybeauty.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Soft glam brow and lip",
+      "story": "Soft-sculpt brow and lip essentials from the UK — minimal kits, maximal definition.",
+      "location": "United Kingdom",
+      "founded": 2020,
+      "accent": "#D5D8DC",
+      "shopify": true,
+      "shopBase": "https://refybeauty.com"
+    },
+    {
+      "slug": "hanz-de-fuko",
+      "name": "Hanz de Fuko",
+      "domain": "hanzdefuko.com",
+      "websiteUrl": "https://hanzdefuko.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Anti-everything hair care",
+      "story": "Gravity-defying men’s hair products with a rebellious streak — texture, hold, and clean formulas.",
+      "location": "Los Angeles, CA",
+      "founded": 2010,
+      "accent": "#1A1A1A",
+      "shopify": true,
+      "shopBase": "https://hanzdefuko.com"
+    },
+    {
+      "slug": "american-crew",
+      "name": "American Crew",
+      "domain": "americancrew.com",
+      "websiteUrl": "https://www.americancrew.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Salon men’s grooming",
+      "story": "Classic men’s salon hair care — pomades, shampoos, and grooming staples.",
+      "location": "United States",
+      "founded": 1994,
+      "accent": "#8B0000",
+      "shopify": true,
+      "shopBase": "https://www.americancrew.com"
+    },
+    {
+      "slug": "beardo",
+      "name": "Beardo",
+      "domain": "beardo.in",
+      "websiteUrl": "https://beardo.in",
+      "categories": [
+        "hair",
+        "skincare"
+      ],
+      "tagline": "Beard and men’s grooming",
+      "story": "Beard oils and men’s grooming from India — bold scents and grooming kits.",
+      "location": "India",
+      "founded": 2015,
+      "accent": "#1A1A1A",
+      "shopify": true,
+      "shopBase": "https://beardo.in"
+    },
+    {
+      "slug": "blind-barber",
+      "name": "Blind Barber",
+      "domain": "blindbarber.com",
+      "websiteUrl": "https://blindbarber.com",
+      "categories": [
+        "skincare",
+        "hair"
+      ],
+      "tagline": "Barbershop grooming co.",
+      "story": "NYC barbershop-born grooming — hair, shave, and scent with speakeasy cool.",
+      "location": "New York, NY",
+      "founded": 2009,
+      "accent": "#2C3E50",
+      "shopify": true,
+      "shopBase": "https://blindbarber.com"
+    },
+    {
+      "slug": "suavecito",
+      "name": "Suavecito",
+      "domain": "suavecito.com",
+      "websiteUrl": "https://suavecito.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Pomade culture originals",
+      "story": "Pomade and grooming with old-school barbershop energy and a modern cult following.",
+      "location": "California",
+      "founded": 2011,
+      "accent": "#C0392B",
+      "shopify": true,
+      "shopBase": "https://suavecito.com"
+    },
+    {
+      "slug": "dollar-shave",
+      "name": "Dollar Shave Club",
+      "domain": "dollarshaveclub.com",
+      "websiteUrl": "https://www.dollarshaveclub.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Shave and body basics",
+      "story": "The club that made razors funny — shave, body wash, and grooming essentials.",
+      "location": "United States",
+      "founded": 2011,
+      "accent": "#27AE60",
+      "shopify": true,
+      "shopBase": "https://www.dollarshaveclub.com"
+    },
+    {
+      "slug": "every-man-jack",
+      "name": "Every Man Jack",
+      "domain": "everymanjack.com",
+      "websiteUrl": "https://www.everymanjack.com",
+      "categories": [
+        "skincare",
+        "hair",
+        "deodorant"
+      ],
+      "tagline": "Simple men’s grooming",
+      "story": "Approachable men’s body, hair, and face care — straightforward formulas without the fuss.",
+      "location": "California",
+      "founded": 2008,
+      "accent": "#2980B9",
+      "shopify": true,
+      "shopBase": "https://www.everymanjack.com"
+    },
+    {
+      "slug": "flamingo",
+      "name": "Flamingo",
+      "domain": "shopflamingo.com",
+      "websiteUrl": "https://shopflamingo.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Harry’s for her shave line",
+      "story": "Thoughtful women’s shave care from the Harry’s team — soft design, serious blades.",
+      "location": "United States",
+      "founded": 2018,
+      "accent": "#FF8FA3",
+      "shopify": true,
+      "shopBase": "https://shopflamingo.com"
+    },
+    {
+      "slug": "athena-club",
+      "name": "Athena Club",
+      "domain": "athenaclub.com",
+      "websiteUrl": "https://athenaclub.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Shave kit with a kit bag",
+      "story": "Women’s shave kits that feel designed — blades, cream, and a kit that isn’t an afterthought.",
+      "location": "United States",
+      "founded": 2017,
+      "accent": "#5DADE2",
+      "shopify": true,
+      "shopBase": "https://athenaclub.com"
+    },
+    {
+      "slug": "public-goods",
+      "name": "Public Goods",
+      "domain": "publicgoods.com",
+      "websiteUrl": "https://www.publicgoods.com",
+      "categories": [
+        "skincare",
+        "oral",
+        "hair"
+      ],
+      "tagline": "Beautiful everyday essentials",
+      "story": "Membership essentials with a design-forward clean aesthetic — body, hair, and home.",
+      "location": "New York, NY",
+      "founded": 2017,
+      "accent": "#F5F5F0",
+      "shopify": true,
+      "shopBase": "https://www.publicgoods.com"
+    },
+    {
+      "slug": "branch-basics",
+      "name": "Branch Basics",
+      "domain": "branchbasics.com",
+      "websiteUrl": "https://branchbasics.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Human-safe Concentrate",
+      "story": "One human-safe concentrate for home and body — toss the toxic cabinet alphabet.",
+      "location": "United States",
+      "founded": 2012,
+      "accent": "#F5CBA7",
+      "shopify": true,
+      "shopBase": "https://branchbasics.com"
+    },
+    {
+      "slug": "package-free",
+      "name": "Package Free",
+      "domain": "packagefreeshop.com",
+      "websiteUrl": "https://packagefreeshop.com",
+      "categories": [
+        "skincare",
+        "oral"
+      ],
+      "tagline": "Zero-waste daily swaps",
+      "story": "Lauren Singer’s zero-waste shop — refillable and plastic-light personal care swaps.",
+      "location": "Brooklyn, NY",
+      "founded": 2017,
+      "accent": "#27AE60",
+      "shopify": true,
+      "shopBase": "https://packagefreeshop.com"
+    },
+    {
+      "slug": "meliora",
+      "name": "Meliora",
+      "domain": "meliorameansbetter.com",
+      "websiteUrl": "https://meliorameansbetter.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Plastic-free laundry and soap",
+      "story": "Chicago-made plastic-free laundry and cleaning — better means better for home and planet.",
+      "location": "Chicago, IL",
+      "founded": 2016,
+      "accent": "#E67E22",
+      "shopify": true,
+      "shopBase": "https://meliorameansbetter.com"
+    },
+    {
+      "slug": "the-body-shop",
+      "name": "The Body Shop",
+      "domain": "thebodyshop.com",
+      "websiteUrl": "https://www.thebodyshop.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Community fair trade beauty",
+      "story": "Iconic ethically minded body care — butters, scrubs, and community trade ingredients.",
+      "location": "United Kingdom",
+      "founded": 1976,
+      "accent": "#147A3F",
+      "shopify": true,
+      "shopBase": "https://www.thebodyshop.com"
+    },
+    {
+      "slug": "billie",
+      "name": "Billie",
+      "domain": "mybillie.com",
+      "websiteUrl": "https://mybillie.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Razors without the pink tax",
+      "story": "Women’s shave care that refused the pink tax — clean design, fair prices, sharp blades.",
+      "location": "New York, NY",
+      "founded": 2017,
+      "accent": "#F5B7B1",
+      "shopify": true,
+      "shopBase": "https://shop.mybillie.com"
+    },
+    {
+      "slug": "voluspa",
+      "name": "Voluspa",
+      "domain": "voluspa.com",
+      "websiteUrl": "https://voluspa.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Japonica candle house",
+      "story": "Artisan candles in tin and glass — Japonica scents with a decorative cult following.",
+      "location": "California",
+      "founded": 1999,
+      "accent": "#D5A6E6",
+      "shopify": true,
+      "shopBase": "https://voluspa.com"
+    },
+    {
+      "slug": "nest-new-york",
+      "name": "NEST New York",
+      "domain": "nestnewyork.com",
+      "websiteUrl": "https://www.nestnewyork.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Fragrance for home and body",
+      "story": "Luxe candles and body mists — layered scent stories for home and skin.",
+      "location": "New York, NY",
+      "founded": 2006,
+      "accent": "#F5EEE6",
+      "shopify": true,
+      "shopBase": "https://www.nestnewyork.com"
+    },
+    {
+      "slug": "boy-smells",
+      "name": "Boy Smells",
+      "domain": "boysmells.com",
+      "websiteUrl": "https://boysmells.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Genderful fragrance candles",
+      "story": "Genderful candles and perfume — coconut wax, queer joy, and unexpected scent pairings.",
+      "location": "Los Angeles, CA",
+      "founded": 2016,
+      "accent": "#F5CBA7",
+      "shopify": true,
+      "shopBase": "https://boysmells.com"
+    },
+    {
+      "slug": "p-f-candle",
+      "name": "P.F. Candle Co.",
+      "domain": "pfcandleco.com",
+      "websiteUrl": "https://pfcandleco.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "LA hand-poured candles",
+      "story": "Hand-poured soy candles from LA — amber jars and neighborhood scent nostalgia.",
+      "location": "Los Angeles, CA",
+      "founded": 2008,
+      "accent": "#C4A484",
+      "shopify": true,
+      "shopBase": "https://pfcandleco.com"
+    },
+    {
+      "slug": "diptyque",
+      "name": "Diptyque",
+      "domain": "diptyqueparis.com",
+      "websiteUrl": "https://www.diptyqueparis.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Parisian scent icons",
+      "story": "Paris fragrance house of candles and eaux — oval labels and olfactory landmarks.",
+      "location": "Paris, France",
+      "founded": 1961,
+      "accent": "#145A32",
+      "shopify": true,
+      "shopBase": "https://www.diptyqueparis.com"
+    },
+    {
+      "slug": "harry-s",
+      "name": "Harry's",
+      "domain": "harrys.com",
+      "websiteUrl": "https://www.harrys.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Quality men’s shave gear",
+      "story": "Thoughtful razors and shave care — factory-owned quality without department-store markup.",
+      "location": "New York, NY",
+      "founded": 2013,
+      "accent": "#F39C12",
+      "shopify": true,
+      "shopBase": "https://harrys.com"
+    },
+    {
+      "slug": "blueland",
+      "name": "Blueland",
+      "domain": "blueland.com",
+      "websiteUrl": "https://www.blueland.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Cleaners without plastic bottles",
+      "story": "Tablet cleaners and hand soap tablets — same clean, endlessly less plastic.",
+      "location": "New York, NY",
+      "founded": 2019,
+      "accent": "#3498DB",
+      "shopify": true,
+      "shopBase": "https://blueland.com"
+    },
+    {
+      "slug": "otherland",
+      "name": "Otherland",
+      "domain": "otherland.com",
+      "websiteUrl": "https://www.otherland.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Design-forward clean candles",
+      "story": "Beautiful candles without the toxin cloud — design-first home fragrance.",
+      "location": "New York, NY",
+      "founded": 2016,
+      "accent": "#AED6F1",
+      "shopify": true,
+      "shopBase": "https://www.otherland.com"
+    },
+    {
+      "slug": "homesick",
+      "name": "Homesick",
+      "domain": "homesick.com",
+      "websiteUrl": "https://homesick.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Place-scented candles",
+      "story": "Candles that smell like places you miss — cities, seasons, and memory in wax.",
+      "location": "United States",
+      "founded": 2016,
+      "accent": "#85C1E9",
+      "shopify": true,
+      "shopBase": "https://homesick.com"
+    }
+  ],
+  "no": [
+    {
+      "slug": "mara-beauty",
+      "name": "MARA",
+      "domain": "marabeauty.com",
+      "websiteUrl": "https://marabeauty.com",
+      "categories": [
+        "skincare",
+        "sunscreen"
+      ],
+      "tagline": "Ocean-powered algae skincare",
+      "story": "Algae-rich coastal formulas that hydrate and protect — clean skincare with a sea-born ritual.",
+      "location": "United States",
+      "founded": 2014,
+      "accent": "#2A6F7E",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "typology",
+      "name": "Typology",
+      "domain": "typology.com",
+      "websiteUrl": "https://www.typology.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Short-list formulas, transparent labels",
+      "story": "Parisian minimalist skincare with short ingredient lists and refillable rituals — clean and unfussy.",
+      "location": "Paris, France",
+      "founded": 2019,
+      "accent": "#E8D5C4",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "bubble",
+      "name": "Bubble",
+      "domain": "bubbleinskincare.com",
+      "websiteUrl": "https://bubbleinskincare.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Straightforward skincare for real life",
+      "story": "Accessible cleansers, serums, and moisturizers that skip the gatekeeping and jargon.",
+      "location": "United States",
+      "founded": 2020,
+      "accent": "#7EC8E3",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "peach-slices",
+      "name": "Peach Slices",
+      "domain": "peachslices.com",
+      "websiteUrl": "https://peachslices.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Acne-care essentials that get it",
+      "story": "Gentle acne care inspired by K-beauty rituals without the overwhelm.",
+      "location": "United States",
+      "founded": 2016,
+      "accent": "#F4A5AE",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "anua",
+      "name": "Anua",
+      "domain": "anua.nfa.com",
+      "websiteUrl": "https://anua.nfa.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Heartleaf calming skincare",
+      "story": "Heartleaf-powered Korean skincare for calming breakout-prone and sensitive skin.",
+      "location": "South Korea",
+      "founded": 2017,
+      "accent": "#8FBC8F",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "im-from",
+      "name": "I'm From",
+      "domain": "imfrom.com",
+      "websiteUrl": "https://imfrom.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Single-origin Korean botanicals",
+      "story": "Ingredient-focused K-beauty that traces botanicals to place — rice, honey, mugwort, and more.",
+      "location": "South Korea",
+      "founded": 2016,
+      "accent": "#D4A84B",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "mixsoon",
+      "name": "mixsoon",
+      "domain": "mixsoon.com",
+      "websiteUrl": "https://mixsoon.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Bean and ferment essences",
+      "story": "Minimalist Korean ferment and bean essences for glass-skin energy with short formulas.",
+      "location": "South Korea",
+      "founded": 2017,
+      "accent": "#F5E6C8",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "youthforia",
+      "name": "Youthforia",
+      "domain": "youthforia.co",
+      "websiteUrl": "https://youthforia.co",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Skincare-makeup hybrid color",
+      "story": "Color that cares — vitamin-rich makeup and skin tints made for everyday glow.",
+      "location": "New York, NY",
+      "founded": 2020,
+      "accent": "#E8A0BF",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "unsun",
+      "name": "UNSUN",
+      "domain": "unsuncosmetics.com",
+      "websiteUrl": "https://unsuncosmetics.com",
+      "categories": [
+        "sunscreen"
+      ],
+      "tagline": "Inclusive mineral sunscreen",
+      "story": "Mineral SPF designed to blend across skin tones — protection without the ghostly finish.",
+      "location": "United States",
+      "founded": 2017,
+      "accent": "#E8B86D",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "goddess-garden",
+      "name": "Goddess Garden",
+      "domain": "goddessgarden.com",
+      "websiteUrl": "https://www.goddessgarden.com",
+      "categories": [
+        "sunscreen"
+      ],
+      "tagline": "Continuous spray mineral SPF",
+      "story": "Plant-powered mineral sunscreen for families who want clean SPF without chemical filters.",
+      "location": "Colorado",
+      "founded": 2004,
+      "accent": "#6B8E23",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "isntree",
+      "name": "Isntree",
+      "domain": "isntree.com",
+      "websiteUrl": "https://isntree.com",
+      "categories": [
+        "skincare",
+        "sunscreen"
+      ],
+      "tagline": "Hyaluronic hydration specialists",
+      "story": "Hyaluronic acid–forward Korean skincare and sun care for plump, calm skin.",
+      "location": "South Korea",
+      "founded": 2015,
+      "accent": "#5BA3C9",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "torriden",
+      "name": "Torriden",
+      "domain": "torriden.com",
+      "websiteUrl": "https://torriden.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Dive-in hyaluronic care",
+      "story": "Multi-weight hyaluronic Korean formulas that soak in for soft, bouncy hydration.",
+      "location": "South Korea",
+      "founded": 2018,
+      "accent": "#6EC6E6",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "abib",
+      "name": "Abib",
+      "domain": "abib.com",
+      "websiteUrl": "https://abib.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Mild acidic K-beauty",
+      "story": "pH-minded Korean skincare with gentle acids and heartleaf — calm clarity without the sting.",
+      "location": "South Korea",
+      "founded": 2017,
+      "accent": "#E8B4BC",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "purito-seoul",
+      "name": "Purito Seoul",
+      "domain": "purito.com",
+      "websiteUrl": "https://purito.com",
+      "categories": [
+        "skincare",
+        "sunscreen"
+      ],
+      "tagline": "Honest ingredients, gentle formulas",
+      "story": "Clean-leaning K-beauty with transparent labels — soothing creams and sun fluids.",
+      "location": "South Korea",
+      "founded": 2016,
+      "accent": "#7CB68E",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "mando",
+      "name": "Mando",
+      "domain": "shopmando.com",
+      "websiteUrl": "https://shopmando.com",
+      "categories": [
+        "deodorant"
+      ],
+      "tagline": "Whole body deodorant for guys",
+      "story": "Lume’s sibling for men — whole-body odor control without the heavy cologne cloud.",
+      "location": "Minnesota",
+      "founded": 2021,
+      "accent": "#2C3E50",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "soapwalla",
+      "name": "Soapwalla",
+      "domain": "soapwallakitchen.com",
+      "websiteUrl": "https://soapwallakitchen.com",
+      "categories": [
+        "deodorant",
+        "skincare"
+      ],
+      "tagline": "Brooklyn apothecary body care",
+      "story": "Handcrafted deodorant creams and body care from a Brooklyn kitchen — clean and cult.",
+      "location": "Brooklyn, NY",
+      "founded": 2009,
+      "accent": "#D2B48C",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "vacation",
+      "name": "Vacation",
+      "domain": "vacation.inc",
+      "websiteUrl": "https://www.vacation.inc",
+      "categories": [
+        "sunscreen"
+      ],
+      "tagline": "SPF that smells like summer",
+      "story": "Nostalgic sunscreen with serious SPF — pool-day vibes, modern filters, cult orange bottle.",
+      "location": "United States",
+      "founded": 2019,
+      "accent": "#FF8C42",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "numbuzin",
+      "name": "numbuzin",
+      "domain": "numbuzin.com",
+      "websiteUrl": "https://numbuzin.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Numbered routines, clear goals",
+      "story": "Numbered Korean skincare steps that make routines feel like a plan — brightening and barrier.",
+      "location": "South Korea",
+      "founded": 2018,
+      "accent": "#2F4F4F",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "lumineux",
+      "name": "Lumineux",
+      "domain": "lumineuxoral.com",
+      "websiteUrl": "https://lumineuxoral.com",
+      "categories": [
+        "oral"
+      ],
+      "tagline": "Clean whitening oral care",
+      "story": "Peroxide-free whitening strips and oral care for brighter smiles without the burn.",
+      "location": "United States",
+      "founded": 2018,
+      "accent": "#5DADE2",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "black-girl-sunscreen",
+      "name": "Black Girl Sunscreen",
+      "domain": "blackgirlsunscreen.com",
+      "websiteUrl": "https://www.blackgirlsunscreen.com",
+      "categories": [
+        "sunscreen"
+      ],
+      "tagline": "SPF made for melanin-rich skin",
+      "story": "No white cast, just protection — sunscreen formulated to disappear on deeper skin tones.",
+      "location": "Los Angeles, CA",
+      "founded": 2016,
+      "accent": "#F2C94C",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "carpe",
+      "name": "Carpe",
+      "domain": "carpe.com",
+      "websiteUrl": "https://carpe.com",
+      "categories": [
+        "deodorant",
+        "skincare"
+      ],
+      "tagline": "Sweat solutions that stick",
+      "story": "Antiperspirant lotions and sweat care for hands, feet, and underarms.",
+      "location": "United States",
+      "founded": 2016,
+      "accent": "#3498DB",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "huron",
+      "name": "Huron",
+      "domain": "huronnorth.com",
+      "websiteUrl": "https://huronnorth.com",
+      "categories": [
+        "skincare",
+        "deodorant"
+      ],
+      "tagline": "Modern men’s skin and body",
+      "story": "Straightforward men’s skincare and deodorant — clean formulas without the fog machine.",
+      "location": "United States",
+      "founded": 2018,
+      "accent": "#34495E",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "crystal-deodorant",
+      "name": "Crystal",
+      "domain": "crystaldeodorant.com",
+      "websiteUrl": "https://www.crystaldeodorant.com",
+      "categories": [
+        "deodorant"
+      ],
+      "tagline": "Mineral salt deodorant classic",
+      "story": "The original mineral salt stone — simple odor control with a long track record.",
+      "location": "United States",
+      "founded": 1985,
+      "accent": "#A8D5E5",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "prose",
+      "name": "Prose",
+      "domain": "prose.com",
+      "websiteUrl": "https://prose.com",
+      "categories": [
+        "hair"
+      ],
+      "tagline": "Custom hair care, bottle by bottle",
+      "story": "Questionnaire-custom shampoo and care — formulas tuned to your water, climate, and goals.",
+      "location": "New York, NY",
+      "founded": 2017,
+      "accent": "#F5CBA7",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "primal-pit-paste",
+      "name": "Primal Pit Paste",
+      "domain": "primalpitpaste.com",
+      "websiteUrl": "https://primalpitpaste.com",
+      "categories": [
+        "deodorant"
+      ],
+      "tagline": "Jar deodorant that works",
+      "story": "Baking-soda and baking-soda-free jars for aluminum-free odor control that lasts.",
+      "location": "United States",
+      "founded": 2010,
+      "accent": "#CD853F",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "commodity",
+      "name": "Commodity",
+      "domain": "commoditygoods.com",
+      "websiteUrl": "https://commoditygoods.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Personal fragrance wardrobe",
+      "story": "Layerable fragrances designed like a wardrobe — Personal, Expressive, and Bold.",
+      "location": "United States",
+      "founded": 2013,
+      "accent": "#2C3E50",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "twice",
+      "name": "Twice",
+      "domain": "ctwice.com",
+      "websiteUrl": "https://www.ctwice.com",
+      "categories": [
+        "oral"
+      ],
+      "tagline": "Designer toothpaste for two-a-days",
+      "story": "Beautiful tubes, thoughtful formulas — toothpaste that makes brushing feel designed.",
+      "location": "United States",
+      "founded": 2018,
+      "accent": "#E8DAEF",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "rosebud",
+      "name": "Smith's Rosebud",
+      "domain": "rosebudperfume.com",
+      "websiteUrl": "https://rosebudperfume.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Tin balm since forever",
+      "story": "Iconic rose-scented salve in a tin — lips, cheeks, and cuticles with old-school charm.",
+      "location": "Maryland",
+      "founded": 1935,
+      "accent": "#E8A0BF",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "caliray",
+      "name": "caliray",
+      "domain": "caliray.com",
+      "websiteUrl": "https://caliray.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Clean mascara that actually lasts",
+      "story": "Whitney Cummings’ clean mascara brand — high-performance lashes without the usual junk.",
+      "location": "Los Angeles, CA",
+      "founded": 2021,
+      "accent": "#1A1A1A",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "lush-already-big",
+      "name": "Lush",
+      "domain": "lush.com",
+      "websiteUrl": "https://www.lush.com",
+      "categories": [
+        "skincare",
+        "hair"
+      ],
+      "tagline": "Fresh handmade cosmetics",
+      "story": "Fresh, handmade, fighting animal testing — bath bombs, face masks, and bold ethics.",
+      "location": "United Kingdom",
+      "founded": 1995,
+      "accent": "#000000",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "le-labo",
+      "name": "Le Labo",
+      "domain": "lelabofragrances.com",
+      "websiteUrl": "https://www.lelabofragrances.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Hand-labeled city scents",
+      "story": "Artisanal fragrance lab with city exclusives — fresh-blended perfume theater.",
+      "location": "New York, NY",
+      "founded": 2006,
+      "accent": "#F5F5F5",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "niod",
+      "name": "NIOD",
+      "domain": "niod.com",
+      "websiteUrl": "https://niod.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Non-standard skincare science",
+      "story": "DECIEM’s advanced skin lab — non-standard formats for people who geek out on actives.",
+      "location": "Toronto, Canada",
+      "founded": 2015,
+      "accent": "#2C3E50",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "round-lab",
+      "name": "ROUND LAB",
+      "domain": "roundlab.us",
+      "websiteUrl": "https://roundlab.us",
+      "categories": [
+        "skincare",
+        "sunscreen"
+      ],
+      "tagline": "Dokdo and birch juice skin rituals",
+      "story": "Korean coastal and forest ingredients in gentle daily formulas — sunscreen and soft hydration.",
+      "location": "South Korea",
+      "founded": 2017,
+      "accent": "#A8C5D4",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "kabana",
+      "name": "Kabana Organic Skinfood",
+      "domain": "rawelements.com",
+      "websiteUrl": "https://kabanaorganicskinfood.com",
+      "categories": [
+        "sunscreen",
+        "skincare"
+      ],
+      "tagline": "Organic mineral sunscreen",
+      "story": "Small-batch organic mineral sun care and skin food for sensitive outdoor skin.",
+      "location": "Colorado",
+      "founded": 2008,
+      "accent": "#D2691E",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "byredo",
+      "name": "Byredo",
+      "domain": "byredo.com",
+      "websiteUrl": "https://www.byredo.com",
+      "categories": [
+        "skincare"
+      ],
+      "tagline": "Swedish luxury fragrance house",
+      "story": "Minimal luxury fragrance and makeup — modern scent stories in stark packaging.",
+      "location": "Stockholm, Sweden",
+      "founded": 2006,
+      "accent": "#1A1A1A",
+      "shopify": false,
+      "shopBase": null
+    },
+    {
+      "slug": "aesop",
+      "name": "Aesop",
+      "domain": "aesop.com",
+      "websiteUrl": "https://www.aesop.com",
+      "categories": [
+        "skincare",
+        "hair"
+      ],
+      "tagline": "Botanical formulations, considered",
+      "story": "Melbourne botanical luxury — amber bottles, precise formulas, sensory rituals.",
+      "location": "Melbourne, Australia",
+      "founded": 1987,
+      "accent": "#5D4E37",
+      "shopify": false,
+      "shopBase": null
+    }
+  ]
+}
