@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ProductTile } from "@/components/ProductTile";
-import { getIngredientBySlug, listIngredients, productsForIngredient } from "@/lib/ingredients";
+import { getIngredientBySlug, productsForIngredient } from "@/lib/ingredients";
 
-export function generateStaticParams() {
-  return listIngredients().map((ingredient) => ({ slug: ingredient.slug }));
-}
+// Render on demand — the catalog has tens of thousands of unique ingredients after
+// backfill, and prerendering all of them exceeds Vercel build limits/timeouts.
 
 export async function generateMetadata({
   params,

@@ -46,6 +46,7 @@ function buildCatalog() {
   const usedSlugs = new Set<string>();
   const bySlug = new Map<string, IngredientEntry>();
   const byKey = new Map<string, IngredientEntry>();
+  const productsByKey = new Map<string, string[]>();
 
   const sorted = [...groups.entries()].sort((a, b) => a[1].name.localeCompare(b[1].name, "en"));
 
@@ -69,15 +70,21 @@ function buildCatalog() {
     };
     bySlug.set(slug, entry);
     byKey.set(key, entry);
+    productsByKey.set(key, [...group.productIds]);
   }
 
-  return { bySlug, byKey, list: [...bySlug.values()] };
+  return { bySlug, byKey, productsByKey, list: [...bySlug.values()] };
 }
 
 const catalog = buildCatalog();
 
-export function listIngredients() {
-  return catalog.list;
+/** Glossary index — skip one-off parse noise; rare ingredients stay reachable via product links. */
+const INDEX_MIN_PRODUCTS = 2;
+
+export function listIngredients(options?: { minProductCount?: number }) {
+  const min = options?.minProductCount ?? INDEX_MIN_PRODUCTS;
+  if (min <= 1) return catalog.list;
+  return catalog.list.filter((entry) => entry.productCount >= min);
 }
 
 export function getIngredientBySlug(slug: string) {
@@ -96,10 +103,11 @@ export function ingredientHref(name: string) {
 export function productsForIngredient(name: string): Product[] {
   const key = normalizeIngredientKey(name);
   const entry = catalog.byKey.get(key);
-  const matchKeys = new Set([key]);
-  if (entry) matchKeys.add(normalizeIngredientKey(entry.name));
-
-  return products.filter((product) =>
-    product.ingredients.some((ing) => matchKeys.has(normalizeIngredientKey(ing))),
-  );
+  const ids = new Set<string>(catalog.productsByKey.get(key) ?? []);
+  if (entry) {
+    const aliasKey = normalizeIngredientKey(entry.name);
+    for (const id of catalog.productsByKey.get(aliasKey) ?? []) ids.add(id);
+  }
+  if (!ids.size) return [];
+  return products.filter((product) => ids.has(product.id));
 }
