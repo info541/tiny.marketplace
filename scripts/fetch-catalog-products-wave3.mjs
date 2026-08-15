@@ -82,6 +82,9 @@ function extractIngredients(bodyHtml) {
   return [];
 }
 
+const NICHE_PRODUCT =
+  /\b(spf\s*\d+|sunscreen|sunblock|deodor|antiperspir|underarm|\bdeo\b|toothpaste|toothbrush|floss|mouthwash|oral care|shampoo|conditioner|hair (oil|mask|serum|care)|scalp|leave[- ]?in|protein (powder|shake|isolate|bar)|whey|casein|collagen|electrolyte|hydration (powder|packet|mix|stick)|vitamin|supplement|capsule|softgel|probiotic|adaptogen|serum|moisturizer|moisturiser|cleanser|face wash|facial|toner|retinol|niacinamide|body (lotion|butter|wash|cream|oil)|lip balm|skincare|self[- ]?tan)\b/i;
+
 function inferCategory(brandCategories, title, productType, tags) {
   const hay = `${title} ${productType} ${(tags || []).join(" ")}`.toLowerCase();
   const rules = [
@@ -97,7 +100,7 @@ function inferCategory(brandCategories, title, productType, tags) {
   for (const [cat, re] of rules) {
     if (re.test(hay)) return cat;
   }
-  return brandCategories[0] || "skincare";
+  return null;
 }
 
 function hiResImage(src) {
@@ -153,10 +156,21 @@ async function fetchShopifyProducts(base, maxPages = 2) {
 function mapProduct(raw, brand, brandId, index) {
   const title = (raw.title || "").trim();
   if (!title || SKIP_TITLE.test(title)) return null;
+  if (!NICHE_PRODUCT.test(title) && !NICHE_PRODUCT.test(raw.product_type || "")) {
+    return null;
+  }
   const imageSrc = raw.images?.[0]?.src || raw.image?.src;
   if (!imageSrc) return null;
   const price = Number(raw.variants?.[0]?.price || 0);
   if (!Number.isFinite(price) || price <= 0) return null;
+
+  const category = inferCategory(
+    brand.categories || ["skincare"],
+    title,
+    raw.product_type || "",
+    raw.tags || [],
+  );
+  if (!category) return null;
 
   const body = raw.body_html || "";
   const description =
@@ -172,12 +186,7 @@ function mapProduct(raw, brand, brandId, index) {
     slug: `${brand.slug}-${handle}`.slice(0, 100),
     brandId,
     name: title.slice(0, 120),
-    category: inferCategory(
-      brand.categories || ["skincare"],
-      title,
-      raw.product_type || "",
-      raw.tags || [],
-    ),
+    category,
     price: Math.round(price * 100) / 100,
     description,
     ingredients,

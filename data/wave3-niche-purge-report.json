@@ -1,0 +1,885 @@
+{
+  "finishedAt": "2026-08-15T14:34:22.753Z",
+  "beforeBrands": 1000,
+  "afterBrands": 209,
+  "droppedBrands": 791,
+  "beforeWave3Products": 24040,
+  "afterWave3Products": 2018,
+  "finalCatalogProducts": 23019,
+  "keptCategoryMix": {
+    "skincare": 123,
+    "supplements": 72,
+    "sunscreen": 32,
+    "hair": 70,
+    "oral": 17,
+    "protein": 18,
+    "electrolytes": 10,
+    "deodorant": 2
+  },
+  "droppedSample": [
+    {
+      "oldId": "c256",
+      "slug": "soldejaneiro",
+      "niche": 1,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.04,
+      "primary": [
+        "skincare"
+      ],
+      "sample": [
+        "Sol Passport - Brazilian Touch™ Hand Cream (50ml) - 160 Points"
+      ]
+    },
+    {
+      "oldId": "c257",
+      "slug": "westman-atelier",
+      "niche": 1,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.04,
+      "primary": [
+        "skincare"
+      ],
+      "sample": [
+        "The Complexion Correction Duo"
+      ]
+    },
+    {
+      "oldId": "c258",
+      "slug": "lisaeldridge",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c260",
+      "slug": "hatchcollection",
+      "niche": 0,
+      "hardOff": 3,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c267",
+      "slug": "kristinesshair",
+      "niche": 4,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.16,
+      "primary": [
+        "hair"
+      ],
+      "sample": [
+        "12-in-1 Leave-In Primer",
+        "Scalp + Hair Milk Oil",
+        "Softening Conditioner"
+      ]
+    },
+    {
+      "oldId": "c270",
+      "slug": "gooddyeyoung",
+      "niche": 1,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.04,
+      "primary": [
+        "hair"
+      ],
+      "sample": [
+        "Pre Wash (Scalp Scrub)"
+      ]
+    },
+    {
+      "oldId": "c271",
+      "slug": "manicpanic",
+      "niche": 3,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.12,
+      "primary": [
+        "skincare",
+        "hair"
+      ],
+      "sample": [
+        "Hydrating Tinted Lip Balm",
+        "Renewing Hand Cream",
+        "Temporary Hair Color Spray"
+      ]
+    },
+    {
+      "oldId": "c274",
+      "slug": "t3micro",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c275",
+      "slug": "langehair",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c285",
+      "slug": "tepeusa",
+      "niche": 1,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.04,
+      "primary": [
+        "oral"
+      ],
+      "sample": [
+        "TePe® Dental Floss (Dispenser Box)"
+      ]
+    },
+    {
+      "oldId": "c287",
+      "slug": "aloha",
+      "niche": 2,
+      "hardOff": 1,
+      "total": 25,
+      "ratio": 0.08,
+      "primary": [
+        "protein"
+      ],
+      "sample": [
+        "Mini Protein Bar Sampler - Variety Pack",
+        "Protein Bar Sampler #2 - Variety Pack"
+      ]
+    },
+    {
+      "oldId": "c288",
+      "slug": "huel",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c289",
+      "slug": "soylent",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c293",
+      "slug": "chomps",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c294",
+      "slug": "epicprovisions",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c296",
+      "slug": "tailwindnutrition",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c297",
+      "slug": "athleticbrewing",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c299",
+      "slug": "alaninu",
+      "niche": 4,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.16,
+      "primary": [
+        "protein"
+      ],
+      "sample": [
+        "30g protein shake - cookies & cream",
+        "30g protein shake - fruity cereal",
+        "30g protein shake - munchies"
+      ]
+    },
+    {
+      "oldId": "c302",
+      "slug": "goli",
+      "niche": 3,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.12,
+      "primary": [
+        "supplements"
+      ],
+      "sample": [
+        "Goli Nutrition Probiotic+ Gummies  |  Unit = Case of 24 FAIRE",
+        "Goli Nutrition Zero Sugar Ashwagandha Gummies | Unit = Case of 24 - FAIRE",
+        "Goli Nutrition Zero Sugar Probiotic+ Gummies  |  Unit = Case of 24 FAIRE"
+      ]
+    },
+    {
+      "oldId": "c303",
+      "slug": "organifi",
+      "niche": 1,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.04,
+      "primary": [
+        "supplements"
+      ],
+      "sample": [
+        "Creatine Cherry Gummies"
+      ]
+    },
+    {
+      "oldId": "c305",
+      "slug": "hostdefense",
+      "niche": 1,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.04,
+      "primary": [
+        "supplements"
+      ],
+      "sample": [
+        "Turkey Tail & Agarikon Capsule Bundles"
+      ]
+    },
+    {
+      "oldId": "c306",
+      "slug": "ommushrooms",
+      "niche": 2,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.08,
+      "primary": [
+        "supplements"
+      ],
+      "sample": [
+        "Master Blend Mushroom Gummies- 40ct.",
+        "Relax Mushroom Gummies- 40ct."
+      ]
+    },
+    {
+      "oldId": "c307",
+      "slug": "dirteaworld",
+      "niche": 1,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.04,
+      "primary": [
+        "supplements"
+      ],
+      "sample": [
+        "Creatine Empty Plastic Jar"
+      ]
+    },
+    {
+      "oldId": "c308",
+      "slug": "gaiaherbs",
+      "niche": 1,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.04,
+      "primary": [
+        "supplements"
+      ],
+      "sample": [
+        "Lion's Mane Mushroom Gummies"
+      ]
+    },
+    {
+      "oldId": "c309",
+      "slug": "herb-pharm",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c312",
+      "slug": "traditionalmedicinals",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c313",
+      "slug": "thebeautychef",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c314",
+      "slug": "mudwtr",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c315",
+      "slug": "quicksilverscientific",
+      "niche": 2,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.08,
+      "primary": [
+        "supplements"
+      ],
+      "sample": [
+        "Complete Vitamin & Mineral Bundle",
+        "Ultra Vitamin® 300mL"
+      ]
+    },
+    {
+      "oldId": "c316",
+      "slug": "seekinghealth",
+      "niche": 4,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.16,
+      "primary": [
+        "supplements",
+        "protein"
+      ],
+      "sample": [
+        "Fish Oil Minis",
+        "Optimal Creatine Capsules",
+        "Optimal Creatine Powder"
+      ]
+    },
+    {
+      "oldId": "c318",
+      "slug": "gushbeauty",
+      "niche": 4,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.16,
+      "primary": [
+        "skincare",
+        "sunscreen"
+      ],
+      "sample": [
+        "Cuticle Oil",
+        "Lip Butter Play Pots",
+        "Sun Spritz SPF 50 + - Sunscreen Spray"
+      ]
+    },
+    {
+      "oldId": "c326",
+      "slug": "waterpik",
+      "niche": 4,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.16,
+      "primary": [
+        "oral"
+      ],
+      "sample": [
+        "Sensonic® Toothbrush Compact Brush Head",
+        "Sensonic® Toothbrush Interdental Toothbrush Heads",
+        "Sensonic® Toothbrush Standard Brush Head"
+      ]
+    },
+    {
+      "oldId": "c327",
+      "slug": "precisionhydration",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c328",
+      "slug": "justingredients",
+      "niche": 1,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.04,
+      "primary": [
+        "protein"
+      ],
+      "sample": [
+        "Organic Pea Protein Powder (80%)"
+      ]
+    },
+    {
+      "oldId": "c331",
+      "slug": "baremineralsbeauty",
+      "niche": 0,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    },
+    {
+      "oldId": "c336",
+      "slug": "moonjuice",
+      "niche": 2,
+      "hardOff": 1,
+      "total": 25,
+      "ratio": 0.08,
+      "primary": [
+        "supplements"
+      ],
+      "sample": [
+        "AM/PM Magnesium Stack",
+        "Nootropic Stack"
+      ]
+    },
+    {
+      "oldId": "c345",
+      "slug": "hopesoapohio",
+      "niche": 3,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.12,
+      "primary": [
+        "skincare"
+      ],
+      "sample": [
+        "Bergie's Blend Body Nectar (Body Cream)",
+        "Luna’s Lavender Peach Body Nectar (Body Cream)",
+        "Manny’s Mango Mix Body Nectar (Body Cream)"
+      ]
+    },
+    {
+      "oldId": "c346",
+      "slug": "veloforte",
+      "niche": 1,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.04,
+      "primary": [
+        "protein"
+      ],
+      "sample": [
+        "Troppo High Protein Powder"
+      ]
+    },
+    {
+      "oldId": "c348",
+      "slug": "bariatricfooddirect",
+      "niche": 2,
+      "hardOff": 0,
+      "total": 25,
+      "ratio": 0.08,
+      "primary": [
+        "supplements",
+        "protein"
+      ],
+      "sample": [
+        "Bariatric One-A-Day MultiVitamin",
+        "Caramel Crunch Protein Bar"
+      ]
+    },
+    {
+      "oldId": "c349",
+      "slug": "avid",
+      "niche": 0,
+      "hardOff": 2,
+      "total": 25,
+      "ratio": 0,
+      "primary": [],
+      "sample": []
+    }
+  ],
+  "keptSample": [
+    {
+      "slug": "farmacybeauty",
+      "niche": 10,
+      "ratio": 0.4,
+      "primary": [
+        "skincare",
+        "supplements"
+      ]
+    },
+    {
+      "slug": "eltamd",
+      "niche": 20,
+      "ratio": 0.8,
+      "primary": [
+        "sunscreen",
+        "skincare"
+      ]
+    },
+    {
+      "slug": "mdsolarsciences",
+      "niche": 5,
+      "ratio": 0.2,
+      "primary": [
+        "skincare",
+        "sunscreen"
+      ]
+    },
+    {
+      "slug": "nakedsundays",
+      "niche": 5,
+      "ratio": 0.2,
+      "primary": [
+        "sunscreen",
+        "skincare"
+      ]
+    },
+    {
+      "slug": "babobotanicals",
+      "niche": 15,
+      "ratio": 0.6,
+      "primary": [
+        "hair",
+        "sunscreen",
+        "skincare"
+      ]
+    },
+    {
+      "slug": "janeiredale",
+      "niche": 5,
+      "ratio": 0.2,
+      "primary": [
+        "sunscreen",
+        "skincare"
+      ]
+    },
+    {
+      "slug": "ceremonia",
+      "niche": 5,
+      "ratio": 0.2,
+      "primary": [
+        "hair"
+      ]
+    },
+    {
+      "slug": "oribe",
+      "niche": 12,
+      "ratio": 0.48,
+      "primary": [
+        "hair"
+      ]
+    },
+    {
+      "slug": "randco",
+      "niche": 6,
+      "ratio": 0.24,
+      "primary": [
+        "hair"
+      ]
+    },
+    {
+      "slug": "livingproof",
+      "niche": 7,
+      "ratio": 0.28,
+      "primary": [
+        "hair"
+      ]
+    },
+    {
+      "slug": "colorwowhair",
+      "niche": 6,
+      "ratio": 0.24,
+      "primary": [
+        "hair"
+      ]
+    },
+    {
+      "slug": "igkhair",
+      "niche": 11,
+      "ratio": 0.44,
+      "primary": [
+        "hair"
+      ]
+    },
+    {
+      "slug": "dphue",
+      "niche": 12,
+      "ratio": 0.48,
+      "primary": [
+        "hair",
+        "skincare"
+      ]
+    },
+    {
+      "slug": "arcticfoxhaircolor",
+      "niche": 5,
+      "ratio": 0.2,
+      "primary": [
+        "hair"
+      ]
+    },
+    {
+      "slug": "moroccanoil",
+      "niche": 5,
+      "ratio": 0.2,
+      "primary": [
+        "skincare",
+        "hair"
+      ]
+    },
+    {
+      "slug": "itsa10haircare",
+      "niche": 5,
+      "ratio": 0.2,
+      "primary": [
+        "hair",
+        "skincare"
+      ]
+    },
+    {
+      "slug": "designessentials",
+      "niche": 9,
+      "ratio": 0.36,
+      "primary": [
+        "hair"
+      ]
+    },
+    {
+      "slug": "ouidad",
+      "niche": 5,
+      "ratio": 0.2,
+      "primary": [
+        "hair",
+        "skincare"
+      ]
+    },
+    {
+      "slug": "nymbrands",
+      "niche": 14,
+      "ratio": 0.56,
+      "primary": [
+        "hair",
+        "skincare"
+      ]
+    },
+    {
+      "slug": "celebluxury",
+      "niche": 18,
+      "ratio": 0.72,
+      "primary": [
+        "hair"
+      ]
+    },
+    {
+      "slug": "cocofloss",
+      "niche": 11,
+      "ratio": 0.44,
+      "primary": [
+        "oral"
+      ]
+    },
+    {
+      "slug": "hismileteeth",
+      "niche": 15,
+      "ratio": 0.6,
+      "primary": [
+        "oral",
+        "skincare"
+      ]
+    },
+    {
+      "slug": "wellnesse",
+      "niche": 15,
+      "ratio": 0.6,
+      "primary": [
+        "oral",
+        "skincare"
+      ]
+    },
+    {
+      "slug": "thehumble",
+      "niche": 11,
+      "ratio": 0.44,
+      "primary": [
+        "oral"
+      ]
+    },
+    {
+      "slug": "curaprox",
+      "niche": 7,
+      "ratio": 0.28,
+      "primary": [
+        "oral"
+      ]
+    },
+    {
+      "slug": "preserve",
+      "niche": 6,
+      "ratio": 0.24,
+      "primary": [
+        "oral"
+      ]
+    },
+    {
+      "slug": "nakednutrition",
+      "niche": 12,
+      "ratio": 0.48,
+      "primary": [
+        "supplements",
+        "protein"
+      ]
+    },
+    {
+      "slug": "truenutrition",
+      "niche": 8,
+      "ratio": 0.32,
+      "primary": [
+        "protein",
+        "electrolytes"
+      ]
+    },
+    {
+      "slug": "questnutrition",
+      "niche": 5,
+      "ratio": 0.2,
+      "primary": [
+        "protein"
+      ]
+    },
+    {
+      "slug": "justaddbuoy",
+      "niche": 6,
+      "ratio": 0.24,
+      "primary": [
+        "supplements",
+        "electrolytes"
+      ]
+    },
+    {
+      "slug": "ghostlifestyle",
+      "niche": 6,
+      "ratio": 0.24,
+      "primary": [
+        "supplements"
+      ]
+    },
+    {
+      "slug": "nutricost",
+      "niche": 8,
+      "ratio": 0.32,
+      "primary": [
+        "supplements",
+        "protein"
+      ]
+    },
+    {
+      "slug": "olly",
+      "niche": 5,
+      "ratio": 0.2,
+      "primary": [
+        "supplements",
+        "skincare"
+      ]
+    },
+    {
+      "slug": "pendulumlife",
+      "niche": 9,
+      "ratio": 0.36,
+      "primary": [
+        "supplements"
+      ]
+    },
+    {
+      "slug": "megafood",
+      "niche": 11,
+      "ratio": 0.44,
+      "primary": [
+        "supplements",
+        "hair"
+      ]
+    },
+    {
+      "slug": "newchapter",
+      "niche": 12,
+      "ratio": 0.48,
+      "primary": [
+        "supplements",
+        "hair"
+      ]
+    },
+    {
+      "slug": "mamaearth",
+      "niche": 15,
+      "ratio": 0.6,
+      "primary": [
+        "skincare",
+        "hair",
+        "supplements",
+        "sunscreen"
+      ]
+    },
+    {
+      "slug": "curlsmith",
+      "niche": 8,
+      "ratio": 0.32,
+      "primary": [
+        "hair",
+        "skincare"
+      ]
+    },
+    {
+      "slug": "bondiboost",
+      "niche": 5,
+      "ratio": 0.2,
+      "primary": [
+        "hair"
+      ]
+    },
+    {
+      "slug": "livingproof-2",
+      "niche": 13,
+      "ratio": 0.52,
+      "primary": [
+        "hair"
+      ]
+    }
+  ]
+}
