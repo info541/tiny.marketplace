@@ -1,0 +1,172 @@
+[
+  {
+    "slug": "manda",
+    "shopBase": "https://mandanaturals.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c601"
+  },
+  {
+    "slug": "suntegrity",
+    "shopBase": "https://suntegrity.myshopify.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c602"
+  },
+  {
+    "slug": "kokua",
+    "shopBase": "https://www.kokuasuncare.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c603"
+  },
+  {
+    "slug": "goodonya",
+    "shopBase": "https://goodonyaorganic.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c604"
+  },
+  {
+    "slug": "junp",
+    "shopBase": "https://junphydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c605"
+  },
+  {
+    "slug": "adapted",
+    "shopBase": "https://adapted-nutrition.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c606"
+  },
+  {
+    "slug": "koia",
+    "shopBase": "https://drinkkoia.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c607"
+  },
+  {
+    "slug": "suprey",
+    "shopBase": "https://shop.suprey.life",
+    "categories": [
+      "protein",
+      "electrolytes"
+    ],
+    "id": "c608"
+  },
+  {
+    "slug": "complement",
+    "shopBase": "https://www.lovecomplement.com",
+    "categories": [
+      "supplements",
+      "protein"
+    ],
+    "id": "c609"
+  },
+  {
+    "slug": "pure-mess",
+    "shopBase": "https://www.puremessskincare.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c610"
+  },
+  {
+    "slug": "wild",
+    "shopBase": "https://wearewild.myshopify.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c611"
+  },
+  {
+    "slug": "barepaste",
+    "shopBase": "https://www.barepaste.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c612"
+  },
+  {
+    "slug": "gutology",
+    "shopBase": "https://gutology.co",
+    "categories": [
+      "oral"
+    ],
+    "id": "c613"
+  },
+  {
+    "slug": "selfwise",
+    "shopBase": "https://selfwisebrand.com",
+    "categories": [
+      "oral",
+      "hair"
+    ],
+    "id": "c614"
+  },
+  {
+    "slug": "organic-skin-co",
+    "shopBase": "https://theorganicskinco.com",
+    "categories": [
+      "skincare",
+      "supplements"
+    ],
+    "id": "c615"
+  },
+  {
+    "slug": "uma",
+    "shopBase": "https://www.umaoils.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c616"
+  },
+  {
+    "slug": "less-is-more",
+    "shopBase": "https://www.lessismore.at",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c617"
+  },
+  {
+    "slug": "abache",
+    "shopBase": "https://www.abacheorganics.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c618"
+  },
+  {
+    "slug": "selkie",
+    "shopBase": "https://selkiehaircare.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c619"
+  },
+  {
+    "slug": "plant-people",
+    "shopBase": "https://www.plantpeople.co",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c620"
+  }
+]
