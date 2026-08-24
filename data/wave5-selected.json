@@ -1,0 +1,393 @@
+[
+  {
+    "id": "c481",
+    "slug": "avasol",
+    "name": "Avasol",
+    "domain": "avasol.com",
+    "websiteUrl": "https://avasol.com",
+    "shopBase": "https://avasol.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "accent": "#C45C26",
+    "tagline": "Surfer-made organic mineral SPF in refillable sticks",
+    "story": "Santa Barbara waterman Chris Wilkinson started Avasol in 2010 after he couldn’t find a sunscreen he’d put on his kids and still trust in the lineup — non-nano zinc, organic botanicals, and biobased refillable tubes.",
+    "location": "Santa Barbara, CA",
+    "founded": 2010,
+    "rating": 4.7,
+    "reviewCount": 640,
+    "followerCount": 8200
+  },
+  {
+    "id": "c482",
+    "slug": "sol-de-ibiza",
+    "name": "Sol de Ibiza",
+    "domain": "soldeibiza.com",
+    "websiteUrl": "https://soldeibiza.com",
+    "shopBase": "https://soldeibiza.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "accent": "#E8A54B",
+    "tagline": "Plastic-free Mediterranean mineral sun care",
+    "story": "Family-run Ibiza sun care in reusable tins and cardboard sticks — certified organic mineral formulas that hydrate like a cream and stay off the reef.",
+    "location": "Ibiza, Spain",
+    "founded": 2017,
+    "rating": 4.6,
+    "reviewCount": 980,
+    "followerCount": 24000
+  },
+  {
+    "id": "c483",
+    "slug": "surfdurt",
+    "name": "SurfDurt",
+    "domain": "surfdurt.com",
+    "websiteUrl": "https://surfdurt.com",
+    "shopBase": "https://surfdurt.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "accent": "#1B4F72",
+    "tagline": "Reef-safe mineral SPF in bamboo you can reuse",
+    "story": "California surfers Max and Nikki mixed their own non-nano zinc sunscreen, then packed it in bamboo and aluminum so the ocean doesn’t inherit another plastic tube.",
+    "location": "California",
+    "founded": 2016,
+    "rating": 4.8,
+    "reviewCount": 420,
+    "followerCount": 5600
+  },
+  {
+    "id": "c484",
+    "slug": "rebrand-skincare",
+    "name": "Rebrand Skincare",
+    "domain": "rebrandskincare.com",
+    "websiteUrl": "https://rebrandskincare.com",
+    "shopBase": "https://rebrandskincare.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "accent": "#6B3E26",
+    "tagline": "Toxicologist-built refillable mineral SPF and skin",
+    "story": "A toxicologist-herbalist shortlist — wildcrafted and organic botanicals, 1% for the Planet, and a daily mineral SPF designed to refill instead of landfill.",
+    "location": "United States",
+    "founded": 2018,
+    "rating": 4.7,
+    "reviewCount": 310,
+    "followerCount": 4100
+  },
+  {
+    "id": "c485",
+    "slug": "untammed",
+    "name": "UNTAMMED",
+    "domain": "untammed.co",
+    "websiteUrl": "https://untammed.co",
+    "shopBase": "https://untammed.co",
+    "categories": [
+      "electrolytes"
+    ],
+    "accent": "#2C5F4E",
+    "tagline": "Four-ingredient real-food electrolyte mix",
+    "story": "Coconut water, sea salt, magnesium chloride, and actual fruit — no stevia, no monk fruit, no “natural flavors.” Hydration that reads like a grocery list.",
+    "location": "United States",
+    "founded": 2022,
+    "rating": 4.8,
+    "reviewCount": 190,
+    "followerCount": 2800
+  },
+  {
+    "id": "c486",
+    "slug": "nectar-hydration",
+    "name": "Nectar",
+    "domain": "drinknectar.com",
+    "websiteUrl": "https://drinknectar.com",
+    "shopBase": "https://drinknectar.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "accent": "#D97706",
+    "tagline": "Short-list daily hydration with real organic fruit",
+    "story": "Seven-ingredient electrolyte packets flavored with organic fruit instead of a lab — clean everyday hydration without the candy-aisle aftertaste.",
+    "location": "United States",
+    "founded": 2021,
+    "rating": 4.6,
+    "reviewCount": 740,
+    "followerCount": 9200
+  },
+  {
+    "id": "c487",
+    "slug": "possible",
+    "name": "POSSIBLE",
+    "domain": "mypossible.com",
+    "websiteUrl": "https://mypossible.com",
+    "shopBase": "https://mypossible.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "accent": "#3D6B4F",
+    "tagline": "Whole-food electrolytes grown on an organic farm",
+    "story": "Wisconsin farm–grown mountain spinach, barley grass, coconut water, and sea salt — plant-sourced minerals instead of a synthetic salt pile.",
+    "location": "Wisconsin",
+    "founded": 2019,
+    "rating": 4.7,
+    "reviewCount": 360,
+    "followerCount": 4500
+  },
+  {
+    "id": "c488",
+    "slug": "ora-organic",
+    "name": "Ora Organic",
+    "domain": "ora.organic",
+    "websiteUrl": "https://ora.organic",
+    "shopBase": "https://ora.organic",
+    "categories": [
+      "protein",
+      "supplements",
+      "electrolytes"
+    ],
+    "accent": "#16A34A",
+    "tagline": "Chef-crafted USDA organic plant protein",
+    "story": "San Diego organic protein and wellness with public third-party tests — no gums, no stevia circus, just plant proteins and enzymes you can actually digest.",
+    "location": "San Diego, CA",
+    "founded": 2016,
+    "rating": 4.6,
+    "reviewCount": 4200,
+    "followerCount": 38000
+  },
+  {
+    "id": "c489",
+    "slug": "puori",
+    "name": "Puori",
+    "domain": "puori.com",
+    "websiteUrl": "https://puori.com",
+    "shopBase": "https://puori.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "accent": "#1A5276",
+    "tagline": "Clean Label Project–tested grass-fed whey",
+    "story": "Danish purity nerds who publish every batch test against 200+ contaminants — grass-fed whey and clean supplements with receipts, not vibes.",
+    "location": "Denmark",
+    "founded": 2010,
+    "rating": 4.7,
+    "reviewCount": 3100,
+    "followerCount": 22000
+  },
+  {
+    "id": "c490",
+    "slug": "mikuna",
+    "name": "Mikuna",
+    "domain": "mikunafoods.com",
+    "websiteUrl": "https://mikunafoods.com",
+    "shopBase": "https://mikunafoods.com",
+    "categories": [
+      "protein"
+    ],
+    "accent": "#8B5A2B",
+    "tagline": "Single-ingredient Andean chocho protein",
+    "story": "Lupinus mutabilis grown with Kichwa farmers at 11,000 feet — 20g complete protein, 8g fiber, no gums, no sweeteners, lot-tested for metals and pesticides.",
+    "location": "Ecuador / United States",
+    "founded": 2019,
+    "rating": 4.8,
+    "reviewCount": 280,
+    "followerCount": 6400
+  },
+  {
+    "id": "c491",
+    "slug": "piperwai",
+    "name": "PiperWai",
+    "domain": "piperwai.com",
+    "websiteUrl": "https://piperwai.com",
+    "shopBase": "https://piperwai.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "accent": "#2F4F4F",
+    "tagline": "Activated-charcoal cream deodorant from a Philly kitchen",
+    "story": "Sarah and Jess mixed a hundred kitchen batches until charcoal, magnesium, and butters actually lasted all day — vegan, aluminum-free, and still independent after Shark Tank.",
+    "location": "Philadelphia, PA",
+    "founded": 2014,
+    "rating": 4.5,
+    "reviewCount": 8600,
+    "followerCount": 41000
+  },
+  {
+    "id": "c492",
+    "slug": "lathr",
+    "name": "LATHR",
+    "domain": "lathr.com",
+    "websiteUrl": "https://lathr.com",
+    "shopBase": "https://lathr.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "accent": "#3E2723",
+    "tagline": "Small-batch Canadian deodorant without baking soda",
+    "story": "Poured by hand in Woodbridge, Ontario — magnesium and zinc sticks that skip aluminum and baking soda so pits stay calm and shirts stay unstained.",
+    "location": "Woodbridge, Ontario",
+    "founded": 2020,
+    "rating": 4.7,
+    "reviewCount": 540,
+    "followerCount": 3900
+  },
+  {
+    "id": "c493",
+    "slug": "nobs",
+    "name": "NOBS",
+    "domain": "nobsoralcare.com",
+    "websiteUrl": "https://nobsoralcare.com",
+    "shopBase": "https://nobsoralcare.com",
+    "categories": [
+      "oral"
+    ],
+    "accent": "#0E7490",
+    "tagline": "Dentist-made hydroxyapatite toothpaste tablets",
+    "story": "Chewable n-HA tablets in glass — fluoride-free enamel support without the plastic tube, formulated by a dentist who was tired of junk in toothpaste.",
+    "location": "United States",
+    "founded": 2020,
+    "rating": 4.6,
+    "reviewCount": 2100,
+    "followerCount": 15000
+  },
+  {
+    "id": "c494",
+    "slug": "uncle-harrys",
+    "name": "Uncle Harry's",
+    "domain": "uncleharrys.com",
+    "websiteUrl": "https://uncleharrys.com",
+    "shopBase": "https://uncleharrys.com",
+    "categories": [
+      "oral"
+    ],
+    "accent": "#4D7C0F",
+    "tagline": "Glass-jar natural toothpaste and herbal mouthwash",
+    "story": "Old-school herbal oral care in glass — fluoride-free pastes, powders, and miracle mouthwash with ingredients you can pronounce and refill.",
+    "location": "United States",
+    "founded": 1999,
+    "rating": 4.7,
+    "reviewCount": 1800,
+    "followerCount": 12000
+  },
+  {
+    "id": "c495",
+    "slug": "marie-veronique",
+    "name": "Marie Veronique",
+    "domain": "marieveronique.com",
+    "websiteUrl": "https://marieveronique.com",
+    "shopBase": "https://marieveronique.com",
+    "categories": [
+      "skincare",
+      "sunscreen"
+    ],
+    "accent": "#7A6A53",
+    "tagline": "Berkeley-made clean clinical skin science",
+    "story": "Chemist Marie Veronique Nadeau builds barrier-first serums and mineral sun care with a short, serious ingredient list — no endocrine circus, no filler fog.",
+    "location": "Berkeley, CA",
+    "founded": 2002,
+    "rating": 4.8,
+    "reviewCount": 2600,
+    "followerCount": 19000
+  },
+  {
+    "id": "c496",
+    "slug": "okoko",
+    "name": "Okoko Cosmétiques",
+    "domain": "okokocosmetiques.com",
+    "websiteUrl": "https://okokocosmetiques.com",
+    "shopBase": "https://okokocosmetiques.com",
+    "categories": [
+      "skincare"
+    ],
+    "accent": "#9A3412",
+    "tagline": "Montreal botanical luxury with a clean conscience",
+    "story": "Small-batch Canadian botanicals — oils, serums, and creams that treat plants like actives, not perfume, and skip the usual synthetic pile-on.",
+    "location": "Montreal, Canada",
+    "founded": 2014,
+    "rating": 4.7,
+    "reviewCount": 890,
+    "followerCount": 11000
+  },
+  {
+    "id": "c497",
+    "slug": "nuele",
+    "name": "NUELE",
+    "domain": "nuelehair.com",
+    "websiteUrl": "https://nuelehair.com",
+    "shopBase": "https://nuelehair.com",
+    "categories": [
+      "hair"
+    ],
+    "accent": "#5B21B6",
+    "tagline": "Zero-synthetic bond care for every texture",
+    "story": "Founded by Black women who were tired of bond builders ignoring coils — 100% naturally derived actives, fair-trade oils from Ghana and Morocco, lab-tested on real strands.",
+    "location": "United States",
+    "founded": 2021,
+    "rating": 4.7,
+    "reviewCount": 420,
+    "followerCount": 7800
+  },
+  {
+    "id": "c498",
+    "slug": "sienna-naturals",
+    "name": "Sienna Naturals",
+    "domain": "siennanaturals.com",
+    "websiteUrl": "https://www.siennanaturals.com",
+    "shopBase": "https://www.siennanaturals.com",
+    "categories": [
+      "hair"
+    ],
+    "accent": "#B45309",
+    "tagline": "Clean, clinically tested care for textured hair",
+    "story": "Issa Rae and Hannah Diop built a plant-based wash-day system for coils and curls — dermatologist-tested, silicone-skipping formulas that treat scalp health as the main event.",
+    "location": "Los Angeles, CA",
+    "founded": 2019,
+    "rating": 4.6,
+    "reviewCount": 3400,
+    "followerCount": 62000
+  },
+  {
+    "id": "c499",
+    "slug": "fullwell",
+    "name": "FullWell",
+    "domain": "fullwellfertility.com",
+    "websiteUrl": "https://fullwellfertility.com",
+    "shopBase": "https://fullwellfertility.com",
+    "categories": [
+      "supplements"
+    ],
+    "accent": "#BE185D",
+    "tagline": "Practitioner-formulated prenatal nutrition",
+    "story": "Dietitian Ayla Barmmer’s prenatal and fertility line — methylated B vitamins, mineral forms you can absorb, and labels written for people who actually read them.",
+    "location": "United States",
+    "founded": 2018,
+    "rating": 4.8,
+    "reviewCount": 1900,
+    "followerCount": 27000
+  },
+  {
+    "id": "c500",
+    "slug": "real-mushrooms",
+    "name": "Real Mushrooms",
+    "domain": "realmushrooms.com",
+    "websiteUrl": "https://realmushrooms.com",
+    "shopBase": "https://realmushrooms.com",
+    "categories": [
+      "supplements"
+    ],
+    "accent": "#365314",
+    "tagline": "Fruiting-body mushroom extracts, no grain filler",
+    "story": "Mushroom supplements that are actually mushrooms — organic fruiting bodies, measured beta-glucans, and none of the mycelium-on-oats dust most jars hide.",
+    "location": "Canada / United States",
+    "founded": 2015,
+    "rating": 4.8,
+    "reviewCount": 5200,
+    "followerCount": 34000
+  }
+]
