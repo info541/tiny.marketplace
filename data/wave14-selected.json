@@ -1,0 +1,178 @@
+[
+  {
+    "slug": "waxhead",
+    "shopBase": "https://gowaxhead.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c661"
+  },
+  {
+    "slug": "hawaiian-healing",
+    "shopBase": "https://hawaiianhealing.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c662"
+  },
+  {
+    "slug": "colorescience",
+    "shopBase": "https://colorescience.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c663"
+  },
+  {
+    "slug": "circular-bodies",
+    "shopBase": "https://circularbodies.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c664"
+  },
+  {
+    "slug": "lenus",
+    "shopBase": "https://shoplenus.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c665"
+  },
+  {
+    "slug": "nazareth-organics",
+    "shopBase": "https://nazareth-organics.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c666"
+  },
+  {
+    "slug": "stone-grace",
+    "shopBase": "https://stonegraceco.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c667"
+  },
+  {
+    "slug": "ohso-bare",
+    "shopBase": "https://ohsobare.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c668"
+  },
+  {
+    "slug": "tallow-cosmetics",
+    "shopBase": "https://tallowcosmetics.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c669"
+  },
+  {
+    "slug": "clean-simple-eats",
+    "shopBase": "https://cleansimpleeats.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c670"
+  },
+  {
+    "slug": "raw-sport",
+    "shopBase": "https://www.revolution-foods.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c671"
+  },
+  {
+    "slug": "amazing-grass",
+    "shopBase": "https://amazinggrass.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c672"
+  },
+  {
+    "slug": "hiya",
+    "shopBase": "https://hiyahealth.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c673"
+  },
+  {
+    "slug": "stay-poised",
+    "shopBase": "https://staypoisednaturals.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c674"
+  },
+  {
+    "slug": "wellbel",
+    "shopBase": "https://wellbel.com",
+    "categories": [
+      "hair",
+      "supplements"
+    ],
+    "id": "c675"
+  },
+  {
+    "slug": "ancestral-cosmetics",
+    "shopBase": "https://ancestralcosmetics.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c676"
+  },
+  {
+    "slug": "blume",
+    "shopBase": "https://www.meetblume.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c677"
+  },
+  {
+    "slug": "akamai",
+    "shopBase": "https://akamaibasics.com",
+    "categories": [
+      "oral",
+      "hair",
+      "skincare"
+    ],
+    "id": "c678"
+  },
+  {
+    "slug": "holos",
+    "shopBase": "https://liveholos.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c679"
+  },
+  {
+    "slug": "mineral-fusion",
+    "shopBase": "https://www.mineralfusion.com",
+    "categories": [
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c680"
+  }
+]
