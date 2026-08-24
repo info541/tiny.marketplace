@@ -1,0 +1,172 @@
+[
+  {
+    "slug": "cotz",
+    "shopBase": "https://cotzskincare.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c621"
+  },
+  {
+    "slug": "radiant-bloom",
+    "shopBase": "https://www.radiantbloomorganic.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c622"
+  },
+  {
+    "slug": "bask",
+    "shopBase": "https://basksuncare.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c623"
+  },
+  {
+    "slug": "eirlyte",
+    "shopBase": "https://eirlyte.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c624"
+  },
+  {
+    "slug": "purishh",
+    "shopBase": "https://www.purishh.com",
+    "categories": [
+      "electrolytes",
+      "skincare"
+    ],
+    "id": "c625"
+  },
+  {
+    "slug": "purple-tree",
+    "shopBase": "https://purpletree.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c626"
+  },
+  {
+    "slug": "eco-protein",
+    "shopBase": "https://ecoprotein.co",
+    "categories": [
+      "protein"
+    ],
+    "id": "c627"
+  },
+  {
+    "slug": "basic-af",
+    "shopBase": "https://basicafnutrition.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c628"
+  },
+  {
+    "slug": "bare-protein",
+    "shopBase": "https://bare-protein.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c629"
+  },
+  {
+    "slug": "lifelong",
+    "shopBase": "https://www.lifelongdeo.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c630"
+  },
+  {
+    "slug": "nudge",
+    "shopBase": "https://shopnudge.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c631"
+  },
+  {
+    "slug": "ollie",
+    "shopBase": "https://olliesmile.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c632"
+  },
+  {
+    "slug": "miltodent",
+    "shopBase": "https://miltodent.com/en-us",
+    "categories": [
+      "oral"
+    ],
+    "id": "c633"
+  },
+  {
+    "slug": "obvs",
+    "shopBase": "https://obvs-skincare.com",
+    "categories": [
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c634"
+  },
+  {
+    "slug": "ziji",
+    "shopBase": "https://zijiskin.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c635"
+  },
+  {
+    "slug": "moscarter",
+    "shopBase": "https://www.moscarter.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c636"
+  },
+  {
+    "slug": "ingreendients",
+    "shopBase": "https://ingreendients.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c637"
+  },
+  {
+    "slug": "seek-bamboo",
+    "shopBase": "https://seekbamboo.com",
+    "categories": [
+      "oral",
+      "hair"
+    ],
+    "id": "c638"
+  },
+  {
+    "slug": "kion",
+    "shopBase": "https://getkion.com",
+    "categories": [
+      "supplements",
+      "protein"
+    ],
+    "id": "c639"
+  },
+  {
+    "slug": "pote",
+    "shopBase": "https://productsoftheearthvegas.com",
+    "categories": [
+      "supplements",
+      "hair"
+    ],
+    "id": "c640"
+  }
+]

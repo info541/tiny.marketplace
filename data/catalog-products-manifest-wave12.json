@@ -1,0 +1,196 @@
+{
+  "generatedAt": "2026-08-24T14:16:29.038Z",
+  "wave12Products": 748,
+  "wave12BrandsWithProducts": 20,
+  "totalProducts": 23767,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "cotz",
+      "brandId": "c621",
+      "raw": 12,
+      "kept": 11,
+      "withIngredients": 1,
+      "flavorVariants": 2,
+      "shopBase": "https://cotzskincare.com"
+    },
+    {
+      "slug": "radiant-bloom",
+      "brandId": "c622",
+      "raw": 64,
+      "kept": 59,
+      "withIngredients": 19,
+      "flavorVariants": 2,
+      "shopBase": "https://www.radiantbloomorganic.com"
+    },
+    {
+      "slug": "bask",
+      "brandId": "c623",
+      "raw": 45,
+      "kept": 30,
+      "withIngredients": 1,
+      "flavorVariants": 2,
+      "shopBase": "https://basksuncare.com"
+    },
+    {
+      "slug": "eirlyte",
+      "brandId": "c624",
+      "raw": 1,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 6,
+      "shopBase": "https://eirlyte.com"
+    },
+    {
+      "slug": "purishh",
+      "brandId": "c625",
+      "raw": 20,
+      "kept": 13,
+      "withIngredients": 1,
+      "flavorVariants": 6,
+      "shopBase": "https://www.purishh.com"
+    },
+    {
+      "slug": "purple-tree",
+      "brandId": "c626",
+      "raw": 12,
+      "kept": 12,
+      "withIngredients": 3,
+      "flavorVariants": 1,
+      "shopBase": "https://purpletree.com"
+    },
+    {
+      "slug": "eco-protein",
+      "brandId": "c627",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://ecoprotein.co"
+    },
+    {
+      "slug": "basic-af",
+      "brandId": "c628",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://basicafnutrition.com"
+    },
+    {
+      "slug": "bare-protein",
+      "brandId": "c629",
+      "raw": 2,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "shopBase": "https://bare-protein.com"
+    },
+    {
+      "slug": "lifelong",
+      "brandId": "c630",
+      "raw": 6,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "shopBase": "https://www.lifelongdeo.com"
+    },
+    {
+      "slug": "nudge",
+      "brandId": "c631",
+      "raw": 12,
+      "kept": 19,
+      "withIngredients": 0,
+      "flavorVariants": 10,
+      "shopBase": "https://shopnudge.com"
+    },
+    {
+      "slug": "ollie",
+      "brandId": "c632",
+      "raw": 35,
+      "kept": 42,
+      "withIngredients": 1,
+      "flavorVariants": 19,
+      "shopBase": "https://olliesmile.com"
+    },
+    {
+      "slug": "miltodent",
+      "brandId": "c633",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://miltodent.com/en-us"
+    },
+    {
+      "slug": "obvs",
+      "brandId": "c634",
+      "raw": 80,
+      "kept": 31,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://obvs-skincare.com"
+    },
+    {
+      "slug": "ziji",
+      "brandId": "c635",
+      "raw": 4,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://zijiskin.com"
+    },
+    {
+      "slug": "moscarter",
+      "brandId": "c636",
+      "raw": 44,
+      "kept": 40,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.moscarter.com"
+    },
+    {
+      "slug": "ingreendients",
+      "brandId": "c637",
+      "raw": 13,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://ingreendients.com"
+    },
+    {
+      "slug": "seek-bamboo",
+      "brandId": "c638",
+      "raw": 275,
+      "kept": 407,
+      "withIngredients": 2,
+      "flavorVariants": 247,
+      "shopBase": "https://seekbamboo.com"
+    },
+    {
+      "slug": "kion",
+      "brandId": "c639",
+      "raw": 23,
+      "kept": 18,
+      "withIngredients": 0,
+      "flavorVariants": 12,
+      "shopBase": "https://getkion.com"
+    },
+    {
+      "slug": "pote",
+      "brandId": "c640",
+      "raw": 62,
+      "kept": 37,
+      "withIngredients": 29,
+      "flavorVariants": 16,
+      "shopBase": "https://productsoftheearthvegas.com"
+    }
+  ],
+  "wave12WithIngredients": 402,
+  "wave12FlavorVariants": 330
+}
