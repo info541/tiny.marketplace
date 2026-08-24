@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-08-24T05:10:43.107Z",
+  "wave5Products": 731,
+  "wave5BrandsWithProducts": 20,
+  "totalProducts": 23750,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "avasol",
+      "brandId": "c481",
+      "raw": 4,
+      "kept": 10,
+      "withIngredients": 4,
+      "shopBase": "https://avasol.com"
+    },
+    {
+      "slug": "sol-de-ibiza",
+      "brandId": "c482",
+      "raw": 22,
+      "kept": 12,
+      "withIngredients": 5,
+      "shopBase": "https://soldeibiza.com"
+    },
+    {
+      "slug": "surfdurt",
+      "brandId": "c483",
+      "raw": 14,
+      "kept": 6,
+      "withIngredients": 6,
+      "shopBase": "https://surfdurt.com"
+    },
+    {
+      "slug": "rebrand-skincare",
+      "brandId": "c484",
+      "raw": 21,
+      "kept": 12,
+      "withIngredients": 12,
+      "shopBase": "https://rebrandskincare.com"
+    },
+    {
+      "slug": "untammed",
+      "brandId": "c485",
+      "raw": 7,
+      "kept": 8,
+      "withIngredients": 5,
+      "shopBase": "https://untammed.co"
+    },
+    {
+      "slug": "nectar-hydration",
+      "brandId": "c486",
+      "raw": 4,
+      "kept": 21,
+      "withIngredients": 21,
+      "shopBase": "https://drinknectar.com"
+    },
+    {
+      "slug": "possible",
+      "brandId": "c487",
+      "raw": 14,
+      "kept": 8,
+      "withIngredients": 1,
+      "shopBase": "https://mypossible.com"
+    },
+    {
+      "slug": "ora-organic",
+      "brandId": "c488",
+      "raw": 42,
+      "kept": 39,
+      "withIngredients": 6,
+      "shopBase": "https://ora.organic"
+    },
+    {
+      "slug": "puori",
+      "brandId": "c489",
+      "raw": 19,
+      "kept": 12,
+      "withIngredients": 4,
+      "shopBase": "https://puori.com"
+    },
+    {
+      "slug": "mikuna",
+      "brandId": "c490",
+      "raw": 3,
+      "kept": 4,
+      "withIngredients": 4,
+      "shopBase": "https://mikunafoods.com"
+    },
+    {
+      "slug": "piperwai",
+      "brandId": "c491",
+      "raw": 19,
+      "kept": 9,
+      "withIngredients": 9,
+      "shopBase": "https://piperwai.com"
+    },
+    {
+      "slug": "lathr",
+      "brandId": "c492",
+      "raw": 258,
+      "kept": 153,
+      "withIngredients": 78,
+      "shopBase": "https://lathr.com"
+    },
+    {
+      "slug": "nobs",
+      "brandId": "c493",
+      "raw": 16,
+      "kept": 15,
+      "withIngredients": 1,
+      "shopBase": "https://nobsoralcare.com"
+    },
+    {
+      "slug": "uncle-harrys",
+      "brandId": "c494",
+      "raw": 196,
+      "kept": 181,
+      "withIngredients": 129,
+      "shopBase": "https://uncleharrys.com"
+    },
+    {
+      "slug": "marie-veronique",
+      "brandId": "c495",
+      "raw": 38,
+      "kept": 31,
+      "withIngredients": 30,
+      "shopBase": "https://marieveronique.com"
+    },
+    {
+      "slug": "okoko",
+      "brandId": "c496",
+      "raw": 80,
+      "kept": 76,
+      "withIngredients": 21,
+      "shopBase": "https://okokocosmetiques.com"
+    },
+    {
+      "slug": "nuele",
+      "brandId": "c497",
+      "raw": 23,
+      "kept": 23,
+      "withIngredients": 0,
+      "shopBase": "https://nuelehair.com"
+    },
+    {
+      "slug": "sienna-naturals",
+      "brandId": "c498",
+      "raw": 34,
+      "kept": 29,
+      "withIngredients": 18,
+      "shopBase": "https://www.siennanaturals.com"
+    },
+    {
+      "slug": "fullwell",
+      "brandId": "c499",
+      "raw": 42,
+      "kept": 38,
+      "withIngredients": 36,
+      "shopBase": "https://fullwellfertility.com"
+    },
+    {
+      "slug": "real-mushrooms",
+      "brandId": "c500",
+      "raw": 51,
+      "kept": 44,
+      "withIngredients": 1,
+      "shopBase": "https://realmushrooms.com"
+    }
+  ]
+}
