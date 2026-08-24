@@ -36,7 +36,7 @@ const rows = brands.map((b, i) => {
 const file = `import type { Brand } from "./types";
 
 /** Wave 11: small organic / toxic-free brands across marketplace categories (c601+). */
-export const catalogBrandsWave10: Brand[] = [
+export const catalogBrandsWave11: Brand[] = [
 ${rows.join(",\n")},
 ];
 `;

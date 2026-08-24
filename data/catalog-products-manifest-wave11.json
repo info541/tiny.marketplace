@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-08-24T11:12:52.505Z",
+  "wave11Products": 567,
+  "wave11BrandsWithProducts": 20,
+  "totalProducts": 23586,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "manda",
+      "brandId": "c601",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://mandanaturals.com"
+    },
+    {
+      "slug": "suntegrity",
+      "brandId": "c602",
+      "raw": 11,
+      "kept": 17,
+      "withIngredients": 10,
+      "flavorVariants": 10,
+      "shopBase": "https://suntegrity.myshopify.com"
+    },
+    {
+      "slug": "kokua",
+      "brandId": "c603",
+      "raw": 9,
+      "kept": 5,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://www.kokuasuncare.com"
+    },
+    {
+      "slug": "goodonya",
+      "brandId": "c604",
+      "raw": 6,
+      "kept": 5,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://goodonyaorganic.com"
+    },
+    {
+      "slug": "junp",
+      "brandId": "c605",
+      "raw": 17,
+      "kept": 31,
+      "withIngredients": 0,
+      "flavorVariants": 19,
+      "shopBase": "https://junphydration.com"
+    },
+    {
+      "slug": "adapted",
+      "brandId": "c606",
+      "raw": 20,
+      "kept": 64,
+      "withIngredients": 0,
+      "flavorVariants": 58,
+      "shopBase": "https://adapted-nutrition.com"
+    },
+    {
+      "slug": "koia",
+      "brandId": "c607",
+      "raw": 35,
+      "kept": 16,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://drinkkoia.com"
+    },
+    {
+      "slug": "suprey",
+      "brandId": "c608",
+      "raw": 3,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 10,
+      "shopBase": "https://shop.suprey.life"
+    },
+    {
+      "slug": "complement",
+      "brandId": "c609",
+      "raw": 58,
+      "kept": 40,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.lovecomplement.com"
+    },
+    {
+      "slug": "pure-mess",
+      "brandId": "c610",
+      "raw": 79,
+      "kept": 61,
+      "withIngredients": 48,
+      "flavorVariants": 0,
+      "shopBase": "https://www.puremessskincare.com"
+    },
+    {
+      "slug": "wild",
+      "brandId": "c611",
+      "raw": 6,
+      "kept": 4,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://wearewild.myshopify.com"
+    },
+    {
+      "slug": "barepaste",
+      "brandId": "c612",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.barepaste.com"
+    },
+    {
+      "slug": "gutology",
+      "brandId": "c613",
+      "raw": 9,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://gutology.co"
+    },
+    {
+      "slug": "selfwise",
+      "brandId": "c614",
+      "raw": 12,
+      "kept": 12,
+      "withIngredients": 12,
+      "flavorVariants": 0,
+      "shopBase": "https://selfwisebrand.com"
+    },
+    {
+      "slug": "organic-skin-co",
+      "brandId": "c615",
+      "raw": 25,
+      "kept": 16,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://theorganicskinco.com"
+    },
+    {
+      "slug": "uma",
+      "brandId": "c616",
+      "raw": 103,
+      "kept": 100,
+      "withIngredients": 18,
+      "flavorVariants": 0,
+      "shopBase": "https://www.umaoils.com"
+    },
+    {
+      "slug": "less-is-more",
+      "brandId": "c617",
+      "raw": 159,
+      "kept": 107,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.lessismore.at"
+    },
+    {
+      "slug": "abache",
+      "brandId": "c618",
+      "raw": 33,
+      "kept": 33,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.abacheorganics.com"
+    },
+    {
+      "slug": "selkie",
+      "brandId": "c619",
+      "raw": 5,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://selkiehaircare.com"
+    },
+    {
+      "slug": "plant-people",
+      "brandId": "c620",
+      "raw": 42,
+      "kept": 30,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.plantpeople.co"
+    }
+  ]
+}

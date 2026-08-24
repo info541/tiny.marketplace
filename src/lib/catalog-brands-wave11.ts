@@ -1,7 +1,7 @@
 import type { Brand } from "./types";
 
 /** Wave 11: small organic / toxic-free brands across marketplace categories (c601+). */
-export const catalogBrandsWave10: Brand[] = [
+export const catalogBrandsWave11: Brand[] = [
   {
     id: "c601",
     slug: "manda",
@@ -166,11 +166,11 @@ export const catalogBrandsWave10: Brand[] = [
     id: "c611",
     slug: "wild",
     name: "Wild",
-    tagline: "Refillable UK deodorant and a solid mineral SPF that skips the plastic pump",
-    story: "A refill-first British house known for aluminum-free deodorant cases you keep, plus a solid-block mineral sunscreen and probiotic cleanser. Plastic-light, travel-proof, and built for people who are tired of throwing away another empty stick.",
+    tagline: "Solid-block mineral SPF and probiotic cleanser that skip the plastic pump",
+    story: "A refill-minded British house making a solid mineral sunscreen and a probiotic cleanser you can travel with — plastic-light, no pump bottle, and formulas that sit in a tin instead of another throwaway tube.",
     location: "United Kingdom",
     founded: 2017,
-    categories: ["deodorant","sunscreen","skincare"],
+    categories: ["sunscreen","skincare"],
     accent: "#2C5F4E",
     rating: 4.6,
     reviewCount: 12400,

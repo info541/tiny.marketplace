@@ -21,7 +21,7 @@ const WAVE_START = 601;
 const WAVE_END = WAVE_START + seedBrands.length - 1;
 
 const SKIP_TITLE =
-  /\b(gift card|e[- ]?gift|store credit|membership|subscription box|not for sale|tester only|wholesale|100%\s*off|do not use|tiktok shop|credit card payment|price test|employee wellness|shaker bottle|water bottle|empty bottle|pump holder|marketing card|fanny pack|luggage tag|t-?shirt|\btee\b|hoodie|sweatshirt|\bhat\b|ball cap|beanie|tote bag|statement tote|\btote\b|silk scarf|sticker|mug\b|apparel|poster|patch|keychain|stuffed toy|plush|crew socks|socks\b|head wrap|book\b|journal\b|workshop|masterclass|reading|tarot|ticket|event|class with|immersion|social hour|astrology|gua sha class|oracle|akashic|initiation:|pocket altar|free class|free gift|enamel pin|deodorant scoop|cream applicator|aluminum bottle|plastic bottle|blue bottle|brown bottle|clear bottle|clear jar|roll-on bottle|nalgene bottle|team bottle|terrain bottle|fuel bottle|for pets?|\bpet\b|daily dawg|there's a mushroom|shipping protection|package protection|vip protection|priority handling|\bbroker\b|refill station|bottle tray|\+ shirt|shot glass|softflask|club cap|trucker hat|sun hat|wide brim|digital download|gravity feed|foundation|concealer|mascara|eyeshadow|blush|bronzer|lipstick|lip gloss|lip liner|eyeliner|makeup|setting spray|floor cleaner|dishwasher|laundry detergent|neem comb|scalp massager|pill travel tin|welcome card)\b/i;
+  /\b(gift card|e[- ]?gift|store credit|membership|subscription box|not for sale|tester only|wholesale|100%\s*off|do not use|tiktok shop|credit card payment|price test|employee wellness|shaker bottle|water bottle|empty bottle|shampoo bottle|conditioner bottle|pump holder|marketing card|fanny pack|luggage tag|t-?shirt|\btee\b|hoodie|sweatshirt|\bhat\b|ball cap|beanie|rainbow cap|tote bag|statement tote|\btote\b|silk scarf|sticker|mug\b|apparel|poster|patch|keychain|stuffed toy|plush|crew socks|socks\b|head wrap|book\b|journal\b|workshop|masterclass|reading|tarot|ticket|event|class with|immersion|social hour|astrology|gua sha class|oracle|akashic|initiation:|pocket altar|free class|free gift|enamel pin|deodorant scoop|cream applicator|aluminum bottle|plastic bottle|blue bottle|brown bottle|clear bottle|clear jar|roll-on bottle|nalgene bottle|team bottle|terrain bottle|fuel bottle|for pets?|\bpet\b|daily dawg|there's a mushroom|shipping protection|package protection|vip protection|priority handling|\bbroker\b|refill station|bottle tray|\+ shirt|shot glass|softflask|club cap|trucker hat|sun hat|wide brim|digital download|gravity feed|foundation|concealer|mascara|eyeshadow|blush|bronzer|lipstick|lip gloss|lip liner|eyeliner|makeup|setting spray|floor cleaner|dishwasher|laundry detergent|neem comb|scalp massager|pill travel tin|welcome card|turkish cotton|beach towel|\btowel\b|beach blanket|konjac sponge|gift bag|air pouch|makeup bag|pouches|travel bag)\b/i;
 
 const SKIP_TYPE =
   /\b(gift card|merchandise|apparel|ticket|event|workshop|class|reading)\b/i;
@@ -30,7 +30,7 @@ const SKIP_TAGS =
   /\b(calendar|events|ticket|workshop|merch|apparel)\b/i;
 
 const NICHE =
-  /\b(spf\s*\d+|sunscreen|sun\s?screen|sunblock|sun butter|sun protection|antiperspir|underarm|\bdeo\b|toothpaste|toothbrush|floss|mouthwash|oral|hydroxyapatite|theobromine|oil pull|tongue clean|shampoo|conditioner|hairwash|hair wash|shikakai|champi|hair (oil|mask|serum|care|cream|butter)|scalp|leave[- ]?in|protein|whey|casein|collagen|pea protein|chocho|meal shake|drink mix|wellness powder|immune support|daily (calm|energy|hydration)|vitamin|supplement|capsule|softgel|probiotic|adaptogen|mushroom|tonic|powder|magnesium|gummies|gummy|serum|moisturizer|moisturiser|cleanser|face wash|facial|toner|retinol|niacinamide|cream|lotion|oil|mask|balm|mist|essence|exfoliant|lip|body (lotion|butter|wash|cream|oil|bar)|soap|tallow|organ|greens?|superfood|multi for)\b|deodor|electrolyt|hydrat/i;
+  /\b(spf\s*\d+|sunscreen|sun\s?screen|sunblock|sun butter|sun paste|sunpaste|sun protection|antiperspir|underarm|\bdeo\b|toothpaste|toothbrush|floss|mouthwash|oral|hydroxyapatite|theobromine|oil pull|tongue clean|shampoo|conditioner|hairwash|hair wash|shikakai|champi|hair (oil|mask|serum|care|cream|butter)|scalp|leave[- ]?in|protein|whey|casein|collagen|pea protein|chocho|meal shake|drink mix|wellness powder|immune support|daily (calm|energy|hydration)|vitamin|supplement|capsule|softgel|probiotic|adaptogen|mushroom|tonic|powder|magnesium|gummies|gummy|serum|moisturizer|moisturiser|cleanser|face wash|facial|toner|retinol|niacinamide|cream|lotion|oil|mask|balm|mist|essence|exfoliant|lip|body (lotion|butter|wash|cream|oil|bar)|soap|tallow|organ|greens?|superfood|multi for|hydust|sweetpeace)\b|deodor|electrolyt|hydrat/i;
 
 const FLAVOR_OPTION = /flavor|flavour|scent|fragrance|smell|aroma|colour|color|shade/i;
 
@@ -173,12 +173,12 @@ function inferFreeFrom(text) {
 function inferCategory(brandCategories, title, productType, tags) {
   const hay = `${title} ${productType} ${(tags || []).join(" ")}`.toLowerCase();
   const rules = [
-    ["sunscreen", /\b(spf|sunscreen|sun\s?screen|sunblock|sun butter|sun protection|sun stick|sun lotion)\b/],
+    ["sunscreen", /\b(spf|sunscreen|sun\s?screen|sunblock|sun butter|sun paste|sunpaste|sun protection|sun stick|sun lotion)\b/],
     ["deodorant", /deodor|antiperspir|underarm|\bdeo\b/],
     ["oral", /\b(toothpaste|toothbrush|floss|mouthwash|oral|hydroxyapatite|theobromine|oil pull|tongue clean|teeth)\b/],
     ["hair", /\b(shampoo|conditioner|hair|scalp|curl|leave[- ]?in|edge control|twist)\b/],
-    ["protein", /\b(protein|whey|casein|pea protein|plant protein|chocho|meal shake)\b/],
-    ["electrolytes", /\b(electrolyt|hydration (powder|packet|mix|stick|multiplier|pak)|rapid hydration|hydro pak|power pak|drink mix|wellness powder|immune support)\b/],
+    ["protein", /\b(protein|whey|casein|pea protein|plant protein|chocho|meal shake|sweetpeace)\b/],
+    ["electrolytes", /\b(electrolyt|hydration (powder|packet|mix|stick|multiplier|pak)|rapid hydration|hydro pak|power pak|drink mix|wellness powder|immune support|hydust|organic hydration)\b/],
     ["skincare", /\b(serum|moisturizer|moisturiser|cleanser|cream|toner|mask|facial|skin|body (lotion|butter|wash|cream|oil|bar)|lip|soap|balm|oil|mist|tallow)\b/],
     ["supplements", /\b(vitamin|supplement|capsule|softgel|probiotic|adaptogen|mushroom|tonic herb|collagen|prenatal|greens?|organ|superfood|magnesium|gumm|multi for|cortisol)\b/],
   ];
