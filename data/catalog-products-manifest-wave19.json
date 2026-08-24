@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-08-24T22:09:29.591Z",
+  "wave19Products": 918,
+  "wave19BrandsWithProducts": 20,
+  "totalProducts": 23937,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "3rd-rock",
+      "brandId": "c758",
+      "raw": 25,
+      "kept": 17,
+      "withIngredients": 10,
+      "flavorVariants": 2,
+      "shopBase": "https://3rdrockessentials.com"
+    },
+    {
+      "slug": "kinesys",
+      "brandId": "c759",
+      "raw": 44,
+      "kept": 15,
+      "withIngredients": 11,
+      "flavorVariants": 0,
+      "shopBase": "https://kinesyssunscreen.com"
+    },
+    {
+      "slug": "beauty-by-earth",
+      "brandId": "c760",
+      "raw": 116,
+      "kept": 53,
+      "withIngredients": 6,
+      "flavorVariants": 13,
+      "shopBase": "https://beautybyearth.com"
+    },
+    {
+      "slug": "poofy-organics",
+      "brandId": "c761",
+      "raw": 392,
+      "kept": 247,
+      "withIngredients": 1,
+      "flavorVariants": 31,
+      "shopBase": "https://poofyorganics.com"
+    },
+    {
+      "slug": "green-hydration",
+      "brandId": "c762",
+      "raw": 18,
+      "kept": 12,
+      "withIngredients": 8,
+      "flavorVariants": 8,
+      "shopBase": "https://drinkgreendaily.com"
+    },
+    {
+      "slug": "normalyte",
+      "brandId": "c763",
+      "raw": 21,
+      "kept": 18,
+      "withIngredients": 13,
+      "flavorVariants": 0,
+      "shopBase": "https://normalyte.com"
+    },
+    {
+      "slug": "aphina",
+      "brandId": "c764",
+      "raw": 26,
+      "kept": 28,
+      "withIngredients": 2,
+      "flavorVariants": 12,
+      "shopBase": "https://aphina.co"
+    },
+    {
+      "slug": "organic-protein-co",
+      "brandId": "c765",
+      "raw": 21,
+      "kept": 15,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.theorganicproteincompany.co.uk"
+    },
+    {
+      "slug": "nothing-naughty",
+      "brandId": "c766",
+      "raw": 91,
+      "kept": 148,
+      "withIngredients": 20,
+      "flavorVariants": 132,
+      "shopBase": "https://www.nothingnaughty.co.nz"
+    },
+    {
+      "slug": "valor-organics",
+      "brandId": "c767",
+      "raw": 58,
+      "kept": 27,
+      "withIngredients": 14,
+      "flavorVariants": 0,
+      "shopBase": "https://valororganics.com"
+    },
+    {
+      "slug": "simply-tallow",
+      "brandId": "c768",
+      "raw": 7,
+      "kept": 7,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "shopBase": "https://simplytallow.com"
+    },
+    {
+      "slug": "tallow-skin-co",
+      "brandId": "c769",
+      "raw": 60,
+      "kept": 61,
+      "withIngredients": 14,
+      "flavorVariants": 6,
+      "shopBase": "https://www.thetallowskinco.com"
+    },
+    {
+      "slug": "simply-sooney",
+      "brandId": "c770",
+      "raw": 7,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "shopBase": "https://simplysooney.com"
+    },
+    {
+      "slug": "sawyer-scout",
+      "brandId": "c771",
+      "raw": 5,
+      "kept": 5,
+      "withIngredients": 5,
+      "flavorVariants": 3,
+      "shopBase": "https://sawyerandscout.com"
+    },
+    {
+      "slug": "ocasa-botanica",
+      "brandId": "c772",
+      "raw": 208,
+      "kept": 149,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://ocasabotanica.com"
+    },
+    {
+      "slug": "nature-sustained",
+      "brandId": "c773",
+      "raw": 5,
+      "kept": 10,
+      "withIngredients": 2,
+      "flavorVariants": 9,
+      "shopBase": "https://naturesustained.com"
+    },
+    {
+      "slug": "living-water",
+      "brandId": "c774",
+      "raw": 45,
+      "kept": 55,
+      "withIngredients": 15,
+      "flavorVariants": 29,
+      "shopBase": "https://www.livingwaterorganics.com"
+    },
+    {
+      "slug": "atlas-haircare",
+      "brandId": "c775",
+      "raw": 16,
+      "kept": 16,
+      "withIngredients": 11,
+      "flavorVariants": 0,
+      "shopBase": "https://atlashaircare.com"
+    },
+    {
+      "slug": "mycogenius",
+      "brandId": "c776",
+      "raw": 12,
+      "kept": 12,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://mycogenius.com"
+    },
+    {
+      "slug": "mogu-mushrooms",
+      "brandId": "c777",
+      "raw": 17,
+      "kept": 17,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://mogumushrooms.com"
+    }
+  ]
+}

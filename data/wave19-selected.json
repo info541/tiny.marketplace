@@ -1,0 +1,181 @@
+[
+  {
+    "slug": "3rd-rock",
+    "shopBase": "https://3rdrockessentials.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c758"
+  },
+  {
+    "slug": "kinesys",
+    "shopBase": "https://kinesyssunscreen.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c759"
+  },
+  {
+    "slug": "beauty-by-earth",
+    "shopBase": "https://beautybyearth.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c760"
+  },
+  {
+    "slug": "poofy-organics",
+    "shopBase": "https://poofyorganics.com",
+    "categories": [
+      "sunscreen",
+      "oral",
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c761"
+  },
+  {
+    "slug": "green-hydration",
+    "shopBase": "https://drinkgreendaily.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c762"
+  },
+  {
+    "slug": "normalyte",
+    "shopBase": "https://normalyte.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c763"
+  },
+  {
+    "slug": "aphina",
+    "shopBase": "https://aphina.co",
+    "categories": [
+      "protein",
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c764"
+  },
+  {
+    "slug": "organic-protein-co",
+    "shopBase": "https://www.theorganicproteincompany.co.uk",
+    "categories": [
+      "protein"
+    ],
+    "id": "c765"
+  },
+  {
+    "slug": "nothing-naughty",
+    "shopBase": "https://www.nothingnaughty.co.nz",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c766"
+  },
+  {
+    "slug": "valor-organics",
+    "shopBase": "https://valororganics.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c767"
+  },
+  {
+    "slug": "simply-tallow",
+    "shopBase": "https://simplytallow.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c768"
+  },
+  {
+    "slug": "tallow-skin-co",
+    "shopBase": "https://www.thetallowskinco.com",
+    "categories": [
+      "skincare",
+      "deodorant",
+      "hair"
+    ],
+    "id": "c769"
+  },
+  {
+    "slug": "simply-sooney",
+    "shopBase": "https://simplysooney.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c770"
+  },
+  {
+    "slug": "sawyer-scout",
+    "shopBase": "https://sawyerandscout.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c771"
+  },
+  {
+    "slug": "ocasa-botanica",
+    "shopBase": "https://ocasabotanica.com",
+    "categories": [
+      "skincare",
+      "hair",
+      "oral",
+      "supplements"
+    ],
+    "id": "c772"
+  },
+  {
+    "slug": "nature-sustained",
+    "shopBase": "https://naturesustained.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c773"
+  },
+  {
+    "slug": "living-water",
+    "shopBase": "https://www.livingwaterorganics.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c774"
+  },
+  {
+    "slug": "atlas-haircare",
+    "shopBase": "https://atlashaircare.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c775"
+  },
+  {
+    "slug": "mycogenius",
+    "shopBase": "https://mycogenius.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c776"
+  },
+  {
+    "slug": "mogu-mushrooms",
+    "shopBase": "https://mogumushrooms.com",
+    "categories": [
+      "supplements",
+      "skincare"
+    ],
+    "id": "c777"
+  }
+]
