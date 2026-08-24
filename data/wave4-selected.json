@@ -1,0 +1,281 @@
+[
+  {
+    "id": "c460",
+    "slug": "soleil-toujours",
+    "name": "Soleil Toujours",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "websiteUrl": "https://soleiltoujours.com",
+    "shopBase": "https://soleiltoujours.com",
+    "productCount": 7,
+    "withIngredients": 7,
+    "flavorVariants": 0
+  },
+  {
+    "id": "c461",
+    "slug": "solara-suncare",
+    "name": "Solara Suncare",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "websiteUrl": "https://solarasuncare.com",
+    "shopBase": "https://solarasuncare.com",
+    "productCount": 18,
+    "withIngredients": 12,
+    "flavorVariants": 2
+  },
+  {
+    "id": "c462",
+    "slug": "swellies",
+    "name": "Swellies",
+    "categories": [
+      "sunscreen"
+    ],
+    "websiteUrl": "https://www.swellies.com",
+    "shopBase": "https://www.swellies.com",
+    "productCount": 1,
+    "withIngredients": 1,
+    "flavorVariants": 0
+  },
+  {
+    "id": "c463",
+    "slug": "island-butter",
+    "name": "Island Butter",
+    "categories": [
+      "sunscreen"
+    ],
+    "websiteUrl": "https://www.islandbutter.co",
+    "shopBase": "https://www.islandbutter.co",
+    "productCount": 2,
+    "withIngredients": 2,
+    "flavorVariants": 0
+  },
+  {
+    "id": "c464",
+    "slug": "nuud",
+    "name": "Nuud",
+    "categories": [
+      "deodorant"
+    ],
+    "websiteUrl": "https://nuudcare.com",
+    "shopBase": "https://nuudcare.com",
+    "productCount": 48,
+    "withIngredients": 24,
+    "flavorVariants": 0
+  },
+  {
+    "id": "c465",
+    "slug": "crystal-deodorant",
+    "name": "Crystal",
+    "categories": [
+      "deodorant"
+    ],
+    "websiteUrl": "https://thecrystal.com",
+    "shopBase": "https://thecrystal.com",
+    "productCount": 25,
+    "withIngredients": 24,
+    "flavorVariants": 0
+  },
+  {
+    "id": "c466",
+    "slug": "fygg",
+    "name": "Fygg",
+    "categories": [
+      "oral"
+    ],
+    "websiteUrl": "https://fygg.com",
+    "shopBase": "https://fygg.com",
+    "productCount": 17,
+    "withIngredients": 2,
+    "flavorVariants": 2
+  },
+  {
+    "id": "c467",
+    "slug": "dr-tungs",
+    "name": "Dr. Tung's",
+    "categories": [
+      "oral"
+    ],
+    "websiteUrl": "https://drtungs.com",
+    "shopBase": "https://drtungs.com",
+    "productCount": 56,
+    "withIngredients": 13,
+    "flavorVariants": 6
+  },
+  {
+    "id": "c468",
+    "slug": "sprout-living",
+    "name": "Sprout Living",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "websiteUrl": "https://sproutliving.com",
+    "shopBase": "https://sproutliving.com",
+    "productCount": 75,
+    "withIngredients": 28,
+    "flavorVariants": 0
+  },
+  {
+    "id": "c469",
+    "slug": "nuzest",
+    "name": "Nuzest",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "websiteUrl": "https://nuzest-usa.com",
+    "shopBase": "https://nuzest-usa.com",
+    "productCount": 25,
+    "withIngredients": 8,
+    "flavorVariants": 22
+  },
+  {
+    "id": "c470",
+    "slug": "kos",
+    "name": "KOS",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "websiteUrl": "https://kos.com",
+    "shopBase": "https://kos.com",
+    "productCount": 47,
+    "withIngredients": 38,
+    "flavorVariants": 6
+  },
+  {
+    "id": "c471",
+    "slug": "cure",
+    "name": "CURE",
+    "categories": [
+      "electrolytes"
+    ],
+    "websiteUrl": "https://curehydration.com",
+    "shopBase": "https://curehydration.com",
+    "productCount": 42,
+    "withIngredients": 38,
+    "flavorVariants": 0
+  },
+  {
+    "id": "c472",
+    "slug": "hydrant",
+    "name": "Hydrant",
+    "categories": [
+      "electrolytes"
+    ],
+    "websiteUrl": "https://drinkhydrant.com",
+    "shopBase": "https://drinkhydrant.com",
+    "productCount": 69,
+    "withIngredients": 37,
+    "flavorVariants": 62
+  },
+  {
+    "id": "c473",
+    "slug": "earth-harbor",
+    "name": "Earth Harbor",
+    "categories": [
+      "skincare",
+      "sunscreen"
+    ],
+    "websiteUrl": "https://earthharbor.com",
+    "shopBase": "https://earthharbor.com",
+    "productCount": 54,
+    "withIngredients": 33,
+    "flavorVariants": 0
+  },
+  {
+    "id": "c474",
+    "slug": "evolve-beauty",
+    "name": "Evolve Beauty",
+    "categories": [
+      "skincare"
+    ],
+    "websiteUrl": "https://evolvebeauty.co.uk",
+    "shopBase": "https://evolvebeauty.co.uk",
+    "productCount": 225,
+    "withIngredients": 217,
+    "flavorVariants": 0
+  },
+  {
+    "id": "c475",
+    "slug": "mad-hippie",
+    "name": "Mad Hippie",
+    "categories": [
+      "skincare"
+    ],
+    "websiteUrl": "https://madhippie.com",
+    "shopBase": "https://madhippie.com",
+    "productCount": 39,
+    "withIngredients": 29,
+    "flavorVariants": 3
+  },
+  {
+    "id": "c476",
+    "slug": "honua",
+    "name": "Honua Hawaiian Skincare",
+    "categories": [
+      "skincare"
+    ],
+    "websiteUrl": "https://honuaskincare.com",
+    "shopBase": "https://honuaskincare.com",
+    "productCount": 31,
+    "withIngredients": 13,
+    "flavorVariants": 0
+  },
+  {
+    "id": "c477",
+    "slug": "melanin-haircare",
+    "name": "Melanin Haircare",
+    "categories": [
+      "hair"
+    ],
+    "websiteUrl": "https://melaninhaircare.com",
+    "shopBase": "https://melaninhaircare.com",
+    "productCount": 14,
+    "withIngredients": 9,
+    "flavorVariants": 5
+  },
+  {
+    "id": "c478",
+    "slug": "sun-potion",
+    "name": "Sun Potion",
+    "categories": [
+      "supplements"
+    ],
+    "websiteUrl": "https://sunpotion.com",
+    "shopBase": "https://sunpotion.com",
+    "productCount": 70,
+    "withIngredients": 42,
+    "flavorVariants": 0
+  },
+  {
+    "id": "c479",
+    "slug": "needed",
+    "name": "Needed",
+    "categories": [
+      "supplements"
+    ],
+    "websiteUrl": "https://thisisneeded.com",
+    "shopBase": "https://thisisneeded.com",
+    "productCount": 74,
+    "withIngredients": 4,
+    "flavorVariants": 38
+  },
+  {
+    "id": "c480",
+    "slug": "anima-mundi",
+    "name": "Anima Mundi",
+    "categories": [
+      "supplements"
+    ],
+    "websiteUrl": "https://animamundiherbals.com",
+    "shopBase": "https://animamundiherbals.com",
+    "productCount": 226,
+    "withIngredients": 64,
+    "flavorVariants": 0
+  }
+]
