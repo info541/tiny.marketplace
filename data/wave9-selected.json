@@ -1,0 +1,178 @@
+[
+  {
+    "slug": "little-urchin",
+    "shopBase": "https://www.littleurchin.com.au",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c561"
+  },
+  {
+    "slug": "wotnot",
+    "shopBase": "https://www.wotnot.com.au",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c562"
+  },
+  {
+    "slug": "sunslayer",
+    "shopBase": "https://www.sunslayer.co",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c563"
+  },
+  {
+    "slug": "gnarly",
+    "shopBase": "https://gognarly.com",
+    "categories": [
+      "electrolytes",
+      "protein"
+    ],
+    "id": "c564"
+  },
+  {
+    "slug": "nootrient",
+    "shopBase": "https://nootrient.co",
+    "categories": [
+      "electrolytes",
+      "protein"
+    ],
+    "id": "c565"
+  },
+  {
+    "slug": "nur-protein",
+    "shopBase": "https://nurprotein.com",
+    "categories": [
+      "protein",
+      "electrolytes"
+    ],
+    "id": "c566"
+  },
+  {
+    "slug": "jive-nutrition",
+    "shopBase": "https://jivenu.com",
+    "categories": [
+      "protein",
+      "electrolytes"
+    ],
+    "id": "c567"
+  },
+  {
+    "slug": "bpm-deodorant",
+    "shopBase": "https://bpmdeodorant.com",
+    "categories": [
+      "deodorant"
+    ],
+    "id": "c568"
+  },
+  {
+    "slug": "finally-all-natural",
+    "shopBase": "https://www.finallyallnatural.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c569"
+  },
+  {
+    "slug": "by-robin",
+    "shopBase": "https://www.byrobincreations.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair",
+      "oral"
+    ],
+    "id": "c570"
+  },
+  {
+    "slug": "better-and-better",
+    "shopBase": "https://www.betterandbetter.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c571"
+  },
+  {
+    "slug": "grind-goods",
+    "shopBase": "https://grindgoods.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c572"
+  },
+  {
+    "slug": "heart-tone",
+    "shopBase": "https://htbotanicals.com",
+    "categories": [
+      "oral",
+      "hair",
+      "skincare"
+    ],
+    "id": "c573"
+  },
+  {
+    "slug": "mukti",
+    "shopBase": "https://muktiorganics.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c574"
+  },
+  {
+    "slug": "ere-perez",
+    "shopBase": "https://ereperez.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c575"
+  },
+  {
+    "slug": "green-people",
+    "shopBase": "https://www.greenpeople.co.uk",
+    "categories": [
+      "skincare",
+      "sunscreen",
+      "hair",
+      "oral"
+    ],
+    "id": "c576"
+  },
+  {
+    "slug": "oyin",
+    "shopBase": "https://oyinhandmade.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c577"
+  },
+  {
+    "slug": "the-doux",
+    "shopBase": "https://thedoux.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c578"
+  },
+  {
+    "slug": "superfeast",
+    "shopBase": "https://www.superfeast.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c579"
+  },
+  {
+    "slug": "harmonic-arts",
+    "shopBase": "https://harmonicarts.ca",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c580"
+  }
+]
