@@ -1,0 +1,171 @@
+[
+  {
+    "slug": "mama-sol",
+    "shopBase": "https://www.shopmamasol.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c541"
+  },
+  {
+    "slug": "oyster-suncare",
+    "shopBase": "https://oystersuncare.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c542"
+  },
+  {
+    "slug": "spooge",
+    "shopBase": "https://spooge.co",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c543"
+  },
+  {
+    "slug": "jigsaw",
+    "shopBase": "https://jigsawhealth.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c544"
+  },
+  {
+    "slug": "trace-minerals",
+    "shopBase": "https://traceminerals.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c545"
+  },
+  {
+    "slug": "pulsin",
+    "shopBase": "https://pulsin.co.uk",
+    "categories": [
+      "protein"
+    ],
+    "id": "c546"
+  },
+  {
+    "slug": "owyn",
+    "shopBase": "https://liveowyn.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c547"
+  },
+  {
+    "slug": "honestly-phresh",
+    "shopBase": "https://honestlyphresh.com",
+    "categories": [
+      "deodorant"
+    ],
+    "id": "c548"
+  },
+  {
+    "slug": "tanit",
+    "shopBase": "https://www.tanit.co",
+    "categories": [
+      "deodorant",
+      "oral"
+    ],
+    "id": "c549"
+  },
+  {
+    "slug": "theodent",
+    "shopBase": "https://theodent.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c550"
+  },
+  {
+    "slug": "grants-of-australia",
+    "shopBase": "https://grantsofaustralia.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c551"
+  },
+  {
+    "slug": "ranavat",
+    "shopBase": "https://ranavat.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c552"
+  },
+  {
+    "slug": "clearstem",
+    "shopBase": "https://clearstemskincare.com",
+    "categories": [
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c553"
+  },
+  {
+    "slug": "eat-my-face",
+    "shopBase": "https://eatmyface.co",
+    "categories": [
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c554"
+  },
+  {
+    "slug": "alaffia",
+    "shopBase": "https://alaffia.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c555"
+  },
+  {
+    "slug": "yarok",
+    "shopBase": "https://yarokhair.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c556"
+  },
+  {
+    "slug": "intelligent-nutrients",
+    "shopBase": "https://intelligentnutrients.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c557"
+  },
+  {
+    "slug": "host-defense",
+    "shopBase": "https://hostdefense.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c558"
+  },
+  {
+    "slug": "organifi",
+    "shopBase": "https://organifi.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c559"
+  },
+  {
+    "slug": "ancestral-supplements",
+    "shopBase": "https://ancestralsupplements.com",
+    "categories": [
+      "supplements",
+      "protein"
+    ],
+    "id": "c560"
+  }
+]

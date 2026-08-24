@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-08-24T08:07:37.544Z",
+  "wave8Products": 772,
+  "wave8BrandsWithProducts": 20,
+  "totalProducts": 23791,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "mama-sol",
+      "brandId": "c541",
+      "raw": 16,
+      "kept": 15,
+      "withIngredients": 0,
+      "flavorVariants": 13,
+      "shopBase": "https://www.shopmamasol.com"
+    },
+    {
+      "slug": "oyster-suncare",
+      "brandId": "c542",
+      "raw": 4,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://oystersuncare.com"
+    },
+    {
+      "slug": "spooge",
+      "brandId": "c543",
+      "raw": 12,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://spooge.co"
+    },
+    {
+      "slug": "jigsaw",
+      "brandId": "c544",
+      "raw": 53,
+      "kept": 8,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://jigsawhealth.com"
+    },
+    {
+      "slug": "trace-minerals",
+      "brandId": "c545",
+      "raw": 107,
+      "kept": 67,
+      "withIngredients": 0,
+      "flavorVariants": 26,
+      "shopBase": "https://traceminerals.com"
+    },
+    {
+      "slug": "pulsin",
+      "brandId": "c546",
+      "raw": 22,
+      "kept": 22,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://pulsin.co.uk"
+    },
+    {
+      "slug": "owyn",
+      "brandId": "c547",
+      "raw": 33,
+      "kept": 31,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://liveowyn.com"
+    },
+    {
+      "slug": "honestly-phresh",
+      "brandId": "c548",
+      "raw": 21,
+      "kept": 20,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://honestlyphresh.com"
+    },
+    {
+      "slug": "tanit",
+      "brandId": "c549",
+      "raw": 87,
+      "kept": 60,
+      "withIngredients": 0,
+      "flavorVariants": 25,
+      "shopBase": "https://www.tanit.co"
+    },
+    {
+      "slug": "theodent",
+      "brandId": "c550",
+      "raw": 7,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://theodent.com"
+    },
+    {
+      "slug": "grants-of-australia",
+      "brandId": "c551",
+      "raw": 10,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://grantsofaustralia.com"
+    },
+    {
+      "slug": "ranavat",
+      "brandId": "c552",
+      "raw": 68,
+      "kept": 66,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://ranavat.com"
+    },
+    {
+      "slug": "clearstem",
+      "brandId": "c553",
+      "raw": 47,
+      "kept": 17,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://clearstemskincare.com"
+    },
+    {
+      "slug": "eat-my-face",
+      "brandId": "c554",
+      "raw": 30,
+      "kept": 30,
+      "withIngredients": 2,
+      "flavorVariants": 1,
+      "shopBase": "https://eatmyface.co"
+    },
+    {
+      "slug": "alaffia",
+      "brandId": "c555",
+      "raw": 100,
+      "kept": 88,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://alaffia.com"
+    },
+    {
+      "slug": "yarok",
+      "brandId": "c556",
+      "raw": 47,
+      "kept": 43,
+      "withIngredients": 15,
+      "flavorVariants": 0,
+      "shopBase": "https://yarokhair.com"
+    },
+    {
+      "slug": "intelligent-nutrients",
+      "brandId": "c557",
+      "raw": 101,
+      "kept": 44,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://intelligentnutrients.com"
+    },
+    {
+      "slug": "host-defense",
+      "brandId": "c558",
+      "raw": 62,
+      "kept": 61,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://hostdefense.com"
+    },
+    {
+      "slug": "organifi",
+      "brandId": "c559",
+      "raw": 125,
+      "kept": 119,
+      "withIngredients": 0,
+      "flavorVariants": 14,
+      "shopBase": "https://organifi.com"
+    },
+    {
+      "slug": "ancestral-supplements",
+      "brandId": "c560",
+      "raw": 52,
+      "kept": 52,
+      "withIngredients": 0,
+      "flavorVariants": 8,
+      "shopBase": "https://ancestralsupplements.com"
+    }
+  ]
+}
