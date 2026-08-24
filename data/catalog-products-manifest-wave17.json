@@ -1,0 +1,296 @@
+{
+  "generatedAt": "2026-08-24T19:13:26.124Z",
+  "wave17Products": 401,
+  "wave17BrandsWithProducts": 17,
+  "wave17WithIngredients": 180,
+  "flavorVariants": 119,
+  "totalProducts": 23420,
+  "brandCount": 455,
+  "imageHosts": [
+    "cdn.shopify.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "beach-rooster",
+      "brandId": "c721",
+      "shopBase": "https://thebeachrooster.com",
+      "categories": [
+        "sunscreen"
+      ],
+      "kept": 5,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "cats": [
+        "sunscreen"
+      ],
+      "images": 5
+    },
+    {
+      "slug": "om-botanical",
+      "brandId": "c722",
+      "shopBase": "https://ombotanical.com",
+      "categories": [
+        "sunscreen",
+        "skincare"
+      ],
+      "kept": 35,
+      "withIngredients": 8,
+      "flavorVariants": 3,
+      "cats": [
+        "skincare",
+        "hair",
+        "sunscreen",
+        "deodorant"
+      ],
+      "images": 35
+    },
+    {
+      "slug": "daily-shade",
+      "brandId": "c723",
+      "shopBase": "https://www.dailyshade.com",
+      "categories": [
+        "sunscreen"
+      ],
+      "kept": 2,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "cats": [
+        "sunscreen"
+      ],
+      "images": 2
+    },
+    {
+      "slug": "kona-pure",
+      "brandId": "c724",
+      "shopBase": "https://konapure.com",
+      "categories": [
+        "electrolytes"
+      ],
+      "kept": 9,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "cats": [
+        "electrolytes",
+        "supplements"
+      ],
+      "images": 9
+    },
+    {
+      "slug": "go-good",
+      "brandId": "c725",
+      "shopBase": "https://gogood.co.nz",
+      "categories": [
+        "protein"
+      ],
+      "kept": 17,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "cats": [
+        "protein"
+      ],
+      "images": 17
+    },
+    {
+      "slug": "ancestral-nutrition-au",
+      "brandId": "c726",
+      "shopBase": "https://www.ancestralnutrition.com.au",
+      "categories": [
+        "supplements"
+      ],
+      "kept": 23,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "cats": [
+        "supplements"
+      ],
+      "images": 23
+    },
+    {
+      "slug": "mags-skin",
+      "brandId": "c727",
+      "shopBase": "https://magsskin.com",
+      "categories": [
+        "deodorant",
+        "skincare"
+      ],
+      "kept": 5,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "cats": [
+        "skincare",
+        "deodorant"
+      ],
+      "images": 5
+    },
+    {
+      "slug": "smart-charlie",
+      "brandId": "c728",
+      "shopBase": "https://smartcharlienaturals.com",
+      "categories": [
+        "oral",
+        "skincare"
+      ],
+      "kept": 11,
+      "withIngredients": 4,
+      "flavorVariants": 10,
+      "cats": [
+        "oral",
+        "skincare"
+      ],
+      "images": 11
+    },
+    {
+      "slug": "absolutely-pure",
+      "brandId": "c729",
+      "shopBase": "https://absolutelypure.com",
+      "categories": [
+        "oral",
+        "supplements"
+      ],
+      "kept": 18,
+      "withIngredients": 1,
+      "flavorVariants": 14,
+      "cats": [
+        "oral",
+        "skincare"
+      ],
+      "images": 18
+    },
+    {
+      "slug": "vita-prima",
+      "brandId": "c730",
+      "shopBase": "https://vitaprima.com",
+      "categories": [
+        "hair",
+        "skincare"
+      ],
+      "kept": 9,
+      "withIngredients": 8,
+      "flavorVariants": 2,
+      "cats": [
+        "skincare",
+        "hair"
+      ],
+      "images": 9
+    },
+    {
+      "slug": "onaturelle",
+      "brandId": "c731",
+      "shopBase": "https://onaturelle.co",
+      "categories": [
+        "hair",
+        "skincare"
+      ],
+      "kept": 43,
+      "withIngredients": 43,
+      "flavorVariants": 43,
+      "cats": [
+        "skincare",
+        "hair"
+      ],
+      "images": 43
+    },
+    {
+      "slug": "wildly-rooted",
+      "brandId": "c732",
+      "shopBase": "https://livewildlyrooted.com",
+      "categories": [
+        "hair",
+        "skincare"
+      ],
+      "kept": 25,
+      "withIngredients": 1,
+      "flavorVariants": 19,
+      "cats": [
+        "skincare",
+        "deodorant",
+        "hair"
+      ],
+      "images": 25
+    },
+    {
+      "slug": "soapmomento",
+      "brandId": "c733",
+      "shopBase": "https://www.soapmomento.com",
+      "categories": [
+        "hair",
+        "skincare"
+      ],
+      "kept": 41,
+      "withIngredients": 20,
+      "flavorVariants": 0,
+      "cats": [
+        "skincare",
+        "hair"
+      ],
+      "images": 41
+    },
+    {
+      "slug": "grass-fed-soaps",
+      "brandId": "c734",
+      "shopBase": "https://grassfedsoaps.com",
+      "categories": [
+        "hair",
+        "skincare"
+      ],
+      "kept": 30,
+      "withIngredients": 21,
+      "flavorVariants": 22,
+      "cats": [
+        "skincare",
+        "hair",
+        "sunscreen"
+      ],
+      "images": 30
+    },
+    {
+      "slug": "gribb",
+      "brandId": "c735",
+      "shopBase": "https://gribbworld.com",
+      "categories": [
+        "supplements"
+      ],
+      "kept": 56,
+      "withIngredients": 24,
+      "flavorVariants": 0,
+      "cats": [
+        "supplements"
+      ],
+      "images": 56
+    },
+    {
+      "slug": "navi-organics",
+      "brandId": "c736",
+      "shopBase": "https://www.naviorganics.uk",
+      "categories": [
+        "oral",
+        "skincare"
+      ],
+      "kept": 61,
+      "withIngredients": 38,
+      "flavorVariants": 0,
+      "cats": [
+        "supplements",
+        "oral"
+      ],
+      "images": 61
+    },
+    {
+      "slug": "happy-bum-co",
+      "brandId": "c737",
+      "shopBase": "https://happybumco.com",
+      "categories": [
+        "electrolytes",
+        "skincare"
+      ],
+      "kept": 11,
+      "withIngredients": 6,
+      "flavorVariants": 6,
+      "cats": [
+        "supplements",
+        "electrolytes"
+      ],
+      "images": 11
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+[
+  {
+    "slug": "beach-rooster",
+    "shopBase": "https://thebeachrooster.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c721"
+  },
+  {
+    "slug": "om-botanical",
+    "shopBase": "https://ombotanical.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c722"
+  },
+  {
+    "slug": "daily-shade",
+    "shopBase": "https://www.dailyshade.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c723"
+  },
+  {
+    "slug": "kona-pure",
+    "shopBase": "https://konapure.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c724"
+  },
+  {
+    "slug": "go-good",
+    "shopBase": "https://gogood.co.nz",
+    "categories": [
+      "protein"
+    ],
+    "id": "c725"
+  },
+  {
+    "slug": "ancestral-nutrition-au",
+    "shopBase": "https://www.ancestralnutrition.com.au",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c726"
+  },
+  {
+    "slug": "mags-skin",
+    "shopBase": "https://magsskin.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c727"
+  },
+  {
+    "slug": "smart-charlie",
+    "shopBase": "https://smartcharlienaturals.com",
+    "categories": [
+      "oral",
+      "skincare"
+    ],
+    "id": "c728"
+  },
+  {
+    "slug": "absolutely-pure",
+    "shopBase": "https://absolutelypure.com",
+    "categories": [
+      "oral",
+      "supplements"
+    ],
+    "id": "c729"
+  },
+  {
+    "slug": "vita-prima",
+    "shopBase": "https://vitaprima.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c730"
+  },
+  {
+    "slug": "onaturelle",
+    "shopBase": "https://onaturelle.co",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c731"
+  },
+  {
+    "slug": "wildly-rooted",
+    "shopBase": "https://livewildlyrooted.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c732"
+  },
+  {
+    "slug": "soapmomento",
+    "shopBase": "https://www.soapmomento.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c733"
+  },
+  {
+    "slug": "grass-fed-soaps",
+    "shopBase": "https://grassfedsoaps.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c734"
+  },
+  {
+    "slug": "gribb",
+    "shopBase": "https://gribbworld.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c735"
+  },
+  {
+    "slug": "navi-organics",
+    "shopBase": "https://www.naviorganics.uk",
+    "categories": [
+      "oral",
+      "skincare"
+    ],
+    "id": "c736"
+  },
+  {
+    "slug": "happy-bum-co",
+    "shopBase": "https://happybumco.com",
+    "categories": [
+      "electrolytes",
+      "skincare"
+    ],
+    "id": "c737"
+  }
+]
