@@ -1,0 +1,174 @@
+[
+  {
+    "slug": "goodspread",
+    "shopBase": "https://goodspreadsuncare.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c581"
+  },
+  {
+    "slug": "roots-and-leaves",
+    "shopBase": "https://rootsandleaves.info",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c582"
+  },
+  {
+    "slug": "tropic",
+    "shopBase": "https://tropicskincare.com",
+    "categories": [
+      "skincare",
+      "sunscreen",
+      "deodorant"
+    ],
+    "id": "c583"
+  },
+  {
+    "slug": "griffys",
+    "shopBase": "https://griffysorganics.com",
+    "categories": [
+      "electrolytes",
+      "protein"
+    ],
+    "id": "c584"
+  },
+  {
+    "slug": "roar-organic",
+    "shopBase": "https://www.roarorganic.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c585"
+  },
+  {
+    "slug": "wholier",
+    "shopBase": "https://www.livewholier.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c586"
+  },
+  {
+    "slug": "tejari",
+    "shopBase": "https://www.tejariandco.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c587"
+  },
+  {
+    "slug": "almond-protein",
+    "shopBase": "https://almondprotein.myshopify.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c588"
+  },
+  {
+    "slug": "earth-and-pebble",
+    "shopBase": "https://earthandpebble.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c589"
+  },
+  {
+    "slug": "nobiesse",
+    "shopBase": "https://nobiesse.com",
+    "categories": [
+      "oral",
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c590"
+  },
+  {
+    "slug": "the-innate-life",
+    "shopBase": "https://www.theinnatelife.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c591"
+  },
+  {
+    "slug": "hikakai",
+    "shopBase": "https://www.hikakai.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c592"
+  },
+  {
+    "slug": "bread-beauty",
+    "shopBase": "https://breadbeautysupply.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c593"
+  },
+  {
+    "slug": "bohema",
+    "shopBase": "https://bohemahair.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c594"
+  },
+  {
+    "slug": "skwalwen",
+    "shopBase": "https://skwalwen.com",
+    "categories": [
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c595"
+  },
+  {
+    "slug": "kabana",
+    "shopBase": "https://www.kabanaskincare.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c596"
+  },
+  {
+    "slug": "munseyaan",
+    "shopBase": "https://munseyaancollective.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c597"
+  },
+  {
+    "slug": "bears-with-benefits",
+    "shopBase": "https://bears-with-benefits.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c598"
+  },
+  {
+    "slug": "dose-and-co",
+    "shopBase": "https://doseandco.com",
+    "categories": [
+      "supplements",
+      "protein"
+    ],
+    "id": "c599"
+  },
+  {
+    "slug": "ample",
+    "shopBase": "https://www.amplemeal.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c600"
+  }
+]
