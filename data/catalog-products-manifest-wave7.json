@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-08-24T07:04:45.936Z",
+  "wave7Products": 1266,
+  "wave7BrandsWithProducts": 20,
+  "totalProducts": 24285,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "little-hands-hawaii",
+      "brandId": "c521",
+      "raw": 11,
+      "kept": 25,
+      "withIngredients": 8,
+      "shopBase": "https://littlehandshawaii.com"
+    },
+    {
+      "slug": "the-rising",
+      "brandId": "c522",
+      "raw": 6,
+      "kept": 3,
+      "withIngredients": 3,
+      "shopBase": "https://therisingspf.com"
+    },
+    {
+      "slug": "we-are-feel-good",
+      "brandId": "c523",
+      "raw": 37,
+      "kept": 41,
+      "withIngredients": 30,
+      "shopBase": "https://wearefeelgoodinc.com.au"
+    },
+    {
+      "slug": "key-nutrients",
+      "brandId": "c524",
+      "raw": 7,
+      "kept": 13,
+      "withIngredients": 1,
+      "shopBase": "https://keynutrients.com"
+    },
+    {
+      "slug": "tailwind",
+      "brandId": "c525",
+      "raw": 54,
+      "kept": 52,
+      "withIngredients": 7,
+      "shopBase": "https://tailwindnutrition.com"
+    },
+    {
+      "slug": "gomacro",
+      "brandId": "c526",
+      "raw": 41,
+      "kept": 40,
+      "withIngredients": 0,
+      "shopBase": "https://gomacro.com"
+    },
+    {
+      "slug": "iqbar",
+      "brandId": "c527",
+      "raw": 52,
+      "kept": 46,
+      "withIngredients": 20,
+      "shopBase": "https://eatiqbar.com"
+    },
+    {
+      "slug": "nu-deo",
+      "brandId": "c528",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 0,
+      "shopBase": "https://www.nu-deo.ca"
+    },
+    {
+      "slug": "twisted-duo",
+      "brandId": "c529",
+      "raw": 20,
+      "kept": 34,
+      "withIngredients": 1,
+      "shopBase": "https://www.twstdduo.com"
+    },
+    {
+      "slug": "willow-valley",
+      "brandId": "c530",
+      "raw": 44,
+      "kept": 38,
+      "withIngredients": 24,
+      "shopBase": "https://willowvalleywellness.com"
+    },
+    {
+      "slug": "livfresh",
+      "brandId": "c531",
+      "raw": 229,
+      "kept": 209,
+      "withIngredients": 26,
+      "shopBase": "https://getlivfresh.com"
+    },
+    {
+      "slug": "desert-essence",
+      "brandId": "c532",
+      "raw": 110,
+      "kept": 105,
+      "withIngredients": 55,
+      "shopBase": "https://desertessence.com"
+    },
+    {
+      "slug": "upcircle",
+      "brandId": "c533",
+      "raw": 135,
+      "kept": 96,
+      "withIngredients": 79,
+      "shopBase": "https://upcirclebeauty.com"
+    },
+    {
+      "slug": "kypris",
+      "brandId": "c534",
+      "raw": 42,
+      "kept": 37,
+      "withIngredients": 22,
+      "shopBase": "https://kyprisbeauty.com"
+    },
+    {
+      "slug": "in-fiore",
+      "brandId": "c535",
+      "raw": 21,
+      "kept": 20,
+      "withIngredients": 20,
+      "shopBase": "https://infiore.net"
+    },
+    {
+      "slug": "unscented-co",
+      "brandId": "c536",
+      "raw": 141,
+      "kept": 62,
+      "withIngredients": 1,
+      "shopBase": "https://unscentedco.com"
+    },
+    {
+      "slug": "oway",
+      "brandId": "c537",
+      "raw": 155,
+      "kept": 152,
+      "withIngredients": 89,
+      "shopBase": "https://oway.com"
+    },
+    {
+      "slug": "hairstory",
+      "brandId": "c538",
+      "raw": 178,
+      "kept": 178,
+      "withIngredients": 177,
+      "shopBase": "https://hairstory.com"
+    },
+    {
+      "slug": "perelel",
+      "brandId": "c539",
+      "raw": 55,
+      "kept": 51,
+      "withIngredients": 14,
+      "shopBase": "https://perelelhealth.com"
+    },
+    {
+      "slug": "om-mushrooms",
+      "brandId": "c540",
+      "raw": 93,
+      "kept": 61,
+      "withIngredients": 0,
+      "shopBase": "https://ommushrooms.com"
+    }
+  ]
+}

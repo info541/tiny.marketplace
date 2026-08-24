@@ -1,0 +1,22 @@
+[
+  { "slug": "little-hands-hawaii", "shopBase": "https://littlehandshawaii.com", "categories": ["sunscreen", "skincare"] },
+  { "slug": "the-rising", "shopBase": "https://therisingspf.com", "categories": ["sunscreen", "skincare"] },
+  { "slug": "we-are-feel-good", "shopBase": "https://wearefeelgoodinc.com.au", "categories": ["sunscreen"] },
+  { "slug": "key-nutrients", "shopBase": "https://keynutrients.com", "categories": ["electrolytes"] },
+  { "slug": "tailwind", "shopBase": "https://tailwindnutrition.com", "categories": ["electrolytes"] },
+  { "slug": "gomacro", "shopBase": "https://gomacro.com", "categories": ["protein"] },
+  { "slug": "iqbar", "shopBase": "https://eatiqbar.com", "categories": ["protein"] },
+  { "slug": "nu-deo", "shopBase": "https://www.nu-deo.ca", "categories": ["deodorant"] },
+  { "slug": "twisted-duo", "shopBase": "https://www.twstdduo.com", "categories": ["deodorant"] },
+  { "slug": "willow-valley", "shopBase": "https://willowvalleywellness.com", "categories": ["deodorant", "skincare"] },
+  { "slug": "livfresh", "shopBase": "https://getlivfresh.com", "categories": ["oral"] },
+  { "slug": "desert-essence", "shopBase": "https://desertessence.com", "categories": ["oral", "skincare", "hair"] },
+  { "slug": "upcircle", "shopBase": "https://upcirclebeauty.com", "categories": ["skincare"] },
+  { "slug": "kypris", "shopBase": "https://kyprisbeauty.com", "categories": ["skincare"] },
+  { "slug": "in-fiore", "shopBase": "https://infiore.net", "categories": ["skincare"] },
+  { "slug": "unscented-co", "shopBase": "https://unscentedco.com", "categories": ["hair", "skincare"] },
+  { "slug": "oway", "shopBase": "https://oway.com", "categories": ["hair"] },
+  { "slug": "hairstory", "shopBase": "https://hairstory.com", "categories": ["hair"] },
+  { "slug": "perelel", "shopBase": "https://perelelhealth.com", "categories": ["supplements"] },
+  { "slug": "om-mushrooms", "shopBase": "https://ommushrooms.com", "categories": ["supplements"] }
+]
