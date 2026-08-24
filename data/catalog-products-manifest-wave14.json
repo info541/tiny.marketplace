@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-08-24T16:09:47.423Z",
+  "wave14Products": 820,
+  "wave14BrandsWithProducts": 20,
+  "totalProducts": 23841,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "waxhead",
+      "brandId": "c661",
+      "raw": 103,
+      "kept": 49,
+      "withIngredients": 16,
+      "flavorVariants": 13,
+      "shopBase": "https://gowaxhead.com"
+    },
+    {
+      "slug": "hawaiian-healing",
+      "brandId": "c662",
+      "raw": 9,
+      "kept": 9,
+      "withIngredients": 9,
+      "flavorVariants": 0,
+      "shopBase": "https://hawaiianhealing.com"
+    },
+    {
+      "slug": "colorescience",
+      "brandId": "c663",
+      "raw": 73,
+      "kept": 131,
+      "withIngredients": 0,
+      "flavorVariants": 95,
+      "shopBase": "https://colorescience.com"
+    },
+    {
+      "slug": "circular-bodies",
+      "brandId": "c664",
+      "raw": 45,
+      "kept": 39,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "shopBase": "https://circularbodies.com"
+    },
+    {
+      "slug": "lenus",
+      "brandId": "c665",
+      "raw": 48,
+      "kept": 45,
+      "withIngredients": 13,
+      "flavorVariants": 0,
+      "shopBase": "https://shoplenus.com"
+    },
+    {
+      "slug": "nazareth-organics",
+      "brandId": "c666",
+      "raw": 9,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://nazareth-organics.com"
+    },
+    {
+      "slug": "stone-grace",
+      "brandId": "c667",
+      "raw": 35,
+      "kept": 38,
+      "withIngredients": 8,
+      "flavorVariants": 10,
+      "shopBase": "https://stonegraceco.com"
+    },
+    {
+      "slug": "ohso-bare",
+      "brandId": "c668",
+      "raw": 15,
+      "kept": 19,
+      "withIngredients": 0,
+      "flavorVariants": 11,
+      "shopBase": "https://ohsobare.com"
+    },
+    {
+      "slug": "tallow-cosmetics",
+      "brandId": "c669",
+      "raw": 17,
+      "kept": 14,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://tallowcosmetics.com"
+    },
+    {
+      "slug": "clean-simple-eats",
+      "brandId": "c670",
+      "raw": 137,
+      "kept": 137,
+      "withIngredients": 0,
+      "flavorVariants": 7,
+      "shopBase": "https://cleansimpleeats.com"
+    },
+    {
+      "slug": "raw-sport",
+      "brandId": "c671",
+      "raw": 61,
+      "kept": 103,
+      "withIngredients": 0,
+      "flavorVariants": 91,
+      "shopBase": "https://www.revolution-foods.com"
+    },
+    {
+      "slug": "amazing-grass",
+      "brandId": "c672",
+      "raw": 26,
+      "kept": 24,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://amazinggrass.com"
+    },
+    {
+      "slug": "hiya",
+      "brandId": "c673",
+      "raw": 90,
+      "kept": 16,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://hiyahealth.com"
+    },
+    {
+      "slug": "stay-poised",
+      "brandId": "c674",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://staypoisednaturals.com"
+    },
+    {
+      "slug": "wellbel",
+      "brandId": "c675",
+      "raw": 12,
+      "kept": 12,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://wellbel.com"
+    },
+    {
+      "slug": "ancestral-cosmetics",
+      "brandId": "c676",
+      "raw": 39,
+      "kept": 26,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "shopBase": "https://ancestralcosmetics.com"
+    },
+    {
+      "slug": "blume",
+      "brandId": "c677",
+      "raw": 48,
+      "kept": 41,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://www.meetblume.com"
+    },
+    {
+      "slug": "akamai",
+      "brandId": "c678",
+      "raw": 25,
+      "kept": 18,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://akamaibasics.com"
+    },
+    {
+      "slug": "holos",
+      "brandId": "c679",
+      "raw": 32,
+      "kept": 27,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://liveholos.com"
+    },
+    {
+      "slug": "mineral-fusion",
+      "brandId": "c680",
+      "raw": 85,
+      "kept": 65,
+      "withIngredients": 0,
+      "flavorVariants": 53,
+      "shopBase": "https://www.mineralfusion.com"
+    }
+  ]
+}
