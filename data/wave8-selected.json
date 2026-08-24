@@ -1,0 +1,231 @@
+[
+  {
+    "slug": "mama-sol",
+    "shopBase": "https://www.shopmamasol.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c541",
+    "productCount": 15,
+    "withIngredients": 10,
+    "flavorVariants": 13
+  },
+  {
+    "slug": "oyster-suncare",
+    "shopBase": "https://oystersuncare.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c542",
+    "productCount": 2,
+    "withIngredients": 2,
+    "flavorVariants": 0
+  },
+  {
+    "slug": "spooge",
+    "shopBase": "https://spooge.co",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c543",
+    "productCount": 10,
+    "withIngredients": 9,
+    "flavorVariants": 0
+  },
+  {
+    "slug": "jigsaw",
+    "shopBase": "https://jigsawhealth.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c544",
+    "productCount": 8,
+    "withIngredients": 6,
+    "flavorVariants": 0
+  },
+  {
+    "slug": "trace-minerals",
+    "shopBase": "https://traceminerals.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c545",
+    "productCount": 67,
+    "withIngredients": 7,
+    "flavorVariants": 26
+  },
+  {
+    "slug": "pulsin",
+    "shopBase": "https://pulsin.co.uk",
+    "categories": [
+      "protein"
+    ],
+    "id": "c546",
+    "productCount": 22,
+    "withIngredients": 3,
+    "flavorVariants": 0
+  },
+  {
+    "slug": "owyn",
+    "shopBase": "https://liveowyn.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c547",
+    "productCount": 31,
+    "withIngredients": 30,
+    "flavorVariants": 0
+  },
+  {
+    "slug": "honestly-phresh",
+    "shopBase": "https://honestlyphresh.com",
+    "categories": [
+      "deodorant"
+    ],
+    "id": "c548",
+    "productCount": 20,
+    "withIngredients": 1,
+    "flavorVariants": 0
+  },
+  {
+    "slug": "tanit",
+    "shopBase": "https://www.tanit.co",
+    "categories": [
+      "deodorant",
+      "oral"
+    ],
+    "id": "c549",
+    "productCount": 60,
+    "withIngredients": 22,
+    "flavorVariants": 25
+  },
+  {
+    "slug": "theodent",
+    "shopBase": "https://theodent.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c550",
+    "productCount": 7,
+    "withIngredients": 7,
+    "flavorVariants": 0
+  },
+  {
+    "slug": "grants-of-australia",
+    "shopBase": "https://grantsofaustralia.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c551",
+    "productCount": 10,
+    "withIngredients": 10,
+    "flavorVariants": 0
+  },
+  {
+    "slug": "ranavat",
+    "shopBase": "https://ranavat.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c552",
+    "productCount": 66,
+    "withIngredients": 53,
+    "flavorVariants": 0
+  },
+  {
+    "slug": "clearstem",
+    "shopBase": "https://clearstemskincare.com",
+    "categories": [
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c553",
+    "productCount": 17,
+    "withIngredients": 14,
+    "flavorVariants": 0
+  },
+  {
+    "slug": "eat-my-face",
+    "shopBase": "https://eatmyface.co",
+    "categories": [
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c554",
+    "productCount": 30,
+    "withIngredients": 12,
+    "flavorVariants": 1
+  },
+  {
+    "slug": "alaffia",
+    "shopBase": "https://alaffia.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c555",
+    "productCount": 88,
+    "withIngredients": 74,
+    "flavorVariants": 0
+  },
+  {
+    "slug": "yarok",
+    "shopBase": "https://yarokhair.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c556",
+    "productCount": 43,
+    "withIngredients": 15,
+    "flavorVariants": 0
+  },
+  {
+    "slug": "intelligent-nutrients",
+    "shopBase": "https://intelligentnutrients.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c557",
+    "productCount": 44,
+    "withIngredients": 1,
+    "flavorVariants": 0
+  },
+  {
+    "slug": "host-defense",
+    "shopBase": "https://hostdefense.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c558",
+    "productCount": 61,
+    "withIngredients": 3,
+    "flavorVariants": 0
+  },
+  {
+    "slug": "organifi",
+    "shopBase": "https://organifi.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c559",
+    "productCount": 119,
+    "withIngredients": 21,
+    "flavorVariants": 14
+  },
+  {
+    "slug": "ancestral-supplements",
+    "shopBase": "https://ancestralsupplements.com",
+    "categories": [
+      "supplements",
+      "protein"
+    ],
+    "id": "c560",
+    "productCount": 52,
+    "withIngredients": 8,
+    "flavorVariants": 8
+  }
+]
