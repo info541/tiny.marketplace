@@ -1,0 +1,197 @@
+{
+  "generatedAt": "2026-08-24T18:17:03.275Z",
+  "wave16Products": 553,
+  "wave16BrandsWithProducts": 20,
+  "totalProducts": 23572,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "avocado-zinc",
+      "brandId": "c701",
+      "raw": 33,
+      "kept": 20,
+      "withIngredients": 0,
+      "flavorVariants": 5,
+      "shopBase": "https://avocadozinc.com"
+    },
+    {
+      "slug": "koy-skin",
+      "brandId": "c702",
+      "raw": 7,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 6,
+      "shopBase": "https://www.koy.skin"
+    },
+    {
+      "slug": "kozon",
+      "brandId": "c703",
+      "raw": 17,
+      "kept": 16,
+      "withIngredients": 11,
+      "flavorVariants": 5,
+      "shopBase": "https://kozonskincare.com"
+    },
+    {
+      "slug": "pantry-products",
+      "brandId": "c704",
+      "raw": 136,
+      "kept": 103,
+      "withIngredients": 60,
+      "flavorVariants": 45,
+      "shopBase": "https://shoppantryproducts.com"
+    },
+    {
+      "slug": "reef-replenish",
+      "brandId": "c705",
+      "raw": 6,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://reefreplenish.com"
+    },
+    {
+      "slug": "daily-electrolytes",
+      "brandId": "c706",
+      "raw": 3,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 9,
+      "shopBase": "https://dailyelectrolytes.com"
+    },
+    {
+      "slug": "tidlos",
+      "brandId": "c707",
+      "raw": 4,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 6,
+      "shopBase": "https://tidlos.co"
+    },
+    {
+      "slug": "prookie",
+      "brandId": "c708",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://prookieprotein.ca"
+    },
+    {
+      "slug": "future-kind",
+      "brandId": "c709",
+      "raw": 43,
+      "kept": 32,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.futurekind.com"
+    },
+    {
+      "slug": "green-forest-lady",
+      "brandId": "c710",
+      "raw": 33,
+      "kept": 21,
+      "withIngredients": 1,
+      "flavorVariants": 10,
+      "shopBase": "https://thegreenforestlady.com"
+    },
+    {
+      "slug": "wild-june",
+      "brandId": "c711",
+      "raw": 60,
+      "kept": 45,
+      "withIngredients": 34,
+      "flavorVariants": 17,
+      "shopBase": "https://wildjuneco.com"
+    },
+    {
+      "slug": "happy-tooth",
+      "brandId": "c712",
+      "raw": 68,
+      "kept": 67,
+      "withIngredients": 2,
+      "flavorVariants": 28,
+      "shopBase": "https://tryhappytooth.com"
+    },
+    {
+      "slug": "mouthology",
+      "brandId": "c713",
+      "raw": 17,
+      "kept": 19,
+      "withIngredients": 0,
+      "flavorVariants": 7,
+      "shopBase": "https://mouthology.com"
+    },
+    {
+      "slug": "pureopia",
+      "brandId": "c714",
+      "raw": 11,
+      "kept": 9,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://pureopia.com"
+    },
+    {
+      "slug": "cherokee-rose",
+      "brandId": "c715",
+      "raw": 135,
+      "kept": 57,
+      "withIngredients": 37,
+      "flavorVariants": 0,
+      "shopBase": "https://cherokeeroseorganics.com"
+    },
+    {
+      "slug": "bean-and-bee",
+      "brandId": "c716",
+      "raw": 12,
+      "kept": 13,
+      "withIngredients": 0,
+      "flavorVariants": 5,
+      "shopBase": "https://www.beanandbee.co.uk"
+    },
+    {
+      "slug": "hairy-jayne",
+      "brandId": "c717",
+      "raw": 79,
+      "kept": 97,
+      "withIngredients": 44,
+      "flavorVariants": 46,
+      "shopBase": "https://hairyjaynehandmade.co.uk"
+    },
+    {
+      "slug": "tend-prenatal",
+      "brandId": "c718",
+      "raw": 14,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://tendprenatal.com"
+    },
+    {
+      "slug": "harmony-mushroom",
+      "brandId": "c719",
+      "raw": 14,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://harmonymushroom.com"
+    },
+    {
+      "slug": "mindful-mushrooms",
+      "brandId": "c720",
+      "raw": 22,
+      "kept": 18,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.mindfulmushroomstore.com"
+    }
+  ],
+  "wave16WithIngredients": 277,
+  "wave16FlavorVariants": 179,
+  "afterBackfill": true
+}
