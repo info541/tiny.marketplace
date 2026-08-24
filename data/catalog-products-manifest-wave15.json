@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-08-24T17:12:56.337Z",
+  "wave15Products": 375,
+  "wave15BrandsWithProducts": 20,
+  "totalProducts": 23394,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "mother-spf",
+      "brandId": "c681",
+      "raw": 9,
+      "kept": 9,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://www.motherspf.com"
+    },
+    {
+      "slug": "kind-sunscreen",
+      "brandId": "c682",
+      "raw": 8,
+      "kept": 3,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://thekindsunscreen.com.au"
+    },
+    {
+      "slug": "aussiezinc",
+      "brandId": "c683",
+      "raw": 7,
+      "kept": 7,
+      "withIngredients": 7,
+      "flavorVariants": 0,
+      "shopBase": "https://www.aussiezincsunscreen.com.au"
+    },
+    {
+      "slug": "waterboy",
+      "brandId": "c684",
+      "raw": 17,
+      "kept": 24,
+      "withIngredients": 24,
+      "flavorVariants": 19,
+      "shopBase": "https://www.waterboy.com"
+    },
+    {
+      "slug": "lit-salt",
+      "brandId": "c685",
+      "raw": 9,
+      "kept": 4,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://litsalt.com"
+    },
+    {
+      "slug": "peachie-spoon",
+      "brandId": "c686",
+      "raw": 10,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://thepeachiespoon.com"
+    },
+    {
+      "slug": "agn-roots",
+      "brandId": "c687",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://agnroots.com"
+    },
+    {
+      "slug": "centenarius",
+      "brandId": "c688",
+      "raw": 14,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://centenariusnutrition.com"
+    },
+    {
+      "slug": "slo-naturals",
+      "brandId": "c689",
+      "raw": 61,
+      "kept": 29,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://slonaturals.com"
+    },
+    {
+      "slug": "ommade",
+      "brandId": "c690",
+      "raw": 35,
+      "kept": 30,
+      "withIngredients": 11,
+      "flavorVariants": 0,
+      "shopBase": "https://www.ommadeorganicskincare.com"
+    },
+    {
+      "slug": "elims",
+      "brandId": "c691",
+      "raw": 22,
+      "kept": 21,
+      "withIngredients": 17,
+      "flavorVariants": 0,
+      "shopBase": "https://elims.co"
+    },
+    {
+      "slug": "duo-toothpaste",
+      "brandId": "c692",
+      "raw": 26,
+      "kept": 25,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://duotoothpaste.com"
+    },
+    {
+      "slug": "fawn-lily",
+      "brandId": "c693",
+      "raw": 85,
+      "kept": 80,
+      "withIngredients": 44,
+      "flavorVariants": 0,
+      "shopBase": "https://fawnlilybotanica.com"
+    },
+    {
+      "slug": "bears-beauty",
+      "brandId": "c694",
+      "raw": 6,
+      "kept": 5,
+      "withIngredients": 3,
+      "flavorVariants": 2,
+      "shopBase": "https://bearsbeautyskincare.com"
+    },
+    {
+      "slug": "beneath-your-mask",
+      "brandId": "c695",
+      "raw": 7,
+      "kept": 7,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://beneathyourmask.com"
+    },
+    {
+      "slug": "cornish-seaweed",
+      "brandId": "c696",
+      "raw": 129,
+      "kept": 66,
+      "withIngredients": 30,
+      "flavorVariants": 0,
+      "shopBase": "https://cornishseaweedbath.co.uk"
+    },
+    {
+      "slug": "eczema-kids",
+      "brandId": "c697",
+      "raw": 15,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://eczemakids.com"
+    },
+    {
+      "slug": "mama-natural",
+      "brandId": "c698",
+      "raw": 23,
+      "kept": 20,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://shop.mamanatural.com"
+    },
+    {
+      "slug": "nunona",
+      "brandId": "c699",
+      "raw": 23,
+      "kept": 20,
+      "withIngredients": 17,
+      "flavorVariants": 0,
+      "shopBase": "https://www.nunonalife.com"
+    },
+    {
+      "slug": "fresh-heritage",
+      "brandId": "c700",
+      "raw": 7,
+      "kept": 6,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://freshheritage.com"
+    }
+  ],
+  "wave15WithIngredients": 171
+}
