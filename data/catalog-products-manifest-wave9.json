@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-08-24T09:10:04.825Z",
+  "wave9Products": 1173,
+  "wave9BrandsWithProducts": 20,
+  "wave9WithIngredients": 810,
+  "wave9FlavorVariants": 411,
+  "merchDropped": 40,
+  "totalProducts": 24192,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ]
+}
