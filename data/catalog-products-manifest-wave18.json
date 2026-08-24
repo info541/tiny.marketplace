@@ -1,0 +1,196 @@
+{
+  "generatedAt": "2026-08-24T20:09:59.897Z",
+  "wave18Products": 457,
+  "wave18BrandsWithProducts": 20,
+  "totalProducts": 23476,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "sol-sista",
+      "brandId": "c738",
+      "raw": 32,
+      "kept": 11,
+      "withIngredients": 0,
+      "flavorVariants": 5,
+      "shopBase": "https://solsistacollective.com"
+    },
+    {
+      "slug": "project-reef",
+      "brandId": "c739",
+      "raw": 14,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://projectreef.com"
+    },
+    {
+      "slug": "sifa",
+      "brandId": "c740",
+      "raw": 9,
+      "kept": 14,
+      "withIngredients": 6,
+      "flavorVariants": 12,
+      "shopBase": "https://sifaorganicskin.myshopify.com"
+    },
+    {
+      "slug": "cleonse",
+      "brandId": "c741",
+      "raw": 1,
+      "kept": 3,
+      "withIngredients": 3,
+      "flavorVariants": 3,
+      "shopBase": "https://cleonse.com"
+    },
+    {
+      "slug": "doingwell",
+      "brandId": "c742",
+      "raw": 9,
+      "kept": 7,
+      "withIngredients": 3,
+      "flavorVariants": 3,
+      "shopBase": "https://doingwell.health"
+    },
+    {
+      "slug": "stay-wyld",
+      "brandId": "c743",
+      "raw": 32,
+      "kept": 20,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://staywyldorganics.com"
+    },
+    {
+      "slug": "happy-way",
+      "brandId": "c744",
+      "raw": 138,
+      "kept": 113,
+      "withIngredients": 53,
+      "flavorVariants": 0,
+      "shopBase": "https://happyway.com.au"
+    },
+    {
+      "slug": "talgh",
+      "brandId": "c745",
+      "raw": 3,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "shopBase": "https://talgh.co"
+    },
+    {
+      "slug": "carina-organics",
+      "brandId": "c746",
+      "raw": 60,
+      "kept": 47,
+      "withIngredients": 47,
+      "flavorVariants": 6,
+      "shopBase": "https://carinaorganics.com"
+    },
+    {
+      "slug": "canary-clean",
+      "brandId": "c747",
+      "raw": 40,
+      "kept": 37,
+      "withIngredients": 0,
+      "flavorVariants": 6,
+      "shopBase": "https://www.canarycleanco.com"
+    },
+    {
+      "slug": "amber-tallow",
+      "brandId": "c748",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://ambertallow.com"
+    },
+    {
+      "slug": "lasso-tallow",
+      "brandId": "c749",
+      "raw": 6,
+      "kept": 9,
+      "withIngredients": 1,
+      "flavorVariants": 4,
+      "shopBase": "https://lassotallow.us"
+    },
+    {
+      "slug": "kind-tallow",
+      "brandId": "c750",
+      "raw": 4,
+      "kept": 4,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://www.kindtallow.com"
+    },
+    {
+      "slug": "ranchers-render",
+      "brandId": "c751",
+      "raw": 7,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "shopBase": "https://ranchersrender.com"
+    },
+    {
+      "slug": "coastal-tallow",
+      "brandId": "c752",
+      "raw": 83,
+      "kept": 48,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://coastaltallowco.com"
+    },
+    {
+      "slug": "wildsett",
+      "brandId": "c753",
+      "raw": 29,
+      "kept": 29,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "shopBase": "https://wildsett.com"
+    },
+    {
+      "slug": "jadu-beauty",
+      "brandId": "c754",
+      "raw": 20,
+      "kept": 14,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://jadubeauty.com"
+    },
+    {
+      "slug": "woodsy-earth",
+      "brandId": "c755",
+      "raw": 55,
+      "kept": 56,
+      "withIngredients": 11,
+      "flavorVariants": 19,
+      "shopBase": "https://woodsyearth.com"
+    },
+    {
+      "slug": "it-mush-be-good",
+      "brandId": "c756",
+      "raw": 6,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.itmushbegood.co.uk"
+    },
+    {
+      "slug": "mushroom-mana",
+      "brandId": "c757",
+      "raw": 20,
+      "kept": 19,
+      "withIngredients": 12,
+      "flavorVariants": 0,
+      "shopBase": "https://mushroommana.com"
+    }
+  ],
+  "wave18WithIngredients": 222,
+  "flavorVariants": 63
+}
