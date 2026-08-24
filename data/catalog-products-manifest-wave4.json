@@ -1,0 +1,9 @@
+{
+  "generatedAt": "2026-08-24T02:08:00.000Z",
+  "wave4Products": 876,
+  "brandsWithProducts": 16,
+  "withIngredients": 299,
+  "withImages": 876,
+  "variantExpandedNames": 335,
+  "notes": "Live env Supabase is a surfboard catalog, not this marketplace. Products live in catalog-products-raw.json plus a SQL migration for the tiny marketplace project."
+}

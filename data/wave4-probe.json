@@ -1,0 +1,1519 @@
+{
+  "generatedAt": "2026-08-24T02:03:03.528Z",
+  "existingSlugCount": 595,
+  "results": [
+    {
+      "name": "Suntegrity",
+      "slug": "suntegrity",
+      "domain": "suntegrityskincare.com",
+      "categories": [
+        "sunscreen",
+        "skincare"
+      ],
+      "hint": "Certified organic mineral SPF",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Goddess Garden",
+      "slug": "goddess-garden",
+      "domain": "goddessgarden.com",
+      "categories": [
+        "sunscreen"
+      ],
+      "hint": "Organic mineral sunscreen",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Kinfield",
+      "slug": "kinfield",
+      "domain": "kinfield.com",
+      "categories": [
+        "sunscreen",
+        "skincare"
+      ],
+      "hint": "Outdoor mineral SPF + bug care",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Solara Suncare",
+      "slug": "solara-suncare",
+      "domain": "solarasuncare.com",
+      "categories": [
+        "sunscreen"
+      ],
+      "hint": "Clean mineral SPF",
+      "status": "ok",
+      "shopBase": "https://solarasuncare.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "It's Go Time Luggage Tag",
+          "variants": 1,
+          "images": 3,
+          "type": ""
+        },
+        {
+          "title": "Chasing Sunshine Luggage Tag",
+          "variants": 1,
+          "images": 1,
+          "type": "Merch"
+        },
+        {
+          "title": "Camp Trio",
+          "variants": 1,
+          "images": 5,
+          "type": ""
+        },
+        {
+          "title": "Poolside Edit",
+          "variants": 1,
+          "images": 4,
+          "type": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Unsun",
+      "slug": "unsun",
+      "domain": "unsunbeauty.com",
+      "categories": [
+        "sunscreen"
+      ],
+      "hint": "Mineral SPF for melanin-rich skin",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Sunslayer",
+      "slug": "sunslayer",
+      "domain": "sunslayer.com",
+      "categories": [
+        "sunscreen"
+      ],
+      "hint": "Reef-safe mineral SPF",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Pretty Athletic",
+      "slug": "pretty-athletic",
+      "domain": "prettyathletic.com",
+      "categories": [
+        "sunscreen",
+        "skincare"
+      ],
+      "hint": "Sport mineral SPF",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Suntribe",
+      "slug": "suntribe",
+      "domain": "suntribe.com",
+      "categories": [
+        "sunscreen"
+      ],
+      "hint": "Natural mineral sunscreen",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Raw Love",
+      "slug": "raw-love",
+      "domain": "rawlovesunscreen.com",
+      "categories": [
+        "sunscreen"
+      ],
+      "hint": "Handmade mineral sunscreen",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Soleil Toujours",
+      "slug": "soleil-toujours",
+      "domain": "soleiltoujours.com",
+      "categories": [
+        "sunscreen"
+      ],
+      "hint": "Clean organic SPF",
+      "status": "ok",
+      "shopBase": "https://soleiltoujours.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "NEW! Clean Conscious Set + Protect Makeup Setting Spray SPF 50",
+          "variants": 1,
+          "images": 3,
+          "type": "Soleil - Finished Goods"
+        },
+        {
+          "title": "Soleil Toujours Bespoke Cosmetic Bag",
+          "variants": 1,
+          "images": 1,
+          "type": "Soleil - Finished Goods"
+        },
+        {
+          "title": "Face + Body High SPF Duo",
+          "variants": 1,
+          "images": 9,
+          "type": "Bundle"
+        },
+        {
+          "title": "Face Glow Tinted Moisturizer Mineral SPF 50 with Vitamin C & Niacinamide",
+          "variants": 1,
+          "images": 10,
+          "type": "Soleil - Finished Goods"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Wild",
+      "slug": "wild",
+      "domain": "wearewild.com",
+      "categories": [
+        "deodorant"
+      ],
+      "hint": "Refillable natural deodorant",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "By Humankind",
+      "slug": "by-humankind",
+      "domain": "byhumankind.com",
+      "categories": [
+        "deodorant",
+        "oral"
+      ],
+      "hint": "Refillable clean personal care",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Type:A",
+      "slug": "type-a",
+      "domain": "typeadeodorant.com",
+      "categories": [
+        "deodorant"
+      ],
+      "hint": "Sensitive-skin natural deodorant",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Nuud",
+      "slug": "nuud",
+      "domain": "nuudcare.com",
+      "categories": [
+        "deodorant"
+      ],
+      "hint": "Natural cream deodorant",
+      "status": "ok",
+      "shopBase": "https://nuudcare.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Golden Breeze Stick",
+          "variants": 1,
+          "images": 3,
+          "type": ""
+        },
+        {
+          "title": "Family Pack - Retail",
+          "variants": 1,
+          "images": 6,
+          "type": "New cream"
+        },
+        {
+          "title": "Golden Breeze Stick - Retail",
+          "variants": 1,
+          "images": 3,
+          "type": "Stick"
+        },
+        {
+          "title": "Starter Pack - Retail",
+          "variants": 1,
+          "images": 6,
+          "type": "New cream"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Crystal",
+      "slug": "crystal-deodorant",
+      "domain": "thecrystal.com",
+      "categories": [
+        "deodorant"
+      ],
+      "hint": "Mineral salt deodorant",
+      "status": "ok",
+      "shopBase": "https://thecrystal.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Mineral Deodorant Roll-On - Sea Salt & Sandalwood",
+          "variants": 1,
+          "images": 7,
+          "type": "Roll-On"
+        },
+        {
+          "title": "Mineral Deodorant Roll-On - Citrus & Cedar",
+          "variants": 1,
+          "images": 7,
+          "type": "Roll-On"
+        },
+        {
+          "title": "Aloe & Fresh Cucumber Body Bar",
+          "variants": 1,
+          "images": 3,
+          "type": "Soap"
+        },
+        {
+          "title": "Lavender & Fresh Spruce Body Bar",
+          "variants": 1,
+          "images": 3,
+          "type": "Soap"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Myro",
+      "slug": "myro",
+      "domain": "mymyro.com",
+      "categories": [
+        "deodorant"
+      ],
+      "hint": "Refillable natural deodorant",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "No Pong",
+      "slug": "no-pong",
+      "domain": "nopong.com",
+      "categories": [
+        "deodorant"
+      ],
+      "hint": "Natural cream deodorant",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "KAKADU",
+      "slug": "kakadu",
+      "domain": "kakaduorganics.com",
+      "categories": [
+        "deodorant"
+      ],
+      "hint": "Organic deodorant",
+      "status": "ok",
+      "shopBase": "https://www.kakaduorganics.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "May Wokka Chapman Travel Tote",
+          "variants": 1,
+          "images": 1,
+          "type": "Tote"
+        },
+        {
+          "title": "May Wokka Chapman Travel Tote",
+          "variants": 1,
+          "images": 1,
+          "type": "Tote"
+        },
+        {
+          "title": "Gladys Kuru Bidu Travel Tote",
+          "variants": 1,
+          "images": 1,
+          "type": "Tote"
+        },
+        {
+          "title": "Certified Organic Kakadu Plum Body Wash and Body Balm Pack",
+          "variants": 1,
+          "images": 1,
+          "type": "Body Wash"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Fygg",
+      "slug": "fygg",
+      "domain": "fygg.com",
+      "categories": [
+        "oral"
+      ],
+      "hint": "Hydroxyapatite toothpaste",
+      "status": "ok",
+      "shopBase": "https://fygg.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Nitric Oxide Functional Toothpaste with Nano-Hydroxyapatite | Wild Mint",
+          "variants": 1,
+          "images": 7,
+          "type": ""
+        },
+        {
+          "title": "Propolis Silk Floss",
+          "variants": 1,
+          "images": 3,
+          "type": ""
+        },
+        {
+          "title": "Remineralization Routine",
+          "variants": 1,
+          "images": 1,
+          "type": ""
+        },
+        {
+          "title": "Family Bundle - 4 Pack",
+          "variants": 1,
+          "images": 8,
+          "type": "Bundle"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Dr. Brite",
+      "slug": "dr-brite",
+      "domain": "drbrite.com",
+      "categories": [
+        "oral"
+      ],
+      "hint": "Clean natural oral care",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "RADIUS",
+      "slug": "radius",
+      "domain": "radiustoothbrush.com",
+      "categories": [
+        "oral"
+      ],
+      "hint": "Sustainable oral care",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Desert Essence",
+      "slug": "desert-essence",
+      "domain": "desertessence.com",
+      "categories": [
+        "oral",
+        "skincare"
+      ],
+      "hint": "Tea tree oral + body care",
+      "status": "ok",
+      "shopBase": "https://desertessence.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Organic Jojoba Oil",
+          "variants": 1,
+          "images": 2,
+          "type": "Oils"
+        },
+        {
+          "title": "Fragrance-Free Shampoo & Conditioner Set — Value Size 24 oz",
+          "variants": 1,
+          "images": 2,
+          "type": "Hair Care"
+        },
+        {
+          "title": "Fragrance Free Conditioner 24.0 oz",
+          "variants": 1,
+          "images": 2,
+          "type": "Hair Care"
+        },
+        {
+          "title": "Fragrance Free Shampoo 24.0 oz",
+          "variants": 1,
+          "images": 2,
+          "type": "Hair Care"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Dr. Tung's",
+      "slug": "dr-tungs",
+      "domain": "drtungs.com",
+      "categories": [
+        "oral"
+      ],
+      "hint": "Natural oral care",
+      "status": "ok",
+      "shopBase": "https://drtungs.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Kid's Snap-On Toothbrush Protection",
+          "variants": 2,
+          "images": 3,
+          "type": ""
+        },
+        {
+          "title": "Herbal Toothpowder Tabs",
+          "variants": 4,
+          "images": 10,
+          "type": ""
+        },
+        {
+          "title": "Smart Floss® Mint",
+          "variants": 2,
+          "images": 5,
+          "type": ""
+        },
+        {
+          "title": "Snap-On Toothbrush Protection",
+          "variants": 2,
+          "images": 5,
+          "type": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Jason",
+      "slug": "jason",
+      "domain": "jason-personalcare.com",
+      "categories": [
+        "oral",
+        "skincare"
+      ],
+      "hint": "Natural personal care",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Sprout Living",
+      "slug": "sprout-living",
+      "domain": "sproutliving.com",
+      "categories": [
+        "protein",
+        "supplements"
+      ],
+      "hint": "Organic plant protein",
+      "status": "ok",
+      "shopBase": "https://sproutliving.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Colorfuel Greens Slightly Sweet, 15 CT (10g Sticks)",
+          "variants": 1,
+          "images": 7,
+          "type": "Superfood Powder"
+        },
+        {
+          "title": "Colorfuel Lemon Ginger Calm, 8.3g",
+          "variants": 1,
+          "images": 8,
+          "type": "Protein Powder"
+        },
+        {
+          "title": "Colorfuel Calm Lemon Ginger, 15 CT (8.3g Sticks)",
+          "variants": 1,
+          "images": 11,
+          "type": "Protein Powder"
+        },
+        {
+          "title": "Whole30 Sample Kit",
+          "variants": 1,
+          "images": 4,
+          "type": "Protein Powder"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Nuzest",
+      "slug": "nuzest",
+      "domain": "nuzest-usa.com",
+      "categories": [
+        "protein"
+      ],
+      "hint": "Clean pea protein",
+      "status": "ok",
+      "shopBase": "https://nuzest-usa.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Good Green Vitality Single Serves",
+          "variants": 2,
+          "images": 9,
+          "type": "Vitamins & Supplements"
+        },
+        {
+          "title": "Nuzest Clean Lean Protein 5 Day Trial Pack",
+          "variants": 1,
+          "images": 0,
+          "type": "Vitamins & Supplements"
+        },
+        {
+          "title": "Good Green Vitality Gut Health E-Book",
+          "variants": 1,
+          "images": 0,
+          "type": ""
+        },
+        {
+          "title": "Clean Lean Protein Gut Health E-Book",
+          "variants": 1,
+          "images": 0,
+          "type": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "ALOHA",
+      "slug": "aloha",
+      "domain": "aloha.com",
+      "categories": [
+        "protein"
+      ],
+      "hint": "Organic plant protein",
+      "status": "ok",
+      "shopBase": "https://aloha.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Peppermint White Chocolate - Protein Bars",
+          "variants": 1,
+          "images": 5,
+          "type": "Protein Bar"
+        },
+        {
+          "title": "Oatmeal Chocolate Chip (Best By Nov 21st, 2026) - Mini Bars",
+          "variants": 1,
+          "images": 5,
+          "type": "Protein Minis"
+        },
+        {
+          "title": "Peanut Butter Chocolate Chip (Best By Sept 22nd, 2026) - Mini Bars",
+          "variants": 1,
+          "images": 5,
+          "type": "Protein Minis"
+        },
+        {
+          "title": "Strawberry - Protein Bars",
+          "variants": 1,
+          "images": 5,
+          "type": "Protein Bar"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Paleovalley",
+      "slug": "paleovalley",
+      "domain": "paleovalley.com",
+      "categories": [
+        "protein",
+        "supplements"
+      ],
+      "hint": "Grass-fed protein + organ blends",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Sunwarrior",
+      "slug": "sunwarrior",
+      "domain": "sunwarrior.com",
+      "categories": [
+        "protein"
+      ],
+      "hint": "Plant protein",
+      "status": "ok",
+      "shopBase": "https://shop.sunwarrior.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Organic Protein for Performance with BCAAs - Warrior Blend Coconut Cream",
+          "variants": 1,
+          "images": 5,
+          "type": "Plant-based Protein"
+        },
+        {
+          "title": "Shipping Protection",
+          "variants": 99,
+          "images": 1,
+          "type": "Order Guarantee"
+        },
+        {
+          "title": "Liquid Iron Supplement Mixed Berry",
+          "variants": 1,
+          "images": 2,
+          "type": "Vitamins & Supplements"
+        },
+        {
+          "title": "Active Pre-Workout Non-Stim Blue Raz",
+          "variants": 1,
+          "images": 2,
+          "type": "Vitamins & Supplements"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "OWYN",
+      "slug": "owyn",
+      "domain": "liveowyn.com",
+      "categories": [
+        "protein"
+      ],
+      "hint": "Allergen-friendly plant protein",
+      "status": "ok",
+      "shopBase": "https://liveowyn.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Chocolate Covered Banana Pro Elite Protein Shake",
+          "variants": 4,
+          "images": 6,
+          "type": "Food"
+        },
+        {
+          "title": "Fruity Cereal Pro Elite Protein Shake",
+          "variants": 4,
+          "images": 6,
+          "type": "Food"
+        },
+        {
+          "title": "Matcha Latte Protein Shake Carton",
+          "variants": 4,
+          "images": 2,
+          "type": "Protein Shakes"
+        },
+        {
+          "title": "Wildberry Donut Protein Shake Carton",
+          "variants": 4,
+          "images": 5,
+          "type": "Protein Shakes"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Koia",
+      "slug": "koia",
+      "domain": "drinkkoia.com",
+      "categories": [
+        "protein"
+      ],
+      "hint": "Plant protein drinks",
+      "status": "ok",
+      "shopBase": "https://drinkkoia.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Dubai Chocolate",
+          "variants": 1,
+          "images": 3,
+          "type": "Nutrition Drinks & Shakes"
+        },
+        {
+          "title": "Performance Duo",
+          "variants": 1,
+          "images": 3,
+          "type": "bundle"
+        },
+        {
+          "title": "Wellness Duo",
+          "variants": 1,
+          "images": 3,
+          "type": "bundle"
+        },
+        {
+          "title": "Strawberry",
+          "variants": 1,
+          "images": 3,
+          "type": "Nutrition Drinks & Shakes"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Ka'Chava",
+      "slug": "kachava",
+      "domain": "kachava.com",
+      "categories": [
+        "protein",
+        "supplements"
+      ],
+      "hint": "All-in-one superfood protein",
+      "status": "ok",
+      "shopBase": "https://kachava.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Cinnamon French Toast",
+          "variants": 1,
+          "images": 9,
+          "type": "Shakes"
+        },
+        {
+          "title": "30-Serve Chocolate Shakes",
+          "variants": 1,
+          "images": 8,
+          "type": ""
+        },
+        {
+          "title": "30-Serve Coconut Acai Shakes",
+          "variants": 1,
+          "images": 8,
+          "type": ""
+        },
+        {
+          "title": "Variety Pack (15 Pouches)",
+          "variants": 1,
+          "images": 7,
+          "type": "Shakes"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "CURE",
+      "slug": "cure-hydration",
+      "domain": "curehydration.com",
+      "categories": [
+        "electrolytes"
+      ],
+      "hint": "Coconut water electrolytes",
+      "status": "ok",
+      "shopBase": "https://curehydration.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Peach Mango Bulk Jar",
+          "variants": 1,
+          "images": 4,
+          "type": "Electrolyte Drink Mix"
+        },
+        {
+          "title": "Strawberry Kiwi Sample Stick",
+          "variants": 1,
+          "images": 3,
+          "type": "Electrolyte Drink Mix Sample"
+        },
+        {
+          "title": "Kids Pink Lemonade Sample Stick",
+          "variants": 1,
+          "images": 3,
+          "type": "Kids Electrolyte Drink Mix Sample"
+        },
+        {
+          "title": "Kids Fruit Punch Sample Stick",
+          "variants": 1,
+          "images": 3,
+          "type": "Kids Electrolyte Drink Mix Sample"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Hydrant",
+      "slug": "hydrant",
+      "domain": "drinkhydrant.com",
+      "categories": [
+        "electrolytes"
+      ],
+      "hint": "Clean electrolyte mix",
+      "status": "ok",
+      "shopBase": "https://drinkhydrant.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Buy 2, Get 2",
+          "variants": 1,
+          "images": 1,
+          "type": ""
+        },
+        {
+          "title": "TikTok Shop Hydration - DO NOT USE",
+          "variants": 12,
+          "images": 27,
+          "type": "One Time"
+        },
+        {
+          "title": "Hydrant ENERGY | Lemon Squeeze",
+          "variants": 1,
+          "images": 3,
+          "type": "One Time"
+        },
+        {
+          "title": "Hydrant SLEEP | Rapid Hydration Mix Cosmic",
+          "variants": 1,
+          "images": 3,
+          "type": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "SOS Hydration",
+      "slug": "sos-hydration",
+      "domain": "soshydration.com",
+      "categories": [
+        "electrolytes"
+      ],
+      "hint": "WHO-style hydration",
+      "status": "ok",
+      "shopBase": "https://soshydration.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "16oz Aqua Gym & Sports Water Bottle",
+          "variants": 1,
+          "images": 1,
+          "type": ""
+        },
+        {
+          "title": "Lemon 8ct Clearance",
+          "variants": 1,
+          "images": 0,
+          "type": ""
+        },
+        {
+          "title": "Sweat Patch Refills",
+          "variants": 1,
+          "images": 2,
+          "type": ""
+        },
+        {
+          "title": "Hydration Biosensor",
+          "variants": 1,
+          "images": 4,
+          "type": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "IQMIX",
+      "slug": "iqmix",
+      "domain": "iqmix.com",
+      "categories": [
+        "electrolytes"
+      ],
+      "hint": "Ketolyte hydration",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Saltt",
+      "slug": "saltt",
+      "domain": "saltt.com",
+      "categories": [
+        "electrolytes"
+      ],
+      "hint": "Electrolyte drink mix",
+      "status": "ok",
+      "shopBase": "https://saltt.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "SALTT Bundle",
+          "variants": 1,
+          "images": 0,
+          "type": ""
+        },
+        {
+          "title": "Radical Grape",
+          "variants": 1,
+          "images": 3,
+          "type": "Single Flavor (30 sticks)"
+        },
+        {
+          "title": "Feelin' Peachy",
+          "variants": 1,
+          "images": 3,
+          "type": "Single Flavor (30 sticks)"
+        },
+        {
+          "title": "Credit Card Payment",
+          "variants": 1,
+          "images": 0,
+          "type": "Fee"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Anima Mundi",
+      "slug": "anima-mundi",
+      "domain": "animamundiherbals.com",
+      "categories": [
+        "supplements"
+      ],
+      "hint": "Organic herbal apothecary",
+      "status": "ok",
+      "shopBase": "https://animamundiherbals.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Akashic Record & Tarot Readings with Ruby - September 2026",
+          "variants": 60,
+          "images": 1,
+          "type": ""
+        },
+        {
+          "title": "INITIATION: Sexual Sovereignty for the Autumn Equinox",
+          "variants": 1,
+          "images": 3,
+          "type": "Anima Mundi"
+        },
+        {
+          "title": "Pocket Altar Workshop",
+          "variants": 1,
+          "images": 3,
+          "type": "Anima Mundi"
+        },
+        {
+          "title": "Oracle Readings & Ancestral Wisdom with Wandie",
+          "variants": 8,
+          "images": 2,
+          "type": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Needed",
+      "slug": "needed",
+      "domain": "thisisneeded.com",
+      "categories": [
+        "supplements"
+      ],
+      "hint": "Women's nutrition supplements",
+      "status": "ok",
+      "shopBase": "https://thisisneeded.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Women's Creatine",
+          "variants": 3,
+          "images": 1,
+          "type": ""
+        },
+        {
+          "title": "Women's Creatine + Hydration Support",
+          "variants": 8,
+          "images": 4,
+          "type": ""
+        },
+        {
+          "title": "Women's Multivitamin Powder",
+          "variants": 3,
+          "images": 1,
+          "type": "Vitamins & Supplements"
+        },
+        {
+          "title": "Perimenopause Multivitamin Powder",
+          "variants": 3,
+          "images": 1,
+          "type": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "FullWell",
+      "slug": "fullwell",
+      "domain": "fullwellfertility.com",
+      "categories": [
+        "supplements"
+      ],
+      "hint": "Practitioner prenatal",
+      "status": "ok",
+      "shopBase": "https://fullwellfertility.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Prenatal Multivitamin Strawberry Stick Packs 3pk Sample",
+          "variants": 1,
+          "images": 1,
+          "type": ""
+        },
+        {
+          "title": "Prenatal Multivitamin Strawberry Stick Packs 5pk Sample",
+          "variants": 1,
+          "images": 1,
+          "type": ""
+        },
+        {
+          "title": "Prenatal Multivitamin Strawberry Stick Packs",
+          "variants": 5,
+          "images": 9,
+          "type": "bag"
+        },
+        {
+          "title": "Women's Prenatal Essentials Stick Packs Bundle",
+          "variants": 3,
+          "images": 7,
+          "type": "bundle"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Host Defense",
+      "slug": "host-defense",
+      "domain": "hostdefense.com",
+      "categories": [
+        "supplements"
+      ],
+      "hint": "Organic mushroom supplements",
+      "status": "ok",
+      "shopBase": "https://hostdefense.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Pet Immune & Whole-Body Support",
+          "variants": 1,
+          "images": 3,
+          "type": "Powder"
+        },
+        {
+          "title": "MycoShield® Citrus Throat Spray",
+          "variants": 2,
+          "images": 8,
+          "type": "Extract"
+        },
+        {
+          "title": "MycoBotanicals® Stress Decompress®* Capsules",
+          "variants": 1,
+          "images": 8,
+          "type": "Capsules"
+        },
+        {
+          "title": "MycoBenefits® PMS*",
+          "variants": 1,
+          "images": 7,
+          "type": "Capsules"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Sun Potion",
+      "slug": "sun-potion",
+      "domain": "sunpotion.com",
+      "categories": [
+        "supplements"
+      ],
+      "hint": "Tonic herbs + adaptogens",
+      "status": "ok",
+      "shopBase": "https://sunpotion.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Founder's Apothecary Kit",
+          "variants": 1,
+          "images": 23,
+          "type": ""
+        },
+        {
+          "title": "Green Vitality Trio",
+          "variants": 1,
+          "images": 13,
+          "type": ""
+        },
+        {
+          "title": "Beauty Bundle",
+          "variants": 1,
+          "images": 14,
+          "type": ""
+        },
+        {
+          "title": "Fitness Kit",
+          "variants": 1,
+          "images": 11,
+          "type": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Organifi",
+      "slug": "organifi",
+      "domain": "organifi.com",
+      "categories": [
+        "supplements"
+      ],
+      "hint": "Organic superfood powders",
+      "status": "ok",
+      "shopBase": "https://organifi.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Organifi Hair",
+          "variants": 1,
+          "images": 8,
+          "type": "Capsules"
+        },
+        {
+          "title": "MOLD DETOX KIT",
+          "variants": 1,
+          "images": 6,
+          "type": "Bundle"
+        },
+        {
+          "title": "NAD+",
+          "variants": 1,
+          "images": 7,
+          "type": "Capsules"
+        },
+        {
+          "title": "Summer Reset Kit",
+          "variants": 2,
+          "images": 8,
+          "type": "Bundle"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Real Mushrooms",
+      "slug": "real-mushrooms",
+      "domain": "realmushrooms.com",
+      "categories": [
+        "supplements"
+      ],
+      "hint": "Extracted mushroom supplements",
+      "status": "ok",
+      "shopBase": "https://realmushrooms.com",
+      "sampleCount": 6,
+      "sample": [
+        {
+          "title": "Tote Bag",
+          "variants": 1,
+          "images": 1,
+          "type": ""
+        },
+        {
+          "title": "Bundle Builder",
+          "variants": 1,
+          "images": 0,
+          "type": ""
+        },
+        {
+          "title": "Mushroom Hot Chocolate Mix",
+          "variants": 1,
+          "images": 11,
+          "type": "Powder"
+        },
+        {
+          "title": "Real Mycelium™",
+          "variants": 1,
+          "images": 13,
+          "type": "Capsules"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Gaia Herbs",
+      "slug": "gaia-herbs",
+      "domain": "gaiaherbs.com",
+      "categories": [
+        "supplements"
+      ],
+      "hint": "Organic herbal supplements",
+      "status": "ok",
+      "shopBase": "https://gaiaherbs.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Reflux Relief®",
+          "variants": 1,
+          "images": 9,
+          "type": "Tablets"
+        },
+        {
+          "title": "Tremella Mushroom Powder",
+          "variants": 1,
+          "images": 4,
+          "type": "Powders"
+        },
+        {
+          "title": "Employee Wellness Bundle",
+          "variants": 1,
+          "images": 7,
+          "type": "Bundle"
+        },
+        {
+          "title": "Milky Oats & Skullcap",
+          "variants": 1,
+          "images": 4,
+          "type": "Liquid Extracts"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Melanin Haircare",
+      "slug": "melanin-haircare",
+      "domain": "melaninhaircare.com",
+      "categories": [
+        "hair"
+      ],
+      "hint": "Clean textured-hair care",
+      "status": "ok",
+      "shopBase": "https://melaninhaircare.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Multi-Use Pure Oil Blend 3-Pack Reserve",
+          "variants": 1,
+          "images": 11,
+          "type": ""
+        },
+        {
+          "title": "Twist-Elongating Style Cream 3-Pack Reserve",
+          "variants": 1,
+          "images": 12,
+          "type": ""
+        },
+        {
+          "title": "Multi-Use Softening Leave In Conditioner 3-Pack Reserve",
+          "variants": 1,
+          "images": 10,
+          "type": ""
+        },
+        {
+          "title": "Plumping Deep Conditioner 3-Pack Reserve",
+          "variants": 1,
+          "images": 9,
+          "type": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Oway",
+      "slug": "oway",
+      "domain": "oway.us",
+      "categories": [
+        "hair"
+      ],
+      "hint": "Biodynamic organic hair care",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Evolve Beauty",
+      "slug": "evolve-beauty",
+      "domain": "evolvebeauty.co.uk",
+      "categories": [
+        "skincare",
+        "hair"
+      ],
+      "hint": "Certified organic British beauty",
+      "status": "ok",
+      "shopBase": "https://evolvebeauty.co.uk",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Hyaluronic Serum 200 Duo",
+          "variants": 1,
+          "images": 2,
+          "type": "Face Serum"
+        },
+        {
+          "title": "Superfood Shampoo & Conditioner Duo",
+          "variants": 1,
+          "images": 1,
+          "type": "Hair Care"
+        },
+        {
+          "title": "Monoi Rescue Shampoo & Conditioner Duo",
+          "variants": 1,
+          "images": 1,
+          "type": "Hair Care"
+        },
+        {
+          "title": "Daily to Night Renewal Duo",
+          "variants": 1,
+          "images": 2,
+          "type": "Moisturiser"
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Earth Harbor",
+      "slug": "earth-harbor",
+      "domain": "earthharbor.com",
+      "categories": [
+        "skincare"
+      ],
+      "hint": "Clean ocean-inspired skincare",
+      "status": "ok",
+      "shopBase": "https://earthharbor.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "🎁 AQUA AURA Reparative Eye Creme (100% off)",
+          "variants": 1,
+          "images": 1,
+          "type": ""
+        },
+        {
+          "title": "PINK SURF Instant Reset Mask",
+          "variants": 1,
+          "images": 9,
+          "type": ""
+        },
+        {
+          "title": "BRIGHTEN & FIRM Full-Size Set",
+          "variants": 1,
+          "images": 2,
+          "type": ""
+        },
+        {
+          "title": "ISLA Bio-Retinol Youth Eye Serum",
+          "variants": 1,
+          "images": 9,
+          "type": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Dr. Hauschka",
+      "slug": "dr-hauschka",
+      "domain": "drhauschka.com",
+      "categories": [
+        "skincare"
+      ],
+      "hint": "Biodynamic natural skincare",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    },
+    {
+      "name": "Mad Hippie",
+      "slug": "mad-hippie",
+      "domain": "madhippie.com",
+      "categories": [
+        "skincare"
+      ],
+      "hint": "Clean active skincare",
+      "status": "ok",
+      "shopBase": "https://madhippie.com",
+      "sampleCount": 8,
+      "sample": [
+        {
+          "title": "Wrinkle Relaxing Eye Treatment",
+          "variants": 1,
+          "images": 7,
+          "type": ""
+        },
+        {
+          "title": "Vitamin C Serum (mini)",
+          "variants": 1,
+          "images": 6,
+          "type": "Simple Product"
+        },
+        {
+          "title": "Gua Sha Masterclass",
+          "variants": 1,
+          "images": 0,
+          "type": "Event"
+        },
+        {
+          "title": "Day & Night Dual Pack",
+          "variants": 1,
+          "images": 2,
+          "type": ""
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Herbivore extra check",
+      "slug": "odinsoil",
+      "domain": "odinsoil.com",
+      "categories": [
+        "skincare"
+      ],
+      "hint": "placeholder skip",
+      "status": "fail",
+      "shopBase": null,
+      "sampleCount": 0,
+      "sample": [],
+      "error": "fetch failed"
+    }
+  ]
+}
