@@ -1,0 +1,171 @@
+[
+  {
+    "slug": "sol-sista",
+    "shopBase": "https://solsistacollective.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c738"
+  },
+  {
+    "slug": "project-reef",
+    "shopBase": "https://projectreef.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c739"
+  },
+  {
+    "slug": "sifa",
+    "shopBase": "https://sifaorganicskin.myshopify.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c740"
+  },
+  {
+    "slug": "cleonse",
+    "shopBase": "https://cleonse.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c741"
+  },
+  {
+    "slug": "doingwell",
+    "shopBase": "https://doingwell.health",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c742"
+  },
+  {
+    "slug": "stay-wyld",
+    "shopBase": "https://staywyldorganics.com",
+    "categories": [
+      "supplements",
+      "electrolytes"
+    ],
+    "id": "c743"
+  },
+  {
+    "slug": "happy-way",
+    "shopBase": "https://happyway.com.au",
+    "categories": [
+      "protein",
+      "electrolytes"
+    ],
+    "id": "c744"
+  },
+  {
+    "slug": "talgh",
+    "shopBase": "https://talgh.co",
+    "categories": [
+      "deodorant"
+    ],
+    "id": "c745"
+  },
+  {
+    "slug": "carina-organics",
+    "shopBase": "https://carinaorganics.com",
+    "categories": [
+      "hair",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c746"
+  },
+  {
+    "slug": "canary-clean",
+    "shopBase": "https://www.canarycleanco.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c747"
+  },
+  {
+    "slug": "amber-tallow",
+    "shopBase": "https://ambertallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c748"
+  },
+  {
+    "slug": "lasso-tallow",
+    "shopBase": "https://lassotallow.us",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c749"
+  },
+  {
+    "slug": "kind-tallow",
+    "shopBase": "https://www.kindtallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c750"
+  },
+  {
+    "slug": "ranchers-render",
+    "shopBase": "https://ranchersrender.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c751"
+  },
+  {
+    "slug": "coastal-tallow",
+    "shopBase": "https://coastaltallowco.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c752"
+  },
+  {
+    "slug": "wildsett",
+    "shopBase": "https://wildsett.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c753"
+  },
+  {
+    "slug": "jadu-beauty",
+    "shopBase": "https://jadubeauty.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c754"
+  },
+  {
+    "slug": "woodsy-earth",
+    "shopBase": "https://woodsyearth.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c755"
+  },
+  {
+    "slug": "it-mush-be-good",
+    "shopBase": "https://www.itmushbegood.co.uk",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c756"
+  },
+  {
+    "slug": "mushroom-mana",
+    "shopBase": "https://mushroommana.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c757"
+  }
+]
