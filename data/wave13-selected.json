@@ -1,0 +1,171 @@
+[
+  {
+    "slug": "eco-by-sonya",
+    "shopBase": "https://ecobysonyadriver.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c641"
+  },
+  {
+    "slug": "miyazaki-tallow",
+    "shopBase": "https://miyazakitallow.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c642"
+  },
+  {
+    "slug": "new-day-organics",
+    "shopBase": "https://newdayorganics.com",
+    "categories": [
+      "deodorant",
+      "sunscreen"
+    ],
+    "id": "c643"
+  },
+  {
+    "slug": "precision-hydration",
+    "shopBase": "https://us.precisionhydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c644"
+  },
+  {
+    "slug": "halo-hydration",
+    "shopBase": "https://drinkhalo.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c645"
+  },
+  {
+    "slug": "earthchimp",
+    "shopBase": "https://earthchimp.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c646"
+  },
+  {
+    "slug": "eat-superplants",
+    "shopBase": "https://eatsuperplants.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c647"
+  },
+  {
+    "slug": "plenti",
+    "shopBase": "https://plentisupps.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c648"
+  },
+  {
+    "slug": "jl-naturals",
+    "shopBase": "https://www.jnlnaturals.com",
+    "categories": [
+      "deodorant",
+      "hair"
+    ],
+    "id": "c649"
+  },
+  {
+    "slug": "banbu",
+    "shopBase": "https://banbu.es",
+    "categories": [
+      "deodorant"
+    ],
+    "id": "c650"
+  },
+  {
+    "slug": "lovett-sundries",
+    "shopBase": "https://lovettsundries.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c651"
+  },
+  {
+    "slug": "naturallow",
+    "shopBase": "https://www.naturallow.com",
+    "categories": [
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c652"
+  },
+  {
+    "slug": "huppy",
+    "shopBase": "https://www.behuppy.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c653"
+  },
+  {
+    "slug": "stella-naturals",
+    "shopBase": "https://stellanaturals.co.nz",
+    "categories": [
+      "oral"
+    ],
+    "id": "c654"
+  },
+  {
+    "slug": "revive-homestead",
+    "shopBase": "https://revivehomestead.com",
+    "categories": [
+      "oral",
+      "deodorant"
+    ],
+    "id": "c655"
+  },
+  {
+    "slug": "naedlae",
+    "shopBase": "https://naedlae.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c656"
+  },
+  {
+    "slug": "armra",
+    "shopBase": "https://tryarmra.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c657"
+  },
+  {
+    "slug": "gaia-herbs",
+    "shopBase": "https://www.gaiaherbs.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c658"
+  },
+  {
+    "slug": "herb-pharm",
+    "shopBase": "https://www.herb-pharm.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c659"
+  },
+  {
+    "slug": "beekeepers-naturals",
+    "shopBase": "https://www.beekeepersnaturals.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c660"
+  }
+]

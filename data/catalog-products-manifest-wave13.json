@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-08-24T15:08:22.530Z",
+  "wave13Products": 1088,
+  "wave13BrandsWithProducts": 20,
+  "totalProducts": 24107,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "eco-by-sonya",
+      "brandId": "c641",
+      "kept": 12,
+      "withIngredients": 7,
+      "flavorVariants": 0,
+      "shopBase": "https://ecobysonyadriver.com"
+    },
+    {
+      "slug": "miyazaki-tallow",
+      "brandId": "c642",
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://miyazakitallow.com"
+    },
+    {
+      "slug": "new-day-organics",
+      "brandId": "c643",
+      "kept": 40,
+      "withIngredients": 37,
+      "flavorVariants": 16,
+      "shopBase": "https://newdayorganics.com"
+    },
+    {
+      "slug": "precision-hydration",
+      "brandId": "c644",
+      "kept": 34,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://us.precisionhydration.com"
+    },
+    {
+      "slug": "halo-hydration",
+      "brandId": "c645",
+      "kept": 4,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://drinkhalo.com"
+    },
+    {
+      "slug": "earthchimp",
+      "brandId": "c646",
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "shopBase": "https://earthchimp.com"
+    },
+    {
+      "slug": "eat-superplants",
+      "brandId": "c647",
+      "kept": 5,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://eatsuperplants.com"
+    },
+    {
+      "slug": "plenti",
+      "brandId": "c648",
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 9,
+      "shopBase": "https://plentisupps.com"
+    },
+    {
+      "slug": "jl-naturals",
+      "brandId": "c649",
+      "kept": 120,
+      "withIngredients": 63,
+      "flavorVariants": 99,
+      "shopBase": "https://www.jnlnaturals.com"
+    },
+    {
+      "slug": "banbu",
+      "brandId": "c650",
+      "kept": 160,
+      "withIngredients": 93,
+      "flavorVariants": 8,
+      "shopBase": "https://banbu.es"
+    },
+    {
+      "slug": "lovett-sundries",
+      "brandId": "c651",
+      "kept": 63,
+      "withIngredients": 6,
+      "flavorVariants": 46,
+      "shopBase": "https://lovettsundries.com"
+    },
+    {
+      "slug": "naturallow",
+      "brandId": "c652",
+      "kept": 32,
+      "withIngredients": 2,
+      "flavorVariants": 24,
+      "shopBase": "https://www.naturallow.com"
+    },
+    {
+      "slug": "huppy",
+      "brandId": "c653",
+      "kept": 23,
+      "withIngredients": 0,
+      "flavorVariants": 16,
+      "shopBase": "https://www.behuppy.com"
+    },
+    {
+      "slug": "stella-naturals",
+      "brandId": "c654",
+      "kept": 25,
+      "withIngredients": 21,
+      "flavorVariants": 0,
+      "shopBase": "https://stellanaturals.co.nz"
+    },
+    {
+      "slug": "revive-homestead",
+      "brandId": "c655",
+      "kept": 49,
+      "withIngredients": 11,
+      "flavorVariants": 30,
+      "shopBase": "https://revivehomestead.com"
+    },
+    {
+      "slug": "naedlae",
+      "brandId": "c656",
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://naedlae.com"
+    },
+    {
+      "slug": "armra",
+      "brandId": "c657",
+      "kept": 35,
+      "withIngredients": 8,
+      "flavorVariants": 0,
+      "shopBase": "https://tryarmra.com"
+    },
+    {
+      "slug": "gaia-herbs",
+      "brandId": "c658",
+      "kept": 108,
+      "withIngredients": 40,
+      "flavorVariants": 0,
+      "shopBase": "https://www.gaiaherbs.com"
+    },
+    {
+      "slug": "herb-pharm",
+      "brandId": "c659",
+      "kept": 294,
+      "withIngredients": 262,
+      "flavorVariants": 0,
+      "shopBase": "https://www.herb-pharm.com"
+    },
+    {
+      "slug": "beekeepers-naturals",
+      "brandId": "c660",
+      "kept": 66,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.beekeepersnaturals.com"
+    }
+  ]
+}
