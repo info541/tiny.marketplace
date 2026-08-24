@@ -1,0 +1,173 @@
+[
+  {
+    "slug": "mother-spf",
+    "shopBase": "https://www.motherspf.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c681"
+  },
+  {
+    "slug": "kind-sunscreen",
+    "shopBase": "https://thekindsunscreen.com.au",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c682"
+  },
+  {
+    "slug": "aussiezinc",
+    "shopBase": "https://www.aussiezincsunscreen.com.au",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c683"
+  },
+  {
+    "slug": "waterboy",
+    "shopBase": "https://www.waterboy.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c684"
+  },
+  {
+    "slug": "lit-salt",
+    "shopBase": "https://litsalt.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c685"
+  },
+  {
+    "slug": "peachie-spoon",
+    "shopBase": "https://thepeachiespoon.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c686"
+  },
+  {
+    "slug": "agn-roots",
+    "shopBase": "https://agnroots.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c687"
+  },
+  {
+    "slug": "centenarius",
+    "shopBase": "https://centenariusnutrition.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c688"
+  },
+  {
+    "slug": "slo-naturals",
+    "shopBase": "https://slonaturals.com",
+    "categories": [
+      "deodorant",
+      "hair",
+      "oral",
+      "skincare"
+    ],
+    "id": "c689"
+  },
+  {
+    "slug": "ommade",
+    "shopBase": "https://www.ommadeorganicskincare.com",
+    "categories": [
+      "skincare",
+      "deodorant",
+      "oral",
+      "sunscreen",
+      "hair"
+    ],
+    "id": "c690"
+  },
+  {
+    "slug": "elims",
+    "shopBase": "https://elims.co",
+    "categories": [
+      "oral"
+    ],
+    "id": "c691"
+  },
+  {
+    "slug": "duo-toothpaste",
+    "shopBase": "https://duotoothpaste.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c692"
+  },
+  {
+    "slug": "fawn-lily",
+    "shopBase": "https://fawnlilybotanica.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c693"
+  },
+  {
+    "slug": "bears-beauty",
+    "shopBase": "https://bearsbeautyskincare.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c694"
+  },
+  {
+    "slug": "beneath-your-mask",
+    "shopBase": "https://beneathyourmask.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c695"
+  },
+  {
+    "slug": "cornish-seaweed",
+    "shopBase": "https://cornishseaweedbath.co.uk",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c696"
+  },
+  {
+    "slug": "eczema-kids",
+    "shopBase": "https://eczemakids.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c697"
+  },
+  {
+    "slug": "mama-natural",
+    "shopBase": "https://shop.mamanatural.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c698"
+  },
+  {
+    "slug": "nunona",
+    "shopBase": "https://www.nunonalife.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c699"
+  },
+  {
+    "slug": "fresh-heritage",
+    "shopBase": "https://freshheritage.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c700"
+  }
+]
