@@ -1,0 +1,22 @@
+[
+  { "slug": "fango", "name": "FANGO", "shopBase": "https://fangospf.com", "categories": ["sunscreen"] },
+  { "slug": "indie-paradiso", "name": "Indie Paradiso", "shopBase": "https://indieparadiso.com", "categories": ["sunscreen", "skincare"] },
+  { "slug": "suntribe", "name": "Suntribe", "shopBase": "https://suntribesunscreen.com", "categories": ["sunscreen", "skincare"] },
+  { "slug": "sunbutter", "name": "SunButter", "shopBase": "https://sunbutter.com.au", "categories": ["sunscreen", "skincare"] },
+  { "slug": "saltt", "name": "SALTT", "shopBase": "https://drinksaltt.com", "categories": ["electrolytes"] },
+  { "slug": "lyteshow", "name": "LyteShow", "shopBase": "https://lyteline.com", "categories": ["electrolytes"] },
+  { "slug": "sos-hydration", "name": "SOS Hydration", "shopBase": "https://soshydration.com", "categories": ["electrolytes"] },
+  { "slug": "moonvalley", "name": "Moonvalley", "shopBase": "https://moonvalley.me", "categories": ["protein"] },
+  { "slug": "aloha", "name": "ALOHA", "shopBase": "https://aloha.com", "categories": ["protein"] },
+  { "slug": "saavy-naturals", "name": "Saavy Naturals", "shopBase": "https://saavynaturals.com", "categories": ["deodorant", "skincare"] },
+  { "slug": "naturallow", "name": "NaturalLow", "shopBase": "https://www.naturallow.com", "categories": ["deodorant", "skincare"] },
+  { "slug": "primal-life", "name": "Primal Life Organics", "shopBase": "https://primallifeorganics.com", "categories": ["oral"] },
+  { "slug": "happier-beauty", "name": "Happier Beauty", "shopBase": "https://happierbeauty.com", "categories": ["oral"] },
+  { "slug": "great-oral-health", "name": "Great Oral Health", "shopBase": "https://www.greatoralhealth.com", "categories": ["oral"] },
+  { "slug": "mychelle", "name": "MyChelle", "shopBase": "https://mychelle.com", "categories": ["skincare"] },
+  { "slug": "roz", "name": "ROZ", "shopBase": "https://rozhair.com", "categories": ["hair"] },
+  { "slug": "plaine-products", "name": "Plaine Products", "shopBase": "https://plaineproducts.com", "categories": ["hair", "skincare"] },
+  { "slug": "seen", "name": "SEEN", "shopBase": "https://helloseen.com", "categories": ["hair"] },
+  { "slug": "wenatal", "name": "WeNatal", "shopBase": "https://wenatal.com", "categories": ["supplements"] },
+  { "slug": "beauty-chef", "name": "The Beauty Chef", "shopBase": "https://thebeautychef.com", "categories": ["supplements", "skincare"] }
+]

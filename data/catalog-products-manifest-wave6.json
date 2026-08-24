@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-08-24T06:07:46.140Z",
+  "wave6Products": 927,
+  "wave6BrandsWithProducts": 20,
+  "totalProducts": 23946,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": {
+    "c501": {
+      "kept": 60,
+      "withIngredients": 1
+    },
+    "c502": {
+      "kept": 5,
+      "withIngredients": 1
+    },
+    "c503": {
+      "kept": 45,
+      "withIngredients": 22
+    },
+    "c504": {
+      "kept": 47,
+      "withIngredients": 10
+    },
+    "c505": {
+      "kept": 54,
+      "withIngredients": 51
+    },
+    "c506": {
+      "kept": 8,
+      "withIngredients": 4
+    },
+    "c507": {
+      "kept": 17,
+      "withIngredients": 6
+    },
+    "c508": {
+      "kept": 17,
+      "withIngredients": 9
+    },
+    "c509": {
+      "kept": 66,
+      "withIngredients": 45
+    },
+    "c510": {
+      "kept": 40,
+      "withIngredients": 29
+    },
+    "c511": {
+      "kept": 27,
+      "withIngredients": 2
+    },
+    "c512": {
+      "kept": 189,
+      "withIngredients": 70
+    },
+    "c513": {
+      "kept": 16,
+      "withIngredients": 6
+    },
+    "c514": {
+      "kept": 57,
+      "withIngredients": 40
+    },
+    "c515": {
+      "kept": 52,
+      "withIngredients": 44
+    },
+    "c516": {
+      "kept": 31,
+      "withIngredients": 28
+    },
+    "c517": {
+      "kept": 73,
+      "withIngredients": 58
+    },
+    "c518": {
+      "kept": 54,
+      "withIngredients": 46
+    },
+    "c519": {
+      "kept": 28,
+      "withIngredients": 0
+    },
+    "c520": {
+      "kept": 41,
+      "withIngredients": 25
+    }
+  },
+  "categories": {
+    "skincare": 184,
+    "sunscreen": 140,
+    "hair": 125,
+    "electrolytes": 78,
+    "protein": 99,
+    "deodorant": 13,
+    "oral": 230,
+    "supplements": 58
+  },
+  "withIngredients": 497,
+  "flavorVariants": 355
+}
