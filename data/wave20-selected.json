@@ -1,0 +1,157 @@
+[
+  {
+    "slug": "seaflora",
+    "shopBase": "https://seafloraskincare.com",
+    "categories": [
+      "sunscreen",
+      "hair",
+      "skincare"
+    ],
+    "id": "c778"
+  },
+  {
+    "slug": "people4ocean",
+    "shopBase": "https://people4ocean.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c779"
+  },
+  {
+    "slug": "field-and-forge",
+    "shopBase": "https://shopfieldandforge.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c780"
+  },
+  {
+    "slug": "purelytes",
+    "shopBase": "https://getpurelytes.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c781"
+  },
+  {
+    "slug": "peak-hydration",
+    "shopBase": "https://www.peakhydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c782"
+  },
+  {
+    "slug": "powah",
+    "shopBase": "https://shoppowah.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c783"
+  },
+  {
+    "slug": "mycopro",
+    "shopBase": "https://mycoproworld.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c784"
+  },
+  {
+    "slug": "bee-you",
+    "shopBase": "https://beeyouorganics.com",
+    "categories": [
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c785"
+  },
+  {
+    "slug": "moose-tallow",
+    "shopBase": "https://moosestallow.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c786"
+  },
+  {
+    "slug": "tallow-and-vine",
+    "shopBase": "https://tallowandvine.com",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c787"
+  },
+  {
+    "slug": "tallowbourn",
+    "shopBase": "https://tallowbourn.com",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c788"
+  },
+  {
+    "slug": "ht-botanicals",
+    "shopBase": "https://htbotanicals.com",
+    "categories": [
+      "oral",
+      "hair",
+      "skincare"
+    ],
+    "id": "c789"
+  },
+  {
+    "slug": "cow-guys",
+    "shopBase": "https://www.cowguys.shop",
+    "categories": [
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c790"
+  },
+  {
+    "slug": "taddos-tallow",
+    "shopBase": "https://taddostallow.com",
+    "categories": [
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c791"
+  },
+  {
+    "slug": "original-sprout",
+    "shopBase": "https://www.originalsprout.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c792"
+  },
+  {
+    "slug": "made-new",
+    "shopBase": "https://madenewnaturals.com",
+    "categories": [
+      "hair",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c793"
+  },
+  {
+    "slug": "mud-wtr",
+    "shopBase": "https://mudwtr.com",
+    "categories": [
+      "supplements",
+      "protein"
+    ],
+    "id": "c794"
+  }
+]

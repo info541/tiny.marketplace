@@ -1,0 +1,167 @@
+{
+  "generatedAt": "2026-08-24T23:12:42.566Z",
+  "wave20Products": 414,
+  "wave20BrandsWithProducts": 17,
+  "totalProducts": 23433,
+  "brandCount": 455,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "seaflora",
+      "brandId": "c778",
+      "raw": 62,
+      "kept": 45,
+      "withIngredients": 15,
+      "flavorVariants": 0,
+      "shopBase": "https://seafloraskincare.com"
+    },
+    {
+      "slug": "people4ocean",
+      "brandId": "c779",
+      "raw": 9,
+      "kept": 4,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://people4ocean.com"
+    },
+    {
+      "slug": "field-and-forge",
+      "brandId": "c780",
+      "raw": 11,
+      "kept": 5,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://shopfieldandforge.com"
+    },
+    {
+      "slug": "purelytes",
+      "brandId": "c781",
+      "raw": 6,
+      "kept": 6,
+      "withIngredients": 6,
+      "flavorVariants": 0,
+      "shopBase": "https://getpurelytes.com"
+    },
+    {
+      "slug": "peak-hydration",
+      "brandId": "c782",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://www.peakhydration.com"
+    },
+    {
+      "slug": "powah",
+      "brandId": "c783",
+      "raw": 8,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://shoppowah.com"
+    },
+    {
+      "slug": "mycopro",
+      "brandId": "c784",
+      "raw": 7,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://mycoproworld.com"
+    },
+    {
+      "slug": "bee-you",
+      "brandId": "c785",
+      "raw": 69,
+      "kept": 61,
+      "withIngredients": 61,
+      "flavorVariants": 30,
+      "shopBase": "https://beeyouorganics.com"
+    },
+    {
+      "slug": "moose-tallow",
+      "brandId": "c786",
+      "raw": 57,
+      "kept": 60,
+      "withIngredients": 57,
+      "flavorVariants": 6,
+      "shopBase": "https://moosestallow.com"
+    },
+    {
+      "slug": "tallow-and-vine",
+      "brandId": "c787",
+      "raw": 10,
+      "kept": 10,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://tallowandvine.com"
+    },
+    {
+      "slug": "tallowbourn",
+      "brandId": "c788",
+      "raw": 12,
+      "kept": 24,
+      "withIngredients": 0,
+      "flavorVariants": 17,
+      "shopBase": "https://tallowbourn.com"
+    },
+    {
+      "slug": "ht-botanicals",
+      "brandId": "c789",
+      "raw": 51,
+      "kept": 44,
+      "withIngredients": 12,
+      "flavorVariants": 3,
+      "shopBase": "https://htbotanicals.com"
+    },
+    {
+      "slug": "cow-guys",
+      "brandId": "c790",
+      "raw": 16,
+      "kept": 4,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://www.cowguys.shop"
+    },
+    {
+      "slug": "taddos-tallow",
+      "brandId": "c791",
+      "raw": 11,
+      "kept": 29,
+      "withIngredients": 9,
+      "flavorVariants": 28,
+      "shopBase": "https://taddostallow.com"
+    },
+    {
+      "slug": "original-sprout",
+      "brandId": "c792",
+      "raw": 52,
+      "kept": 33,
+      "withIngredients": 23,
+      "flavorVariants": 0,
+      "shopBase": "https://www.originalsprout.com"
+    },
+    {
+      "slug": "made-new",
+      "brandId": "c793",
+      "raw": 22,
+      "kept": 23,
+      "withIngredients": 12,
+      "flavorVariants": 18,
+      "shopBase": "https://madenewnaturals.com"
+    },
+    {
+      "slug": "mud-wtr",
+      "brandId": "c794",
+      "raw": 138,
+      "kept": 57,
+      "withIngredients": 25,
+      "flavorVariants": 0,
+      "shopBase": "https://mudwtr.com"
+    }
+  ]
+}
