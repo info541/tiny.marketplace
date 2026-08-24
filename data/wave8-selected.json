@@ -6,7 +6,10 @@
       "sunscreen",
       "skincare"
     ],
-    "id": "c541"
+    "id": "c541",
+    "productCount": 15,
+    "withIngredients": 10,
+    "flavorVariants": 13
   },
   {
     "slug": "oyster-suncare",
@@ -14,7 +17,10 @@
     "categories": [
       "sunscreen"
     ],
-    "id": "c542"
+    "id": "c542",
+    "productCount": 2,
+    "withIngredients": 2,
+    "flavorVariants": 0
   },
   {
     "slug": "spooge",
@@ -22,7 +28,10 @@
     "categories": [
       "sunscreen"
     ],
-    "id": "c543"
+    "id": "c543",
+    "productCount": 10,
+    "withIngredients": 9,
+    "flavorVariants": 0
   },
   {
     "slug": "jigsaw",
@@ -31,7 +40,10 @@
       "electrolytes",
       "supplements"
     ],
-    "id": "c544"
+    "id": "c544",
+    "productCount": 8,
+    "withIngredients": 6,
+    "flavorVariants": 0
   },
   {
     "slug": "trace-minerals",
@@ -40,7 +52,10 @@
       "electrolytes",
       "supplements"
     ],
-    "id": "c545"
+    "id": "c545",
+    "productCount": 67,
+    "withIngredients": 7,
+    "flavorVariants": 26
   },
   {
     "slug": "pulsin",
@@ -48,7 +63,10 @@
     "categories": [
       "protein"
     ],
-    "id": "c546"
+    "id": "c546",
+    "productCount": 22,
+    "withIngredients": 3,
+    "flavorVariants": 0
   },
   {
     "slug": "owyn",
@@ -56,7 +74,10 @@
     "categories": [
       "protein"
     ],
-    "id": "c547"
+    "id": "c547",
+    "productCount": 31,
+    "withIngredients": 30,
+    "flavorVariants": 0
   },
   {
     "slug": "honestly-phresh",
@@ -64,7 +85,10 @@
     "categories": [
       "deodorant"
     ],
-    "id": "c548"
+    "id": "c548",
+    "productCount": 20,
+    "withIngredients": 1,
+    "flavorVariants": 0
   },
   {
     "slug": "tanit",
@@ -73,7 +97,10 @@
       "deodorant",
       "oral"
     ],
-    "id": "c549"
+    "id": "c549",
+    "productCount": 60,
+    "withIngredients": 22,
+    "flavorVariants": 25
   },
   {
     "slug": "theodent",
@@ -81,7 +108,10 @@
     "categories": [
       "oral"
     ],
-    "id": "c550"
+    "id": "c550",
+    "productCount": 7,
+    "withIngredients": 7,
+    "flavorVariants": 0
   },
   {
     "slug": "grants-of-australia",
@@ -89,7 +119,10 @@
     "categories": [
       "oral"
     ],
-    "id": "c551"
+    "id": "c551",
+    "productCount": 10,
+    "withIngredients": 10,
+    "flavorVariants": 0
   },
   {
     "slug": "ranavat",
@@ -97,7 +130,10 @@
     "categories": [
       "skincare"
     ],
-    "id": "c552"
+    "id": "c552",
+    "productCount": 66,
+    "withIngredients": 53,
+    "flavorVariants": 0
   },
   {
     "slug": "clearstem",
@@ -106,7 +142,10 @@
       "skincare",
       "sunscreen"
     ],
-    "id": "c553"
+    "id": "c553",
+    "productCount": 17,
+    "withIngredients": 14,
+    "flavorVariants": 0
   },
   {
     "slug": "eat-my-face",
@@ -115,7 +154,10 @@
       "skincare",
       "sunscreen"
     ],
-    "id": "c554"
+    "id": "c554",
+    "productCount": 30,
+    "withIngredients": 12,
+    "flavorVariants": 1
   },
   {
     "slug": "alaffia",
@@ -124,7 +166,10 @@
       "hair",
       "skincare"
     ],
-    "id": "c555"
+    "id": "c555",
+    "productCount": 88,
+    "withIngredients": 74,
+    "flavorVariants": 0
   },
   {
     "slug": "yarok",
@@ -132,7 +177,10 @@
     "categories": [
       "hair"
     ],
-    "id": "c556"
+    "id": "c556",
+    "productCount": 43,
+    "withIngredients": 15,
+    "flavorVariants": 0
   },
   {
     "slug": "intelligent-nutrients",
@@ -141,7 +189,10 @@
       "hair",
       "skincare"
     ],
-    "id": "c557"
+    "id": "c557",
+    "productCount": 44,
+    "withIngredients": 1,
+    "flavorVariants": 0
   },
   {
     "slug": "host-defense",
@@ -149,7 +200,10 @@
     "categories": [
       "supplements"
     ],
-    "id": "c558"
+    "id": "c558",
+    "productCount": 61,
+    "withIngredients": 3,
+    "flavorVariants": 0
   },
   {
     "slug": "organifi",
@@ -157,7 +211,10 @@
     "categories": [
       "supplements"
     ],
-    "id": "c559"
+    "id": "c559",
+    "productCount": 119,
+    "withIngredients": 21,
+    "flavorVariants": 14
   },
   {
     "slug": "ancestral-supplements",
@@ -166,6 +223,9 @@
       "supplements",
       "protein"
     ],
-    "id": "c560"
+    "id": "c560",
+    "productCount": 52,
+    "withIngredients": 8,
+    "flavorVariants": 8
   }
 ]

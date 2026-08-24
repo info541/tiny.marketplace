@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T08:07:37.544Z",
+  "generatedAt": "2026-08-24T08:08:44.169Z",
   "wave8Products": 772,
   "wave8BrandsWithProducts": 20,
   "totalProducts": 23791,
@@ -15,7 +15,7 @@
       "brandId": "c541",
       "raw": 16,
       "kept": 15,
-      "withIngredients": 0,
+      "withIngredients": 10,
       "flavorVariants": 13,
       "shopBase": "https://www.shopmamasol.com"
     },
@@ -24,7 +24,7 @@
       "brandId": "c542",
       "raw": 4,
       "kept": 2,
-      "withIngredients": 0,
+      "withIngredients": 2,
       "flavorVariants": 0,
       "shopBase": "https://oystersuncare.com"
     },
@@ -33,7 +33,7 @@
       "brandId": "c543",
       "raw": 12,
       "kept": 10,
-      "withIngredients": 0,
+      "withIngredients": 9,
       "flavorVariants": 0,
       "shopBase": "https://spooge.co"
     },
@@ -42,7 +42,7 @@
       "brandId": "c544",
       "raw": 53,
       "kept": 8,
-      "withIngredients": 1,
+      "withIngredients": 6,
       "flavorVariants": 0,
       "shopBase": "https://jigsawhealth.com"
     },
@@ -51,7 +51,7 @@
       "brandId": "c545",
       "raw": 107,
       "kept": 67,
-      "withIngredients": 0,
+      "withIngredients": 7,
       "flavorVariants": 26,
       "shopBase": "https://traceminerals.com"
     },
@@ -60,7 +60,7 @@
       "brandId": "c546",
       "raw": 22,
       "kept": 22,
-      "withIngredients": 2,
+      "withIngredients": 3,
       "flavorVariants": 0,
       "shopBase": "https://pulsin.co.uk"
     },
@@ -69,7 +69,7 @@
       "brandId": "c547",
       "raw": 33,
       "kept": 31,
-      "withIngredients": 4,
+      "withIngredients": 30,
       "flavorVariants": 0,
       "shopBase": "https://liveowyn.com"
     },
@@ -78,7 +78,7 @@
       "brandId": "c548",
       "raw": 21,
       "kept": 20,
-      "withIngredients": 0,
+      "withIngredients": 1,
       "flavorVariants": 0,
       "shopBase": "https://honestlyphresh.com"
     },
@@ -87,7 +87,7 @@
       "brandId": "c549",
       "raw": 87,
       "kept": 60,
-      "withIngredients": 0,
+      "withIngredients": 22,
       "flavorVariants": 25,
       "shopBase": "https://www.tanit.co"
     },
@@ -96,7 +96,7 @@
       "brandId": "c550",
       "raw": 7,
       "kept": 7,
-      "withIngredients": 0,
+      "withIngredients": 7,
       "flavorVariants": 0,
       "shopBase": "https://theodent.com"
     },
@@ -105,7 +105,7 @@
       "brandId": "c551",
       "raw": 10,
       "kept": 10,
-      "withIngredients": 0,
+      "withIngredients": 10,
       "flavorVariants": 0,
       "shopBase": "https://grantsofaustralia.com"
     },
@@ -114,7 +114,7 @@
       "brandId": "c552",
       "raw": 68,
       "kept": 66,
-      "withIngredients": 3,
+      "withIngredients": 53,
       "flavorVariants": 0,
       "shopBase": "https://ranavat.com"
     },
@@ -123,7 +123,7 @@
       "brandId": "c553",
       "raw": 47,
       "kept": 17,
-      "withIngredients": 0,
+      "withIngredients": 14,
       "flavorVariants": 0,
       "shopBase": "https://clearstemskincare.com"
     },
@@ -132,7 +132,7 @@
       "brandId": "c554",
       "raw": 30,
       "kept": 30,
-      "withIngredients": 2,
+      "withIngredients": 12,
       "flavorVariants": 1,
       "shopBase": "https://eatmyface.co"
     },
@@ -141,7 +141,7 @@
       "brandId": "c555",
       "raw": 100,
       "kept": 88,
-      "withIngredients": 0,
+      "withIngredients": 74,
       "flavorVariants": 0,
       "shopBase": "https://alaffia.com"
     },
@@ -159,7 +159,7 @@
       "brandId": "c557",
       "raw": 101,
       "kept": 44,
-      "withIngredients": 0,
+      "withIngredients": 1,
       "flavorVariants": 0,
       "shopBase": "https://intelligentnutrients.com"
     },
@@ -177,7 +177,7 @@
       "brandId": "c559",
       "raw": 125,
       "kept": 119,
-      "withIngredients": 0,
+      "withIngredients": 21,
       "flavorVariants": 14,
       "shopBase": "https://organifi.com"
     },
@@ -186,9 +186,11 @@
       "brandId": "c560",
       "raw": 52,
       "kept": 52,
-      "withIngredients": 0,
+      "withIngredients": 8,
       "flavorVariants": 8,
       "shopBase": "https://ancestralsupplements.com"
     }
-  ]
+  ],
+  "wave8WithIngredients": 308,
+  "wave8FlavorVariants": 87
 }
