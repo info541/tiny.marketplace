@@ -1,0 +1,173 @@
+[
+  {
+    "slug": "avocado-zinc",
+    "shopBase": "https://avocadozinc.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c701"
+  },
+  {
+    "slug": "koy-skin",
+    "shopBase": "https://www.koy.skin",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c702"
+  },
+  {
+    "slug": "kozon",
+    "shopBase": "https://kozonskincare.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c703"
+  },
+  {
+    "slug": "pantry-products",
+    "shopBase": "https://shoppantryproducts.com",
+    "categories": [
+      "sunscreen",
+      "hair",
+      "skincare"
+    ],
+    "id": "c704"
+  },
+  {
+    "slug": "reef-replenish",
+    "shopBase": "https://reefreplenish.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c705"
+  },
+  {
+    "slug": "daily-electrolytes",
+    "shopBase": "https://dailyelectrolytes.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c706"
+  },
+  {
+    "slug": "tidlos",
+    "shopBase": "https://tidlos.co",
+    "categories": [
+      "protein"
+    ],
+    "id": "c707"
+  },
+  {
+    "slug": "prookie",
+    "shopBase": "https://prookieprotein.ca",
+    "categories": [
+      "protein"
+    ],
+    "id": "c708"
+  },
+  {
+    "slug": "future-kind",
+    "shopBase": "https://www.futurekind.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c709"
+  },
+  {
+    "slug": "green-forest-lady",
+    "shopBase": "https://thegreenforestlady.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c710"
+  },
+  {
+    "slug": "wild-june",
+    "shopBase": "https://wildjuneco.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c711"
+  },
+  {
+    "slug": "happy-tooth",
+    "shopBase": "https://tryhappytooth.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c712"
+  },
+  {
+    "slug": "mouthology",
+    "shopBase": "https://mouthology.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c713"
+  },
+  {
+    "slug": "pureopia",
+    "shopBase": "https://pureopia.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c714"
+  },
+  {
+    "slug": "cherokee-rose",
+    "shopBase": "https://cherokeeroseorganics.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c715"
+  },
+  {
+    "slug": "bean-and-bee",
+    "shopBase": "https://www.beanandbee.co.uk",
+    "categories": [
+      "hair"
+    ],
+    "id": "c716"
+  },
+  {
+    "slug": "hairy-jayne",
+    "shopBase": "https://hairyjaynehandmade.co.uk",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c717"
+  },
+  {
+    "slug": "tend-prenatal",
+    "shopBase": "https://tendprenatal.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c718"
+  },
+  {
+    "slug": "harmony-mushroom",
+    "shopBase": "https://harmonymushroom.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c719"
+  },
+  {
+    "slug": "mindful-mushrooms",
+    "shopBase": "https://www.mindfulmushroomstore.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c720"
+  }
+]
