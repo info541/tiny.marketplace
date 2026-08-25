@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-08-25T13:13:10.169Z",
+  "wave34Products": 327,
+  "wave34BrandsWithProducts": 11,
+  "totalProducts": 23346,
+  "brandCount": 449,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "zebra",
+      "brandId": "c1008",
+      "raw": 36,
+      "kept": 25,
+      "withIngredients": 0,
+      "flavorVariants": 10,
+      "shopBase": "https://yayzebra.com"
+    },
+    {
+      "slug": "tuttofare",
+      "brandId": "c1009",
+      "raw": 14,
+      "kept": 9,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://tuttofare.com.au"
+    },
+    {
+      "slug": "own-skin",
+      "brandId": "c1010",
+      "raw": 42,
+      "kept": 79,
+      "withIngredients": 65,
+      "flavorVariants": 57,
+      "shopBase": "https://ownskinco.ca"
+    },
+    {
+      "slug": "boba-tea-protein",
+      "brandId": "c1011",
+      "raw": 70,
+      "kept": 33,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://bobateaprotein.com"
+    },
+    {
+      "slug": "earthling-co",
+      "brandId": "c1012",
+      "raw": 71,
+      "kept": 136,
+      "withIngredients": 0,
+      "flavorVariants": 102,
+      "shopBase": "https://www.theearthlingco.com"
+    },
+    {
+      "slug": "only-hydration",
+      "brandId": "c1013",
+      "raw": 11,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://onlyhydration.com"
+    },
+    {
+      "slug": "elxr",
+      "brandId": "c1014",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://elxrpower.com"
+    },
+    {
+      "slug": "lyt-hydration",
+      "brandId": "c1015",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://lythydration.com"
+    },
+    {
+      "slug": "denttabs",
+      "brandId": "c1016",
+      "raw": 22,
+      "kept": 19,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "shopBase": "https://denttabs.com"
+    },
+    {
+      "slug": "first-curve",
+      "brandId": "c1017",
+      "raw": 29,
+      "kept": 16,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://firstcurveapothecary.com"
+    },
+    {
+      "slug": "shelter-skin",
+      "brandId": "c1018",
+      "raw": 27,
+      "kept": 11,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "shopBase": "https://shelterskin.com"
+    }
+  ]
+}

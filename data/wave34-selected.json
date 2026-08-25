@@ -1,0 +1,96 @@
+[
+  {
+    "slug": "zebra",
+    "shopBase": "https://yayzebra.com",
+    "categories": [
+      "oral",
+      "deodorant"
+    ],
+    "id": "c1008"
+  },
+  {
+    "slug": "tuttofare",
+    "shopBase": "https://tuttofare.com.au",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1009"
+  },
+  {
+    "slug": "own-skin",
+    "shopBase": "https://ownskinco.ca",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1010"
+  },
+  {
+    "slug": "boba-tea-protein",
+    "shopBase": "https://bobateaprotein.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1011"
+  },
+  {
+    "slug": "earthling-co",
+    "shopBase": "https://www.theearthlingco.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1012"
+  },
+  {
+    "slug": "only-hydration",
+    "shopBase": "https://onlyhydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1013"
+  },
+  {
+    "slug": "elxr",
+    "shopBase": "https://elxrpower.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1014"
+  },
+  {
+    "slug": "lyt-hydration",
+    "shopBase": "https://lythydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1015"
+  },
+  {
+    "slug": "denttabs",
+    "shopBase": "https://denttabs.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1016"
+  },
+  {
+    "slug": "first-curve",
+    "shopBase": "https://firstcurveapothecary.com",
+    "categories": [
+      "supplements",
+      "skincare"
+    ],
+    "id": "c1017"
+  },
+  {
+    "slug": "shelter-skin",
+    "shopBase": "https://shelterskin.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1018"
+  }
+]
