@@ -1,0 +1,167 @@
+{
+  "generatedAt": "2026-08-25T18:16:54.741Z",
+  "wave39Products": 205,
+  "wave39BrandsWithProducts": 17,
+  "totalProducts": 23224,
+  "brandCount": 455,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "seaker-sun",
+      "brandId": "c1060",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://seakersunco.com"
+    },
+    {
+      "slug": "sunmud",
+      "brandId": "c1061",
+      "raw": 16,
+      "kept": 11,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://sunmudsunscreen.com"
+    },
+    {
+      "slug": "be-blessed",
+      "brandId": "c1062",
+      "raw": 141,
+      "kept": 83,
+      "withIngredients": 42,
+      "flavorVariants": 0,
+      "shopBase": "https://beblessedskincare.com"
+    },
+    {
+      "slug": "seaonic",
+      "brandId": "c1063",
+      "raw": 1,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "shopBase": "https://seaonic.com"
+    },
+    {
+      "slug": "ion-electrolytes",
+      "brandId": "c1064",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://drinkion.com"
+    },
+    {
+      "slug": "aus-natural-protein",
+      "brandId": "c1065",
+      "raw": 10,
+      "kept": 6,
+      "withIngredients": 1,
+      "flavorVariants": 3,
+      "shopBase": "https://ausnaturalprotein.com"
+    },
+    {
+      "slug": "perfect-deodorant",
+      "brandId": "c1066",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://perfectdeodorant.shop"
+    },
+    {
+      "slug": "boeuf-tallow",
+      "brandId": "c1067",
+      "raw": 5,
+      "kept": 5,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "shopBase": "https://boeuftallow.com"
+    },
+    {
+      "slug": "superteeth",
+      "brandId": "c1068",
+      "raw": 18,
+      "kept": 12,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://getsuperteeth.com"
+    },
+    {
+      "slug": "freo-living",
+      "brandId": "c1069",
+      "raw": 25,
+      "kept": 22,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://freoliving.com"
+    },
+    {
+      "slug": "texas-tallow",
+      "brandId": "c1070",
+      "raw": 16,
+      "kept": 19,
+      "withIngredients": 18,
+      "flavorVariants": 6,
+      "shopBase": "https://texastallow.com"
+    },
+    {
+      "slug": "pasture-skincare",
+      "brandId": "c1071",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://pastureskincare.com"
+    },
+    {
+      "slug": "tallow-and-me",
+      "brandId": "c1072",
+      "raw": 5,
+      "kept": 6,
+      "withIngredients": 1,
+      "flavorVariants": 2,
+      "shopBase": "https://tallowandme.com"
+    },
+    {
+      "slug": "noble-mushrooms",
+      "brandId": "c1073",
+      "raw": 16,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://noblemushrooms.com"
+    },
+    {
+      "slug": "sunshine-fungi",
+      "brandId": "c1074",
+      "raw": 20,
+      "kept": 6,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://sunshinefungifarms.com"
+    },
+    {
+      "slug": "mycoterra",
+      "brandId": "c1075",
+      "raw": 55,
+      "kept": 17,
+      "withIngredients": 2,
+      "flavorVariants": 5,
+      "shopBase": "https://shop.mycoterrafarm.com"
+    },
+    {
+      "slug": "shroomery-nm",
+      "brandId": "c1076",
+      "raw": 8,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://theshroomerynm.com"
+    }
+  ]
+}
