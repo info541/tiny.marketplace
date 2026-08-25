@@ -1,0 +1,141 @@
+[
+  {
+    "slug": "heaven-tallow",
+    "shopBase": "https://www.heaventallow.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c921"
+  },
+  {
+    "slug": "wellness-and-wildflowers",
+    "shopBase": "https://wellnessandwildflowers.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c922"
+  },
+  {
+    "slug": "jr-ranch",
+    "shopBase": "https://jrranch.myshopify.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c923"
+  },
+  {
+    "slug": "rawvelo",
+    "shopBase": "https://www.rawvelo.com",
+    "categories": [
+      "electrolytes",
+      "protein"
+    ],
+    "id": "c924"
+  },
+  {
+    "slug": "clockwork-rituals",
+    "shopBase": "https://www.clockworkrituals.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c925"
+  },
+  {
+    "slug": "the-humble-co",
+    "shopBase": "https://www.thehumble.co",
+    "categories": [
+      "oral"
+    ],
+    "id": "c926"
+  },
+  {
+    "slug": "jack-n-jill",
+    "shopBase": "https://www.jackandjillkids.com",
+    "categories": [
+      "oral",
+      "hair",
+      "skincare"
+    ],
+    "id": "c927"
+  },
+  {
+    "slug": "pestle-and-mortar",
+    "shopBase": "https://www.pestleandmortar.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c928"
+  },
+  {
+    "slug": "lumera-morel",
+    "shopBase": "https://lumeramorel.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c929"
+  },
+  {
+    "slug": "wild-crafted-kitchen",
+    "shopBase": "https://wildcraftedkitchenmn.myshopify.com",
+    "categories": [
+      "skincare",
+      "deodorant",
+      "sunscreen"
+    ],
+    "id": "c930"
+  },
+  {
+    "slug": "holmestyle",
+    "shopBase": "https://holmestylehomestead.myshopify.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c931"
+  },
+  {
+    "slug": "jessicurl",
+    "shopBase": "https://jessicurl.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c932"
+  },
+  {
+    "slug": "boucleme",
+    "shopBase": "https://www.boucleme.co.uk",
+    "categories": [
+      "hair"
+    ],
+    "id": "c933"
+  },
+  {
+    "slug": "zerean",
+    "shopBase": "https://www.zereanlabs.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c934"
+  },
+  {
+    "slug": "earthling-mushroom-farm",
+    "shopBase": "https://www.earthlingmushroomfarm.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c935"
+  },
+  {
+    "slug": "mushroom-alchemy",
+    "shopBase": "https://mushroom-alchemy.myshopify.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c936"
+  }
+]
