@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-08-25T21:08:29.266Z",
+  "wave42Products": 151,
+  "wave42BrandsWithProducts": 10,
+  "totalProducts": 23170,
+  "brandCount": 448,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "tiffs-tallow",
+      "brandId": "c1098",
+      "raw": 20,
+      "kept": 14,
+      "withIngredients": 7,
+      "flavorVariants": 0,
+      "shopBase": "https://tiffstallow.com"
+    },
+    {
+      "slug": "wild-prairie",
+      "brandId": "c1099",
+      "raw": 11,
+      "kept": 10,
+      "withIngredients": 4,
+      "flavorVariants": 6,
+      "shopBase": "https://wildprairieorganics.com"
+    },
+    {
+      "slug": "tallow-and-bloom",
+      "brandId": "c1100",
+      "raw": 16,
+      "kept": 15,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://tallowandbloom.myshopify.com"
+    },
+    {
+      "slug": "pasture-and-posies",
+      "brandId": "c1101",
+      "raw": 9,
+      "kept": 16,
+      "withIngredients": 5,
+      "flavorVariants": 12,
+      "shopBase": "https://shop.7arrowsfarm.com"
+    },
+    {
+      "slug": "bloom-tallow",
+      "brandId": "c1102",
+      "raw": 9,
+      "kept": 13,
+      "withIngredients": 7,
+      "flavorVariants": 7,
+      "shopBase": "https://bloomtallow.com"
+    },
+    {
+      "slug": "bloom-and-branch",
+      "brandId": "c1103",
+      "raw": 13,
+      "kept": 16,
+      "withIngredients": 0,
+      "flavorVariants": 12,
+      "shopBase": "https://bloomandbranchnaturals.com"
+    },
+    {
+      "slug": "soulful-bloom",
+      "brandId": "c1104",
+      "raw": 18,
+      "kept": 14,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://shopsoulfulbloom.com"
+    },
+    {
+      "slug": "danyelli-laurette",
+      "brandId": "c1105",
+      "raw": 17,
+      "kept": 14,
+      "withIngredients": 14,
+      "flavorVariants": 0,
+      "shopBase": "https://danyellilaurette.com"
+    },
+    {
+      "slug": "ceelike",
+      "brandId": "c1106",
+      "raw": 46,
+      "kept": 25,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "shopBase": "https://ceelike.com"
+    },
+    {
+      "slug": "farm-to-skin",
+      "brandId": "c1107",
+      "raw": 46,
+      "kept": 14,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://farmtoskin.com"
+    }
+  ]
+}
