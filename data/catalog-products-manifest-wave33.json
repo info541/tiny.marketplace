@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-08-25T12:12:00.756Z",
+  "wave33Products": 135,
+  "wave33BrandsWithProducts": 9,
+  "totalProducts": 23154,
+  "brandCount": 447,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "ohmygaia",
+      "brandId": "c999",
+      "raw": 53,
+      "kept": 35,
+      "withIngredients": 35,
+      "flavorVariants": 0,
+      "shopBase": "https://www.ohmygaia.com"
+    },
+    {
+      "slug": "raised",
+      "brandId": "c1000",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://drinkraised.com"
+    },
+    {
+      "slug": "norcal-organic",
+      "brandId": "c1001",
+      "raw": 8,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "shopBase": "https://norcal-organic.com"
+    },
+    {
+      "slug": "impact-everyday",
+      "brandId": "c1002",
+      "raw": 5,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://impacteveryday.ca"
+    },
+    {
+      "slug": "made-of",
+      "brandId": "c1003",
+      "raw": 4,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://madeof.life"
+    },
+    {
+      "slug": "thirsty-donkey",
+      "brandId": "c1004",
+      "raw": 34,
+      "kept": 25,
+      "withIngredients": 3,
+      "flavorVariants": 7,
+      "shopBase": "https://thirstydonkeyskinco.com"
+    },
+    {
+      "slug": "dr-jen",
+      "brandId": "c1005",
+      "raw": 23,
+      "kept": 20,
+      "withIngredients": 8,
+      "flavorVariants": 14,
+      "shopBase": "https://drjennatural.com"
+    },
+    {
+      "slug": "hair-fuel",
+      "brandId": "c1006",
+      "raw": 20,
+      "kept": 15,
+      "withIngredients": 13,
+      "flavorVariants": 0,
+      "shopBase": "https://thehairfuel.com"
+    },
+    {
+      "slug": "nurture-glow",
+      "brandId": "c1007",
+      "raw": 29,
+      "kept": 23,
+      "withIngredients": 10,
+      "flavorVariants": 16,
+      "shopBase": "https://www.nurtureglowtallow.com"
+    }
+  ]
+}
