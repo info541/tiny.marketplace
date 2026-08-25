@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-08-25T17:09:03.318695+00:00",
+  "wave38Products": 317,
+  "wave38BrandsWithProducts": 12,
+  "totalProducts": 23336,
+  "brandCount": 450,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "sugar-pine",
+      "brandId": "c1048",
+      "kept": 18,
+      "withIngredients": 14,
+      "flavorVariants": 2,
+      "missingImages": 0
+    },
+    {
+      "slug": "little-pasture",
+      "brandId": "c1049",
+      "kept": 24,
+      "withIngredients": 24,
+      "flavorVariants": 0,
+      "missingImages": 0
+    },
+    {
+      "slug": "manna-tallow",
+      "brandId": "c1050",
+      "kept": 19,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "missingImages": 0
+    },
+    {
+      "slug": "twice-oral",
+      "brandId": "c1051",
+      "kept": 6,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "missingImages": 0
+    },
+    {
+      "slug": "high-end-hippie",
+      "brandId": "c1052",
+      "kept": 12,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "missingImages": 0
+    },
+    {
+      "slug": "margaret-river-made",
+      "brandId": "c1053",
+      "kept": 110,
+      "withIngredients": 77,
+      "flavorVariants": 10,
+      "missingImages": 0
+    },
+    {
+      "slug": "durango-tallow",
+      "brandId": "c1054",
+      "kept": 18,
+      "withIngredients": 13,
+      "flavorVariants": 0,
+      "missingImages": 0
+    },
+    {
+      "slug": "maui-mana",
+      "brandId": "c1055",
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "missingImages": 0
+    },
+    {
+      "slug": "fat-cow-skin",
+      "brandId": "c1056",
+      "kept": 18,
+      "withIngredients": 1,
+      "flavorVariants": 8,
+      "missingImages": 0
+    },
+    {
+      "slug": "grin-natural",
+      "brandId": "c1057",
+      "kept": 41,
+      "withIngredients": 24,
+      "flavorVariants": 0,
+      "missingImages": 0
+    },
+    {
+      "slug": "sb-botanicals",
+      "brandId": "c1058",
+      "kept": 42,
+      "withIngredients": 42,
+      "flavorVariants": 24,
+      "missingImages": 0
+    },
+    {
+      "slug": "simple-sunscreen",
+      "brandId": "c1059",
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "missingImages": 0
+    }
+  ]
+}
