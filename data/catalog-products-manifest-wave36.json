@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-08-25T15:10:15.840Z",
+  "wave36Products": 105,
+  "wave36BrandsWithProducts": 7,
+  "totalProducts": 23127,
+  "brandCount": 446,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "cota-hydration",
+      "brandId": "c1032",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "shopBase": "https://cotahydration.com"
+    },
+    {
+      "slug": "two-sisters-pure-goods",
+      "brandId": "c1033",
+      "raw": 20,
+      "kept": 23,
+      "withIngredients": 4,
+      "flavorVariants": 10,
+      "shopBase": "https://2sisterspuregoods.com"
+    },
+    {
+      "slug": "some-essentials",
+      "brandId": "c1034",
+      "raw": 16,
+      "kept": 44,
+      "withIngredients": 0,
+      "flavorVariants": 38,
+      "shopBase": "https://someessentials.com"
+    },
+    {
+      "slug": "enml",
+      "brandId": "c1035",
+      "raw": 20,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.enml.com"
+    },
+    {
+      "slug": "tallow-mama",
+      "brandId": "c1036",
+      "raw": 24,
+      "kept": 18,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://tallowmama.com"
+    },
+    {
+      "slug": "pure-tallow",
+      "brandId": "c1037",
+      "raw": 7,
+      "kept": 5,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://thepuretallow.com"
+    },
+    {
+      "slug": "austin-handcrafted",
+      "brandId": "c1038",
+      "raw": 5,
+      "kept": 3,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://austinhandcrafted.com"
+    }
+  ]
+}

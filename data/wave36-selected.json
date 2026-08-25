@@ -1,0 +1,63 @@
+[
+  {
+    "slug": "cota-hydration",
+    "shopBase": "https://cotahydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1032"
+  },
+  {
+    "slug": "two-sisters-pure-goods",
+    "shopBase": "https://2sisterspuregoods.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1033"
+  },
+  {
+    "slug": "some-essentials",
+    "shopBase": "https://someessentials.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1034"
+  },
+  {
+    "slug": "enml",
+    "shopBase": "https://www.enml.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1035"
+  },
+  {
+    "slug": "tallow-mama",
+    "shopBase": "https://tallowmama.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1036"
+  },
+  {
+    "slug": "pure-tallow",
+    "shopBase": "https://thepuretallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1037"
+  },
+  {
+    "slug": "austin-handcrafted",
+    "shopBase": "https://austinhandcrafted.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1038"
+  }
+]
