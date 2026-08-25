@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "primal-basics",
+    "shopBase": "https://theprimalbasics.com",
+    "categories": [
+      "oral",
+      "skincare"
+    ],
+    "id": "c1118"
+  },
+  {
+    "slug": "sun-zapper",
+    "shopBase": "https://sunzapper.us",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1119"
+  },
+  {
+    "slug": "reef-safe-australia",
+    "shopBase": "https://www.reefsafeaustralia.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1120"
+  },
+  {
+    "slug": "thallo",
+    "shopBase": "https://thalloskin.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1121"
+  },
+  {
+    "slug": "naturalcare-nz",
+    "shopBase": "https://www.naturalcare.co.nz",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1122"
+  },
+  {
+    "slug": "stone-and-spear",
+    "shopBase": "https://stoneandspear.co",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "hair",
+      "skincare",
+      "oral"
+    ],
+    "id": "c1123"
+  },
+  {
+    "slug": "friendly-soap",
+    "shopBase": "https://friendlysoap.co.uk",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1124"
+  },
+  {
+    "slug": "good-intentions",
+    "shopBase": "https://thegoodintentionsclub.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1125"
+  },
+  {
+    "slug": "elation-hydration",
+    "shopBase": "https://elationhydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1126"
+  },
+  {
+    "slug": "farmbody",
+    "shopBase": "https://farmbodyskincare.com",
+    "categories": [
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1127"
+  },
+  {
+    "slug": "pure-choice-farms",
+    "shopBase": "https://www.purechoicefarms.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1128"
+  }
+]
