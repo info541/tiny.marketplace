@@ -1,0 +1,165 @@
+[
+  {
+    "slug": "sky-and-sol",
+    "shopBase": "https://skyandsol.co",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c888"
+  },
+  {
+    "slug": "doos-naturals",
+    "shopBase": "https://doosnaturals.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "sunscreen",
+      "hair"
+    ],
+    "id": "c889"
+  },
+  {
+    "slug": "sprinjene",
+    "shopBase": "https://sprinjene.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c890"
+  },
+  {
+    "slug": "flyte",
+    "shopBase": "https://www.nonstopflyte.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c891"
+  },
+  {
+    "slug": "wild-society",
+    "shopBase": "https://wildsocietynutrition.com",
+    "categories": [
+      "protein",
+      "electrolytes"
+    ],
+    "id": "c892"
+  },
+  {
+    "slug": "amandean",
+    "shopBase": "https://amandean.com",
+    "categories": [
+      "supplements",
+      "protein"
+    ],
+    "id": "c893"
+  },
+  {
+    "slug": "myoxcience",
+    "shopBase": "https://myoxcience.com",
+    "categories": [
+      "supplements",
+      "protein"
+    ],
+    "id": "c894"
+  },
+  {
+    "slug": "haashrooms",
+    "shopBase": "https://haashrooms.com",
+    "categories": [
+      "supplements",
+      "hair"
+    ],
+    "id": "c895"
+  },
+  {
+    "slug": "imarais",
+    "shopBase": "https://www.imaraisbeauty.com",
+    "categories": [
+      "hair",
+      "supplements"
+    ],
+    "id": "c896"
+  },
+  {
+    "slug": "shroomwell",
+    "shopBase": "https://shroomwell.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c897"
+  },
+  {
+    "slug": "nello",
+    "shopBase": "https://drinknello.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c898"
+  },
+  {
+    "slug": "krowa",
+    "shopBase": "https://krowa.com",
+    "categories": [
+      "skincare",
+      "supplements"
+    ],
+    "id": "c899"
+  },
+  {
+    "slug": "serenique-skin",
+    "shopBase": "https://sereniqueskin.ca",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c900"
+  },
+  {
+    "slug": "milk-and-honey-tallow",
+    "shopBase": "https://milkandhoneytallow.com",
+    "categories": [
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c901"
+  },
+  {
+    "slug": "lady-may",
+    "shopBase": "https://ladymaytallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c902"
+  },
+  {
+    "slug": "pure-good",
+    "shopBase": "https://shoppuregood.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c903"
+  },
+  {
+    "slug": "conscious-botanist",
+    "shopBase": "https://consciousbotanist.co",
+    "categories": [
+      "hair"
+    ],
+    "id": "c904"
+  },
+  {
+    "slug": "the-powder-shampoo",
+    "shopBase": "https://thepowdershampoo.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c905"
+  },
+  {
+    "slug": "heritage-store",
+    "shopBase": "https://heritagestore.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c906"
+  }
+]

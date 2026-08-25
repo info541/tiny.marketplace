@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-08-25T05:13:12.128269Z",
+  "wave26Products": 475,
+  "wave26BrandsWithProducts": 19,
+  "totalProducts": 23494,
+  "brandCount": 457,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "sky-and-sol",
+      "brandId": "c888",
+      "raw": 40,
+      "kept": 23,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://skyandsol.co"
+    },
+    {
+      "slug": "doos-naturals",
+      "brandId": "c889",
+      "raw": 11,
+      "kept": 12,
+      "withIngredients": 1,
+      "flavorVariants": 9,
+      "shopBase": "https://doosnaturals.com"
+    },
+    {
+      "slug": "sprinjene",
+      "brandId": "c890",
+      "raw": 31,
+      "kept": 28,
+      "withIngredients": 17,
+      "flavorVariants": 0,
+      "shopBase": "https://sprinjene.com"
+    },
+    {
+      "slug": "flyte",
+      "brandId": "c891",
+      "raw": 3,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.nonstopflyte.com"
+    },
+    {
+      "slug": "wild-society",
+      "brandId": "c892",
+      "raw": 19,
+      "kept": 20,
+      "withIngredients": 0,
+      "flavorVariants": 17,
+      "shopBase": "https://wildsocietynutrition.com"
+    },
+    {
+      "slug": "amandean",
+      "brandId": "c893",
+      "raw": 17,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://amandean.com"
+    },
+    {
+      "slug": "myoxcience",
+      "brandId": "c894",
+      "raw": 52,
+      "kept": 39,
+      "withIngredients": 22,
+      "flavorVariants": 16,
+      "shopBase": "https://myoxcience.com"
+    },
+    {
+      "slug": "haashrooms",
+      "brandId": "c895",
+      "raw": 72,
+      "kept": 68,
+      "withIngredients": 49,
+      "flavorVariants": 0,
+      "shopBase": "https://haashrooms.com"
+    },
+    {
+      "slug": "imarais",
+      "brandId": "c896",
+      "raw": 8,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.imaraisbeauty.com"
+    },
+    {
+      "slug": "shroomwell",
+      "brandId": "c897",
+      "raw": 52,
+      "kept": 48,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://shroomwell.com"
+    },
+    {
+      "slug": "nello",
+      "brandId": "c898",
+      "raw": 85,
+      "kept": 41,
+      "withIngredients": 0,
+      "flavorVariants": 41,
+      "shopBase": "https://drinknello.com"
+    },
+    {
+      "slug": "krowa",
+      "brandId": "c899",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://krowa.com"
+    },
+    {
+      "slug": "serenique-skin",
+      "brandId": "c900",
+      "raw": 5,
+      "kept": 20,
+      "withIngredients": 0,
+      "flavorVariants": 20,
+      "shopBase": "https://sereniqueskin.ca"
+    },
+    {
+      "slug": "milk-and-honey-tallow",
+      "brandId": "c901",
+      "raw": 21,
+      "kept": 13,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://milkandhoneytallow.com"
+    },
+    {
+      "slug": "lady-may",
+      "brandId": "c902",
+      "raw": 24,
+      "kept": 16,
+      "withIngredients": 10,
+      "flavorVariants": 5,
+      "shopBase": "https://ladymaytallow.com"
+    },
+    {
+      "slug": "pure-good",
+      "brandId": "c903",
+      "raw": 24,
+      "kept": 24,
+      "withIngredients": 17,
+      "flavorVariants": 4,
+      "shopBase": "https://shoppuregood.com"
+    },
+    {
+      "slug": "conscious-botanist",
+      "brandId": "c904",
+      "raw": 19,
+      "kept": 11,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://consciousbotanist.co"
+    },
+    {
+      "slug": "the-powder-shampoo",
+      "brandId": "c905",
+      "raw": 80,
+      "kept": 64,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "shopBase": "https://thepowdershampoo.com"
+    },
+    {
+      "slug": "heritage-store",
+      "brandId": "c906",
+      "raw": 73,
+      "kept": 57,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://heritagestore.com"
+    }
+  ]
+}
