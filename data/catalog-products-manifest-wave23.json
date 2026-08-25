@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-08-25T02:08:11.154Z",
+  "wave23Products": 369,
+  "wave23BrandsWithProducts": 20,
+  "totalProducts": 23388,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "ethical-zinc",
+      "brandId": "c828",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://ethicalzinc.com"
+    },
+    {
+      "slug": "nana-latta",
+      "brandId": "c829",
+      "raw": 13,
+      "kept": 12,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://nanalatta-skincare.com"
+    },
+    {
+      "slug": "hygiene-lab",
+      "brandId": "c830",
+      "raw": 27,
+      "kept": 34,
+      "withIngredients": 5,
+      "flavorVariants": 26,
+      "shopBase": "https://hygienelab.com"
+    },
+    {
+      "slug": "christophers-organics",
+      "brandId": "c831",
+      "raw": 5,
+      "kept": 5,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "shopBase": "https://christophersorganics.com"
+    },
+    {
+      "slug": "vital-acre",
+      "brandId": "c832",
+      "raw": 60,
+      "kept": 44,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://vitalacrefarm.com"
+    },
+    {
+      "slug": "vanman",
+      "brandId": "c833",
+      "raw": 39,
+      "kept": 28,
+      "withIngredients": 0,
+      "flavorVariants": 12,
+      "shopBase": "https://vanman.shop"
+    },
+    {
+      "slug": "truthpaste",
+      "brandId": "c834",
+      "raw": 47,
+      "kept": 48,
+      "withIngredients": 24,
+      "flavorVariants": 4,
+      "shopBase": "https://truthpaste.co.uk"
+    },
+    {
+      "slug": "living-well",
+      "brandId": "c835",
+      "raw": 109,
+      "kept": 47,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://livingwellwithdrmichelle.com"
+    },
+    {
+      "slug": "cubberd",
+      "brandId": "c836",
+      "raw": 18,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://cubberd.com"
+    },
+    {
+      "slug": "earth-fuel",
+      "brandId": "c837",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://getearthfuel.com"
+    },
+    {
+      "slug": "mt-capra",
+      "brandId": "c838",
+      "raw": 38,
+      "kept": 41,
+      "withIngredients": 5,
+      "flavorVariants": 28,
+      "shopBase": "https://mtcapra.com"
+    },
+    {
+      "slug": "small-wonder",
+      "brandId": "c839",
+      "raw": 28,
+      "kept": 19,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://smallwonder.world"
+    },
+    {
+      "slug": "the-tallow-co",
+      "brandId": "c840",
+      "raw": 11,
+      "kept": 5,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://thetallowco.com"
+    },
+    {
+      "slug": "bybi",
+      "brandId": "c841",
+      "raw": 3,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://bybi.com"
+    },
+    {
+      "slug": "lixirskin",
+      "brandId": "c842",
+      "raw": 24,
+      "kept": 9,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://lixirskin.co.uk"
+    },
+    {
+      "slug": "aurelia",
+      "brandId": "c843",
+      "raw": 54,
+      "kept": 35,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://aureliaskincare.com"
+    },
+    {
+      "slug": "mogo-farm",
+      "brandId": "c844",
+      "raw": 11,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://mogofarm.co.uk"
+    },
+    {
+      "slug": "cortex",
+      "brandId": "c845",
+      "raw": 3,
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://cortexsupplements.com"
+    },
+    {
+      "slug": "bristol-fungarium",
+      "brandId": "c846",
+      "raw": 46,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://bristolfungarium.com"
+    },
+    {
+      "slug": "london-nootropics",
+      "brandId": "c847",
+      "raw": 49,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://londonnootropics.com"
+    }
+  ]
+}

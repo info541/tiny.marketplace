@@ -1,0 +1,174 @@
+[
+  {
+    "slug": "ethical-zinc",
+    "shopBase": "https://ethicalzinc.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c828"
+  },
+  {
+    "slug": "nana-latta",
+    "shopBase": "https://nanalatta-skincare.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c829"
+  },
+  {
+    "slug": "hygiene-lab",
+    "shopBase": "https://hygienelab.com",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "hair",
+      "skincare"
+    ],
+    "id": "c830"
+  },
+  {
+    "slug": "christophers-organics",
+    "shopBase": "https://christophersorganics.com",
+    "categories": [
+      "deodorant"
+    ],
+    "id": "c831"
+  },
+  {
+    "slug": "vital-acre",
+    "shopBase": "https://vitalacrefarm.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c832"
+  },
+  {
+    "slug": "vanman",
+    "shopBase": "https://vanman.shop",
+    "categories": [
+      "deodorant",
+      "oral",
+      "skincare"
+    ],
+    "id": "c833"
+  },
+  {
+    "slug": "truthpaste",
+    "shopBase": "https://truthpaste.co.uk",
+    "categories": [
+      "oral"
+    ],
+    "id": "c834"
+  },
+  {
+    "slug": "living-well",
+    "shopBase": "https://livingwellwithdrmichelle.com",
+    "categories": [
+      "oral",
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c835"
+  },
+  {
+    "slug": "cubberd",
+    "shopBase": "https://cubberd.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c836"
+  },
+  {
+    "slug": "earth-fuel",
+    "shopBase": "https://getearthfuel.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c837"
+  },
+  {
+    "slug": "mt-capra",
+    "shopBase": "https://mtcapra.com",
+    "categories": [
+      "protein",
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c838"
+  },
+  {
+    "slug": "small-wonder",
+    "shopBase": "https://smallwonder.world",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c839"
+  },
+  {
+    "slug": "the-tallow-co",
+    "shopBase": "https://thetallowco.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c840"
+  },
+  {
+    "slug": "bybi",
+    "shopBase": "https://bybi.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c841"
+  },
+  {
+    "slug": "lixirskin",
+    "shopBase": "https://lixirskin.co.uk",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c842"
+  },
+  {
+    "slug": "aurelia",
+    "shopBase": "https://aureliaskincare.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c843"
+  },
+  {
+    "slug": "mogo-farm",
+    "shopBase": "https://mogofarm.co.uk",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c844"
+  },
+  {
+    "slug": "cortex",
+    "shopBase": "https://cortexsupplements.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c845"
+  },
+  {
+    "slug": "bristol-fungarium",
+    "shopBase": "https://bristolfungarium.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c846"
+  },
+  {
+    "slug": "london-nootropics",
+    "shopBase": "https://londonnootropics.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c847"
+  }
+]
