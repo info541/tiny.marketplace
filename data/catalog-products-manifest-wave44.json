@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-08-25T23:16:44.202Z",
+  "wave44Products": 438,
+  "wave44BrandsWithProducts": 11,
+  "totalProducts": 23457,
+  "brandCount": 449,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "primal-basics",
+      "brandId": "c1118",
+      "raw": 7,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://theprimalbasics.com"
+    },
+    {
+      "slug": "sun-zapper",
+      "brandId": "c1119",
+      "raw": 24,
+      "kept": 31,
+      "withIngredients": 11,
+      "flavorVariants": 15,
+      "shopBase": "https://sunzapper.us"
+    },
+    {
+      "slug": "reef-safe-australia",
+      "brandId": "c1120",
+      "raw": 5,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.reefsafeaustralia.com"
+    },
+    {
+      "slug": "thallo",
+      "brandId": "c1121",
+      "raw": 6,
+      "kept": 5,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://thalloskin.com"
+    },
+    {
+      "slug": "naturalcare-nz",
+      "brandId": "c1122",
+      "raw": 41,
+      "kept": 25,
+      "withIngredients": 3,
+      "flavorVariants": 2,
+      "shopBase": "https://www.naturalcare.co.nz"
+    },
+    {
+      "slug": "stone-and-spear",
+      "brandId": "c1123",
+      "raw": 75,
+      "kept": 120,
+      "withIngredients": 1,
+      "flavorVariants": 105,
+      "shopBase": "https://stoneandspear.co"
+    },
+    {
+      "slug": "friendly-soap",
+      "brandId": "c1124",
+      "raw": 175,
+      "kept": 46,
+      "withIngredients": 46,
+      "flavorVariants": 0,
+      "shopBase": "https://friendlysoap.co.uk"
+    },
+    {
+      "slug": "good-intentions",
+      "brandId": "c1125",
+      "raw": 11,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "shopBase": "https://thegoodintentionsclub.com"
+    },
+    {
+      "slug": "elation-hydration",
+      "brandId": "c1126",
+      "raw": 5,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://elationhydration.com"
+    },
+    {
+      "slug": "farmbody",
+      "brandId": "c1127",
+      "raw": 109,
+      "kept": 183,
+      "withIngredients": 158,
+      "flavorVariants": 122,
+      "shopBase": "https://farmbodyskincare.com"
+    },
+    {
+      "slug": "pure-choice-farms",
+      "brandId": "c1128",
+      "raw": 27,
+      "kept": 9,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://www.purechoicefarms.com"
+    }
+  ]
+}
