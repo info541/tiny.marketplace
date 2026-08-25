@@ -1,0 +1,140 @@
+{
+  "generatedAt": "2026-08-25T06:16:17.806204+00:00",
+  "wave27Products": 335,
+  "wave27BrandsWithProducts": 14,
+  "totalProducts": 23354,
+  "brandCount": 452,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "shwally",
+      "brandId": "c907",
+      "raw": 25,
+      "kept": 33,
+      "withIngredients": 4,
+      "flavorVariants": 24,
+      "shopBase": "https://shwallycompany.com"
+    },
+    {
+      "slug": "true-friend",
+      "brandId": "c908",
+      "raw": 12,
+      "kept": 11,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://truefriendco.com"
+    },
+    {
+      "slug": "tallow-vera",
+      "brandId": "c909",
+      "raw": 31,
+      "kept": 28,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://tallowvera.com"
+    },
+    {
+      "slug": "selkyn-tallow",
+      "brandId": "c910",
+      "raw": 10,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "shopBase": "https://selkyntallow.com"
+    },
+    {
+      "slug": "humby-organics",
+      "brandId": "c911",
+      "raw": 58,
+      "kept": 61,
+      "withIngredients": 1,
+      "flavorVariants": 24,
+      "shopBase": "https://humbyorganics.com"
+    },
+    {
+      "slug": "noun-naturals",
+      "brandId": "c912",
+      "raw": 9,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://nounnaturals.com"
+    },
+    {
+      "slug": "tallow-balm-shop",
+      "brandId": "c913",
+      "raw": 6,
+      "kept": 5,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://tallowbalmshop.com"
+    },
+    {
+      "slug": "kalen-and-rose",
+      "brandId": "c914",
+      "raw": 57,
+      "kept": 30,
+      "withIngredients": 0,
+      "flavorVariants": 7,
+      "shopBase": "https://kalenandrose.com"
+    },
+    {
+      "slug": "sodii",
+      "brandId": "c915",
+      "raw": 16,
+      "kept": 46,
+      "withIngredients": 0,
+      "flavorVariants": 36,
+      "shopBase": "https://sodii.com.au"
+    },
+    {
+      "slug": "sisu-mushrooms",
+      "brandId": "c916",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.sisumushrooms.com"
+    },
+    {
+      "slug": "texas-tallow",
+      "brandId": "c917",
+      "raw": 54,
+      "kept": 44,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "shopBase": "https://texastallowproducts.com"
+    },
+    {
+      "slug": "summer-solace",
+      "brandId": "c918",
+      "raw": 87,
+      "kept": 51,
+      "withIngredients": 8,
+      "flavorVariants": 0,
+      "shopBase": "https://summersolacetallow.com"
+    },
+    {
+      "slug": "golden-tallow",
+      "brandId": "c919",
+      "raw": 7,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "shopBase": "https://goldentallow.com"
+    },
+    {
+      "slug": "rooted-tallow",
+      "brandId": "c920",
+      "raw": 5,
+      "kept": 3,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://rootedtallow.com"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "slug": "shwally",
+    "shopBase": "https://shwallycompany.com",
+    "categories": [
+      "oral",
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c907"
+  },
+  {
+    "slug": "true-friend",
+    "shopBase": "https://truefriendco.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c908"
+  },
+  {
+    "slug": "tallow-vera",
+    "shopBase": "https://tallowvera.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c909"
+  },
+  {
+    "slug": "selkyn-tallow",
+    "shopBase": "https://selkyntallow.com",
+    "categories": [
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c910"
+  },
+  {
+    "slug": "humby-organics",
+    "shopBase": "https://humbyorganics.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c911"
+  },
+  {
+    "slug": "noun-naturals",
+    "shopBase": "https://nounnaturals.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c912"
+  },
+  {
+    "slug": "tallow-balm-shop",
+    "shopBase": "https://tallowbalmshop.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c913"
+  },
+  {
+    "slug": "kalen-and-rose",
+    "shopBase": "https://kalenandrose.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c914"
+  },
+  {
+    "slug": "sodii",
+    "shopBase": "https://sodii.com.au",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c915"
+  },
+  {
+    "slug": "sisu-mushrooms",
+    "shopBase": "https://www.sisumushrooms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c916"
+  },
+  {
+    "slug": "texas-tallow",
+    "shopBase": "https://texastallowproducts.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c917"
+  },
+  {
+    "slug": "summer-solace",
+    "shopBase": "https://summersolacetallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c918"
+  },
+  {
+    "slug": "golden-tallow",
+    "shopBase": "https://goldentallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c919"
+  },
+  {
+    "slug": "rooted-tallow",
+    "shopBase": "https://rootedtallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c920"
+  }
+]
