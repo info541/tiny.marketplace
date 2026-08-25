@@ -1,0 +1,94 @@
+[
+  {
+    "slug": "peg-paste",
+    "shopBase": "https://pegpaste.com.au",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1108"
+  },
+  {
+    "slug": "sunkissed-by-heaven",
+    "shopBase": "https://sunkissedbyheaven.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1109"
+  },
+  {
+    "slug": "grass-fed-beauty",
+    "shopBase": "https://grassfedbeauty.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1110"
+  },
+  {
+    "slug": "tallowl",
+    "shopBase": "https://tallowlskincare.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1111"
+  },
+  {
+    "slug": "hallowed-homestead",
+    "shopBase": "https://hallowedhomestead.shop",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c1112"
+  },
+  {
+    "slug": "desert-light-farm",
+    "shopBase": "https://desertlightfarm.com",
+    "categories": [
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c1113"
+  },
+  {
+    "slug": "kruger-farm",
+    "shopBase": "https://nbsq3j-mu.myshopify.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1114"
+  },
+  {
+    "slug": "gaia-organics-tallow",
+    "shopBase": "https://393dc1-1e.myshopify.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1115"
+  },
+  {
+    "slug": "luxe-tallow",
+    "shopBase": "https://6pra2y-zd.myshopify.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c1116"
+  },
+  {
+    "slug": "kris-organics",
+    "shopBase": "https://krisorganics.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "deodorant",
+      "hair"
+    ],
+    "id": "c1117"
+  }
+]
