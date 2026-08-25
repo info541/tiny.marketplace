@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-08-25T09:12:15.551Z",
+  "wave30Products": 316,
+  "wave30BrandsWithProducts": 14,
+  "totalProducts": 23335,
+  "brandCount": 452,
+  "failures": [],
+  "perBrand": [
+    {
+      "slug": "creamly",
+      "brandId": "c956",
+      "kept": 13,
+      "withIngredients": 13,
+      "flavorVariants": 0
+    },
+    {
+      "slug": "nourish-organic",
+      "brandId": "c957",
+      "kept": 13,
+      "withIngredients": 5,
+      "flavorVariants": 0
+    },
+    {
+      "slug": "farwell-lake-homestead",
+      "brandId": "c958",
+      "kept": 72,
+      "withIngredients": 38,
+      "flavorVariants": 12
+    },
+    {
+      "slug": "ancient-healings",
+      "brandId": "c959",
+      "kept": 32,
+      "withIngredients": 6,
+      "flavorVariants": 14
+    },
+    {
+      "slug": "qet-botanicals",
+      "brandId": "c960",
+      "kept": 40,
+      "withIngredients": 8,
+      "flavorVariants": 0
+    },
+    {
+      "slug": "tru-nature-beauty",
+      "brandId": "c961",
+      "kept": 24,
+      "withIngredients": 1,
+      "flavorVariants": 11
+    },
+    {
+      "slug": "solis",
+      "brandId": "c962",
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 4
+    },
+    {
+      "slug": "bush-tucker-blends",
+      "brandId": "c963",
+      "kept": 9,
+      "withIngredients": 1,
+      "flavorVariants": 0
+    },
+    {
+      "slug": "forge-men",
+      "brandId": "c964",
+      "kept": 17,
+      "withIngredients": 2,
+      "flavorVariants": 0
+    },
+    {
+      "slug": "honey-and-tallow",
+      "brandId": "c965",
+      "kept": 13,
+      "withIngredients": 0,
+      "flavorVariants": 0
+    },
+    {
+      "slug": "thrive-natural-care",
+      "brandId": "c966",
+      "kept": 4,
+      "withIngredients": 4,
+      "flavorVariants": 0
+    },
+    {
+      "slug": "silver-falls",
+      "brandId": "c967",
+      "kept": 44,
+      "withIngredients": 28,
+      "flavorVariants": 30
+    },
+    {
+      "slug": "premium-tallow",
+      "brandId": "c968",
+      "kept": 8,
+      "withIngredients": 3,
+      "flavorVariants": 0
+    },
+    {
+      "slug": "the-primal",
+      "brandId": "c969",
+      "kept": 21,
+      "withIngredients": 4,
+      "flavorVariants": 0
+    }
+  ]
+}
