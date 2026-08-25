@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-08-25T03:11:52.526Z",
+  "wave24Products": 344,
+  "wave24BrandsWithProducts": 20,
+  "totalProducts": 23363,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "mama-kuleana",
+      "brandId": "c848",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://mamakuleana.com"
+    },
+    {
+      "slug": "vitamin-bee",
+      "brandId": "c849",
+      "raw": 8,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://hellovitaminbee.com"
+    },
+    {
+      "slug": "summer-salt-body",
+      "brandId": "c850",
+      "raw": 238,
+      "kept": 87,
+      "withIngredients": 83,
+      "flavorVariants": 0,
+      "shopBase": "https://summersaltbody.com"
+    },
+    {
+      "slug": "hello-sunday",
+      "brandId": "c851",
+      "raw": 20,
+      "kept": 16,
+      "withIngredients": 8,
+      "flavorVariants": 4,
+      "shopBase": "https://hellosundayspf.com"
+    },
+    {
+      "slug": "dulese",
+      "brandId": "c852",
+      "raw": 4,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "shopBase": "https://dulese.com"
+    },
+    {
+      "slug": "brooklyn-grooming",
+      "brandId": "c853",
+      "raw": 55,
+      "kept": 43,
+      "withIngredients": 8,
+      "flavorVariants": 5,
+      "shopBase": "https://brooklyngrooming.com"
+    },
+    {
+      "slug": "triumph-and-disaster",
+      "brandId": "c854",
+      "raw": 45,
+      "kept": 27,
+      "withIngredients": 22,
+      "flavorVariants": 0,
+      "shopBase": "https://triumphanddisaster.com"
+    },
+    {
+      "slug": "the-tallow-shop",
+      "brandId": "c855",
+      "raw": 10,
+      "kept": 19,
+      "withIngredients": 5,
+      "flavorVariants": 16,
+      "shopBase": "https://thetallowshop.com"
+    },
+    {
+      "slug": "closys",
+      "brandId": "c856",
+      "raw": 10,
+      "kept": 8,
+      "withIngredients": 7,
+      "flavorVariants": 5,
+      "shopBase": "https://closys.com"
+    },
+    {
+      "slug": "hawaiian-health",
+      "brandId": "c857",
+      "raw": 8,
+      "kept": 7,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://hawaiianhealth.co"
+    },
+    {
+      "slug": "salty",
+      "brandId": "c858",
+      "raw": 12,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://drinksalty.com"
+    },
+    {
+      "slug": "osmo",
+      "brandId": "c859",
+      "raw": 13,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 10,
+      "shopBase": "https://osmonutrition.com"
+    },
+    {
+      "slug": "baltispore",
+      "brandId": "c860",
+      "raw": 54,
+      "kept": 13,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://baltispore.com"
+    },
+    {
+      "slug": "arbor-spring",
+      "brandId": "c861",
+      "raw": 3,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://arborspringfarms.com"
+    },
+    {
+      "slug": "spore-and-bloom",
+      "brandId": "c862",
+      "raw": 10,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://sporeandbloom.co.uk"
+    },
+    {
+      "slug": "happy-fungi",
+      "brandId": "c863",
+      "raw": 4,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.happyfungi.co.uk"
+    },
+    {
+      "slug": "life-cykel",
+      "brandId": "c864",
+      "raw": 45,
+      "kept": 26,
+      "withIngredients": 15,
+      "flavorVariants": 0,
+      "shopBase": "https://lifecykel.com"
+    },
+    {
+      "slug": "teelixir",
+      "brandId": "c865",
+      "raw": 70,
+      "kept": 30,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://teelixir.com"
+    },
+    {
+      "slug": "tallow-me-pretty",
+      "brandId": "c866",
+      "raw": 28,
+      "kept": 22,
+      "withIngredients": 21,
+      "flavorVariants": 0,
+      "shopBase": "https://tallowmepretty.com"
+    },
+    {
+      "slug": "tallow-theory",
+      "brandId": "c867",
+      "raw": 5,
+      "kept": 4,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://tallowtheory.com"
+    }
+  ]
+}

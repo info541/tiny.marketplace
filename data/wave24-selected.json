@@ -1,0 +1,171 @@
+[
+  {
+    "slug": "mama-kuleana",
+    "shopBase": "https://mamakuleana.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c848"
+  },
+  {
+    "slug": "vitamin-bee",
+    "shopBase": "https://hellovitaminbee.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c849"
+  },
+  {
+    "slug": "summer-salt-body",
+    "shopBase": "https://summersaltbody.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c850"
+  },
+  {
+    "slug": "hello-sunday",
+    "shopBase": "https://hellosundayspf.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c851"
+  },
+  {
+    "slug": "dulese",
+    "shopBase": "https://dulese.com",
+    "categories": [
+      "deodorant"
+    ],
+    "id": "c852"
+  },
+  {
+    "slug": "brooklyn-grooming",
+    "shopBase": "https://brooklyngrooming.com",
+    "categories": [
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c853"
+  },
+  {
+    "slug": "triumph-and-disaster",
+    "shopBase": "https://triumphanddisaster.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c854"
+  },
+  {
+    "slug": "the-tallow-shop",
+    "shopBase": "https://thetallowshop.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c855"
+  },
+  {
+    "slug": "closys",
+    "shopBase": "https://closys.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c856"
+  },
+  {
+    "slug": "hawaiian-health",
+    "shopBase": "https://hawaiianhealth.co",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c857"
+  },
+  {
+    "slug": "salty",
+    "shopBase": "https://drinksalty.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c858"
+  },
+  {
+    "slug": "osmo",
+    "shopBase": "https://osmonutrition.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c859"
+  },
+  {
+    "slug": "baltispore",
+    "shopBase": "https://baltispore.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c860"
+  },
+  {
+    "slug": "arbor-spring",
+    "shopBase": "https://arborspringfarms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c861"
+  },
+  {
+    "slug": "spore-and-bloom",
+    "shopBase": "https://sporeandbloom.co.uk",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c862"
+  },
+  {
+    "slug": "happy-fungi",
+    "shopBase": "https://www.happyfungi.co.uk",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c863"
+  },
+  {
+    "slug": "life-cykel",
+    "shopBase": "https://lifecykel.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c864"
+  },
+  {
+    "slug": "teelixir",
+    "shopBase": "https://teelixir.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c865"
+  },
+  {
+    "slug": "tallow-me-pretty",
+    "shopBase": "https://tallowmepretty.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c866"
+  },
+  {
+    "slug": "tallow-theory",
+    "shopBase": "https://tallowtheory.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c867"
+  }
+]
