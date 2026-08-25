@@ -1,0 +1,126 @@
+[
+  {
+    "slug": "hurraw",
+    "shopBase": "https://hurrawbalm.com",
+    "categories": [
+      "sunscreen",
+      "oral",
+      "skincare",
+      "hair"
+    ],
+    "id": "c985"
+  },
+  {
+    "slug": "grassfed-tallow",
+    "shopBase": "https://grassfedtallowshop.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c986"
+  },
+  {
+    "slug": "tallow-twins",
+    "shopBase": "https://tallowtwins.ca",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair",
+      "sunscreen"
+    ],
+    "id": "c987"
+  },
+  {
+    "slug": "ethos",
+    "shopBase": "https://drinkethos.co",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c988"
+  },
+  {
+    "slug": "salties",
+    "shopBase": "https://salties.shop",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c989"
+  },
+  {
+    "slug": "hela",
+    "shopBase": "https://helanutrition.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c990"
+  },
+  {
+    "slug": "alaya",
+    "shopBase": "https://alayanaturals.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c991"
+  },
+  {
+    "slug": "allpa",
+    "shopBase": "https://allpabotanicals.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c992"
+  },
+  {
+    "slug": "simply-wild",
+    "shopBase": "https://simplywild.store",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c993"
+  },
+  {
+    "slug": "everist",
+    "shopBase": "https://www.everistbeauty.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c994"
+  },
+  {
+    "slug": "mycotonics",
+    "shopBase": "https://mycotonics.uk",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c995"
+  },
+  {
+    "slug": "vesper",
+    "shopBase": "https://vespermushrooms.com",
+    "categories": [
+      "supplements",
+      "skincare"
+    ],
+    "id": "c996"
+  },
+  {
+    "slug": "slipstream",
+    "shopBase": "https://slipstreamfarm.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c997"
+  },
+  {
+    "slug": "c-and-o",
+    "shopBase": "https://candoskincare.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c998"
+  }
+]

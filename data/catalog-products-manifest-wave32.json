@@ -1,0 +1,140 @@
+{
+  "generatedAt": "2026-08-25T11:15:13.578Z",
+  "wave32Products": 282,
+  "wave32BrandsWithProducts": 14,
+  "totalProducts": 23301,
+  "brandCount": 452,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "hurraw",
+      "brandId": "c985",
+      "raw": 75,
+      "kept": 64,
+      "withIngredients": 3,
+      "flavorVariants": 11,
+      "shopBase": "https://hurrawbalm.com"
+    },
+    {
+      "slug": "grassfed-tallow",
+      "brandId": "c986",
+      "raw": 6,
+      "kept": 6,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://grassfedtallowshop.com"
+    },
+    {
+      "slug": "tallow-twins",
+      "brandId": "c987",
+      "raw": 38,
+      "kept": 30,
+      "withIngredients": 0,
+      "flavorVariants": 11,
+      "shopBase": "https://tallowtwins.ca"
+    },
+    {
+      "slug": "ethos",
+      "brandId": "c988",
+      "raw": 2,
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://drinkethos.co"
+    },
+    {
+      "slug": "salties",
+      "brandId": "c989",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://salties.shop"
+    },
+    {
+      "slug": "hela",
+      "brandId": "c990",
+      "raw": 13,
+      "kept": 17,
+      "withIngredients": 0,
+      "flavorVariants": 15,
+      "shopBase": "https://helanutrition.com"
+    },
+    {
+      "slug": "alaya",
+      "brandId": "c991",
+      "raw": 28,
+      "kept": 30,
+      "withIngredients": 0,
+      "flavorVariants": 7,
+      "shopBase": "https://alayanaturals.com"
+    },
+    {
+      "slug": "allpa",
+      "brandId": "c992",
+      "raw": 53,
+      "kept": 48,
+      "withIngredients": 43,
+      "flavorVariants": 0,
+      "shopBase": "https://allpabotanicals.com"
+    },
+    {
+      "slug": "simply-wild",
+      "brandId": "c993",
+      "raw": 23,
+      "kept": 23,
+      "withIngredients": 3,
+      "flavorVariants": 5,
+      "shopBase": "https://simplywild.store"
+    },
+    {
+      "slug": "everist",
+      "brandId": "c994",
+      "raw": 64,
+      "kept": 27,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.everistbeauty.com"
+    },
+    {
+      "slug": "mycotonics",
+      "brandId": "c995",
+      "raw": 6,
+      "kept": 6,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "shopBase": "https://mycotonics.uk"
+    },
+    {
+      "slug": "vesper",
+      "brandId": "c996",
+      "raw": 41,
+      "kept": 25,
+      "withIngredients": 23,
+      "flavorVariants": 0,
+      "shopBase": "https://vespermushrooms.com"
+    },
+    {
+      "slug": "slipstream",
+      "brandId": "c997",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://slipstreamfarm.com"
+    },
+    {
+      "slug": "c-and-o",
+      "brandId": "c998",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://candoskincare.com"
+    }
+  ]
+}
