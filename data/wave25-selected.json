@@ -1,0 +1,180 @@
+[
+  {
+    "slug": "stream2sea",
+    "shopBase": "https://stream2sea.com",
+    "categories": [
+      "sunscreen",
+      "hair",
+      "skincare"
+    ],
+    "id": "c868"
+  },
+  {
+    "slug": "raw-elements",
+    "shopBase": "https://rawelementsusa.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c869"
+  },
+  {
+    "slug": "brush-on-block",
+    "shopBase": "https://brushonblock.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c870"
+  },
+  {
+    "slug": "july-sky",
+    "shopBase": "https://julyskyskincare.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c871"
+  },
+  {
+    "slug": "hume",
+    "shopBase": "https://humesupernatural.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c872"
+  },
+  {
+    "slug": "pretty-frank",
+    "shopBase": "https://prettyfrank.com",
+    "categories": [
+      "deodorant"
+    ],
+    "id": "c873"
+  },
+  {
+    "slug": "fussy",
+    "shopBase": "https://fussy.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c874"
+  },
+  {
+    "slug": "nelson-naturals",
+    "shopBase": "https://nelsonnaturals.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c875"
+  },
+  {
+    "slug": "purelyte",
+    "shopBase": "https://purelyte.com.au",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c876"
+  },
+  {
+    "slug": "ancient-brave",
+    "shopBase": "https://ancientandbrave.earth",
+    "categories": [
+      "protein",
+      "supplements",
+      "electrolytes"
+    ],
+    "id": "c877"
+  },
+  {
+    "slug": "wild-nutrition",
+    "shopBase": "https://wildnutrition.com",
+    "categories": [
+      "supplements",
+      "protein"
+    ],
+    "id": "c878"
+  },
+  {
+    "slug": "together-health",
+    "shopBase": "https://togetherhealth.co.uk",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c879"
+  },
+  {
+    "slug": "josh-rosebrook",
+    "shopBase": "https://joshrosebrook.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c880"
+  },
+  {
+    "slug": "evan-healy",
+    "shopBase": "https://evanhealy.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c881"
+  },
+  {
+    "slug": "living-libations",
+    "shopBase": "https://livinglibations.com",
+    "categories": [
+      "skincare",
+      "hair",
+      "oral"
+    ],
+    "id": "c882"
+  },
+  {
+    "slug": "kahina",
+    "shopBase": "https://kahina-givingbeauty.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c883"
+  },
+  {
+    "slug": "try-tallow",
+    "shopBase": "https://trytallow.com",
+    "categories": [
+      "skincare",
+      "hair",
+      "sunscreen"
+    ],
+    "id": "c884"
+  },
+  {
+    "slug": "fatco",
+    "shopBase": "https://fatco.com",
+    "categories": [
+      "skincare",
+      "deodorant",
+      "hair"
+    ],
+    "id": "c885"
+  },
+  {
+    "slug": "eb-and-co",
+    "shopBase": "https://ebonyandcompany.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c886"
+  },
+  {
+    "slug": "qhemet",
+    "shopBase": "https://qhemetbiologics.com",
+    "categories": [
+      "hair",
+      "supplements"
+    ],
+    "id": "c887"
+  }
+]

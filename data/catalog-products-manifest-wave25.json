@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-08-25T04:12:48.765Z",
+  "wave25Products": 912,
+  "wave25BrandsWithProducts": 20,
+  "totalProducts": 23931,
+  "brandCount": 458,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "stream2sea",
+      "brandId": "c868",
+      "raw": 82,
+      "kept": 53,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://stream2sea.com"
+    },
+    {
+      "slug": "raw-elements",
+      "brandId": "c869",
+      "raw": 83,
+      "kept": 46,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://rawelementsusa.com"
+    },
+    {
+      "slug": "brush-on-block",
+      "brandId": "c870",
+      "raw": 32,
+      "kept": 34,
+      "withIngredients": 2,
+      "flavorVariants": 10,
+      "shopBase": "https://brushonblock.com"
+    },
+    {
+      "slug": "july-sky",
+      "brandId": "c871",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://julyskyskincare.com"
+    },
+    {
+      "slug": "hume",
+      "brandId": "c872",
+      "raw": 27,
+      "kept": 75,
+      "withIngredients": 0,
+      "flavorVariants": 65,
+      "shopBase": "https://humesupernatural.com"
+    },
+    {
+      "slug": "pretty-frank",
+      "brandId": "c873",
+      "raw": 21,
+      "kept": 79,
+      "withIngredients": 0,
+      "flavorVariants": 71,
+      "shopBase": "https://prettyfrank.com"
+    },
+    {
+      "slug": "fussy",
+      "brandId": "c874",
+      "raw": 218,
+      "kept": 66,
+      "withIngredients": 0,
+      "flavorVariants": 12,
+      "shopBase": "https://fussy.com"
+    },
+    {
+      "slug": "nelson-naturals",
+      "brandId": "c875",
+      "raw": 90,
+      "kept": 49,
+      "withIngredients": 1,
+      "flavorVariants": 17,
+      "shopBase": "https://nelsonnaturals.com"
+    },
+    {
+      "slug": "purelyte",
+      "brandId": "c876",
+      "raw": 8,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "shopBase": "https://purelyte.com.au"
+    },
+    {
+      "slug": "ancient-brave",
+      "brandId": "c877",
+      "raw": 110,
+      "kept": 32,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://ancientandbrave.earth"
+    },
+    {
+      "slug": "wild-nutrition",
+      "brandId": "c878",
+      "raw": 180,
+      "kept": 64,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://wildnutrition.com"
+    },
+    {
+      "slug": "together-health",
+      "brandId": "c879",
+      "raw": 49,
+      "kept": 24,
+      "withIngredients": 20,
+      "flavorVariants": 0,
+      "shopBase": "https://togetherhealth.co.uk"
+    },
+    {
+      "slug": "josh-rosebrook",
+      "brandId": "c880",
+      "raw": 58,
+      "kept": 44,
+      "withIngredients": 6,
+      "flavorVariants": 1,
+      "shopBase": "https://joshrosebrook.com"
+    },
+    {
+      "slug": "evan-healy",
+      "brandId": "c881",
+      "raw": 285,
+      "kept": 86,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://evanhealy.com"
+    },
+    {
+      "slug": "living-libations",
+      "brandId": "c882",
+      "raw": 572,
+      "kept": 126,
+      "withIngredients": 22,
+      "flavorVariants": 8,
+      "shopBase": "https://livinglibations.com"
+    },
+    {
+      "slug": "kahina",
+      "brandId": "c883",
+      "raw": 23,
+      "kept": 16,
+      "withIngredients": 8,
+      "flavorVariants": 0,
+      "shopBase": "https://kahina-givingbeauty.com"
+    },
+    {
+      "slug": "try-tallow",
+      "brandId": "c884",
+      "raw": 13,
+      "kept": 11,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://trytallow.com"
+    },
+    {
+      "slug": "fatco",
+      "brandId": "c885",
+      "raw": 104,
+      "kept": 79,
+      "withIngredients": 60,
+      "flavorVariants": 0,
+      "shopBase": "https://fatco.com"
+    },
+    {
+      "slug": "eb-and-co",
+      "brandId": "c886",
+      "raw": 6,
+      "kept": 3,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://ebonyandcompany.com"
+    },
+    {
+      "slug": "qhemet",
+      "brandId": "c887",
+      "raw": 28,
+      "kept": 20,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://qhemetbiologics.com"
+    }
+  ]
+}
