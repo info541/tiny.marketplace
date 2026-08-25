@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "seaker-sun",
+    "shopBase": "https://seakersunco.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1060"
+  },
+  {
+    "slug": "sunmud",
+    "shopBase": "https://sunmudsunscreen.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1061"
+  },
+  {
+    "slug": "be-blessed",
+    "shopBase": "https://beblessedskincare.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1062"
+  },
+  {
+    "slug": "seaonic",
+    "shopBase": "https://seaonic.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1063"
+  },
+  {
+    "slug": "ion-electrolytes",
+    "shopBase": "https://drinkion.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1064"
+  },
+  {
+    "slug": "aus-natural-protein",
+    "shopBase": "https://ausnaturalprotein.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1065"
+  },
+  {
+    "slug": "perfect-deodorant",
+    "shopBase": "https://perfectdeodorant.shop",
+    "categories": [
+      "deodorant"
+    ],
+    "id": "c1066"
+  },
+  {
+    "slug": "boeuf-tallow",
+    "shopBase": "https://boeuftallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1067"
+  },
+  {
+    "slug": "superteeth",
+    "shopBase": "https://getsuperteeth.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1068"
+  },
+  {
+    "slug": "freo-living",
+    "shopBase": "https://freoliving.com",
+    "categories": [
+      "hair",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1069"
+  },
+  {
+    "slug": "texas-tallow",
+    "shopBase": "https://texastallow.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c1070"
+  },
+  {
+    "slug": "pasture-skincare",
+    "shopBase": "https://pastureskincare.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1071"
+  },
+  {
+    "slug": "tallow-and-me",
+    "shopBase": "https://tallowandme.com",
+    "categories": [
+      "hair",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1072"
+  },
+  {
+    "slug": "noble-mushrooms",
+    "shopBase": "https://noblemushrooms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1073"
+  },
+  {
+    "slug": "sunshine-fungi",
+    "shopBase": "https://sunshinefungifarms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1074"
+  },
+  {
+    "slug": "mycoterra",
+    "shopBase": "https://shop.mycoterrafarm.com",
+    "categories": [
+      "supplements",
+      "skincare"
+    ],
+    "id": "c1075"
+  },
+  {
+    "slug": "shroomery-nm",
+    "shopBase": "https://theshroomerynm.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1076"
+  }
+]
