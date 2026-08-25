@@ -1,0 +1,132 @@
+[
+  {
+    "slug": "creamly",
+    "shopBase": "https://creamly.co.uk",
+    "categories": [
+      "oral",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c956"
+  },
+  {
+    "slug": "nourish-organic",
+    "shopBase": "https://nourishorganic.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c957"
+  },
+  {
+    "slug": "farwell-lake-homestead",
+    "shopBase": "https://farwelllakehomestead.com",
+    "categories": [
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c958"
+  },
+  {
+    "slug": "ancient-healings",
+    "shopBase": "https://www.ancienthealings.co",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c959"
+  },
+  {
+    "slug": "qet-botanicals",
+    "shopBase": "https://qetbotanicals.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c960"
+  },
+  {
+    "slug": "tru-nature-beauty",
+    "shopBase": "https://tru-nature-beauty.myshopify.com",
+    "categories": [
+      "skincare",
+      "oral"
+    ],
+    "id": "c961"
+  },
+  {
+    "slug": "solis",
+    "shopBase": "https://solislifestyle.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c962"
+  },
+  {
+    "slug": "bush-tucker-blends",
+    "shopBase": "https://bushtuckerblends.com",
+    "categories": [
+      "protein",
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c963"
+  },
+  {
+    "slug": "forge-men",
+    "shopBase": "https://try-forge.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "supplements"
+    ],
+    "id": "c964"
+  },
+  {
+    "slug": "honey-and-tallow",
+    "shopBase": "https://honeyandtallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c965"
+  },
+  {
+    "slug": "thrive-natural-care",
+    "shopBase": "https://thrivecare.co",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c966"
+  },
+  {
+    "slug": "silver-falls",
+    "shopBase": "https://sfsustainable.com",
+    "categories": [
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c967"
+  },
+  {
+    "slug": "premium-tallow",
+    "shopBase": "https://premiumtallow.ca",
+    "categories": [
+      "skincare",
+      "oral"
+    ],
+    "id": "c968"
+  },
+  {
+    "slug": "the-primal",
+    "shopBase": "https://shop.theprimal.com",
+    "categories": [
+      "oral",
+      "hair",
+      "skincare"
+    ],
+    "id": "c969"
+  }
+]
