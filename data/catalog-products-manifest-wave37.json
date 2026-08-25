@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-08-25T16:13:06.678Z",
+  "wave37Products": 493,
+  "wave37BrandsWithProducts": 9,
+  "totalProducts": 23512,
+  "brandCount": 447,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "tallow-balm-co",
+      "brandId": "c1039",
+      "raw": 10,
+      "kept": 12,
+      "withIngredients": 1,
+      "flavorVariants": 8,
+      "shopBase": "https://www.tallowbalmco.com"
+    },
+    {
+      "slug": "tallow-and-wild",
+      "brandId": "c1040",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://tallowandwild.com"
+    },
+    {
+      "slug": "chagrin-valley",
+      "brandId": "c1041",
+      "raw": 283,
+      "kept": 211,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.chagrinvalleysoapandsalve.com"
+    },
+    {
+      "slug": "haus-of-sage",
+      "brandId": "c1042",
+      "raw": 46,
+      "kept": 55,
+      "withIngredients": 10,
+      "flavorVariants": 34,
+      "shopBase": "https://thehausofsage.com"
+    },
+    {
+      "slug": "lather-and-leaf",
+      "brandId": "c1043",
+      "raw": 34,
+      "kept": 28,
+      "withIngredients": 28,
+      "flavorVariants": 0,
+      "shopBase": "https://latherandleaf.com"
+    },
+    {
+      "slug": "saint-oral",
+      "brandId": "c1044",
+      "raw": 13,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://saintoralhealth.com"
+    },
+    {
+      "slug": "seen-oral",
+      "brandId": "c1045",
+      "raw": 8,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.seenoralcare.com"
+    },
+    {
+      "slug": "surface-sunscreen",
+      "brandId": "c1046",
+      "raw": 38,
+      "kept": 21,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://surfacesunscreen.com"
+    },
+    {
+      "slug": "wellah",
+      "brandId": "c1047",
+      "raw": 58,
+      "kept": 147,
+      "withIngredients": 0,
+      "flavorVariants": 123,
+      "shopBase": "https://wellah.com"
+    }
+  ]
+}

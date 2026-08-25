@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "tallow-balm-co",
+    "shopBase": "https://www.tallowbalmco.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1039"
+  },
+  {
+    "slug": "tallow-and-wild",
+    "shopBase": "https://tallowandwild.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1040"
+  },
+  {
+    "slug": "chagrin-valley",
+    "shopBase": "https://www.chagrinvalleysoapandsalve.com",
+    "categories": [
+      "hair",
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c1041"
+  },
+  {
+    "slug": "haus-of-sage",
+    "shopBase": "https://thehausofsage.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c1042"
+  },
+  {
+    "slug": "lather-and-leaf",
+    "shopBase": "https://latherandleaf.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1043"
+  },
+  {
+    "slug": "saint-oral",
+    "shopBase": "https://saintoralhealth.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1044"
+  },
+  {
+    "slug": "seen-oral",
+    "shopBase": "https://www.seenoralcare.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1045"
+  },
+  {
+    "slug": "surface-sunscreen",
+    "shopBase": "https://surfacesunscreen.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1046"
+  },
+  {
+    "slug": "wellah",
+    "shopBase": "https://wellah.com",
+    "categories": [
+      "electrolytes",
+      "protein",
+      "supplements"
+    ],
+    "id": "c1047"
+  }
+]
