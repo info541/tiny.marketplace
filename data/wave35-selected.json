@@ -1,0 +1,113 @@
+[
+  {
+    "slug": "aelia",
+    "shopBase": "https://aeliasun.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1019"
+  },
+  {
+    "slug": "dune-suncare",
+    "shopBase": "https://dunesuncare.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1020"
+  },
+  {
+    "slug": "ecofam",
+    "shopBase": "https://ecofam.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1021"
+  },
+  {
+    "slug": "pioneer-tallow",
+    "shopBase": "https://pioneertallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1022"
+  },
+  {
+    "slug": "field-tallow",
+    "shopBase": "https://fieldtallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1023"
+  },
+  {
+    "slug": "good-flower-farm",
+    "shopBase": "https://goodflowerfarm.com",
+    "categories": [
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c1024"
+  },
+  {
+    "slug": "sunniemade",
+    "shopBase": "https://sunniemade.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1025"
+  },
+  {
+    "slug": "green-routine",
+    "shopBase": "https://mygreenroutine.earth",
+    "categories": [
+      "oral",
+      "hair"
+    ],
+    "id": "c1026"
+  },
+  {
+    "slug": "smash-melon",
+    "shopBase": "https://smashmelon.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1027"
+  },
+  {
+    "slug": "kellemen",
+    "shopBase": "https://kellemen.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1028"
+  },
+  {
+    "slug": "santa-cruz-paleo",
+    "shopBase": "https://santacruzpaleo.com",
+    "categories": [
+      "electrolytes",
+      "protein",
+      "skincare",
+      "supplements"
+    ],
+    "id": "c1029"
+  },
+  {
+    "slug": "adapt-electrolytes",
+    "shopBase": "https://adaptelectrolytes.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1030"
+  },
+  {
+    "slug": "myhydro",
+    "shopBase": "https://myhydro.me",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1031"
+  }
+]

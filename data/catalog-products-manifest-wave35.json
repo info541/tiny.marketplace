@@ -1,0 +1,131 @@
+{
+  "generatedAt": "2026-08-25T14:11:53.286Z",
+  "wave35Products": 248,
+  "wave35BrandsWithProducts": 13,
+  "totalProducts": 23267,
+  "brandCount": 451,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "aelia",
+      "brandId": "c1019",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://aeliasun.com"
+    },
+    {
+      "slug": "dune-suncare",
+      "brandId": "c1020",
+      "raw": 27,
+      "kept": 14,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://dunesuncare.com"
+    },
+    {
+      "slug": "ecofam",
+      "brandId": "c1021",
+      "raw": 14,
+      "kept": 30,
+      "withIngredients": 0,
+      "flavorVariants": 27,
+      "shopBase": "https://ecofam.com"
+    },
+    {
+      "slug": "pioneer-tallow",
+      "brandId": "c1022",
+      "raw": 20,
+      "kept": 20,
+      "withIngredients": 7,
+      "flavorVariants": 6,
+      "shopBase": "https://pioneertallow.com"
+    },
+    {
+      "slug": "field-tallow",
+      "brandId": "c1023",
+      "raw": 4,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://fieldtallow.com"
+    },
+    {
+      "slug": "good-flower-farm",
+      "brandId": "c1024",
+      "raw": 100,
+      "kept": 41,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://goodflowerfarm.com"
+    },
+    {
+      "slug": "sunniemade",
+      "brandId": "c1025",
+      "raw": 26,
+      "kept": 20,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://sunniemade.com"
+    },
+    {
+      "slug": "green-routine",
+      "brandId": "c1026",
+      "raw": 36,
+      "kept": 23,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://mygreenroutine.earth"
+    },
+    {
+      "slug": "smash-melon",
+      "brandId": "c1027",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://smashmelon.com"
+    },
+    {
+      "slug": "kellemen",
+      "brandId": "c1028",
+      "raw": 4,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 8,
+      "shopBase": "https://kellemen.com"
+    },
+    {
+      "slug": "santa-cruz-paleo",
+      "brandId": "c1029",
+      "raw": 96,
+      "kept": 76,
+      "withIngredients": 39,
+      "flavorVariants": 24,
+      "shopBase": "https://santacruzpaleo.com"
+    },
+    {
+      "slug": "adapt-electrolytes",
+      "brandId": "c1030",
+      "raw": 25,
+      "kept": 6,
+      "withIngredients": 6,
+      "flavorVariants": 0,
+      "shopBase": "https://adaptelectrolytes.com"
+    },
+    {
+      "slug": "myhydro",
+      "brandId": "c1031",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://myhydro.me"
+    }
+  ]
+}
