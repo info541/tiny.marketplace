@@ -1,0 +1,158 @@
+{
+  "generatedAt": "2026-08-25T00:13:02.787Z",
+  "wave21Products": 479,
+  "wave21BrandsWithProducts": 16,
+  "totalProducts": 23520,
+  "brandCount": 454,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "birchbabe",
+      "brandId": "c795",
+      "raw": 73,
+      "kept": 73,
+      "withIngredients": 16,
+      "flavorVariants": 38,
+      "shopBase": "https://birchbabe.com"
+    },
+    {
+      "slug": "coconut-joes",
+      "brandId": "c796",
+      "raw": 14,
+      "kept": 14,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://coconutjoessunproducts.com"
+    },
+    {
+      "slug": "magnolia-crow",
+      "brandId": "c797",
+      "raw": 16,
+      "kept": 26,
+      "withIngredients": 1,
+      "flavorVariants": 17,
+      "shopBase": "https://magnoliacrowsoapco.com"
+    },
+    {
+      "slug": "oak-prairie",
+      "brandId": "c798",
+      "raw": 25,
+      "kept": 32,
+      "withIngredients": 32,
+      "flavorVariants": 13,
+      "shopBase": "https://oakandprairiellc.com"
+    },
+    {
+      "slug": "heey",
+      "brandId": "c799",
+      "raw": 19,
+      "kept": 36,
+      "withIngredients": 0,
+      "flavorVariants": 29,
+      "shopBase": "https://itsheey.com"
+    },
+    {
+      "slug": "hiro",
+      "brandId": "c800",
+      "raw": 33,
+      "kept": 24,
+      "withIngredients": 5,
+      "flavorVariants": 4,
+      "shopBase": "https://dailyhiro.com"
+    },
+    {
+      "slug": "ndc",
+      "brandId": "c801",
+      "raw": 10,
+      "kept": 10,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://www.ndcsupplements.com"
+    },
+    {
+      "slug": "unicorn-co",
+      "brandId": "c802",
+      "raw": 9,
+      "kept": 8,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://www.the-unicornco.com"
+    },
+    {
+      "slug": "organic-burst",
+      "brandId": "c803",
+      "raw": 43,
+      "kept": 12,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.organicburst.com"
+    },
+    {
+      "slug": "booheads",
+      "brandId": "c804",
+      "raw": 10,
+      "kept": 9,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://www.booheads.com"
+    },
+    {
+      "slug": "electric-shrooms",
+      "brandId": "c805",
+      "raw": 5,
+      "kept": 5,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://drinkyourshrooms.com"
+    },
+    {
+      "slug": "primm-farms",
+      "brandId": "c806",
+      "raw": 82,
+      "kept": 51,
+      "withIngredients": 12,
+      "flavorVariants": 0,
+      "shopBase": "https://primmfarms.com"
+    },
+    {
+      "slug": "moon-valley",
+      "brandId": "c807",
+      "raw": 53,
+      "kept": 40,
+      "withIngredients": 1,
+      "flavorVariants": 4,
+      "shopBase": "https://www.moonvalleyorganics.com"
+    },
+    {
+      "slug": "wishgarden",
+      "brandId": "c808",
+      "raw": 181,
+      "kept": 44,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://www.wishgardenherbs.com"
+    },
+    {
+      "slug": "banyan",
+      "brandId": "c809",
+      "raw": 265,
+      "kept": 112,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.banyanbotanicals.com"
+    },
+    {
+      "slug": "urban-moonshine",
+      "brandId": "c810",
+      "raw": 54,
+      "kept": 5,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://www.urbanmoonshine.com"
+    }
+  ]
+}
