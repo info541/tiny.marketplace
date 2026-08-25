@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-08-25T22:10:35.646Z",
+  "wave43Products": 195,
+  "wave43BrandsWithProducts": 10,
+  "totalProducts": 23214,
+  "brandCount": 448,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "peg-paste",
+      "brandId": "c1108",
+      "raw": 34,
+      "kept": 15,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://pegpaste.com.au"
+    },
+    {
+      "slug": "sunkissed-by-heaven",
+      "brandId": "c1109",
+      "raw": 3,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://sunkissedbyheaven.com"
+    },
+    {
+      "slug": "grass-fed-beauty",
+      "brandId": "c1110",
+      "raw": 12,
+      "kept": 11,
+      "withIngredients": 9,
+      "flavorVariants": 0,
+      "shopBase": "https://grassfedbeauty.com"
+    },
+    {
+      "slug": "tallowl",
+      "brandId": "c1111",
+      "raw": 8,
+      "kept": 22,
+      "withIngredients": 6,
+      "flavorVariants": 18,
+      "shopBase": "https://tallowlskincare.com"
+    },
+    {
+      "slug": "hallowed-homestead",
+      "brandId": "c1112",
+      "raw": 18,
+      "kept": 20,
+      "withIngredients": 20,
+      "flavorVariants": 8,
+      "shopBase": "https://hallowedhomestead.shop"
+    },
+    {
+      "slug": "desert-light-farm",
+      "brandId": "c1113",
+      "raw": 20,
+      "kept": 25,
+      "withIngredients": 22,
+      "flavorVariants": 10,
+      "shopBase": "https://desertlightfarm.com"
+    },
+    {
+      "slug": "kruger-farm",
+      "brandId": "c1114",
+      "raw": 10,
+      "kept": 16,
+      "withIngredients": 8,
+      "flavorVariants": 11,
+      "shopBase": "https://nbsq3j-mu.myshopify.com"
+    },
+    {
+      "slug": "gaia-organics-tallow",
+      "brandId": "c1115",
+      "raw": 5,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 8,
+      "shopBase": "https://393dc1-1e.myshopify.com"
+    },
+    {
+      "slug": "luxe-tallow",
+      "brandId": "c1116",
+      "raw": 13,
+      "kept": 9,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "shopBase": "https://6pra2y-zd.myshopify.com"
+    },
+    {
+      "slug": "kris-organics",
+      "brandId": "c1117",
+      "raw": 105,
+      "kept": 65,
+      "withIngredients": 39,
+      "flavorVariants": 0,
+      "shopBase": "https://krisorganics.com"
+    }
+  ]
+}
