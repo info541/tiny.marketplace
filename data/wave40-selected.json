@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "house-of-tallow",
+    "shopBase": "https://houseoftallow.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1077"
+  },
+  {
+    "slug": "nefertem",
+    "shopBase": "https://nefertemnaturals.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1078"
+  },
+  {
+    "slug": "hawaii-tallow",
+    "shopBase": "https://hawaiitallowskincare.com",
+    "categories": [
+      "skincare",
+      "supplements",
+      "hair"
+    ],
+    "id": "c1079"
+  },
+  {
+    "slug": "oak-grove-farms",
+    "shopBase": "https://oakgrovefarms.myshopify.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1080"
+  },
+  {
+    "slug": "mahealani-farms",
+    "shopBase": "https://mahealanifarms.store",
+    "categories": [
+      "supplements",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1081"
+  },
+  {
+    "slug": "dakhota-prairie",
+    "shopBase": "https://dakhota-prairie.luxury",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1082"
+  },
+  {
+    "slug": "tallow-made",
+    "shopBase": "https://www.tallowmade.com",
+    "categories": [
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c1083"
+  },
+  {
+    "slug": "orawellness",
+    "shopBase": "https://store.orawellness.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1084"
+  },
+  {
+    "slug": "clearly",
+    "shopBase": "https://clearly.fi",
+    "categories": [
+      "protein",
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1085"
+  }
+]

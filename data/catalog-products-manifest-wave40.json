@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-08-25T19:15:33.641Z",
+  "wave40Products": 157,
+  "wave40BrandsWithProducts": 9,
+  "totalProducts": 23176,
+  "brandCount": 447,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "house-of-tallow",
+      "brandId": "c1077",
+      "raw": 32,
+      "kept": 32,
+      "withIngredients": 15,
+      "flavorVariants": 0,
+      "shopBase": "https://houseoftallow.com"
+    },
+    {
+      "slug": "nefertem",
+      "brandId": "c1078",
+      "raw": 29,
+      "kept": 19,
+      "withIngredients": 3,
+      "flavorVariants": 4,
+      "shopBase": "https://nefertemnaturals.com"
+    },
+    {
+      "slug": "hawaii-tallow",
+      "brandId": "c1079",
+      "raw": 29,
+      "kept": 25,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "shopBase": "https://hawaiitallowskincare.com"
+    },
+    {
+      "slug": "oak-grove-farms",
+      "brandId": "c1080",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://oakgrovefarms.myshopify.com"
+    },
+    {
+      "slug": "mahealani-farms",
+      "brandId": "c1081",
+      "raw": 22,
+      "kept": 10,
+      "withIngredients": 10,
+      "flavorVariants": 0,
+      "shopBase": "https://mahealanifarms.store"
+    },
+    {
+      "slug": "dakhota-prairie",
+      "brandId": "c1082",
+      "raw": 8,
+      "kept": 6,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://dakhota-prairie.luxury"
+    },
+    {
+      "slug": "tallow-made",
+      "brandId": "c1083",
+      "raw": 7,
+      "kept": 10,
+      "withIngredients": 9,
+      "flavorVariants": 4,
+      "shopBase": "https://www.tallowmade.com"
+    },
+    {
+      "slug": "orawellness",
+      "brandId": "c1084",
+      "raw": 19,
+      "kept": 12,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "shopBase": "https://store.orawellness.com"
+    },
+    {
+      "slug": "clearly",
+      "brandId": "c1085",
+      "raw": 33,
+      "kept": 41,
+      "withIngredients": 0,
+      "flavorVariants": 19,
+      "shopBase": "https://clearly.fi"
+    }
+  ]
+}
