@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-08-25T08:09:10.850Z",
+  "wave29Products": 359,
+  "wave29BrandsWithProducts": 19,
+  "totalProducts": 23378,
+  "brandCount": 457,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "royal-tallow",
+      "brandId": "c937",
+      "raw": 5,
+      "kept": 11,
+      "withIngredients": 8,
+      "flavorVariants": 11,
+      "shopBase": "https://www.royaltallow.com"
+    },
+    {
+      "slug": "cowlo",
+      "brandId": "c938",
+      "raw": 26,
+      "kept": 24,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://www.cowlotallow.com"
+    },
+    {
+      "slug": "magic-moo-tallow",
+      "brandId": "c939",
+      "raw": 16,
+      "kept": 14,
+      "withIngredients": 12,
+      "flavorVariants": 6,
+      "shopBase": "https://magicmootallow.com"
+    },
+    {
+      "slug": "silva-cosmetics",
+      "brandId": "c940",
+      "raw": 11,
+      "kept": 10,
+      "withIngredients": 4,
+      "flavorVariants": 6,
+      "shopBase": "https://www.silvacosmetics.com"
+    },
+    {
+      "slug": "cohld",
+      "brandId": "c941",
+      "raw": 10,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 1,
+      "shopBase": "https://www.cohld.com"
+    },
+    {
+      "slug": "hearth-and-homestead",
+      "brandId": "c942",
+      "raw": 96,
+      "kept": 96,
+      "withIngredients": 4,
+      "flavorVariants": 21,
+      "shopBase": "https://www.hearthandhomesteadstore.com"
+    },
+    {
+      "slug": "tagg-organics",
+      "brandId": "c943",
+      "raw": 6,
+      "kept": 20,
+      "withIngredients": 1,
+      "flavorVariants": 17,
+      "shopBase": "https://www.taggorganics.com"
+    },
+    {
+      "slug": "the-tallow-shop",
+      "brandId": "c944",
+      "raw": 10,
+      "kept": 20,
+      "withIngredients": 2,
+      "flavorVariants": 17,
+      "shopBase": "https://www.thetallowshop.com"
+    },
+    {
+      "slug": "flurrie-wellness",
+      "brandId": "c945",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://flurriewellness.com"
+    },
+    {
+      "slug": "nur-protein",
+      "brandId": "c946",
+      "raw": 6,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://nurprotein.com"
+    },
+    {
+      "slug": "good-livin",
+      "brandId": "c947",
+      "raw": 60,
+      "kept": 14,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.itsgoodlivin.com"
+    },
+    {
+      "slug": "myfeelium",
+      "brandId": "c948",
+      "raw": 18,
+      "kept": 11,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://myfeelium.co"
+    },
+    {
+      "slug": "koyah",
+      "brandId": "c949",
+      "raw": 38,
+      "kept": 22,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.koyah.com"
+    },
+    {
+      "slug": "mushroom-maiden-farm",
+      "brandId": "c950",
+      "raw": 15,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.mushroommaidenfarm.com"
+    },
+    {
+      "slug": "fungi-family-farm",
+      "brandId": "c951",
+      "raw": 45,
+      "kept": 38,
+      "withIngredients": 7,
+      "flavorVariants": 0,
+      "shopBase": "https://fungifamilyfarm.com"
+    },
+    {
+      "slug": "mill-slough-apothecary",
+      "brandId": "c952",
+      "raw": 40,
+      "kept": 36,
+      "withIngredients": 30,
+      "flavorVariants": 13,
+      "shopBase": "https://mill-slough-apothecary.myshopify.com"
+    },
+    {
+      "slug": "fitppl",
+      "brandId": "c953",
+      "raw": 3,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "shopBase": "https://www.fitppl.com"
+    },
+    {
+      "slug": "etee",
+      "brandId": "c954",
+      "raw": 86,
+      "kept": 37,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://www.etee.com"
+    },
+    {
+      "slug": "bounce-curl",
+      "brandId": "c955",
+      "raw": 53,
+      "kept": 18,
+      "withIngredients": 15,
+      "flavorVariants": 0,
+      "shopBase": "https://www.bouncecurl.com"
+    }
+  ],
+  "wave29WithIngredients": 119,
+  "wave29FlavorVariants": 93
+}

@@ -1,0 +1,175 @@
+[
+  {
+    "slug": "royal-tallow",
+    "shopBase": "https://www.royaltallow.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c937"
+  },
+  {
+    "slug": "cowlo",
+    "shopBase": "https://www.cowlotallow.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c938"
+  },
+  {
+    "slug": "magic-moo-tallow",
+    "shopBase": "https://magicmootallow.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c939"
+  },
+  {
+    "slug": "silva-cosmetics",
+    "shopBase": "https://www.silvacosmetics.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c940"
+  },
+  {
+    "slug": "cohld",
+    "shopBase": "https://www.cohld.com",
+    "categories": [
+      "supplements",
+      "skincare",
+      "electrolytes"
+    ],
+    "id": "c941"
+  },
+  {
+    "slug": "hearth-and-homestead",
+    "shopBase": "https://www.hearthandhomesteadstore.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c942"
+  },
+  {
+    "slug": "tagg-organics",
+    "shopBase": "https://www.taggorganics.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c943"
+  },
+  {
+    "slug": "the-tallow-shop",
+    "shopBase": "https://www.thetallowshop.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c944"
+  },
+  {
+    "slug": "flurrie-wellness",
+    "shopBase": "https://flurriewellness.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c945"
+  },
+  {
+    "slug": "nur-protein",
+    "shopBase": "https://nurprotein.com",
+    "categories": [
+      "protein",
+      "electrolytes"
+    ],
+    "id": "c946"
+  },
+  {
+    "slug": "good-livin",
+    "shopBase": "https://www.itsgoodlivin.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c947"
+  },
+  {
+    "slug": "myfeelium",
+    "shopBase": "https://myfeelium.co",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c948"
+  },
+  {
+    "slug": "koyah",
+    "shopBase": "https://www.koyah.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c949"
+  },
+  {
+    "slug": "mushroom-maiden-farm",
+    "shopBase": "https://www.mushroommaidenfarm.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c950"
+  },
+  {
+    "slug": "fungi-family-farm",
+    "shopBase": "https://fungifamilyfarm.com",
+    "categories": [
+      "supplements",
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c951"
+  },
+  {
+    "slug": "mill-slough-apothecary",
+    "shopBase": "https://mill-slough-apothecary.myshopify.com",
+    "categories": [
+      "skincare",
+      "supplements"
+    ],
+    "id": "c952"
+  },
+  {
+    "slug": "fitppl",
+    "shopBase": "https://www.fitppl.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c953"
+  },
+  {
+    "slug": "etee",
+    "shopBase": "https://www.etee.com",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "hair",
+      "skincare"
+    ],
+    "id": "c954"
+  },
+  {
+    "slug": "bounce-curl",
+    "shopBase": "https://www.bouncecurl.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c955"
+  }
+]
