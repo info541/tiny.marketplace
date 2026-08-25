@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "ohmygaia",
+    "shopBase": "https://www.ohmygaia.com",
+    "categories": [
+      "deodorant",
+      "hair"
+    ],
+    "id": "c999"
+  },
+  {
+    "slug": "raised",
+    "shopBase": "https://drinkraised.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1000"
+  },
+  {
+    "slug": "norcal-organic",
+    "shopBase": "https://norcal-organic.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1001"
+  },
+  {
+    "slug": "impact-everyday",
+    "shopBase": "https://impacteveryday.ca",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1002"
+  },
+  {
+    "slug": "made-of",
+    "shopBase": "https://madeof.life",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1003"
+  },
+  {
+    "slug": "thirsty-donkey",
+    "shopBase": "https://thirstydonkeyskinco.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1004"
+  },
+  {
+    "slug": "dr-jen",
+    "shopBase": "https://drjennatural.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1005"
+  },
+  {
+    "slug": "hair-fuel",
+    "shopBase": "https://thehairfuel.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c1006"
+  },
+  {
+    "slug": "nurture-glow",
+    "shopBase": "https://www.nurtureglowtallow.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1007"
+  }
+]
