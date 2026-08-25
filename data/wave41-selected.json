@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "himaya",
+    "shopBase": "https://himaya.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1086"
+  },
+  {
+    "slug": "miococo",
+    "shopBase": "https://miococo.com",
+    "categories": [
+      "protein",
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1087"
+  },
+  {
+    "slug": "natch-labs",
+    "shopBase": "https://natchlabs.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1088"
+  },
+  {
+    "slug": "yamabushi-farms",
+    "shopBase": "https://yamabushifarms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1089"
+  },
+  {
+    "slug": "tilted-cap",
+    "shopBase": "https://tiltedcapllc.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1090"
+  },
+  {
+    "slug": "hodgins-harvest",
+    "shopBase": "https://hodginsharvest.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1091"
+  },
+  {
+    "slug": "hearth-and-hide",
+    "shopBase": "https://hearthandhide.co.nz",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1092"
+  },
+  {
+    "slug": "greene-grass-tallow",
+    "shopBase": "https://greenegrasstallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1093"
+  },
+  {
+    "slug": "hide-tallow",
+    "shopBase": "https://hidetallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1094"
+  },
+  {
+    "slug": "fat-chance-farm",
+    "shopBase": "https://fatchancesoap.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1095"
+  },
+  {
+    "slug": "bearsville",
+    "shopBase": "https://bearsvillesoaps.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1096"
+  },
+  {
+    "slug": "my-neighbors-tallow",
+    "shopBase": "https://myneighborstallow.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c1097"
+  }
+]

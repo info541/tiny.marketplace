@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-08-25T20:11:09.206Z",
+  "wave41Products": 259,
+  "wave41BrandsWithProducts": 12,
+  "totalProducts": 23278,
+  "brandCount": 450,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "himaya",
+      "brandId": "c1086",
+      "raw": 5,
+      "kept": 5,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://himaya.com"
+    },
+    {
+      "slug": "miococo",
+      "brandId": "c1087",
+      "raw": 9,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://miococo.com"
+    },
+    {
+      "slug": "natch-labs",
+      "brandId": "c1088",
+      "raw": 75,
+      "kept": 52,
+      "withIngredients": 0,
+      "flavorVariants": 8,
+      "shopBase": "https://natchlabs.com"
+    },
+    {
+      "slug": "yamabushi-farms",
+      "brandId": "c1089",
+      "raw": 8,
+      "kept": 5,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://yamabushifarms.com"
+    },
+    {
+      "slug": "tilted-cap",
+      "brandId": "c1090",
+      "raw": 4,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://tiltedcapllc.com"
+    },
+    {
+      "slug": "hodgins-harvest",
+      "brandId": "c1091",
+      "raw": 19,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://hodginsharvest.com"
+    },
+    {
+      "slug": "hearth-and-hide",
+      "brandId": "c1092",
+      "raw": 9,
+      "kept": 9,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://hearthandhide.co.nz"
+    },
+    {
+      "slug": "greene-grass-tallow",
+      "brandId": "c1093",
+      "raw": 7,
+      "kept": 6,
+      "withIngredients": 6,
+      "flavorVariants": 0,
+      "shopBase": "https://greenegrasstallow.com"
+    },
+    {
+      "slug": "hide-tallow",
+      "brandId": "c1094",
+      "raw": 6,
+      "kept": 13,
+      "withIngredients": 0,
+      "flavorVariants": 13,
+      "shopBase": "https://hidetallow.com"
+    },
+    {
+      "slug": "fat-chance-farm",
+      "brandId": "c1095",
+      "raw": 29,
+      "kept": 39,
+      "withIngredients": 37,
+      "flavorVariants": 28,
+      "shopBase": "https://fatchancesoap.com"
+    },
+    {
+      "slug": "bearsville",
+      "brandId": "c1096",
+      "raw": 127,
+      "kept": 92,
+      "withIngredients": 92,
+      "flavorVariants": 39,
+      "shopBase": "https://bearsvillesoaps.com"
+    },
+    {
+      "slug": "my-neighbors-tallow",
+      "brandId": "c1097",
+      "raw": 45,
+      "kept": 19,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://myneighborstallow.com"
+    }
+  ]
+}
