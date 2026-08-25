@@ -1,0 +1,167 @@
+{
+  "generatedAt": "2026-08-25T01:16:27.599Z",
+  "wave22Products": 465,
+  "wave22BrandsWithProducts": 17,
+  "totalProducts": 23484,
+  "brandCount": 455,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "clean-kind",
+      "brandId": "c811",
+      "raw": 10,
+      "kept": 15,
+      "withIngredients": 0,
+      "flavorVariants": 13,
+      "shopBase": "https://shopcleankind.com"
+    },
+    {
+      "slug": "soleo-organics",
+      "brandId": "c812",
+      "raw": 9,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://soleoorganics.com"
+    },
+    {
+      "slug": "opportuniteas",
+      "brandId": "c813",
+      "raw": 16,
+      "kept": 18,
+      "withIngredients": 6,
+      "flavorVariants": 7,
+      "shopBase": "https://opportuniteas.com"
+    },
+    {
+      "slug": "wholesome-story",
+      "brandId": "c814",
+      "raw": 17,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://wholesomestory.com"
+    },
+    {
+      "slug": "nowa",
+      "brandId": "c815",
+      "raw": 13,
+      "kept": 14,
+      "withIngredients": 0,
+      "flavorVariants": 5,
+      "shopBase": "https://www.nowasite.com"
+    },
+    {
+      "slug": "antidote-hair",
+      "brandId": "c816",
+      "raw": 14,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://antidotehaircare.com"
+    },
+    {
+      "slug": "faith-in-nature",
+      "brandId": "c817",
+      "raw": 239,
+      "kept": 221,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://www.faithinnature.co.uk"
+    },
+    {
+      "slug": "antipodes",
+      "brandId": "c818",
+      "raw": 106,
+      "kept": 70,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.antipodesnature.com"
+    },
+    {
+      "slug": "rivas-ranch",
+      "brandId": "c819",
+      "raw": 28,
+      "kept": 49,
+      "withIngredients": 0,
+      "flavorVariants": 26,
+      "shopBase": "https://grassfedtallowproducts.com"
+    },
+    {
+      "slug": "natural-gas",
+      "brandId": "c820",
+      "raw": 10,
+      "kept": 10,
+      "withIngredients": 4,
+      "flavorVariants": 4,
+      "shopBase": "https://drinknaturalgas.com"
+    },
+    {
+      "slug": "kaylaan",
+      "brandId": "c821",
+      "raw": 34,
+      "kept": 34,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.kaylaan.com"
+    },
+    {
+      "slug": "homestead-tallowworks",
+      "brandId": "c822",
+      "raw": 5,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://homesteadtallowworks.com"
+    },
+    {
+      "slug": "tallow-springs",
+      "brandId": "c823",
+      "raw": 18,
+      "kept": 19,
+      "withIngredients": 1,
+      "flavorVariants": 4,
+      "shopBase": "https://tallowsprings.com"
+    },
+    {
+      "slug": "willow-moon-farm",
+      "brandId": "c824",
+      "raw": 97,
+      "kept": 19,
+      "withIngredients": 16,
+      "flavorVariants": 3,
+      "shopBase": "https://willowmoonfarm.com"
+    },
+    {
+      "slug": "sweet-bean-skin",
+      "brandId": "c825",
+      "raw": 10,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://sweetbeanskin.com"
+    },
+    {
+      "slug": "moo-tallow",
+      "brandId": "c826",
+      "raw": 13,
+      "kept": 5,
+      "withIngredients": 2,
+      "flavorVariants": 2,
+      "shopBase": "https://mootallow.com"
+    },
+    {
+      "slug": "clae",
+      "brandId": "c827",
+      "raw": 7,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://claeskin.com"
+    }
+  ]
+}
