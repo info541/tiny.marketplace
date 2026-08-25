@@ -1,12 +1,18 @@
+"use cache";
+
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { cacheLife, cacheTag } from "next/cache";
 import { BrandLogo } from "@/components/BrandLogo";
+import { BrandSaveSection } from "@/components/BrandSaveSection";
 import { ProductTile } from "@/components/ProductTile";
 import { ReviewCard } from "@/components/ReviewCard";
-import { SaveBrandButton } from "@/components/SaveBrandButton";
-import { getBrand, productsForBrand, reviewsForBrand } from "@/lib/data";
-import { createClient } from "@/lib/supabase/server";
+import { getBrand, productsForBrand, reviewsForBrand, brands } from "@/lib/data";
+
+export async function generateStaticParams() {
+  return brands.map((brand) => ({ slug: brand.slug }));
+}
 
 export async function generateMetadata({
   params,
@@ -14,34 +20,22 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  cacheLife("max");
+  cacheTag("brands", `brand:${slug}`);
   const brand = getBrand(slug);
   return { title: brand?.name ?? "Brand" };
 }
 
 export default async function BrandPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  cacheLife("max");
+  cacheTag("brands", `brand:${slug}`);
+
   const brand = getBrand(slug);
   if (!brand) notFound();
 
   const brandProducts = productsForBrand(brand.id);
   const brandReviews = reviewsForBrand(brand.id);
-
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-  const { data: dbBrand } = await supabase.from("brands").select("id").eq("slug", slug).maybeSingle();
-
-  let initialSaved = false;
-  if (user && dbBrand?.id) {
-    const { data: saved } = await supabase
-      .from("saved_brands")
-      .select("brand_id")
-      .eq("user_id", user.id)
-      .eq("brand_id", dbBrand.id)
-      .maybeSingle();
-    initialSaved = Boolean(saved);
-  }
 
   return (
     <div>
@@ -79,7 +73,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 Visit shop ↗
               </a>
             ) : null}
-            {dbBrand?.id ? <SaveBrandButton brandId={dbBrand.id} initialSaved={initialSaved} /> : null}
+            <BrandSaveSection slug={slug} />
           </div>
         </div>
       </section>

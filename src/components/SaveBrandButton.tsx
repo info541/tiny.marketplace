@@ -41,7 +41,6 @@ export function SaveBrandButton({ brandId, initialSaved }: Props) {
         return;
       }
       setSaved(false);
-      router.refresh();
       return;
     }
 
@@ -55,7 +54,6 @@ export function SaveBrandButton({ brandId, initialSaved }: Props) {
       return;
     }
     setSaved(true);
-    router.refresh();
   }
 
   return (

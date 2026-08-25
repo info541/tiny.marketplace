@@ -1,16 +1,25 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 
 export function LoginForm() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const callbackError = searchParams.get("error");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const supabase = createClient();
+    void supabase.auth.getUser().then(({ data: { user } }) => {
+      if (user) router.replace("/");
+    });
+  }, [router]);
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -66,6 +75,12 @@ export function LoginForm() {
           placeholder="••••••••"
         />
       </label>
+
+      {callbackError ? (
+        <p className="rounded-xl bg-[color-mix(in_oklab,var(--coral)_14%,white)] px-3 py-2 text-sm font-semibold text-ink">
+          Auth link expired or invalid — try signing in again.
+        </p>
+      ) : null}
 
       {error ? (
         <p className="rounded-xl bg-[color-mix(in_oklab,var(--coral)_14%,white)] px-3 py-2 text-sm font-semibold text-ink">

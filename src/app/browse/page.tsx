@@ -1,12 +1,18 @@
+"use cache";
+
 import type { Metadata } from "next";
 import { Suspense } from "react";
+import { cacheLife, cacheTag } from "next/cache";
 import { BrowseClient } from "@/components/BrowseClient";
 
 export const metadata: Metadata = {
   title: "Browse",
 };
 
-export default function BrowsePage() {
+export default async function BrowsePage() {
+  cacheLife("max");
+  cacheTag("browse");
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-5 sm:py-12 md:px-8">
       <p className="text-xs font-bold uppercase tracking-[0.16em] text-ink-soft/70">Browse</p>

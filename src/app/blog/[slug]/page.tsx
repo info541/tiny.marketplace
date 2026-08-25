@@ -1,6 +1,9 @@
+"use cache";
+
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { cacheLife, cacheTag } from "next/cache";
 import { BlogProductEmbed } from "@/components/BlogProductEmbed";
 import {
   amazonShopUrl,
@@ -13,7 +16,7 @@ import {
 } from "@/lib/blog";
 import { getBrand, getProduct } from "@/lib/data";
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   return getBlogPosts().map((post) => ({ slug: post.slug }));
 }
 
@@ -23,6 +26,8 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  cacheLife("max");
+  cacheTag("blog", `blog:${slug}`);
   const post = getBlogPost(slug);
   if (!post) return { title: "Blog" };
   return {
@@ -33,6 +38,9 @@ export async function generateMetadata({
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  cacheLife("max");
+  cacheTag("blog", `blog:${slug}`);
+
   const post = getBlogPost(slug);
   if (!post) notFound();
   const featured = productsForPost(post);

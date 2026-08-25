@@ -1,5 +1,8 @@
+"use cache";
+
 import type { Metadata } from "next";
 import Link from "next/link";
+import { cacheLife, cacheTag } from "next/cache";
 import { BrandLogo } from "@/components/BrandLogo";
 import { brands, categories } from "@/lib/data";
 
@@ -8,7 +11,10 @@ export const metadata: Metadata = {
   description: "Clean-leaning skincare, SPF, deodorant, oral care, and supplement brands on tiny.",
 };
 
-export default function BrandsIndexPage() {
+export default async function BrandsIndexPage() {
+  cacheLife("max");
+  cacheTag("brands");
+
   const sorted = [...brands].sort((a, b) => a.name.localeCompare(b.name));
 
   return (

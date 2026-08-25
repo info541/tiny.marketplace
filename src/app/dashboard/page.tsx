@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Suspense } from "react";
+import { DeleteCommunityPostButton } from "@/components/DeleteCommunityPostButton";
 import { ensureProfile, requireUser } from "@/lib/auth";
+import DashboardLoading from "./loading";
 
 export const metadata: Metadata = {
   title: "Dashboard",
@@ -16,7 +19,15 @@ function asOne<T>(value: T | T[] | null | undefined): T | null {
   return Array.isArray(value) ? (value[0] ?? null) : value;
 }
 
-export default async function DashboardPage() {
+export default function DashboardPage() {
+  return (
+    <Suspense fallback={<DashboardLoading />}>
+      <DashboardContent />
+    </Suspense>
+  );
+}
+
+async function DashboardContent() {
   const { supabase, user } = await requireUser();
   const profile = await ensureProfile(supabase, user);
   const displayName = profile?.display_name ?? user.email?.split("@")[0] ?? "you";
@@ -298,6 +309,7 @@ export default async function DashboardPage() {
                 <p className="mt-3 text-sm font-semibold text-ink-soft">
                   {post.likes} likes · {post.replies} replies
                 </p>
+                <DeleteCommunityPostButton postId={post.id} />
               </article>
             ))}
           </div>

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Suspense, useEffect, useId, useRef, useState } from "react";
 import { HeaderSearch } from "@/components/HeaderSearch";
+import { createClient } from "@/lib/supabase/client";
 
 const links = [
   { href: "/browse", label: "Browse" },
@@ -148,12 +149,35 @@ function MenuButton({
   );
 }
 
-export function SiteHeaderClient({ email }: Props) {
+export function SiteHeaderClient({ email: emailProp }: Props = {}) {
   const pathname = usePathname();
   const hideChrome = pathname === "/login" || pathname === "/signup";
   const [menuOpen, setMenuOpen] = useState(false);
   const [menuPath, setMenuPath] = useState(pathname);
+  const [email, setEmail] = useState<string | null>(emailProp ?? null);
   const menuId = useId();
+
+  useEffect(() => {
+    if (emailProp !== undefined) return;
+
+    let cancelled = false;
+    const supabase = createClient();
+
+    void supabase.auth.getUser().then(({ data: { user } }) => {
+      if (!cancelled) setEmail(user?.email ?? null);
+    });
+
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, session) => {
+      if (!cancelled) setEmail(session?.user?.email ?? null);
+    });
+
+    return () => {
+      cancelled = true;
+      subscription.unsubscribe();
+    };
+  }, [emailProp]);
 
   if (pathname !== menuPath) {
     setMenuPath(pathname);

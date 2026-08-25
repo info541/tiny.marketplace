@@ -1,13 +1,23 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Suspense } from "react";
 import { ProfileForm } from "@/components/ProfileForm";
 import { ensureProfile, requireUser } from "@/lib/auth";
+import ProfileLoading from "./loading";
 
 export const metadata: Metadata = {
   title: "Profile",
 };
 
-export default async function ProfilePage() {
+export default function ProfilePage() {
+  return (
+    <Suspense fallback={<ProfileLoading />}>
+      <ProfileContent />
+    </Suspense>
+  );
+}
+
+async function ProfileContent() {
   const { supabase, user } = await requireUser();
   const profile = await ensureProfile(supabase, user);
 

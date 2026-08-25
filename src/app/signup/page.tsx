@@ -1,19 +1,16 @@
+"use cache";
+
 import type { Metadata } from "next";
-import { redirect } from "next/navigation";
+import { cacheLife, cacheTag } from "next/cache";
 import { SignupForm } from "@/components/SignupForm";
-import { createClient } from "@/lib/supabase/server";
 
 export const metadata: Metadata = {
   title: "Sign up",
 };
 
 export default async function SignupPage() {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  if (user) redirect("/");
+  cacheLife("max");
+  cacheTag("signup");
 
   return (
     <div className="mx-auto flex min-h-[70vh] max-w-md flex-col justify-center px-4 py-12 sm:px-5 sm:py-14 md:px-8">

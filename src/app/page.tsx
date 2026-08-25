@@ -1,14 +1,22 @@
+"use cache";
+
+import { cacheLife, cacheTag } from "next/cache";
+import { HOMEPAGE_CACHE_TAG } from "@/lib/cache-tags";
 import { BrandMosaic } from "@/components/BrandMosaic";
 import { CategoryShopGrid, HomeHero } from "@/components/HomeHero";
 import { CommunityPostCard } from "@/components/CommunityPostCard";
 import { ProductTile } from "@/components/ProductTile";
 import { ReviewCard } from "@/components/ReviewCard";
 import { SectionHeading } from "@/components/ui";
-import { communityPosts, products, reviews } from "@/lib/data";
+import { listCommunityPosts } from "@/lib/community";
+import { products, reviews } from "@/lib/data";
 
-export default function HomePage() {
+export default async function HomePage() {
+  cacheLife("max");
+  cacheTag(HOMEPAGE_CACHE_TAG);
+
   const featured = products.filter((p) => p.badge).slice(0, 4);
-  const latestTalk = communityPosts.slice(0, 3);
+  const latestTalk = (await listCommunityPosts()).slice(0, 3);
   const spotlightReviews = reviews.slice(0, 3);
 
   return (

@@ -1,17 +1,20 @@
 "use client";
 
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useMemo, useState } from "react";
 import type { IngredientEntry } from "@/lib/ingredients";
 
 export function IngredientIndex({
   ingredients,
-  initialQuery = "",
+  initialQuery,
 }: {
   ingredients: IngredientEntry[];
   initialQuery?: string;
 }) {
-  const [query, setQuery] = useState(initialQuery);
+  const searchParams = useSearchParams();
+  const queryFromUrl = searchParams.get("q") ?? "";
+  const [query, setQuery] = useState(initialQuery ?? queryFromUrl);
 
   const filtered = useMemo(() => {
     const needle = query.trim().toLowerCase();

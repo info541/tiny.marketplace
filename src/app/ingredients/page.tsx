@@ -1,4 +1,8 @@
+"use cache";
+
 import type { Metadata } from "next";
+import { Suspense } from "react";
+import { cacheLife, cacheTag } from "next/cache";
 import { IngredientIndex } from "@/components/IngredientIndex";
 import { listIngredients } from "@/lib/ingredients";
 
@@ -6,12 +10,10 @@ export const metadata: Metadata = {
   title: "Ingredients",
 };
 
-export default async function IngredientsPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ q?: string }>;
-}) {
-  const params = await searchParams;
+export default async function IngredientsPage() {
+  cacheLife("max");
+  cacheTag("ingredients");
+
   // Omit description from the client payload — the index only shows name/role/counts.
   const ingredients = listIngredients().map(({ slug, name, role, productCount }) => ({
     slug,
@@ -31,7 +33,9 @@ export default async function IngredientsPage({
         A searchable list of what’s actually in these formulas. Open any ingredient to read what it does and see every product that uses it.
       </p>
       <div className="mt-8 sm:mt-10">
-        <IngredientIndex ingredients={ingredients} initialQuery={params.q ?? ""} />
+        <Suspense fallback={<div className="h-10 animate-pulse rounded bg-mist" aria-hidden />}>
+          <IngredientIndex ingredients={ingredients} />
+        </Suspense>
       </div>
     </div>
   );

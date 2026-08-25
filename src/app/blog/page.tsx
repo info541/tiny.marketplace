@@ -1,6 +1,9 @@
+"use cache";
+
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { cacheLife, cacheTag } from "next/cache";
 import { formatBlogDate, getBlogPosts, productsForPost } from "@/lib/blog";
 
 export const metadata: Metadata = {
@@ -8,7 +11,10 @@ export const metadata: Metadata = {
   description: "Product roundups and whatever else we’re into.",
 };
 
-export default function BlogIndexPage() {
+export default async function BlogIndexPage() {
+  cacheLife("max");
+  cacheTag("blog");
+
   const posts = getBlogPosts();
 
   return (

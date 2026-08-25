@@ -142,7 +142,7 @@ export function CompareSearch({
   }, [open]);
 
   function compareHref(slug: string) {
-    return `/products/${currentSlug}?compare=${encodeURIComponent(slug)}`;
+    return `/products/${currentSlug}/compare/${encodeURIComponent(slug)}`;
   }
 
   function selectSlug(slug: string) {

@@ -1,11 +1,19 @@
+"use cache";
+
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { cacheLife, cacheTag } from "next/cache";
 import { ProductTile } from "@/components/ProductTile";
-import { getIngredientBySlug, productsForIngredient } from "@/lib/ingredients";
+import { getIngredientBySlug, listIngredients, productsForIngredient } from "@/lib/ingredients";
 
-// Render on demand — the catalog has tens of thousands of unique ingredients after
-// backfill, and prerendering all of them exceeds Vercel build limits/timeouts.
+export async function generateStaticParams() {
+  return listIngredients()
+    .slice()
+    .sort((a, b) => b.productCount - a.productCount)
+    .slice(0, 50)
+    .map((ingredient) => ({ slug: ingredient.slug }));
+}
 
 export async function generateMetadata({
   params,
@@ -13,6 +21,8 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  cacheLife("max");
+  cacheTag("ingredients", `ingredient:${slug}`);
   const ingredient = getIngredientBySlug(slug);
   return {
     title: ingredient?.name ?? "Ingredient",
@@ -22,6 +32,9 @@ export async function generateMetadata({
 
 export default async function IngredientPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  cacheLife("max");
+  cacheTag("ingredients", `ingredient:${slug}`);
+
   const ingredient = getIngredientBySlug(slug);
   if (!ingredient) notFound();
 

@@ -1,8 +1,10 @@
 import type { Metadata, Viewport } from "next";
+import { Suspense } from "react";
+import { cacheLife, cacheTag } from "next/cache";
 import { Analytics } from "@vercel/analytics/next";
 import { DM_Sans, Playfair_Display } from "next/font/google";
 import { SiteFooter } from "@/components/SiteFooter";
-import { SiteHeader } from "@/components/SiteHeader";
+import { SiteHeaderClient } from "@/components/SiteHeaderClient";
 import "./globals.css";
 
 const display = Playfair_Display({
@@ -38,11 +40,31 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${display.variable} ${body.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
-        <SiteHeader />
+        <CachedHeader />
         <main className="relative z-10 flex-1">{children}</main>
-        <SiteFooter />
+        <CachedFooter />
         <Analytics />
       </body>
     </html>
   );
+}
+
+async function CachedHeader() {
+  "use cache";
+  cacheLife("max");
+  cacheTag("layout");
+
+  return (
+    <Suspense fallback={<header className="sticky top-0 z-40 h-[52px] bg-header pt-[env(safe-area-inset-top)]" aria-hidden />}>
+      <SiteHeaderClient />
+    </Suspense>
+  );
+}
+
+async function CachedFooter() {
+  "use cache";
+  cacheLife("max");
+  cacheTag("layout");
+
+  return <SiteFooter />;
 }

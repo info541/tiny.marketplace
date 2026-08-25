@@ -1,14 +1,24 @@
+"use cache";
+
 import type { Metadata } from "next";
 import Link from "next/link";
+import { cacheLife, cacheTag } from "next/cache";
 import { CommunityPostCard } from "@/components/CommunityPostCard";
 import { ReviewCard } from "@/components/ReviewCard";
-import { communityPosts, reviews } from "@/lib/data";
+import { COMMUNITY_CACHE_TAG } from "@/lib/cache-tags";
+import { listCommunityPosts } from "@/lib/community";
+import { reviews } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Talk",
 };
 
-export default function CommunityPage() {
+export default async function CommunityPage() {
+  cacheLife("max");
+  cacheTag(COMMUNITY_CACHE_TAG);
+
+  const communityPosts = await listCommunityPosts();
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-5 sm:py-12 md:px-8">
       <div className="flex flex-col gap-5 sm:gap-6 md:flex-row md:items-end md:justify-between">
