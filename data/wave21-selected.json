@@ -1,0 +1,147 @@
+[
+  {
+    "slug": "birchbabe",
+    "shopBase": "https://birchbabe.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "skincare",
+      "hair",
+      "oral"
+    ],
+    "id": "c795"
+  },
+  {
+    "slug": "coconut-joes",
+    "shopBase": "https://coconutjoessunproducts.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c796"
+  },
+  {
+    "slug": "magnolia-crow",
+    "shopBase": "https://magnoliacrowsoapco.com",
+    "categories": [
+      "hair",
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c797"
+  },
+  {
+    "slug": "oak-prairie",
+    "shopBase": "https://oakandprairiellc.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c798"
+  },
+  {
+    "slug": "heey",
+    "shopBase": "https://itsheey.com",
+    "categories": [
+      "electrolytes",
+      "protein",
+      "supplements"
+    ],
+    "id": "c799"
+  },
+  {
+    "slug": "hiro",
+    "shopBase": "https://dailyhiro.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c800"
+  },
+  {
+    "slug": "ndc",
+    "shopBase": "https://www.ndcsupplements.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c801"
+  },
+  {
+    "slug": "unicorn-co",
+    "shopBase": "https://www.the-unicornco.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c802"
+  },
+  {
+    "slug": "organic-burst",
+    "shopBase": "https://www.organicburst.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c803"
+  },
+  {
+    "slug": "booheads",
+    "shopBase": "https://www.booheads.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c804"
+  },
+  {
+    "slug": "electric-shrooms",
+    "shopBase": "https://drinkyourshrooms.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c805"
+  },
+  {
+    "slug": "primm-farms",
+    "shopBase": "https://primmfarms.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c806"
+  },
+  {
+    "slug": "moon-valley",
+    "shopBase": "https://www.moonvalleyorganics.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c807"
+  },
+  {
+    "slug": "wishgarden",
+    "shopBase": "https://www.wishgardenherbs.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c808"
+  },
+  {
+    "slug": "banyan",
+    "shopBase": "https://www.banyanbotanicals.com",
+    "categories": [
+      "supplements",
+      "hair",
+      "skincare"
+    ],
+    "id": "c809"
+  },
+  {
+    "slug": "urban-moonshine",
+    "shopBase": "https://www.urbanmoonshine.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c810"
+  }
+]
