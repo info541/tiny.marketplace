@@ -1,0 +1,145 @@
+[
+  {
+    "slug": "clean-kind",
+    "shopBase": "https://shopcleankind.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c811"
+  },
+  {
+    "slug": "soleo-organics",
+    "shopBase": "https://soleoorganics.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c812"
+  },
+  {
+    "slug": "opportuniteas",
+    "shopBase": "https://opportuniteas.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c813"
+  },
+  {
+    "slug": "wholesome-story",
+    "shopBase": "https://wholesomestory.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c814"
+  },
+  {
+    "slug": "nowa",
+    "shopBase": "https://www.nowasite.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c815"
+  },
+  {
+    "slug": "antidote-hair",
+    "shopBase": "https://antidotehaircare.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c816"
+  },
+  {
+    "slug": "faith-in-nature",
+    "shopBase": "https://www.faithinnature.co.uk",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c817"
+  },
+  {
+    "slug": "antipodes",
+    "shopBase": "https://www.antipodesnature.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c818"
+  },
+  {
+    "slug": "rivas-ranch",
+    "shopBase": "https://grassfedtallowproducts.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c819"
+  },
+  {
+    "slug": "natural-gas",
+    "shopBase": "https://drinknaturalgas.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c820"
+  },
+  {
+    "slug": "kaylaan",
+    "shopBase": "https://www.kaylaan.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c821"
+  },
+  {
+    "slug": "homestead-tallowworks",
+    "shopBase": "https://homesteadtallowworks.com",
+    "categories": [
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c822"
+  },
+  {
+    "slug": "tallow-springs",
+    "shopBase": "https://tallowsprings.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c823"
+  },
+  {
+    "slug": "willow-moon-farm",
+    "shopBase": "https://willowmoonfarm.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c824"
+  },
+  {
+    "slug": "sweet-bean-skin",
+    "shopBase": "https://sweetbeanskin.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c825"
+  },
+  {
+    "slug": "moo-tallow",
+    "shopBase": "https://mootallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c826"
+  },
+  {
+    "slug": "clae",
+    "shopBase": "https://claeskin.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c827"
+  }
+]
