@@ -96,7 +96,7 @@ export const catalogBrandsWave28: Brand[] = [
     reviewCount: 2400,
     followerCount: 32000,
     websiteUrl: "https://www.thehumble.co",
-    logoUrl: "/brands/the-humble-co.svg",
+    logoUrl: "/brands/the-humble-co.png",
   },
   {
     id: "c927",
@@ -112,7 +112,7 @@ export const catalogBrandsWave28: Brand[] = [
     reviewCount: 1600,
     followerCount: 18000,
     websiteUrl: "https://www.jackandjillkids.com",
-    logoUrl: "/brands/jack-n-jill.svg",
+    logoUrl: "/brands/jack-n-jill.png",
   },
   {
     id: "c928",
@@ -128,7 +128,7 @@ export const catalogBrandsWave28: Brand[] = [
     reviewCount: 890,
     followerCount: 14000,
     websiteUrl: "https://www.pestleandmortar.com",
-    logoUrl: "/brands/pestle-and-mortar.svg",
+    logoUrl: "/brands/pestle-and-mortar.png",
   },
   {
     id: "c929",
@@ -192,7 +192,7 @@ export const catalogBrandsWave28: Brand[] = [
     reviewCount: 3100,
     followerCount: 28000,
     websiteUrl: "https://jessicurl.com",
-    logoUrl: "/brands/jessicurl.svg",
+    logoUrl: "/brands/jessicurl.png",
   },
   {
     id: "c933",

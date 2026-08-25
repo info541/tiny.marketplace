@@ -1,0 +1,158 @@
+{
+  "generatedAt": "2026-08-25T07:16:41.045Z",
+  "wave28Products": 304,
+  "wave28BrandsWithProducts": 16,
+  "totalProducts": 23323,
+  "brandCount": 454,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "heaven-tallow",
+      "brandId": "c921",
+      "raw": 25,
+      "kept": 16,
+      "withIngredients": 0,
+      "flavorVariants": 6,
+      "shopBase": "https://www.heaventallow.com"
+    },
+    {
+      "slug": "wellness-and-wildflowers",
+      "brandId": "c922",
+      "raw": 5,
+      "kept": 5,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://wellnessandwildflowers.com"
+    },
+    {
+      "slug": "jr-ranch",
+      "brandId": "c923",
+      "raw": 7,
+      "kept": 6,
+      "withIngredients": 3,
+      "flavorVariants": 1,
+      "shopBase": "https://jrranch.myshopify.com"
+    },
+    {
+      "slug": "rawvelo",
+      "brandId": "c924",
+      "raw": 22,
+      "kept": 6,
+      "withIngredients": 2,
+      "flavorVariants": 3,
+      "shopBase": "https://www.rawvelo.com"
+    },
+    {
+      "slug": "clockwork-rituals",
+      "brandId": "c925",
+      "raw": 11,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "shopBase": "https://www.clockworkrituals.com"
+    },
+    {
+      "slug": "the-humble-co",
+      "brandId": "c926",
+      "raw": 99,
+      "kept": 64,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.thehumble.co"
+    },
+    {
+      "slug": "jack-n-jill",
+      "brandId": "c927",
+      "raw": 50,
+      "kept": 31,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "shopBase": "https://www.jackandjillkids.com"
+    },
+    {
+      "slug": "pestle-and-mortar",
+      "brandId": "c928",
+      "raw": 67,
+      "kept": 29,
+      "withIngredients": 26,
+      "flavorVariants": 0,
+      "shopBase": "https://www.pestleandmortar.com"
+    },
+    {
+      "slug": "lumera-morel",
+      "brandId": "c929",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://lumeramorel.com"
+    },
+    {
+      "slug": "wild-crafted-kitchen",
+      "brandId": "c930",
+      "raw": 43,
+      "kept": 52,
+      "withIngredients": 32,
+      "flavorVariants": 25,
+      "shopBase": "https://wildcraftedkitchenmn.myshopify.com"
+    },
+    {
+      "slug": "holmestyle",
+      "brandId": "c931",
+      "raw": 49,
+      "kept": 31,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://holmestylehomestead.myshopify.com"
+    },
+    {
+      "slug": "jessicurl",
+      "brandId": "c932",
+      "raw": 29,
+      "kept": 17,
+      "withIngredients": 0,
+      "flavorVariants": 16,
+      "shopBase": "https://jessicurl.com"
+    },
+    {
+      "slug": "boucleme",
+      "brandId": "c933",
+      "raw": 51,
+      "kept": 17,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.boucleme.co.uk"
+    },
+    {
+      "slug": "zerean",
+      "brandId": "c934",
+      "raw": 5,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.zereanlabs.com"
+    },
+    {
+      "slug": "earthling-mushroom-farm",
+      "brandId": "c935",
+      "raw": 24,
+      "kept": 11,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://www.earthlingmushroomfarm.com"
+    },
+    {
+      "slug": "mushroom-alchemy",
+      "brandId": "c936",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://mushroom-alchemy.myshopify.com"
+    }
+  ]
+}
