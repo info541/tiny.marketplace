@@ -1,0 +1,95 @@
+[
+  {
+    "slug": "tiffs-tallow",
+    "shopBase": "https://tiffstallow.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c1098"
+  },
+  {
+    "slug": "wild-prairie",
+    "shopBase": "https://wildprairieorganics.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1099"
+  },
+  {
+    "slug": "tallow-and-bloom",
+    "shopBase": "https://tallowandbloom.myshopify.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1100"
+  },
+  {
+    "slug": "pasture-and-posies",
+    "shopBase": "https://shop.7arrowsfarm.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c1101"
+  },
+  {
+    "slug": "bloom-tallow",
+    "shopBase": "https://bloomtallow.com",
+    "categories": [
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c1102"
+  },
+  {
+    "slug": "bloom-and-branch",
+    "shopBase": "https://bloomandbranchnaturals.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1103"
+  },
+  {
+    "slug": "soulful-bloom",
+    "shopBase": "https://shopsoulfulbloom.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1104"
+  },
+  {
+    "slug": "danyelli-laurette",
+    "shopBase": "https://danyellilaurette.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1105"
+  },
+  {
+    "slug": "ceelike",
+    "shopBase": "https://ceelike.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1106"
+  },
+  {
+    "slug": "farm-to-skin",
+    "shopBase": "https://farmtoskin.com",
+    "categories": [
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c1107"
+  }
+]
