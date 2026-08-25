@@ -222,7 +222,7 @@ function reclassify(p) {
   }
   if (
     /\b(lion'?s mane|turkey tail|chaga|reishi|tincture|bitters|immunity tonic)\b/.test(t) &&
-    !/\b(toner|moisturizer|barrier defense|soap|mask)\b/.test(t)
+    !/\b(toner|moisturizer|barrier defense|soap|mask|serum|cream|balm|oil|tallow|bar|wash)\b/.test(t)
   ) {
     p.category = "supplements";
   }
