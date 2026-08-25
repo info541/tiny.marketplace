@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "sugar-pine",
+    "shopBase": "https://sugarpineproducts.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1048"
+  },
+  {
+    "slug": "little-pasture",
+    "shopBase": "https://thelittlepasture.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1049"
+  },
+  {
+    "slug": "manna-tallow",
+    "shopBase": "https://mannatallow.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1050"
+  },
+  {
+    "slug": "twice-oral",
+    "shopBase": "https://smiletwice.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1051"
+  },
+  {
+    "slug": "high-end-hippie",
+    "shopBase": "https://highendhippie.ca",
+    "categories": [
+      "hair"
+    ],
+    "id": "c1052"
+  },
+  {
+    "slug": "margaret-river-made",
+    "shopBase": "https://margaretrivermade.com.au",
+    "categories": [
+      "hair",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1053"
+  },
+  {
+    "slug": "durango-tallow",
+    "shopBase": "https://durangotallowcompany.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c1054"
+  },
+  {
+    "slug": "maui-mana",
+    "shopBase": "https://mauimanaskincare.myshopify.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1055"
+  },
+  {
+    "slug": "fat-cow-skin",
+    "shopBase": "https://fatcowskin.com",
+    "categories": [
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c1056"
+  },
+  {
+    "slug": "grin-natural",
+    "shopBase": "https://grinnatural.co.nz",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1057"
+  },
+  {
+    "slug": "sb-botanicals",
+    "shopBase": "https://sbbotanicalproducts.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1058"
+  },
+  {
+    "slug": "simple-sunscreen",
+    "shopBase": "https://simplesunscreen.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1059"
+  }
+]
