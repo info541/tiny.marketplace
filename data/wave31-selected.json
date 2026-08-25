@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "oak-and-sage",
+    "shopBase": "https://oaksageskincare.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c970"
+  },
+  {
+    "slug": "skin-balm-apothecary",
+    "shopBase": "https://www.skinbalmapothecary.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c971"
+  },
+  {
+    "slug": "earth-herd-harvest",
+    "shopBase": "https://earthherdharvest.com.au",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c972"
+  },
+  {
+    "slug": "pure-tallow-eu",
+    "shopBase": "https://puretallow.eu",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c973"
+  },
+  {
+    "slug": "nala-care",
+    "shopBase": "https://nalacare.com",
+    "categories": [
+      "deodorant"
+    ],
+    "id": "c974"
+  },
+  {
+    "slug": "black-chicken",
+    "shopBase": "https://blackchicken.com.au",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c975"
+  },
+  {
+    "slug": "pure-press-oils",
+    "shopBase": "https://purepressoils.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c976"
+  },
+  {
+    "slug": "rockin-wellness",
+    "shopBase": "https://rockinwellness.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c977"
+  },
+  {
+    "slug": "pirouette-beauty",
+    "shopBase": "https://www.pirouettebeauty.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c978"
+  },
+  {
+    "slug": "sage-tallow",
+    "shopBase": "https://sagetallow.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c979"
+  },
+  {
+    "slug": "mushrooms-for-life",
+    "shopBase": "https://mushroomsforlife.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c980"
+  },
+  {
+    "slug": "happy-dragonfly",
+    "shopBase": "https://happydragonflyhomestead.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c981"
+  },
+  {
+    "slug": "pasture-and-petal",
+    "shopBase": "https://pastureandpetal.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c982"
+  },
+  {
+    "slug": "nz-tallow",
+    "shopBase": "https://nztallow.co.nz",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c983"
+  },
+  {
+    "slug": "sun-tallow",
+    "shopBase": "https://suntallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c984"
+  }
+]

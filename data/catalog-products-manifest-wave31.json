@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-08-25T10:11:56.292Z",
+  "wave31Products": 254,
+  "wave31BrandsWithProducts": 15,
+  "totalProducts": 23273,
+  "brandCount": 453,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "oak-and-sage",
+      "brandId": "c970",
+      "raw": 32,
+      "kept": 22,
+      "withIngredients": 3,
+      "flavorVariants": 5,
+      "shopBase": "https://oaksageskincare.com"
+    },
+    {
+      "slug": "skin-balm-apothecary",
+      "brandId": "c971",
+      "raw": 63,
+      "kept": 47,
+      "withIngredients": 6,
+      "flavorVariants": 6,
+      "shopBase": "https://www.skinbalmapothecary.com"
+    },
+    {
+      "slug": "earth-herd-harvest",
+      "brandId": "c972",
+      "raw": 11,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://earthherdharvest.com.au"
+    },
+    {
+      "slug": "pure-tallow-eu",
+      "brandId": "c973",
+      "raw": 9,
+      "kept": 10,
+      "withIngredients": 4,
+      "flavorVariants": 2,
+      "shopBase": "https://puretallow.eu"
+    },
+    {
+      "slug": "nala-care",
+      "brandId": "c974",
+      "raw": 21,
+      "kept": 14,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://nalacare.com"
+    },
+    {
+      "slug": "black-chicken",
+      "brandId": "c975",
+      "raw": 123,
+      "kept": 76,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://blackchicken.com.au"
+    },
+    {
+      "slug": "pure-press-oils",
+      "brandId": "c976",
+      "raw": 17,
+      "kept": 12,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://purepressoils.com"
+    },
+    {
+      "slug": "rockin-wellness",
+      "brandId": "c977",
+      "raw": 24,
+      "kept": 11,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://rockinwellness.com"
+    },
+    {
+      "slug": "pirouette-beauty",
+      "brandId": "c978",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://www.pirouettebeauty.com"
+    },
+    {
+      "slug": "sage-tallow",
+      "brandId": "c979",
+      "raw": 4,
+      "kept": 3,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://sagetallow.com"
+    },
+    {
+      "slug": "mushrooms-for-life",
+      "brandId": "c980",
+      "raw": 42,
+      "kept": 30,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://mushroomsforlife.com"
+    },
+    {
+      "slug": "happy-dragonfly",
+      "brandId": "c981",
+      "raw": 13,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://happydragonflyhomestead.com"
+    },
+    {
+      "slug": "pasture-and-petal",
+      "brandId": "c982",
+      "raw": 25,
+      "kept": 21,
+      "withIngredients": 1,
+      "flavorVariants": 8,
+      "shopBase": "https://pastureandpetal.com"
+    },
+    {
+      "slug": "nz-tallow",
+      "brandId": "c983",
+      "raw": 8,
+      "kept": 8,
+      "withIngredients": 7,
+      "flavorVariants": 0,
+      "shopBase": "https://nztallow.co.nz"
+    },
+    {
+      "slug": "sun-tallow",
+      "brandId": "c984",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://suntallow.com"
+    }
+  ]
+}
