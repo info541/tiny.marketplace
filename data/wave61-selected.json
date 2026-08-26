@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "sea-summit",
+    "shopBase": "https://seaandsummitsunscreen.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1235"
+  },
+  {
+    "slug": "mastermedi",
+    "shopBase": "https://mastermedi.co",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1236"
+  },
+  {
+    "slug": "tandlers-tallow",
+    "shopBase": "https://tandlerstallow.com",
+    "categories": [
+      "skincare",
+      "deodorant",
+      "hair",
+      "sunscreen"
+    ],
+    "id": "c1237"
+  },
+  {
+    "slug": "gotpwr",
+    "shopBase": "https://goatswhey.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1238"
+  },
+  {
+    "slug": "plain-jane-tallow",
+    "shopBase": "https://plainjanetallow.com",
+    "categories": [
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c1239"
+  },
+  {
+    "slug": "primal-glow",
+    "shopBase": "https://primalglowcosmetics.com",
+    "categories": [
+      "skincare",
+      "sunscreen",
+      "oral"
+    ],
+    "id": "c1240"
+  },
+  {
+    "slug": "arizona-mushroom",
+    "shopBase": "https://arizona-mushroom-company.myshopify.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1241"
+  }
+]

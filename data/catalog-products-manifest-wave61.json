@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-08-26T15:08:37.945Z",
+  "wave61Products": 70,
+  "wave61BrandsWithProducts": 7,
+  "totalProducts": 23089,
+  "brandCount": 445,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "sea-summit",
+      "brandId": "c1235",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://seaandsummitsunscreen.com"
+    },
+    {
+      "slug": "mastermedi",
+      "brandId": "c1236",
+      "raw": 17,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://mastermedi.co"
+    },
+    {
+      "slug": "tandlers-tallow",
+      "brandId": "c1237",
+      "raw": 21,
+      "kept": 25,
+      "withIngredients": 0,
+      "flavorVariants": 22,
+      "shopBase": "https://tandlerstallow.com"
+    },
+    {
+      "slug": "gotpwr",
+      "brandId": "c1238",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://goatswhey.com"
+    },
+    {
+      "slug": "plain-jane-tallow",
+      "brandId": "c1239",
+      "raw": 17,
+      "kept": 13,
+      "withIngredients": 10,
+      "flavorVariants": 2,
+      "shopBase": "https://plainjanetallow.com"
+    },
+    {
+      "slug": "primal-glow",
+      "brandId": "c1240",
+      "raw": 14,
+      "kept": 17,
+      "withIngredients": 0,
+      "flavorVariants": 15,
+      "shopBase": "https://primalglowcosmetics.com"
+    },
+    {
+      "slug": "arizona-mushroom",
+      "brandId": "c1241",
+      "raw": 10,
+      "kept": 5,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://arizona-mushroom-company.myshopify.com"
+    }
+  ]
+}
