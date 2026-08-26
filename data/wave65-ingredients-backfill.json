@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-08-26T19:17:55.258Z",
+  "dropped": 11,
+  "filled": 30,
+  "mineralDailyPublishedFormula": 4,
+  "waveProducts": 154,
+  "withIngredients": 121,
+  "flavorVariants": 82,
+  "categories": {
+    "oral": 4,
+    "skincare": 125,
+    "hair": 16,
+    "sunscreen": 2,
+    "deodorant": 7
+  },
+  "allHaveImages": true
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "mineral-daily",
+    "shopBase": "https://mineraldaily.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1261"
+  },
+  {
+    "slug": "aura-glow-tallow",
+    "shopBase": "https://auraglowtallow.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "deodorant",
+      "hair"
+    ],
+    "id": "c1262"
+  },
+  {
+    "slug": "ofp-farms",
+    "shopBase": "https://ofpfarms.com",
+    "categories": [
+      "skincare",
+      "deodorant",
+      "hair"
+    ],
+    "id": "c1263"
+  },
+  {
+    "slug": "untamed-mother",
+    "shopBase": "https://untamedmotherco.com",
+    "categories": [
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c1264"
+  },
+  {
+    "slug": "tallow-and-hive",
+    "shopBase": "https://tallowandhive.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1265"
+  }
+]
