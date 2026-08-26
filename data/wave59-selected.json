@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "elektra",
+    "shopBase": "https://elektralytes.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1223"
+  },
+  {
+    "slug": "primals",
+    "shopBase": "https://primals.shop",
+    "categories": [
+      "oral",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1224"
+  },
+  {
+    "slug": "papr",
+    "shopBase": "https://papercosmetics.com",
+    "categories": [
+      "deodorant"
+    ],
+    "id": "c1225"
+  },
+  {
+    "slug": "tallowhead",
+    "shopBase": "https://tallowhead.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "deodorant",
+      "hair"
+    ],
+    "id": "c1226"
+  },
+  {
+    "slug": "mill-creek-tallow",
+    "shopBase": "https://millcreektallow.com",
+    "categories": [
+      "skincare",
+      "deodorant",
+      "hair"
+    ],
+    "id": "c1227"
+  },
+  {
+    "slug": "xotic-mushrooms",
+    "shopBase": "https://xoticmushrooms.com.au",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1228"
+  }
+]
