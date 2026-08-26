@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "klyyr",
+    "shopBase": "https://klyyr.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1249"
+  },
+  {
+    "slug": "baili-essentials",
+    "shopBase": "https://bailiessentials.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1250"
+  },
+  {
+    "slug": "without-compromise",
+    "shopBase": "https://withoutcompromise.ca",
+    "categories": [
+      "skincare",
+      "hair",
+      "sunscreen"
+    ],
+    "id": "c1251"
+  },
+  {
+    "slug": "i-lyte-you",
+    "shopBase": "https://ilyteyou.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1252"
+  },
+  {
+    "slug": "fruiting-bodies",
+    "shopBase": "https://fruitingbodies.co",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1253"
+  }
+]
