@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-08-26T13:15:42.712Z",
+  "wave59Products": 58,
+  "wave59BrandsWithProducts": 6,
+  "totalProducts": 23077,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "elektra",
+      "brandId": "c1223",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://elektralytes.com"
+    },
+    {
+      "slug": "primals",
+      "brandId": "c1224",
+      "raw": 28,
+      "kept": 10,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://primals.shop"
+    },
+    {
+      "slug": "papr",
+      "brandId": "c1225",
+      "raw": 11,
+      "kept": 9,
+      "withIngredients": 9,
+      "flavorVariants": 0,
+      "shopBase": "https://papercosmetics.com"
+    },
+    {
+      "slug": "tallowhead",
+      "brandId": "c1226",
+      "raw": 18,
+      "kept": 18,
+      "withIngredients": 16,
+      "flavorVariants": 7,
+      "shopBase": "https://tallowhead.com"
+    },
+    {
+      "slug": "mill-creek-tallow",
+      "brandId": "c1227",
+      "raw": 16,
+      "kept": 16,
+      "withIngredients": 6,
+      "flavorVariants": 8,
+      "shopBase": "https://millcreektallow.com"
+    },
+    {
+      "slug": "xotic-mushrooms",
+      "brandId": "c1228",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://xoticmushrooms.com.au"
+    }
+  ]
+}
