@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-08-26T10:25:58.178Z",
+  "wave56Products": 69,
+  "wave56BrandsWithProducts": 5,
+  "totalProducts": 23088,
+  "brandCount": 443,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "restore-oral",
+      "brandId": "c1207",
+      "raw": 3,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://restoreau.com"
+    },
+    {
+      "slug": "origen",
+      "brandId": "c1208",
+      "raw": 5,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "shopBase": "https://origenseawater.com"
+    },
+    {
+      "slug": "fresh-harvest",
+      "brandId": "c1209",
+      "raw": 8,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://freshharvestfarm.com"
+    },
+    {
+      "slug": "tallow-spot",
+      "brandId": "c1210",
+      "raw": 39,
+      "kept": 22,
+      "withIngredients": 22,
+      "flavorVariants": 8,
+      "shopBase": "https://thetallowspot.com"
+    },
+    {
+      "slug": "prairie-soap",
+      "brandId": "c1211",
+      "raw": 3,
+      "kept": 37,
+      "withIngredients": 8,
+      "flavorVariants": 37,
+      "shopBase": "https://prairiesoapco.com"
+    }
+  ]
+}

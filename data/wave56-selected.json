@@ -1,0 +1,54 @@
+{
+  "wave": 56,
+  "ids": ["c1207", "c1208", "c1209", "c1210", "c1211"],
+  "nextWaveStartsAt": "c1212",
+  "brands": [
+    {
+      "id": "c1207",
+      "slug": "restore-oral",
+      "name": "Restore Oral Care",
+      "shop": "https://restoreau.com",
+      "cats": ["oral"],
+      "fx": "AUD 0.65",
+      "keep": "Green Mint + Vanilla n-HA toothpastes",
+      "drop": "duo"
+    },
+    {
+      "id": "c1208",
+      "slug": "origen",
+      "name": "Origen",
+      "shop": "https://origenseawater.com",
+      "cats": ["electrolytes"],
+      "fx": "CAD 0.73",
+      "keep": "7-Day 3 flavors + Premium 12-pack",
+      "drop": "48-pouch, elite protocol, recharge 24"
+    },
+    {
+      "id": "c1209",
+      "slug": "fresh-harvest",
+      "name": "Fresh Harvest Farms",
+      "shop": "https://freshharvestfarm.com",
+      "cats": ["supplements"],
+      "keep": "Lion's Mane/Reishi/Cordyceps tinctures + LM powder",
+      "drop": "bundles, pantry, microgreens"
+    },
+    {
+      "id": "c1210",
+      "slug": "tallow-spot",
+      "name": "The Tallow Spot",
+      "shop": "https://thetallowspot.com",
+      "cats": ["sunscreen", "skincare", "hair"],
+      "keep": "sun stick+cream as format expand, lip/scrub/lotion scents",
+      "drop": "makeup, bath soaks, dish soap, rollers, elderberry, merch, hair oil without image"
+    },
+    {
+      "id": "c1211",
+      "slug": "prairie-soap",
+      "name": "Prairie Soap Company",
+      "shop": "https://prairiesoapco.com",
+      "cats": ["skincare"],
+      "keep": "lotion fragrance expand, soap style expand, lip flavor; 2oz/6oz is size",
+      "drop": "wholesale, mystery, merch"
+    }
+  ]
+}
