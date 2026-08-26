@@ -1,0 +1,69 @@
+[
+  {
+    "slug": "amallow",
+    "shopBase": "https://amallow.com",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1146"
+  },
+  {
+    "slug": "dersie",
+    "shopBase": "https://dersie.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1147"
+  },
+  {
+    "slug": "cooki-haircare",
+    "shopBase": "https://www.haircooki.com.au",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1148"
+  },
+  {
+    "slug": "wayward-chickadee",
+    "shopBase": "https://waywardchickadee.com",
+    "categories": [
+      "hair",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1149"
+  },
+  {
+    "slug": "salty-hydration",
+    "shopBase": "https://salty-hydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1150"
+  },
+  {
+    "slug": "honeysuckle-rose",
+    "shopBase": "https://honeysuckleroseskincare.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1151"
+  },
+  {
+    "slug": "tallowed-and-free",
+    "shopBase": "https://tallowedandfree.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c1152"
+  }
+]
