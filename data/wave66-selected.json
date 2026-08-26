@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "tidalove",
+    "shopBase": "https://tidalove.com",
+    "categories": [
+      "oral",
+      "skincare"
+    ],
+    "id": "c1266"
+  },
+  {
+    "slug": "enact-hydration",
+    "shopBase": "https://enacthydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1267"
+  },
+  {
+    "slug": "flora-fauna-skin",
+    "shopBase": "https://florafaunaskin.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1268"
+  },
+  {
+    "slug": "oxford-hill",
+    "shopBase": "https://oxfordhill.co",
+    "categories": [
+      "deodorant",
+      "hair"
+    ],
+    "id": "c1269"
+  },
+  {
+    "slug": "mindful-crumb",
+    "shopBase": "https://shop.mindfulcrumb.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1270"
+  },
+  {
+    "slug": "mmm-farms",
+    "shopBase": "https://mmmfarms.myshopify.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1271"
+  }
+]

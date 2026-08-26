@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-08-26T20:10:39.520Z",
+  "wave66Products": 34,
+  "wave66BrandsWithProducts": 6,
+  "totalProducts": 23053,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "tidalove",
+      "brandId": "c1266",
+      "raw": 32,
+      "kept": 14,
+      "withIngredients": 1,
+      "flavorVariants": 6,
+      "shopBase": "https://tidalove.com"
+    },
+    {
+      "slug": "enact-hydration",
+      "brandId": "c1267",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://enacthydration.com"
+    },
+    {
+      "slug": "flora-fauna-skin",
+      "brandId": "c1268",
+      "raw": 4,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://florafaunaskin.com"
+    },
+    {
+      "slug": "oxford-hill",
+      "brandId": "c1269",
+      "raw": 10,
+      "kept": 6,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://oxfordhill.co"
+    },
+    {
+      "slug": "mindful-crumb",
+      "brandId": "c1270",
+      "raw": 10,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://shop.mindfulcrumb.com"
+    },
+    {
+      "slug": "mmm-farms",
+      "brandId": "c1271",
+      "raw": 13,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://mmmfarms.myshopify.com"
+    }
+  ]
+}
