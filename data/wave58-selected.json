@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "dr-brite",
+    "shopBase": "https://drbrite.myshopify.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1218"
+  },
+  {
+    "slug": "humble-goat",
+    "shopBase": "https://buyhumblegoatprotein.myshopify.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1219"
+  },
+  {
+    "slug": "short-story",
+    "shopBase": "https://drinkshortstory.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1220"
+  },
+  {
+    "slug": "live-kaizen",
+    "shopBase": "https://livekaizen.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1221"
+  },
+  {
+    "slug": "archwood",
+    "shopBase": "https://archwoodsoapery.com",
+    "categories": [
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1222"
+  }
+]
