@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-08-26T16:09:16.065Z",
+  "wave62Products": 64,
+  "wave62BrandsWithProducts": 7,
+  "totalProducts": 23083,
+  "brandCount": 445,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "eezysun",
+      "brandId": "c1242",
+      "raw": 10,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://eezysun.com"
+    },
+    {
+      "slug": "arame",
+      "brandId": "c1243",
+      "raw": 4,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://aramecare.com"
+    },
+    {
+      "slug": "elemental-deodorant",
+      "brandId": "c1244",
+      "raw": 7,
+      "kept": 3,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://elementaldeodorant.com"
+    },
+    {
+      "slug": "superieur",
+      "brandId": "c1245",
+      "raw": 13,
+      "kept": 13,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://superieur-electrolytes.myshopify.com"
+    },
+    {
+      "slug": "caprifit",
+      "brandId": "c1246",
+      "raw": 10,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "shopBase": "https://caprifit.com"
+    },
+    {
+      "slug": "white-sparrow",
+      "brandId": "c1247",
+      "raw": 29,
+      "kept": 21,
+      "withIngredients": 5,
+      "flavorVariants": 3,
+      "shopBase": "https://whitesparrow.com"
+    },
+    {
+      "slug": "ancient-suds",
+      "brandId": "c1248",
+      "raw": 18,
+      "kept": 15,
+      "withIngredients": 15,
+      "flavorVariants": 0,
+      "shopBase": "https://ancientsuds.com"
+    }
+  ]
+}

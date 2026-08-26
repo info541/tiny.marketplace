@@ -1,0 +1,61 @@
+[
+  {
+    "slug": "eezysun",
+    "shopBase": "https://eezysun.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1242"
+  },
+  {
+    "slug": "arame",
+    "shopBase": "https://aramecare.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1243"
+  },
+  {
+    "slug": "elemental-deodorant",
+    "shopBase": "https://elementaldeodorant.com",
+    "categories": [
+      "deodorant"
+    ],
+    "id": "c1244"
+  },
+  {
+    "slug": "superieur",
+    "shopBase": "https://superieur-electrolytes.myshopify.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1245"
+  },
+  {
+    "slug": "caprifit",
+    "shopBase": "https://caprifit.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1246"
+  },
+  {
+    "slug": "white-sparrow",
+    "shopBase": "https://whitesparrow.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c1247"
+  },
+  {
+    "slug": "ancient-suds",
+    "shopBase": "https://ancientsuds.com",
+    "categories": [
+      "skincare",
+      "deodorant",
+      "hair"
+    ],
+    "id": "c1248"
+  }
+]
