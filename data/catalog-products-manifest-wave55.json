@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-08-26T09:32:09.997Z",
+  "wave55Products": 57,
+  "wave55BrandsWithProducts": 8,
+  "totalProducts": 23212,
+  "brandCount": 452,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "stop-oral",
+      "brandId": "c1199",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://stop-oralcare.com"
+    },
+    {
+      "slug": "palm-pine",
+      "brandId": "c1200",
+      "raw": 4,
+      "kept": 2,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://www.palmpineskincare.com"
+    },
+    {
+      "slug": "healthyderm",
+      "brandId": "c1201",
+      "raw": 15,
+      "kept": 5,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://healthyderm.com"
+    },
+    {
+      "slug": "tallow-me-now",
+      "brandId": "c1202",
+      "raw": 10,
+      "kept": 10,
+      "withIngredients": 7,
+      "flavorVariants": 0,
+      "shopBase": "https://tallowmenow.com"
+    },
+    {
+      "slug": "little-tallow-co",
+      "brandId": "c1203",
+      "raw": 45,
+      "kept": 30,
+      "withIngredients": 3,
+      "flavorVariants": 25,
+      "shopBase": "https://littletallowco.com"
+    },
+    {
+      "slug": "simply-fuel",
+      "brandId": "c1204",
+      "raw": 7,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.simplyfuel.com"
+    },
+    {
+      "slug": "hydrojoy",
+      "brandId": "c1205",
+      "raw": 2,
+      "kept": 5,
+      "withIngredients": 0,
+      "flavorVariants": 5,
+      "shopBase": "https://hydrojoy.com"
+    },
+    {
+      "slug": "bodyflow",
+      "brandId": "c1206",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://shop.bodyflowhydration.com"
+    }
+  ]
+}
