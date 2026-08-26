@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-08-26T00:20:00.000Z",
+  "wave45Products": 83,
+  "wave45BrandsWithProducts": 7,
+  "totalProducts": 23102,
+  "failures": [],
+  "notes": "Dropped 6 Wicked Protein Power flavor-expander duplicates (dedicated flavor SKUs already listed). Halo shop already USD $24 — no GBP FX. Halo ingredients filled from product page.",
+  "perBrand": [
+    {
+      "slug": "halo-toothpaste",
+      "brandId": "c1129",
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://halotoothpaste.com"
+    },
+    {
+      "slug": "tallowshine",
+      "brandId": "c1130",
+      "kept": 13,
+      "withIngredients": 13,
+      "flavorVariants": 0,
+      "shopBase": "https://tallowshine.com"
+    },
+    {
+      "slug": "magsol",
+      "brandId": "c1131",
+      "kept": 13,
+      "withIngredients": 13,
+      "flavorVariants": 0,
+      "shopBase": "https://magsolnaturals.com"
+    },
+    {
+      "slug": "saltivate",
+      "brandId": "c1132",
+      "kept": 12,
+      "withIngredients": 12,
+      "flavorVariants": 0,
+      "shopBase": "https://saltivate.com"
+    },
+    {
+      "slug": "vaer-skin",
+      "brandId": "c1133",
+      "kept": 4,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://vaer.skin"
+    },
+    {
+      "slug": "wicked-protein",
+      "brandId": "c1134",
+      "kept": 7,
+      "withIngredients": 7,
+      "flavorVariants": 0,
+      "shopBase": "https://wickedprotein.com"
+    },
+    {
+      "slug": "wander-wash",
+      "brandId": "c1135",
+      "kept": 33,
+      "withIngredients": 12,
+      "flavorVariants": 0,
+      "shopBase": "https://wanderwashco.com"
+    }
+  ]
+}
