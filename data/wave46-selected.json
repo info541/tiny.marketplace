@@ -1,0 +1,85 @@
+[
+  {
+    "slug": "laro-london",
+    "shopBase": "https://larolondon.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1136"
+  },
+  {
+    "slug": "cove-suncare",
+    "shopBase": "https://www.covesuncare.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1137"
+  },
+  {
+    "slug": "skinmetal",
+    "shopBase": "https://www.skinmetal.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1138"
+  },
+  {
+    "slug": "ancient-nature",
+    "shopBase": "https://tryancientnature.com",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1139"
+  },
+  {
+    "slug": "allnat",
+    "shopBase": "https://allnatco.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1140"
+  },
+  {
+    "slug": "drgn-salt",
+    "shopBase": "https://drgnsalt.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1141"
+  },
+  {
+    "slug": "electrolete",
+    "shopBase": "https://drinkelectrolete.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1142"
+  },
+  {
+    "slug": "protein-b",
+    "shopBase": "https://proteinb.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1143"
+  },
+  {
+    "slug": "kind2",
+    "shopBase": "https://kind2.me",
+    "categories": [
+      "hair"
+    ],
+    "id": "c1144"
+  },
+  {
+    "slug": "soapwalla",
+    "shopBase": "https://www.soapwalla.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1145"
+  }
+]
