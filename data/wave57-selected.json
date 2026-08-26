@@ -1,0 +1,63 @@
+{
+  "wave": 57,
+  "ids": ["c1212", "c1213", "c1214", "c1215", "c1216", "c1217"],
+  "nextWaveStartsAt": "c1218",
+  "brands": [
+    {
+      "id": "c1212",
+      "slug": "essential-toothpaste",
+      "name": "Essential Toothpaste",
+      "shop": "https://essentialtoothpaste.com",
+      "cats": ["oral"],
+      "fx": "CAD 0.73",
+      "keep": "mint + Tropical 65-tab n-HA tablets + single bamboo brush",
+      "drop": "Explorer case, 195-tab 3-month, 5-brush pack"
+    },
+    {
+      "id": "c1213",
+      "slug": "heavenly-tallow",
+      "name": "Heavenly Tallow",
+      "shop": "https://heavenlytallow.com",
+      "cats": ["sunscreen", "skincare"],
+      "keep": "Sun Shade mineral creams + whipped tallow + goat-milk soap + lip balms",
+      "drop": "foundation, blush, bronze, bug guard, CBD"
+    },
+    {
+      "id": "c1214",
+      "slug": "papabear",
+      "name": "PapaBear Naturals",
+      "shop": "https://thepapabear.com",
+      "cats": ["sunscreen", "deodorant", "oral", "skincare", "hair"],
+      "keep": "sunblock, deodorants, tooth powder, whipped/premium balm scents, body-wash scents, beard oil",
+      "drop": "5-pack lips, 2-pack soap, bundles, popcorn, chips, cooking tallow, pet, laundry, candles"
+    },
+    {
+      "id": "c1215",
+      "slug": "hands-organic",
+      "name": "Hands Organic",
+      "shop": "https://handsorganicskincare.com",
+      "cats": ["deodorant", "skincare"],
+      "keep": "mineral deodorant cream 4 scents + summer deo + botanical face/body",
+      "drop": "perfume, lip gloss, wooden spoon, artisan mask set"
+    },
+    {
+      "id": "c1216",
+      "slug": "hydee",
+      "name": "HYDEE",
+      "shop": "https://hydeeblends.com",
+      "cats": ["electrolytes", "supplements"],
+      "fx": "NZD 0.60",
+      "keep": "Everyday 4 flavors + Ultra 4 flavors + creatine + creatine electrolytes peach",
+      "drop": "oats, bottles, bundles, gift cards, 8-pack"
+    },
+    {
+      "id": "c1217",
+      "slug": "encompass-farming",
+      "name": "Encompass Farming",
+      "shop": "https://encompassfarming.com",
+      "cats": ["supplements", "deodorant", "skincare"],
+      "keep": "LM+cordyceps + reishi/turkey tail + deodorant + tallow + soaps + oil",
+      "drop": "laundry, candles, $850 ritual, free gifts, bundles, x2 lip"
+    }
+  ]
+}
