@@ -1,0 +1,69 @@
+[
+  {
+    "slug": "stop-oral",
+    "shopBase": "https://stop-oralcare.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1199"
+  },
+  {
+    "slug": "palm-pine",
+    "shopBase": "https://www.palmpineskincare.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1200"
+  },
+  {
+    "slug": "healthyderm",
+    "shopBase": "https://healthyderm.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1201"
+  },
+  {
+    "slug": "tallow-me-now",
+    "shopBase": "https://tallowmenow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1202"
+  },
+  {
+    "slug": "little-tallow-co",
+    "shopBase": "https://littletallowco.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1203"
+  },
+  {
+    "slug": "simply-fuel",
+    "shopBase": "https://www.simplyfuel.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1204"
+  },
+  {
+    "slug": "hydrojoy",
+    "shopBase": "https://hydrojoy.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1205"
+  },
+  {
+    "slug": "bodyflow",
+    "shopBase": "https://shop.bodyflowhydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1206"
+  }
+]

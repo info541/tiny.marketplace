@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "wonder-oral",
+    "shopBase": "https://wonderoralwellness.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1193"
+  },
+  {
+    "slug": "rain-valley",
+    "shopBase": "https://rainvalleynaturals.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1194"
+  },
+  {
+    "slug": "candid-naturals",
+    "shopBase": "https://candidnaturals.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1195"
+  },
+  {
+    "slug": "simply-tallow",
+    "shopBase": "https://simplytallowandcompany.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1196"
+  },
+  {
+    "slug": "nutristrength",
+    "shopBase": "https://nutristrength.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1197"
+  },
+  {
+    "slug": "zeal",
+    "shopBase": "https://livezeal.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1198"
+  }
+]
