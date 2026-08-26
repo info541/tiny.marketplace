@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-08-26T05:11:57.414Z",
+  "wave50Products": 254,
+  "wave50BrandsWithProducts": 7,
+  "totalProducts": 23273,
+  "brandCount": 445,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "vellum-st",
+      "brandId": "c1164",
+      "raw": 40,
+      "kept": 55,
+      "withIngredients": 7,
+      "flavorVariants": 37,
+      "shopBase": "https://vellumstsoapcompany.com"
+    },
+    {
+      "slug": "tyme-soap",
+      "brandId": "c1165",
+      "raw": 122,
+      "kept": 69,
+      "withIngredients": 6,
+      "flavorVariants": 6,
+      "shopBase": "https://tymesoap.com"
+    },
+    {
+      "slug": "nourish-mii",
+      "brandId": "c1166",
+      "raw": 7,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 7,
+      "shopBase": "https://nourishmii.myshopify.com"
+    },
+    {
+      "slug": "kono-nutrition",
+      "brandId": "c1167",
+      "raw": 20,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 6,
+      "shopBase": "https://kononutrition.com"
+    },
+    {
+      "slug": "solidu",
+      "brandId": "c1168",
+      "raw": 64,
+      "kept": 27,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://soliducosmetics.com/en"
+    },
+    {
+      "slug": "home-body-field-goods",
+      "brandId": "c1169",
+      "raw": 93,
+      "kept": 39,
+      "withIngredients": 39,
+      "flavorVariants": 0,
+      "shopBase": "https://home-body-field-goods.myshopify.com"
+    },
+    {
+      "slug": "cln-and-drty",
+      "brandId": "c1170",
+      "raw": 86,
+      "kept": 45,
+      "withIngredients": 35,
+      "flavorVariants": 3,
+      "shopBase": "https://clnanddrty.com"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "slug": "vellum-st",
+    "shopBase": "https://vellumstsoapcompany.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1164"
+  },
+  {
+    "slug": "tyme-soap",
+    "shopBase": "https://tymesoap.com",
+    "categories": [
+      "skincare",
+      "hair",
+      "deodorant"
+    ],
+    "id": "c1165"
+  },
+  {
+    "slug": "nourish-mii",
+    "shopBase": "https://nourishmii.myshopify.com",
+    "categories": [
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1166"
+  },
+  {
+    "slug": "kono-nutrition",
+    "shopBase": "https://kononutrition.com",
+    "categories": [
+      "protein",
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1167"
+  },
+  {
+    "slug": "solidu",
+    "shopBase": "https://soliducosmetics.com/en",
+    "categories": [
+      "hair",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1168"
+  },
+  {
+    "slug": "home-body-field-goods",
+    "shopBase": "https://home-body-field-goods.myshopify.com",
+    "categories": [
+      "deodorant",
+      "oral",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1169"
+  },
+  {
+    "slug": "cln-and-drty",
+    "shopBase": "https://clnanddrty.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c1170"
+  }
+]
