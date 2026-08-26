@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-08-26T17:09:28.293Z",
+  "wave63Products": 40,
+  "wave63BrandsWithProducts": 5,
+  "totalProducts": 23059,
+  "brandCount": 443,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "klyyr",
+      "brandId": "c1249",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://klyyr.com"
+    },
+    {
+      "slug": "baili-essentials",
+      "brandId": "c1250",
+      "raw": 5,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 9,
+      "shopBase": "https://bailiessentials.com"
+    },
+    {
+      "slug": "without-compromise",
+      "brandId": "c1251",
+      "raw": 57,
+      "kept": 18,
+      "withIngredients": 6,
+      "flavorVariants": 0,
+      "shopBase": "https://withoutcompromise.ca"
+    },
+    {
+      "slug": "i-lyte-you",
+      "brandId": "c1252",
+      "raw": 1,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "shopBase": "https://ilyteyou.com"
+    },
+    {
+      "slug": "fruiting-bodies",
+      "brandId": "c1253",
+      "raw": 72,
+      "kept": 9,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://fruitingbodies.co"
+    }
+  ]
+}
