@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-08-26T03:18:40.000Z",
+  "wave48Products": 89,
+  "wave48BrandsWithProducts": 6,
+  "totalProducts": 23108,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "forah",
+      "brandId": "c1153",
+      "raw": 15,
+      "kept": 6,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://www.forah.co"
+    },
+    {
+      "slug": "neptune-health",
+      "brandId": "c1154",
+      "raw": 18,
+      "kept": 7,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://www.neptunehealthco.com"
+    },
+    {
+      "slug": "field-flower-tallow",
+      "brandId": "c1155",
+      "raw": 61,
+      "kept": 55,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://fieldflowertallowco.com"
+    },
+    {
+      "slug": "holycow",
+      "brandId": "c1156",
+      "raw": 6,
+      "kept": 8,
+      "withIngredients": 5,
+      "flavorVariants": 7,
+      "shopBase": "https://www.shopholycow.net"
+    },
+    {
+      "slug": "sote",
+      "brandId": "c1157",
+      "raw": 21,
+      "kept": 10,
+      "withIngredients": 10,
+      "flavorVariants": 0,
+      "shopBase": "https://drinksote.com"
+    },
+    {
+      "slug": "himalayan-hydration",
+      "brandId": "c1158",
+      "raw": 5,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://himalayanhydration.com"
+    }
+  ]
+}
