@@ -1,0 +1,76 @@
+[
+  {
+    "slug": "dakota-tallow",
+    "shopBase": "https://dakotatallow.com",
+    "categories": [
+      "oral",
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c1171"
+  },
+  {
+    "slug": "black-ivy-apothecary",
+    "shopBase": "https://www.blackivyapothecary.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "supplements"
+    ],
+    "id": "c1172"
+  },
+  {
+    "slug": "sun-and-honey",
+    "shopBase": "https://sunandhoney.co",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1173"
+  },
+  {
+    "slug": "harley-and-quinn",
+    "shopBase": "https://harleyquinnsoap.com",
+    "categories": [
+      "skincare",
+      "hair",
+      "deodorant"
+    ],
+    "id": "c1174"
+  },
+  {
+    "slug": "vaya",
+    "shopBase": "https://drinkvaya.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1175"
+  },
+  {
+    "slug": "garage-brand-soap",
+    "shopBase": "https://garagebrandsoap.com",
+    "categories": [
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c1176"
+  },
+  {
+    "slug": "tallow-and-honey",
+    "shopBase": "https://tallowandhoney.co",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1177"
+  },
+  {
+    "slug": "net-hydrate",
+    "shopBase": "https://nethydrate.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1178"
+  }
+]

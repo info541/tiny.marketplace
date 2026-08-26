@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-08-26T06:17:16.124Z",
+  "wave51Products": 167,
+  "wave51BrandsWithProducts": 8,
+  "totalProducts": 23186,
+  "brandCount": 446,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "dakota-tallow",
+      "brandId": "c1171",
+      "raw": 22,
+      "kept": 62,
+      "withIngredients": 52,
+      "flavorVariants": 50,
+      "shopBase": "https://dakotatallow.com"
+    },
+    {
+      "slug": "black-ivy-apothecary",
+      "brandId": "c1172",
+      "raw": 14,
+      "kept": 11,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://www.blackivyapothecary.com"
+    },
+    {
+      "slug": "sun-and-honey",
+      "brandId": "c1173",
+      "raw": 3,
+      "kept": 2,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://sunandhoney.co"
+    },
+    {
+      "slug": "harley-and-quinn",
+      "brandId": "c1174",
+      "raw": 37,
+      "kept": 46,
+      "withIngredients": 42,
+      "flavorVariants": 26,
+      "shopBase": "https://harleyquinnsoap.com"
+    },
+    {
+      "slug": "vaya",
+      "brandId": "c1175",
+      "raw": 10,
+      "kept": 4,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://drinkvaya.com"
+    },
+    {
+      "slug": "garage-brand-soap",
+      "brandId": "c1176",
+      "raw": 32,
+      "kept": 21,
+      "withIngredients": 13,
+      "flavorVariants": 0,
+      "shopBase": "https://garagebrandsoap.com"
+    },
+    {
+      "slug": "tallow-and-honey",
+      "brandId": "c1177",
+      "raw": 30,
+      "kept": 19,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://tallowandhoney.co"
+    },
+    {
+      "slug": "net-hydrate",
+      "brandId": "c1178",
+      "raw": 11,
+      "kept": 2,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://nethydrate.com"
+    }
+  ]
+}
