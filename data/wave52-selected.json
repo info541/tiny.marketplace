@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "thrive-made-simple",
+    "shopBase": "https://www.thrivemadesimple.com.au",
+    "categories": [
+      "oral",
+      "skincare"
+    ],
+    "id": "c1179"
+  },
+  {
+    "slug": "purely-tallow",
+    "shopBase": "https://purelytallow.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1180"
+  },
+  {
+    "slug": "frankie-apothecary",
+    "shopBase": "https://frankieapothecary.co.nz",
+    "categories": [
+      "sunscreen",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1181"
+  },
+  {
+    "slug": "zoes-kawakawa",
+    "shopBase": "https://zoeskawakawa.co.nz",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c1182"
+  },
+  {
+    "slug": "pure-haven",
+    "shopBase": "https://purehavennontox.com",
+    "categories": [
+      "oral",
+      "deodorant",
+      "hair",
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1183"
+  }
+]
