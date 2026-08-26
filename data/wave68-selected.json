@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "terra-and-co",
+    "shopBase": "https://terraandco.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1278"
+  },
+  {
+    "slug": "sealyte",
+    "shopBase": "https://drinksealyte.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1279"
+  },
+  {
+    "slug": "noble-origins",
+    "shopBase": "https://nobleorigins.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1280"
+  },
+  {
+    "slug": "faithfully-natural",
+    "shopBase": "https://faithfullynaturalsoapco.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1281"
+  },
+  {
+    "slug": "lil-swatara",
+    "shopBase": "https://lilswatara.com",
+    "categories": [
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1282"
+  }
+]
