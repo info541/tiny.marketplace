@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-08-26T18:14:05.624Z",
+  "wave64Products": 210,
+  "wave64BrandsWithProducts": 7,
+  "totalProducts": 23229,
+  "brandCount": 445,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "keeko",
+      "brandId": "c1254",
+      "raw": 16,
+      "kept": 6,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://keekooralcare.com"
+    },
+    {
+      "slug": "oovii",
+      "brandId": "c1255",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://oovii.com"
+    },
+    {
+      "slug": "bison-protein",
+      "brandId": "c1256",
+      "raw": 4,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://bisonprotein.com"
+    },
+    {
+      "slug": "massie-provisions",
+      "brandId": "c1257",
+      "raw": 29,
+      "kept": 59,
+      "withIngredients": 0,
+      "flavorVariants": 57,
+      "shopBase": "https://massieprovisions.com"
+    },
+    {
+      "slug": "hemsworth-homestead",
+      "brandId": "c1258",
+      "raw": 112,
+      "kept": 87,
+      "withIngredients": 47,
+      "flavorVariants": 24,
+      "shopBase": "https://hemsworthhomestead.com"
+    },
+    {
+      "slug": "longevity-power",
+      "brandId": "c1259",
+      "raw": 28,
+      "kept": 18,
+      "withIngredients": 0,
+      "flavorVariants": 8,
+      "shopBase": "https://longevitypower.com"
+    },
+    {
+      "slug": "essee-farms",
+      "brandId": "c1260",
+      "raw": 70,
+      "kept": 38,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://esseefarms.com"
+    }
+  ]
+}

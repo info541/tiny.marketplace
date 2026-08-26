@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "keeko",
+    "shopBase": "https://keekooralcare.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1254"
+  },
+  {
+    "slug": "oovii",
+    "shopBase": "https://oovii.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1255"
+  },
+  {
+    "slug": "bison-protein",
+    "shopBase": "https://bisonprotein.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1256"
+  },
+  {
+    "slug": "massie-provisions",
+    "shopBase": "https://massieprovisions.com",
+    "categories": [
+      "skincare",
+      "sunscreen",
+      "deodorant",
+      "hair"
+    ],
+    "id": "c1257"
+  },
+  {
+    "slug": "hemsworth-homestead",
+    "shopBase": "https://hemsworthhomestead.com",
+    "categories": [
+      "skincare",
+      "deodorant",
+      "hair",
+      "sunscreen"
+    ],
+    "id": "c1258"
+  },
+  {
+    "slug": "longevity-power",
+    "shopBase": "https://longevitypower.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1259"
+  },
+  {
+    "slug": "essee-farms",
+    "shopBase": "https://esseefarms.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c1260"
+  }
+]
