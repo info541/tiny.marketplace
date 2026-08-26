@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-08-26T23:07:45.127Z",
+  "wave69Products": 146,
+  "wave69BrandsWithProducts": 6,
+  "totalProducts": 23165,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "bastet",
+      "brandId": "c1283",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://bastetritual.com"
+    },
+    {
+      "slug": "mindful-mrkt",
+      "brandId": "c1284",
+      "raw": 7,
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://mindfulmrkt.com"
+    },
+    {
+      "slug": "active-stacks",
+      "brandId": "c1285",
+      "raw": 10,
+      "kept": 4,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://activestacks.com"
+    },
+    {
+      "slug": "no-bull-tallow",
+      "brandId": "c1286",
+      "raw": 22,
+      "kept": 20,
+      "withIngredients": 15,
+      "flavorVariants": 15,
+      "shopBase": "https://nobulltallow.com"
+    },
+    {
+      "slug": "simply-pioneer",
+      "brandId": "c1287",
+      "raw": 13,
+      "kept": 15,
+      "withIngredients": 13,
+      "flavorVariants": 7,
+      "shopBase": "https://simplypioneer.com"
+    },
+    {
+      "slug": "goat-milk-soaper",
+      "brandId": "c1288",
+      "raw": 132,
+      "kept": 105,
+      "withIngredients": 43,
+      "flavorVariants": 20,
+      "shopBase": "https://goatmilksoaper.com"
+    }
+  ]
+}

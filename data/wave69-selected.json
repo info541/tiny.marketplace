@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "bastet",
+    "shopBase": "https://bastetritual.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1283"
+  },
+  {
+    "slug": "mindful-mrkt",
+    "shopBase": "https://mindfulmrkt.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1284"
+  },
+  {
+    "slug": "active-stacks",
+    "shopBase": "https://activestacks.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1285"
+  },
+  {
+    "slug": "no-bull-tallow",
+    "shopBase": "https://nobulltallow.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1286"
+  },
+  {
+    "slug": "simply-pioneer",
+    "shopBase": "https://simplypioneer.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1287"
+  },
+  {
+    "slug": "goat-milk-soaper",
+    "shopBase": "https://goatmilksoaper.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1288"
+  }
+]
