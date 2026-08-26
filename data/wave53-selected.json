@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "oh-gigi",
+    "shopBase": "https://www.ohgigi.co",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1184"
+  },
+  {
+    "slug": "weluxia",
+    "shopBase": "https://www.weluxia.com",
+    "categories": [
+      "oral",
+      "supplements"
+    ],
+    "id": "c1185"
+  },
+  {
+    "slug": "starling",
+    "shopBase": "https://buystarling.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1186"
+  },
+  {
+    "slug": "pravi",
+    "shopBase": "https://pravinutrition.com",
+    "categories": [
+      "protein",
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1187"
+  },
+  {
+    "slug": "hidrate-808",
+    "shopBase": "https://hidrate808.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1188"
+  },
+  {
+    "slug": "surfyogis",
+    "shopBase": "https://surfyogis.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1189"
+  },
+  {
+    "slug": "marroomi",
+    "shopBase": "https://marroomi.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1190"
+  },
+  {
+    "slug": "tallow-company",
+    "shopBase": "https://thetallowcompany.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c1191"
+  },
+  {
+    "slug": "carolina-tallow",
+    "shopBase": "https://carolinatallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1192"
+  }
+]

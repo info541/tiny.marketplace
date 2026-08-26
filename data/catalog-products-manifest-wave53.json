@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-08-26T08:10:15.244Z",
+  "wave53Products": 123,
+  "wave53BrandsWithProducts": 9,
+  "totalProducts": 23142,
+  "brandCount": 447,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "oh-gigi",
+      "brandId": "c1184",
+      "raw": 65,
+      "kept": 24,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.ohgigi.co"
+    },
+    {
+      "slug": "weluxia",
+      "brandId": "c1185",
+      "raw": 30,
+      "kept": 22,
+      "withIngredients": 8,
+      "flavorVariants": 0,
+      "shopBase": "https://www.weluxia.com"
+    },
+    {
+      "slug": "starling",
+      "brandId": "c1186",
+      "raw": 38,
+      "kept": 29,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://buystarling.com"
+    },
+    {
+      "slug": "pravi",
+      "brandId": "c1187",
+      "raw": 19,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://pravinutrition.com"
+    },
+    {
+      "slug": "hidrate-808",
+      "brandId": "c1188",
+      "raw": 13,
+      "kept": 5,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://hidrate808.com"
+    },
+    {
+      "slug": "surfyogis",
+      "brandId": "c1189",
+      "raw": 4,
+      "kept": 2,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://surfyogis.com"
+    },
+    {
+      "slug": "marroomi",
+      "brandId": "c1190",
+      "raw": 12,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://marroomi.com"
+    },
+    {
+      "slug": "tallow-company",
+      "brandId": "c1191",
+      "raw": 11,
+      "kept": 11,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://thetallowcompany.com"
+    },
+    {
+      "slug": "carolina-tallow",
+      "brandId": "c1192",
+      "raw": 7,
+      "kept": 18,
+      "withIngredients": 18,
+      "flavorVariants": 17,
+      "shopBase": "https://carolinatallow.com"
+    }
+  ]
+}
