@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "forah",
+    "shopBase": "https://www.forah.co",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1153"
+  },
+  {
+    "slug": "neptune-health",
+    "shopBase": "https://www.neptunehealthco.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1154"
+  },
+  {
+    "slug": "field-flower-tallow",
+    "shopBase": "https://fieldflowertallowco.com",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1155"
+  },
+  {
+    "slug": "holycow",
+    "shopBase": "https://www.shopholycow.net",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c1156"
+  },
+  {
+    "slug": "sote",
+    "shopBase": "https://drinksote.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1157"
+  },
+  {
+    "slug": "himalayan-hydration",
+    "shopBase": "https://himalayanhydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1158"
+  }
+]
