@@ -1,0 +1,61 @@
+[
+  {
+    "slug": "halo-toothpaste",
+    "shopBase": "https://halotoothpaste.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1129"
+  },
+  {
+    "slug": "tallowshine",
+    "shopBase": "https://tallowshine.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1130"
+  },
+  {
+    "slug": "magsol",
+    "shopBase": "https://magsolnaturals.com",
+    "categories": [
+      "deodorant"
+    ],
+    "id": "c1131"
+  },
+  {
+    "slug": "saltivate",
+    "shopBase": "https://saltivate.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1132"
+  },
+  {
+    "slug": "vaer-skin",
+    "shopBase": "https://vaer.skin",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1133"
+  },
+  {
+    "slug": "wicked-protein",
+    "shopBase": "https://wickedprotein.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1134"
+  },
+  {
+    "slug": "wander-wash",
+    "shopBase": "https://wanderwashco.com",
+    "categories": [
+      "hair",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1135"
+  }
+]
