@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-08-26T14:22:39.228Z",
+  "wave60Products": 72,
+  "wave60BrandsWithProducts": 6,
+  "totalProducts": 23091,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "wattz",
+      "brandId": "c1229",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://wattz.inc"
+    },
+    {
+      "slug": "dentafari",
+      "brandId": "c1230",
+      "raw": 10,
+      "kept": 3,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://dentafari.com"
+    },
+    {
+      "slug": "something-nice",
+      "brandId": "c1231",
+      "raw": 21,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 5,
+      "shopBase": "https://somethingnicecompany.com"
+    },
+    {
+      "slug": "aspen-kay",
+      "brandId": "c1232",
+      "raw": 70,
+      "kept": 22,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://aspenkaynaturals.com"
+    },
+    {
+      "slug": "doms-deodorant",
+      "brandId": "c1233",
+      "raw": 90,
+      "kept": 28,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://domsdeodorant.com"
+    },
+    {
+      "slug": "lone-star-mushrooms",
+      "brandId": "c1234",
+      "raw": 20,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://lonestarmushrooms.com"
+    }
+  ]
+}

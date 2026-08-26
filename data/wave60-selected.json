@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "wattz",
+    "shopBase": "https://wattz.inc",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1229"
+  },
+  {
+    "slug": "dentafari",
+    "shopBase": "https://dentafari.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1230"
+  },
+  {
+    "slug": "something-nice",
+    "shopBase": "https://somethingnicecompany.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1231"
+  },
+  {
+    "slug": "aspen-kay",
+    "shopBase": "https://aspenkaynaturals.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c1232"
+  },
+  {
+    "slug": "doms-deodorant",
+    "shopBase": "https://domsdeodorant.com",
+    "categories": [
+      "deodorant",
+      "oral"
+    ],
+    "id": "c1233"
+  },
+  {
+    "slug": "lone-star-mushrooms",
+    "shopBase": "https://lonestarmushrooms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1234"
+  }
+]
