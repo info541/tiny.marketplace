@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-08-26T07:34:13.556Z",
+  "wave52Products": 160,
+  "wave52BrandsWithProducts": 5,
+  "totalProducts": 23179,
+  "brandCount": 443,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "thrive-made-simple",
+      "brandId": "c1179",
+      "raw": 13,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.thrivemadesimple.com.au"
+    },
+    {
+      "slug": "purely-tallow",
+      "brandId": "c1180",
+      "raw": 28,
+      "kept": 41,
+      "withIngredients": 9,
+      "flavorVariants": 35,
+      "shopBase": "https://purelytallow.com"
+    },
+    {
+      "slug": "frankie-apothecary",
+      "brandId": "c1181",
+      "raw": 22,
+      "kept": 13,
+      "withIngredients": 6,
+      "flavorVariants": 0,
+      "shopBase": "https://frankieapothecary.co.nz"
+    },
+    {
+      "slug": "zoes-kawakawa",
+      "brandId": "c1182",
+      "raw": 27,
+      "kept": 17,
+      "withIngredients": 16,
+      "flavorVariants": 0,
+      "shopBase": "https://zoeskawakawa.co.nz"
+    },
+    {
+      "slug": "pure-haven",
+      "brandId": "c1183",
+      "raw": 193,
+      "kept": 81,
+      "withIngredients": 0,
+      "flavorVariants": 12,
+      "shopBase": "https://purehavennontox.com"
+    }
+  ]
+}
