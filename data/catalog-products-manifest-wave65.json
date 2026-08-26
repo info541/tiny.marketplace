@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-08-26T19:16:33.737Z",
+  "wave65Products": 154,
+  "wave65BrandsWithProducts": 5,
+  "totalProducts": 23173,
+  "brandCount": 443,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "mineral-daily",
+      "brandId": "c1261",
+      "raw": 4,
+      "kept": 4,
+      "withIngredients": 4,
+      "flavorVariants": 4,
+      "shopBase": "https://mineraldaily.com"
+    },
+    {
+      "slug": "aura-glow-tallow",
+      "brandId": "c1262",
+      "raw": 12,
+      "kept": 11,
+      "withIngredients": 9,
+      "flavorVariants": 0,
+      "shopBase": "https://auraglowtallow.com"
+    },
+    {
+      "slug": "ofp-farms",
+      "brandId": "c1263",
+      "raw": 63,
+      "kept": 86,
+      "withIngredients": 78,
+      "flavorVariants": 47,
+      "shopBase": "https://ofpfarms.com"
+    },
+    {
+      "slug": "untamed-mother",
+      "brandId": "c1264",
+      "raw": 35,
+      "kept": 47,
+      "withIngredients": 28,
+      "flavorVariants": 31,
+      "shopBase": "https://untamedmotherco.com"
+    },
+    {
+      "slug": "tallow-and-hive",
+      "brandId": "c1265",
+      "raw": 10,
+      "kept": 6,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://tallowandhive.com"
+    }
+  ]
+}
