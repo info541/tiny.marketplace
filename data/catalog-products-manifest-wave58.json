@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-08-26T12:12:09.753Z",
+  "wave58Products": 43,
+  "wave58BrandsWithProducts": 5,
+  "totalProducts": 23062,
+  "brandCount": 443,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "dr-brite",
+      "brandId": "c1218",
+      "raw": 8,
+      "kept": 5,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://drbrite.myshopify.com"
+    },
+    {
+      "slug": "humble-goat",
+      "brandId": "c1219",
+      "raw": 4,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://buyhumblegoatprotein.myshopify.com"
+    },
+    {
+      "slug": "short-story",
+      "brandId": "c1220",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://drinkshortstory.com"
+    },
+    {
+      "slug": "live-kaizen",
+      "brandId": "c1221",
+      "raw": 7,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "shopBase": "https://livekaizen.com"
+    },
+    {
+      "slug": "archwood",
+      "brandId": "c1222",
+      "raw": 26,
+      "kept": 30,
+      "withIngredients": 5,
+      "flavorVariants": 10,
+      "shopBase": "https://archwoodsoapery.com"
+    }
+  ]
+}
