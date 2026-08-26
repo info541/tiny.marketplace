@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-08-26T22:21:43.722Z",
+  "dropped": 0,
+  "filled": "post-clean",
+  "waveProducts": 128,
+  "withIngredients": 22,
+  "perBrand": {
+    "c1278": {
+      "filled": 2,
+      "empty": 7
+    },
+    "c1279": {
+      "filled": 1,
+      "empty": 0
+    },
+    "c1280": {
+      "filled": 0,
+      "empty": 2
+    },
+    "c1281": {
+      "filled": 16,
+      "empty": 30
+    },
+    "c1282": {
+      "filled": 3,
+      "empty": 67
+    }
+  }
+}

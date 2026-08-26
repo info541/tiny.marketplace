@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-08-26T22:21:43.721Z",
+  "wave68Products": 128,
+  "wave68BrandsWithProducts": 5,
+  "totalProducts": 23147,
+  "brandCount": 443,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "terra-and-co",
+      "brandId": "c1278",
+      "raw": 21,
+      "kept": 9,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "shopBase": "https://terraandco.com"
+    },
+    {
+      "slug": "sealyte",
+      "brandId": "c1279",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://drinksealyte.com"
+    },
+    {
+      "slug": "noble-origins",
+      "brandId": "c1280",
+      "raw": 4,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://nobleorigins.com"
+    },
+    {
+      "slug": "faithfully-natural",
+      "brandId": "c1281",
+      "raw": 68,
+      "kept": 46,
+      "withIngredients": 16,
+      "flavorVariants": 0,
+      "shopBase": "https://faithfullynaturalsoapco.com"
+    },
+    {
+      "slug": "lil-swatara",
+      "brandId": "c1282",
+      "raw": 235,
+      "kept": 70,
+      "withIngredients": 3,
+      "flavorVariants": 21,
+      "shopBase": "https://lilswatara.com"
+    }
+  ]
+}
