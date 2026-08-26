@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "velvet-cow",
+    "shopBase": "https://velvetcowtallow.com",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1159"
+  },
+  {
+    "slug": "surfing-cow",
+    "shopBase": "https://surfingcowskincare.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1160"
+  },
+  {
+    "slug": "solrx",
+    "shopBase": "https://solrx.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1161"
+  },
+  {
+    "slug": "plan-d",
+    "shopBase": "https://drinkpland.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1162"
+  },
+  {
+    "slug": "wildflower-tallow",
+    "shopBase": "https://wildflowertallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1163"
+  }
+]
