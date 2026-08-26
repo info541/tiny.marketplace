@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-08-26T09:20:15.546572+00:00",
+  "wave54Products": 136,
+  "wave54BrandsWithProducts": 6,
+  "totalProducts": 23155,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "brandId": "c1193",
+      "kept": 12,
+      "withIngredients": 6,
+      "flavorVariants": 0
+    },
+    {
+      "brandId": "c1194",
+      "kept": 12,
+      "withIngredients": 6,
+      "flavorVariants": 10
+    },
+    {
+      "brandId": "c1195",
+      "kept": 13,
+      "withIngredients": 1,
+      "flavorVariants": 5
+    },
+    {
+      "brandId": "c1196",
+      "kept": 41,
+      "withIngredients": 34,
+      "flavorVariants": 25
+    },
+    {
+      "brandId": "c1197",
+      "kept": 6,
+      "withIngredients": 1,
+      "flavorVariants": 0
+    },
+    {
+      "brandId": "c1198",
+      "kept": 52,
+      "withIngredients": 1,
+      "flavorVariants": 20
+    }
+  ]
+}
