@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-08-26T21:10:47.702Z",
+  "wave67Products": 195,
+  "wave67BrandsWithProducts": 6,
+  "totalProducts": 23214,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "gudyu",
+      "brandId": "c1272",
+      "raw": 4,
+      "kept": 4,
+      "withIngredients": 1,
+      "flavorVariants": 2,
+      "shopBase": "https://gudyu.co.uk"
+    },
+    {
+      "slug": "natrilyte",
+      "brandId": "c1273",
+      "raw": 1,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "shopBase": "https://natrilyte.com"
+    },
+    {
+      "slug": "rainwater-botanicals",
+      "brandId": "c1274",
+      "raw": 154,
+      "kept": 108,
+      "withIngredients": 83,
+      "flavorVariants": 0,
+      "shopBase": "https://rainwaterbotanicals.com"
+    },
+    {
+      "slug": "pure-food-company",
+      "brandId": "c1275",
+      "raw": 7,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://purefoodcompany.com"
+    },
+    {
+      "slug": "emilys-homestead",
+      "brandId": "c1276",
+      "raw": 64,
+      "kept": 67,
+      "withIngredients": 54,
+      "flavorVariants": 16,
+      "shopBase": "https://emilyshomestead.com"
+    },
+    {
+      "slug": "wildspore",
+      "brandId": "c1277",
+      "raw": 40,
+      "kept": 9,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "shopBase": "https://wildspore.farm"
+    }
+  ]
+}

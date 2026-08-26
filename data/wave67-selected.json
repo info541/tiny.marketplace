@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "gudyu",
+    "shopBase": "https://gudyu.co.uk",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1272"
+  },
+  {
+    "slug": "natrilyte",
+    "shopBase": "https://natrilyte.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1273"
+  },
+  {
+    "slug": "rainwater-botanicals",
+    "shopBase": "https://rainwaterbotanicals.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair",
+      "deodorant"
+    ],
+    "id": "c1274"
+  },
+  {
+    "slug": "pure-food-company",
+    "shopBase": "https://purefoodcompany.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1275"
+  },
+  {
+    "slug": "emilys-homestead",
+    "shopBase": "https://emilyshomestead.com",
+    "categories": [
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1276"
+  },
+  {
+    "slug": "wildspore",
+    "shopBase": "https://wildspore.farm",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1277"
+  }
+]
