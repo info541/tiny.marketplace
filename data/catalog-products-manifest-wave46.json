@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-08-26T01:11:06.880Z",
+  "wave46Products": 80,
+  "wave46BrandsWithProducts": 10,
+  "totalProducts": 23099,
+  "brandCount": 448,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "laro-london",
+      "brandId": "c1136",
+      "raw": 9,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "shopBase": "https://larolondon.com"
+    },
+    {
+      "slug": "cove-suncare",
+      "brandId": "c1137",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.covesuncare.com"
+    },
+    {
+      "slug": "skinmetal",
+      "brandId": "c1138",
+      "raw": 17,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.skinmetal.com"
+    },
+    {
+      "slug": "ancient-nature",
+      "brandId": "c1139",
+      "raw": 6,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "shopBase": "https://tryancientnature.com"
+    },
+    {
+      "slug": "allnat",
+      "brandId": "c1140",
+      "raw": 7,
+      "kept": 16,
+      "withIngredients": 1,
+      "flavorVariants": 15,
+      "shopBase": "https://allnatco.com"
+    },
+    {
+      "slug": "drgn-salt",
+      "brandId": "c1141",
+      "raw": 5,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "shopBase": "https://drgnsalt.com"
+    },
+    {
+      "slug": "electrolete",
+      "brandId": "c1142",
+      "raw": 4,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://drinkelectrolete.com"
+    },
+    {
+      "slug": "protein-b",
+      "brandId": "c1143",
+      "raw": 7,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "shopBase": "https://proteinb.com"
+    },
+    {
+      "slug": "kind2",
+      "brandId": "c1144",
+      "raw": 26,
+      "kept": 6,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "shopBase": "https://kind2.me"
+    },
+    {
+      "slug": "soapwalla",
+      "brandId": "c1145",
+      "raw": 98,
+      "kept": 28,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.soapwalla.com"
+    }
+  ]
+}
