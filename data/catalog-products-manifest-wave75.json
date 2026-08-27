@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T05:05:36.095Z",
+  "wave75Products": 78,
+  "wave75BrandsWithProducts": 6,
+  "totalProducts": 23097,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "ollie",
+      "brandId": "c1319",
+      "raw": 35,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://olliesmile.com"
+    },
+    {
+      "slug": "purelytes",
+      "brandId": "c1320",
+      "raw": 6,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://getpurelytes.com"
+    },
+    {
+      "slug": "tidlos",
+      "brandId": "c1321",
+      "raw": 4,
+      "kept": 3,
+      "withIngredients": 3,
+      "flavorVariants": 3,
+      "currency": "USD",
+      "shopBase": "https://tidlos.co"
+    },
+    {
+      "slug": "little-hands-hawaii",
+      "brandId": "c1322",
+      "raw": 11,
+      "kept": 23,
+      "withIngredients": 23,
+      "flavorVariants": 19,
+      "currency": "USD",
+      "shopBase": "https://littlehandshawaii.com"
+    },
+    {
+      "slug": "lavami",
+      "brandId": "c1323",
+      "raw": 35,
+      "kept": 32,
+      "withIngredients": 30,
+      "flavorVariants": 10,
+      "currency": "USD",
+      "shopBase": "https://www.lavami.ca"
+    },
+    {
+      "slug": "mushroom-microfarm",
+      "brandId": "c1324",
+      "raw": 18,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://mushroom-microfarm.myshopify.com"
+    }
+  ]
+}
