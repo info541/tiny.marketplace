@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T09:14:44.165Z",
+  "wave79Products": 237,
+  "wave79BrandsWithProducts": 6,
+  "totalProducts": 23256,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "oh-care",
+      "brandId": "c1343",
+      "raw": 15,
+      "kept": 4,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "currency": "AUD",
+      "shopBase": "https://ohcaredental.com"
+    },
+    {
+      "slug": "evolve-essentials",
+      "brandId": "c1344",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 1,
+      "currency": "CAD",
+      "shopBase": "https://evolveessentials.ca"
+    },
+    {
+      "slug": "bodi-blends",
+      "brandId": "c1345",
+      "raw": 4,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "AUD",
+      "shopBase": "https://bodiblends.com.au"
+    },
+    {
+      "slug": "skin-candy",
+      "brandId": "c1346",
+      "raw": 68,
+      "kept": 218,
+      "withIngredients": 217,
+      "flavorVariants": 180,
+      "currency": "USD",
+      "shopBase": "https://theskincandyllc.com"
+    },
+    {
+      "slug": "florida-mushroom-company",
+      "brandId": "c1347",
+      "raw": 10,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://flmushroomco.com"
+    },
+    {
+      "slug": "florida-shroom-king",
+      "brandId": "c1348",
+      "raw": 21,
+      "kept": 5,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://floridashroomking.com"
+    }
+  ]
+}
