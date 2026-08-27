@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T07:10:18.531Z",
+  "wave77Products": 103,
+  "wave77BrandsWithProducts": 6,
+  "totalProducts": 23122,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "chomp",
+      "brandId": "c1331",
+      "raw": 84,
+      "kept": 28,
+      "withIngredients": 20,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://chomptoothpaste.com"
+    },
+    {
+      "slug": "horsepower",
+      "brandId": "c1332",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://horsepowerhydration.com"
+    },
+    {
+      "slug": "levels",
+      "brandId": "c1333",
+      "raw": 9,
+      "kept": 12,
+      "withIngredients": 0,
+      "flavorVariants": 11,
+      "currency": "USD",
+      "shopBase": "https://levelsprotein.com"
+    },
+    {
+      "slug": "sky-and-sol",
+      "brandId": "c1334",
+      "raw": 41,
+      "kept": 15,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://skyandsol.co"
+    },
+    {
+      "slug": "fat-chance-farm",
+      "brandId": "c1335",
+      "raw": 29,
+      "kept": 38,
+      "withIngredients": 34,
+      "flavorVariants": 28,
+      "currency": "USD",
+      "shopBase": "https://fatchancesoap.com"
+    },
+    {
+      "slug": "hodgins-harvest",
+      "brandId": "c1336",
+      "raw": 19,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://hodginsharvest.com"
+    }
+  ]
+}
