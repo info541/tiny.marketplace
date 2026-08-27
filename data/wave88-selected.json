@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "living-well-dr-michelle",
+    "shopBase": "https://livingwellwithdrmichelle.com",
+    "categories": [
+      "oral",
+      "deodorant",
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1397"
+  },
+  {
+    "slug": "hydrant",
+    "shopBase": "https://drinkhydrant.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1398"
+  },
+  {
+    "slug": "centenarius",
+    "shopBase": "https://centenariusnutrition.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1399"
+  },
+  {
+    "slug": "oak-and-sage",
+    "shopBase": "https://oaksageskincare.com",
+    "categories": [
+      "skincare",
+      "hair"
+    ],
+    "id": "c1400"
+  },
+  {
+    "slug": "tus-tallow",
+    "shopBase": "https://tustallow.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1401"
+  },
+  {
+    "slug": "mycolove-farm",
+    "shopBase": "https://www.mycolove.farm",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1402"
+  }
+]
