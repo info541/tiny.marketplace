@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "fizzy-oral",
+    "shopBase": "https://fizzyoral.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1289"
+  },
+  {
+    "slug": "cypher",
+    "shopBase": "https://cyphersupps.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1290"
+  },
+  {
+    "slug": "living-love-superfoods",
+    "shopBase": "https://livinglovesuperfoods.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1291"
+  },
+  {
+    "slug": "tallow-balm-company",
+    "shopBase": "https://www.tallowbalmcompany.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1292"
+  },
+  {
+    "slug": "sunny-soil",
+    "shopBase": "https://sunnysoil.shop",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "oral",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1293"
+  },
+  {
+    "slug": "spruce-creek-mushrooms",
+    "shopBase": "https://sprucecreekmushrooms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1294"
+  }
+]
