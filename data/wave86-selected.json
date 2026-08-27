@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "ulyana-organics",
+    "shopBase": "https://ulyanaorganics.com",
+    "categories": [
+      "oral",
+      "deodorant",
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1385"
+  },
+  {
+    "slug": "purelyte",
+    "shopBase": "https://purelyte.com.au",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1386"
+  },
+  {
+    "slug": "opportuniteas",
+    "shopBase": "https://opportuniteas.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1387"
+  },
+  {
+    "slug": "seaker-sun",
+    "shopBase": "https://seakersunco.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1388"
+  },
+  {
+    "slug": "made-new-naturals",
+    "shopBase": "https://madenewnaturals.com",
+    "categories": [
+      "hair",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1389"
+  },
+  {
+    "slug": "tilted-cap",
+    "shopBase": "https://tiltedcapllc.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1390"
+  }
+]
