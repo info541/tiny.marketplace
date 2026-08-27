@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "zoobalab",
+    "shopBase": "https://zoobalab.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1427"
+  },
+  {
+    "slug": "island-butter",
+    "shopBase": "https://islandbutter.co",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1428"
+  },
+  {
+    "slug": "blueshift",
+    "shopBase": "https://blueshiftnutrition.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1429"
+  },
+  {
+    "slug": "natural-force",
+    "shopBase": "https://naturalforce.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1430"
+  },
+  {
+    "slug": "tiffs-tallow",
+    "shopBase": "https://tiffstallow.com",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1431"
+  },
+  {
+    "slug": "josh-rosebrook",
+    "shopBase": "https://joshrosebrook.com",
+    "categories": [
+      "hair",
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c1432"
+  }
+]
