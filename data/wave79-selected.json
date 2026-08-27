@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "oh-care",
+    "shopBase": "https://ohcaredental.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1343"
+  },
+  {
+    "slug": "evolve-essentials",
+    "shopBase": "https://evolveessentials.ca",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1344"
+  },
+  {
+    "slug": "bodi-blends",
+    "shopBase": "https://bodiblends.com.au",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1345"
+  },
+  {
+    "slug": "skin-candy",
+    "shopBase": "https://theskincandyllc.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1346"
+  },
+  {
+    "slug": "florida-mushroom-company",
+    "shopBase": "https://flmushroomco.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1347"
+  },
+  {
+    "slug": "florida-shroom-king",
+    "shopBase": "https://floridashroomking.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1348"
+  }
+]
