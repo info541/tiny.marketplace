@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T16:05:54.755Z",
+  "wave86Products": 110,
+  "wave86BrandsWithProducts": 6,
+  "totalProducts": 23129,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "ulyana-organics",
+      "brandId": "c1385",
+      "raw": 74,
+      "kept": 68,
+      "withIngredients": 2,
+      "flavorVariants": 46,
+      "currency": "USD",
+      "shopBase": "https://ulyanaorganics.com"
+    },
+    {
+      "slug": "purelyte",
+      "brandId": "c1386",
+      "raw": 8,
+      "kept": 4,
+      "withIngredients": 4,
+      "flavorVariants": 4,
+      "currency": "AUD",
+      "shopBase": "https://purelyte.com.au"
+    },
+    {
+      "slug": "opportuniteas",
+      "brandId": "c1387",
+      "raw": 16,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 7,
+      "currency": "USD",
+      "shopBase": "https://opportuniteas.com"
+    },
+    {
+      "slug": "seaker-sun",
+      "brandId": "c1388",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://seakersunco.com"
+    },
+    {
+      "slug": "made-new-naturals",
+      "brandId": "c1389",
+      "raw": 21,
+      "kept": 25,
+      "withIngredients": 0,
+      "flavorVariants": 20,
+      "currency": "USD",
+      "shopBase": "https://madenewnaturals.com"
+    },
+    {
+      "slug": "tilted-cap",
+      "brandId": "c1390",
+      "raw": 4,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://tiltedcapllc.com"
+    }
+  ]
+}

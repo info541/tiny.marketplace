@@ -3,6 +3,7 @@ import { catalogBrandsBatch2 } from "./catalog-brands-batch2";
 import { catalogBrandsWhey } from "./catalog-brands-whey";
 import { catalogBrandsDeo } from "./catalog-brands-deo";
 import { catalogBrandsWave3 } from "./catalog-brands-wave3";
+import { catalogBrandsWave86 } from "./catalog-brands-wave86";
 import { catalogProducts } from "./catalog-products";
 import type { Brand, CommunityPost, Product, Review } from "./types";
 
@@ -187,6 +188,7 @@ export const brands: Brand[] = [
   ...catalogBrandsWhey,
   ...catalogBrandsDeo,
   ...catalogBrandsWave3,
+  ...catalogBrandsWave86,
 ];
 
 export const products: Product[] = [
