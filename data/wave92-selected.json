@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "nobiesse",
+    "shopBase": "https://nobiesse.com",
+    "categories": [
+      "oral",
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1421"
+  },
+  {
+    "slug": "reef-replenish",
+    "shopBase": "https://reefreplenish.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1422"
+  },
+  {
+    "slug": "organic-protein-company",
+    "shopBase": "https://theorganicproteincompany.co.uk",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1423"
+  },
+  {
+    "slug": "avocado-zinc",
+    "shopBase": "https://avocadozinc.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1424"
+  },
+  {
+    "slug": "amallow",
+    "shopBase": "https://amallow.com",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1425"
+  },
+  {
+    "slug": "hawaiian-health-co",
+    "shopBase": "https://hawaiianhealth.co",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1426"
+  }
+]
