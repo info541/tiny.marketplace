@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "grind-goods",
+    "shopBase": "https://grindgoods.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1307"
+  },
+  {
+    "slug": "eirlyte",
+    "shopBase": "https://www.eirlyte.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1308"
+  },
+  {
+    "slug": "peachie-spoon",
+    "shopBase": "https://thepeachiespoon.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1309"
+  },
+  {
+    "slug": "fango",
+    "shopBase": "https://fangospf.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1310"
+  },
+  {
+    "slug": "goat-milk-stuff",
+    "shopBase": "https://goatmilkstuff.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1311"
+  },
+  {
+    "slug": "humby-organics",
+    "shopBase": "https://humbyorganics.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c1312"
+  }
+]
