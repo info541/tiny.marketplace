@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "ollie",
+    "shopBase": "https://olliesmile.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1319"
+  },
+  {
+    "slug": "purelytes",
+    "shopBase": "https://getpurelytes.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1320"
+  },
+  {
+    "slug": "tidlos",
+    "shopBase": "https://tidlos.co",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1321"
+  },
+  {
+    "slug": "little-hands-hawaii",
+    "shopBase": "https://littlehandshawaii.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1322"
+  },
+  {
+    "slug": "lavami",
+    "shopBase": "https://www.lavami.ca",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1323"
+  },
+  {
+    "slug": "mushroom-microfarm",
+    "shopBase": "https://mushroom-microfarm.myshopify.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1324"
+  }
+]
