@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T15:12:07.577Z",
+  "wave85Products": 98,
+  "wave85BrandsWithProducts": 6,
+  "totalProducts": 23117,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "zebra",
+      "brandId": "c1379",
+      "raw": 35,
+      "kept": 9,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://yayzebra.com"
+    },
+    {
+      "slug": "nion-health",
+      "brandId": "c1380",
+      "raw": 4,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://nionhealth.com"
+    },
+    {
+      "slug": "happy-way",
+      "brandId": "c1381",
+      "raw": 138,
+      "kept": 61,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "AUD",
+      "shopBase": "https://happyway.com.au"
+    },
+    {
+      "slug": "icarus",
+      "brandId": "c1382",
+      "raw": 8,
+      "kept": 5,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://icaruszerochemical.com"
+    },
+    {
+      "slug": "tallowbourn",
+      "brandId": "c1383",
+      "raw": 12,
+      "kept": 19,
+      "withIngredients": 2,
+      "flavorVariants": 17,
+      "currency": "USD",
+      "shopBase": "https://tallowbourn.com"
+    },
+    {
+      "slug": "hikakai",
+      "brandId": "c1384",
+      "raw": 5,
+      "kept": 2,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://hikakai.com"
+    }
+  ]
+}
