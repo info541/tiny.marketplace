@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "dr-jen",
+    "shopBase": "https://drjennatural.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1337"
+  },
+  {
+    "slug": "doingwell",
+    "shopBase": "https://doingwell.health",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1338"
+  },
+  {
+    "slug": "mt-capra",
+    "shopBase": "https://mtcapra.com",
+    "categories": [
+      "protein",
+      "supplements",
+      "electrolytes",
+      "skincare"
+    ],
+    "id": "c1339"
+  },
+  {
+    "slug": "lasso",
+    "shopBase": "https://lassotallow.us",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1340"
+  },
+  {
+    "slug": "freo-living",
+    "shopBase": "https://freoliving.com",
+    "categories": [
+      "hair",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1341"
+  },
+  {
+    "slug": "half-hill-farm",
+    "shopBase": "https://store.halfhillfarm.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1342"
+  }
+]

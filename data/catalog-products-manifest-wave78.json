@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T08:08:29.759Z",
+  "wave78Products": 80,
+  "wave78BrandsWithProducts": 6,
+  "totalProducts": 23099,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "dr-jen",
+      "brandId": "c1337",
+      "raw": 23,
+      "kept": 13,
+      "withIngredients": 7,
+      "flavorVariants": 11,
+      "currency": "USD",
+      "shopBase": "https://drjennatural.com"
+    },
+    {
+      "slug": "doingwell",
+      "brandId": "c1338",
+      "raw": 9,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://doingwell.health"
+    },
+    {
+      "slug": "mt-capra",
+      "brandId": "c1339",
+      "raw": 38,
+      "kept": 34,
+      "withIngredients": 10,
+      "flavorVariants": 23,
+      "currency": "USD",
+      "shopBase": "https://mtcapra.com"
+    },
+    {
+      "slug": "lasso",
+      "brandId": "c1340",
+      "raw": 6,
+      "kept": 5,
+      "withIngredients": 1,
+      "flavorVariants": 3,
+      "currency": "USD",
+      "shopBase": "https://lassotallow.us"
+    },
+    {
+      "slug": "freo-living",
+      "brandId": "c1341",
+      "raw": 25,
+      "kept": 18,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "CAD",
+      "shopBase": "https://freoliving.com"
+    },
+    {
+      "slug": "half-hill-farm",
+      "brandId": "c1342",
+      "raw": 30,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://store.halfhillfarm.com"
+    }
+  ]
+}

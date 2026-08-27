@@ -73,6 +73,8 @@ function parseList(chunk) {
     .replace(/\s+/g, " ")
     .replace(/\*\*/g, "")
     .replace(/\[[^\]]*\]/g, "")
+    .replace(/\([^)]{3,120}\)/g, " ")
+    .replace(/\binactive ingredients?:\s*/gi, "")
     .trim();
   const parts = cleaned
     .split(/\s*(?:,|;|•|·|\n|(?:(?<=[a-z\)])\.(?=\s+[A-Z])))\s*/)
@@ -81,7 +83,7 @@ function parseList(chunk) {
       (s) =>
         s.length > 1 &&
         s.length < 160 &&
-        !/^(and|or|with|contains|including|ingredients?|view all|full list|see all|free of|made without)$/i.test(
+        !/^(and|or|with|contains|including|ingredients?|inactive ingredients?|view all|full list|see all|free of|made without)$/i.test(
           s,
         ) &&
         !/^https?:/i.test(s) &&
@@ -92,7 +94,7 @@ function parseList(chunk) {
 }
 
 function looksLikeMarketing(raw) {
-  return /\b(how to (use|apply)|directions?|why (we|our|tallow|you.?ll)|add to cart|subscription|if you haven'?t tried|love & gratitude|shipping|refund|free from|ours doesn'?t|let it dissolve|swish for|easy to use daily|sip it|we prioritize clean|upgrade your daily|does not make any medical|from farm to formula|product (benefits?|highlights?)|perfect for|process\/ethos|scent family|airy notes|elevate your|reconnect with|simple, natural ingredients|gentle ingredients that keep you fresh|ingredients are always|fuel your body|nourish and replenish|this product is not intended|naturally strengthen|why you.?ll love|clean\. powerful\. proven|no sugar\. no fillers|ingredients with a purpose|users report|customers report|outperforming|nutritional information|food supplements should|add a pea-sized|don'?t forget to brush|there.?s one key ingredient|hydroxyapatite \(hap\) is the same mineral|all of the flavor in each of our products|star ingredients include|key ingredients sodium|uses: (focus|stress|antiviral|exercise)|we couldn'?t find a toothpaste|what.?s inside each stick|same clean-ingredient philosophy|zero sugar — sweetened)\b/i.test(
+  return /\b(how to (use|apply)|directions?|why (we|our|tallow|you.?ll)|add to cart|subscription|if you haven'?t tried|love & gratitude|shipping|refund|free from|ours doesn'?t|let it dissolve|swish for|easy to use daily|sip it|we prioritize clean|upgrade your daily|does not make any medical|from farm to formula|product (benefits?|highlights?)|perfect for|process\/ethos|scent family|airy notes|elevate your|reconnect with|simple, natural ingredients|gentle ingredients that keep you fresh|ingredients are always|fuel your body|nourish and replenish|this product is not intended|naturally strengthen|why you.?ll love|clean\. powerful\. proven|no sugar\. no fillers|ingredients with a purpose|users report|customers report|outperforming|nutritional information|food supplements should|add a pea-sized|don'?t forget to brush|there.?s one key ingredient|hydroxyapatite \(hap\) is the same mineral|all of the flavor in each of our products|star ingredients include|key ingredients sodium|uses: (focus|stress|antiviral|exercise)|we couldn'?t find a toothpaste|what.?s inside each stick|same clean-ingredient philosophy|zero sugar — sweetened|the power smoothie|protein upgrade|add to smoothies|shake vigorously|feed only as directed|instructions for use|consult your veterinarian|naturally sweet drink|morning smoothie|milk alternative)\b/i.test(
     raw || "",
   );
 }
@@ -185,19 +187,22 @@ function sanitizeIngredients(parts) {
       /\b(product (benefits?|highlights?)|perfect for|elevate your|take your|from farm to formula|process\/ethos|scent family|how to|directions?|q:|note:|we recommend|best for:|reconnect with|love & gratitude|does not make any medical|disclaimer|no added sugar|no artificial|safety information|keep out of reach|for external use|zero sugar|designed to align|just clean hydration|ideal for those|this product has not been evaluated|available blends|why you.?ll love|add a pea-sized|brush twice|application|apply (body|liberally)|locally sourced|why i'?|handmade and hand-tested|handmade in reno|real customer reviews|salt lake city|limited edition packaging|perfect after a workout|clean hands|clear conscience|glow naturally|sleep deeper|confident protection|give your (skin|locks)|use as part of your daily|heals scarring|balances skin tone|artificial colors|synthetic preservatives|what.?s inside|same clean-ingredient|organic monk fruit, never stevia|patent pending)\b/i.test(
         s,
       ) ||
-      /\b(available in|our compostable|protect and soothe|designed to deeply|no plastic tubes|refreshing brushing|you can soothe|which doesn't sound|plastic-free tubes|scented version is lightly)\b/i.test(
+      /\b(available in|our compostable|protect and soothe|designed to deeply|no plastic tubes|refreshing brushing|you can soothe|which doesn't sound|plastic-free tubes|scented version is lightly|ivory cream soap contains)\b/i.test(
         s,
       )
     ) {
       break;
     }
     s = s
-      .replace(/^\d+%\s*/i, "")
+      .replace(/^\d+(\.\d+)?%\s*/i, "")
       .replace(/^inactive:\s*/i, "")
       .replace(/^active:\s*/i, "")
       .replace(/^\*\s*/, "")
       .replace(/\*+$/g, "")
+      .replace(/[)(]+$/g, "")
+      .replace(/^[)(]+/g, "")
       .replace(/\s+and\s+$/i, "")
+      .replace(/\s{2,}/g, " ")
       .replace(/\s+\([^)]*(soothes|polishes|strengthens|helps|freshens|thickens|derived)[^)]*\)/gi, "")
       .replace(/\s+(handmade and hand-tested|real customer reviews|clean hands|vegan\s*\||vegetarian\s*\|).*$/i, "")
       .trim();
@@ -273,7 +278,7 @@ function refineCategory(category, title, brand) {
   if (brand?.slug === "mt-capra") {
     if (/soap|lotion|balm|cream/.test(t)) return "skincare";
     if (/electrolyt|hydrat/.test(t)) return "electrolytes";
-    if (/\b(creatine|mineral|greens|collagen|colostrum|vitamin|probiotic|focus|rest|vitality|flex|zyme|site|cleanse|ez-go|head start)\b/.test(t))
+    if (/\b(creatine|minerals?|greens|collagen|colostrum|vitamin|probiotic|focus|rest|vitality|flex|zyme|site|cleanse|ez-go|head start|capragreens)\b/.test(t))
       return "supplements";
     return "protein";
   }
@@ -313,7 +318,7 @@ function isOnNiche(raw, brand) {
   }
   if (brand.slug === "mt-capra") {
     if (
-      /\b(hoodie|hat|blender|gift card|coffee|ghee|cream|lactose|capramilk|sampler|3-pack|healthy fats|handy|single pack)\b/i.test(
+      /\b(hoodie|hat|blender|gift card|coffee|ghee|cream|lactose|capramilk|sampler|3-pack|healthy fats|handy|single pack|limited edition)\b/i.test(
         title,
       )
     ) {
@@ -334,8 +339,14 @@ function isOnNiche(raw, brand) {
     );
   }
   if (brand.slug === "half-hill-farm") {
-    if (/\b(t-shirt|tee|hoodie|pet|dog|cat|bitters|vinegar|tonic|print)\b/i.test(title)) return false;
-    return /dual extract|lion'?s mane|reishi|turkey tail|chaga|cordyceps|propolis|mushroom/i.test(hay);
+    if (
+      /\b(t-shirt|tee|hoodie|pets?|dog|cat|bitters|vinegar|tonic|print|cave pets|mushroom powder)\b/i.test(
+        title,
+      )
+    ) {
+      return false;
+    }
+    return /dual extract|lion'?s mane|reishi|turkey tail|chaga|cordyceps|propolis/i.test(hay);
   }
   return NICHE.test(hay);
 }
@@ -441,7 +452,8 @@ async function fetchJson(url) {
   }
 }
 
-async function fetchCurrency(base) {
+async function fetchCurrency(base, brand) {
+  if (brand?.slug === "freo-living") return "CAD";
   try {
     const data = await fetchJson(`${base.replace(/\/$/, "")}/cart.js`);
     return String(data.currency || "USD").toUpperCase();
@@ -480,6 +492,7 @@ function pickVariant(variants, brand) {
     if (brand?.slug === "mt-capra") {
       if (/\b1\s*lb\b/i.test(hay)) score += 10;
       if (/\b5\s*lbs?\b/i.test(hay)) score -= 6;
+      if (/\b(sample|single pack|0\.3)\b/i.test(hay)) score -= 12;
     }
     if (brand?.slug === "doingwell") {
       if (/\b30\b/.test(hay)) score += 6;
@@ -517,7 +530,13 @@ function mapOne(raw, brand, brandId, index, variant, flavorLabel, currency) {
     flavorClean = flavorClean
       .replace(/\s+\d+(\.\d+)?\s*(oz|ounce|ml|g|sticks?|lb|lbs)(\s+net\s+wt\.?)?$/i, "")
       .replace(/\s*[-–—]\s*\d+\s*sticks?.*$/i, "")
+      .replace(/\bLIMITED EDITION:\s*/i, "")
       .trim();
+    if (brand.slug === "lasso") {
+      flavorClean = flavorClean
+        .toLowerCase()
+        .replace(/\b\w/g, (c) => c.toUpperCase());
+    }
   }
   if (
     flavorClean &&
@@ -549,6 +568,7 @@ function mapOne(raw, brand, brandId, index, variant, flavorLabel, currency) {
   if (!Number.isFinite(rawPrice) || rawPrice <= 0) return null;
   const price = convertPrice(rawPrice, currency);
   if (price <= 0) return null;
+  if (brand.slug === "mt-capra" && /mineral whey/i.test(title) && price < 10) return null;
 
   const body = raw.body_html || "";
   const description =
@@ -624,7 +644,7 @@ function expandProducts(raw, brand, brandId, index, currency) {
         )
       )
         continue;
-      if (/\b(bundle|variety|pack)\b/i.test(label)) continue;
+      if (/\b(bundle|variety|pack|limited edition)\b/i.test(label)) continue;
       if (/tinted\s*lip/i.test(label)) continue;
       const key = label.toLowerCase();
       if (!byFlavor.has(key)) byFlavor.set(key, { label, variants: [] });
@@ -667,7 +687,7 @@ async function main() {
     const base = brand.shopBase || brand.websiteUrl;
     process.stdout.write(`→ ${brand.slug.padEnd(32)} `);
     try {
-      const currency = await fetchCurrency(base);
+      const currency = await fetchCurrency(base, brand);
       const rawProducts = await fetchShopifyProducts(base);
       const mapped = [];
       const seenSlug = new Set();
