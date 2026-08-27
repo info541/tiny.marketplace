@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-08-27T01:12:00.000Z",
+  "dropped": 0,
+  "filled": 17,
+  "waveProducts": 115,
+  "withIngredients": 17,
+  "notes": "Cleared Tawariki shampoo/soap marketing essays and Farm Wife sun-cream how-to copy. Sun cream uses the published 4-ingredient tallow/jojoba/beeswax/zinc list (rosemary EO on the rosemary scent). Rival pages do not publish a parseable formula.",
+  "perBrand": {
+    "c1295": { "filled": 8, "empty": 2 },
+    "c1296": { "filled": 0, "empty": 10 },
+    "c1297": { "filled": 2, "empty": 10 },
+    "c1298": { "filled": 5, "empty": 2 },
+    "c1299": { "filled": 0, "empty": 51 },
+    "c1300": { "filled": 2, "empty": 23 }
+  }
+}
