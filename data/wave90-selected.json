@@ -1,0 +1,60 @@
+[
+  {
+    "slug": "primal-life-organics",
+    "shopBase": "https://primallifeorganics.com",
+    "categories": [
+      "oral",
+      "deodorant",
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1409"
+  },
+  {
+    "slug": "adapt-electrolytes",
+    "shopBase": "https://adaptnutrition.co",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1410"
+  },
+  {
+    "slug": "go-good",
+    "shopBase": "https://gogood.co.nz",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1411"
+  },
+  {
+    "slug": "tallow-cosmetics",
+    "shopBase": "https://tallowcosmetics.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1412"
+  },
+  {
+    "slug": "royal-tallow",
+    "shopBase": "https://www.royaltallow.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1413"
+  },
+  {
+    "slug": "organicules",
+    "shopBase": "https://organicules.ie",
+    "categories": [
+      "hair",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1414"
+  }
+]
