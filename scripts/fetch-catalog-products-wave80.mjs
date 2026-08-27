@@ -27,7 +27,7 @@ const SKIP_TITLE =
   /\b(gift card|e[- ]?gift|gift certificate|store credit|membership|subscription box|not for sale|tester only|wholesale|100%\s*off|t-?shirt|\btee\b|hoodie|sweatshirt|\bhat\b|tote bag|\btote\b|sticker|mug\b|apparel|book\b|ebook|e-guide|workshop|event|free gift|for pets?|\bpet\b|dog soap|dog shampoo|shipping protection|package protection|\bcandle\b|soap savers?|soap dish|sisal bag|sample pack|sample set|gift set|gift box|gift basket|bundle & save|starter kit|discovery kit|variety pack|3[- ]pack|6[- ]pack|family pack|couples pack)\b/i;
 
 const WAVE80_EXTRA =
-  /\b(gift card|e-gift|gift pack|gift set|mystery box|shipping protection|package protection|navidium|build your (own )?bundle|bundle\b|duo\b|duet\b|trio\b|sets?\b|variety pack|holiday gift|shaker bottle|shakers?\b|sampler pack|ritual\b|makeover|bathroom cup|flavor pack|travel pack|2-pack|3-pack|4-pack|6-pack|tinted\s*lip|ebook|directory|room spray|sunglasses|branded hat|sample pack|best sellers|ultimate bundle|family pack|power duo|starter kit|subscription|laundry|dish wash|dish soap|pet bar|perfume|irregular|underweight|welcome gift|soap rest|soap saver|empty foamer|wood scoop|banner|replacement shipping|scalp massager|lather bag|natural combs|hair brush|bundle builder|toiletry bag|printable|patient materials|board book|sticker sheet|whitening strips?|electric toothbrush|replacement heads?|charging cord|test product|gua sha|bug repellent|buzz off|scrap bag|soap keeper|travel tin|travel set|dad cap|water bottle|buy 2|buy one|loose leaf tea|grow kit|fresh mushrooms?|courses?|insured shipping|100ct|saalt|menstrual|period cup|period disc|konjac|pumice|dry brush|beard brush|bottle brush|ear buds?|wool dryer|lighter|yoga mat|toilet spray|hand sanitizer|lube\b|puppy|dirty dog|dog deodorant|dog wash|veggie wash|multi-surface cleaner|loofah|month club|duffel|funnel|trucker cap|red light|tanning oil|custom bundle|kraft bag|bubble wrap|stain stick|soap bag|soap labels?|thrifty soap|mystery pack|economy soap|dried (cordyceps|lion)|water flosser|founders? edition|canvas tote|essential water bottle|nootropic|pog\b|sampler|first taste|summer mix|best seller bundle|family bundle|hoodies?|blender bottle|coffee beans|shot glass|triple pack|performance cap|racerback tank|crew tee|ooh-mami|seasoning|market friends|fresh (chef|pioppino|oyster|lion)|shroom stack|super stack|grab bag|soap ends|shower steamer|bath bomb|wax melt|toilet cleaning|linen spray|air freshener|oracle deck|soaking salts|milk bath|wholesale|free gift|free sample|pre-?workout|stammpede|pancake|waffle mix|protein bars?|crop top|backpack|nalgene|carabiner|belt bag|drawstring|cross functional|countertop display|poster|common ground sample|single serving)\b/i;
+  /\b(gift card|e-gift|gift pack|gift set|mystery box|shipping protection|package protection|navidium|build your (own )?bundle|bundles?\b|duo\b|duet\b|trio\b|sets?\b|variety pack|holiday gift|shaker bottle|shakers?\b|sampler pack|ritual\b|makeover|bathroom cup|flavor pack|travel pack|2-pack|3-pack|4-pack|6-pack|tinted\s*lip|ebook|directory|room spray|sunglasses|branded hat|sample pack|best sellers|ultimate bundle|family pack|power duo|starter kit|subscription|laundry|dish wash|dish soap|pet bar|perfume|irregular|underweight|welcome gift|soap rest|soap saver|empty foamer|wood scoop|banner|replacement shipping|scalp massager|lather bag|natural combs|hair brush|bundle builder|toiletry bag|printable|patient materials|board book|sticker sheet|whitening strips?|electric toothbrush|replacement heads?|charging cord|test product|gua sha|bug repellent|buzz off|scrap bag|soap keeper|travel tin|travel set|dad cap|water bottle|buy 2|buy one|loose leaf tea|grow kit|fresh mushrooms?|courses?|insured shipping|100ct|saalt|menstrual|period cup|period disc|konjac|pumice|dry brush|beard brush|bottle brush|ear buds?|wool dryer|lighter|yoga mat|toilet spray|hand sanitizer|lube\b|puppy|dirty dog|dog deodorant|dog wash|veggie wash|multi-surface cleaner|loofah|month club|duffel|funnel|trucker cap|red light|tanning oil|custom bundle|kraft bag|bubble wrap|stain stick|soap bag|soap labels?|thrifty soap|mystery pack|economy soap|dried (cordyceps|lion)|water flosser|founders? edition|canvas tote|essential water bottle|nootropic|pog\b|sampler|first taste|summer mix|best seller bundle|family bundle|hoodies?|blender bottle|coffee beans|shot glass|triple pack|performance cap|racerback tank|crew tee|ooh-mami|seasoning|market friends|fresh (chef|pioppino|oyster|lion)|shroom stack|super stack|grab bag|soap ends|shower steamer|bath bomb|wax melt|toilet cleaning|linen spray|air freshener|oracle deck|soaking salts|milk bath|wholesale|free gift|free sample|pre-?workout|stammpede|pancake|waffle mix|protein bars?|crop top|backpack|nalgene|carabiner|belt bag|drawstring|cross functional|countertop display|poster|common ground sample|single serving)\b/i;
 
 const NICHE =
   /\b(spf\s*\d+|sunscreen|sun\s?screen|sunblock|sun butter|sunbalms?|sun[- ]?balms?|sun cream|sun protectant|zinc oxide|\bzinc\b|antiperspir|underarm|\bdeo\b|toothpaste|toothbrush|tooth powder|floss|mouthwash|mouth rinse|oil pull|tongue clean|oral (care|health)|hydroxyapatite|n[- ]?ha|remineraliz|shampoo|conditioner|hair (oil|mask|serum|care|juice|bar|clay)|scalp|beard|protein|whey|casein|collagen|creatine|electrolyte|hydration|vitamin|supplement|capsule|probiotic|lion'?s mane|reishi|chaga|cordyceps|turkey tail|shiitake|oyster mushroom|mushroom|tincture|serums?|moisturizer|cleanser|cream|lotion|oil|mask|balm|body (lotion|butter|wash|cream|oil|bar)|soap|tallow|lip|hydrosol|magnesium|shaving|gum|pomade|complexion)\b|deodor|electrolyt|hydrat|wpi\b/i;
@@ -94,7 +94,7 @@ function parseList(chunk) {
 }
 
 function looksLikeMarketing(raw) {
-  return /\b(how to (use|apply)|directions?|why (we|our|tallow|you.?ll)|add to cart|subscription|if you haven'?t tried|love & gratitude|shipping|refund|free from|ours doesn'?t|let it dissolve|swish for|easy to use daily|sip it|we prioritize clean|upgrade your daily|does not make any medical|from farm to formula|product (benefits?|highlights?)|perfect for|process\/ethos|scent family|airy notes|elevate your|reconnect with|simple, natural ingredients|gentle ingredients that keep you fresh|ingredients are always|fuel your body|nourish and replenish|this product is not intended|naturally strengthen|why you.?ll love|clean\. powerful\. proven|no sugar\. no fillers|ingredients with a purpose|users report|customers report|outperforming|nutritional information|food supplements should|add a pea-sized|don'?t forget to brush|there.?s one key ingredient|hydroxyapatite \(hap\) is the same mineral|all of the flavor in each of our products|star ingredients include|key ingredients sodium|uses: (focus|stress|antiviral|exercise)|we couldn'?t find a toothpaste|what.?s inside each stick|same clean-ingredient philosophy|zero sugar — sweetened|the power smoothie|protein upgrade|add to smoothies|shake vigorously|feed only as directed|instructions for use|consult your veterinarian|naturally sweet drink|morning smoothie|milk alternative|electrolytes you.?ll actually|stevia free real fruit|handmade with love|never outsource|70\+\s*trace minerals|sweetened with (pure )?monk fruit|no sugar alcohols|hydrolysed bovine collagen|to support healthy bones|help protect strands|boost resilience|to strengthen, smooth)\b/i.test(
+  return /\b(how to (use|apply)|directions?|why (we|our|tallow|you.?ll)|add to cart|subscription|if you haven'?t tried|love & gratitude|shipping|refund|free from|ours doesn'?t|let it dissolve|swish for|easy to use daily|sip it|we prioritize clean|upgrade your daily|does not make any medical|from farm to formula|product (benefits?|highlights?)|perfect for|process\/ethos|scent family|airy notes|elevate your|reconnect with|simple, natural ingredients|gentle ingredients that keep you fresh|ingredients are always|fuel your body|nourish and replenish|this product is not intended|naturally strengthen|why you.?ll love|clean\. powerful\. proven|no sugar\. no fillers|ingredients with a purpose|users report|customers report|outperforming|nutritional information|food supplements should|add a pea-sized|don'?t forget to brush|there.?s one key ingredient|hydroxyapatite \(hap\) is the same mineral|all of the flavor in each of our products|star ingredients include|key ingredients sodium|uses: (focus|stress|antiviral|exercise)|we couldn'?t find a toothpaste|what.?s inside each stick|same clean-ingredient philosophy|zero sugar — sweetened|the power smoothie|protein upgrade|add to smoothies|shake vigorously|feed only as directed|instructions for use|consult your veterinarian|naturally sweet drink|morning smoothie|milk alternative|electrolytes you.?ll actually|stevia free real fruit|handmade with love|never outsource|70\+\s*trace minerals|sweetened with (pure )?monk fruit|no sugar alcohols|hydrolysed bovine collagen|to support healthy bones|help protect strands|boost resilience|to strengthen, smooth|you.?ll notice|shield your skin|then soaking in alcohol|ultrasonic extractor|we bottle our|highly adsorbent|draws out dirt|helps resolve acne|offers intense hydration|aluminum-free, all-natural solution|nourishing spf protection|that actually works|handcrafted with nourishing|long-lasting moisture|cooling peppermint sensation|creamy lather that)\b/i.test(
     raw || "",
   );
 }
@@ -171,7 +171,7 @@ function sanitizeIngredients(parts) {
       if (!s) continue;
     }
     if (
-      /\b(product (benefits?|highlights?)|perfect for|elevate your|take your|from farm to formula|process\/ethos|scent family|how to|directions?|q:|note:|we recommend|best for:|reconnect with|love & gratitude|does not make any medical|disclaimer|no added sugar|no artificial|safety information|keep out of reach|for external use|zero sugar|designed to align|just clean hydration|ideal for those|this product has not been evaluated|available blends|why you.?ll love|add a pea-sized|brush twice|application|apply (body|liberally)|locally sourced|why i'?|handmade and hand-tested|handmade in reno|handcrafted in the usa|real customer reviews|salt lake city|limited edition packaging|perfect after a workout|clean hands|clear conscience|glow naturally|sleep deeper|confident protection|give your (skin|locks)|use as part of your daily|heals scarring|balances skin tone|artificial colors|synthetic preservatives|what.?s inside|same clean-ingredient|organic lucuma|patent pending|handmade with love|100% australian made|recyclable materials|vegan friendly|vegan, gluten-free|ensuring that it is suitable|grown on our own farm|whole fresh fruiting|half wild-foraged|to support healthy|contributes to growth|help protect strands|70\+\s*trace|sweetened with|no sugar alcohols|each bar is unique)\b/i.test(
+      /\b(product (benefits?|highlights?)|perfect for|elevate your|take your|from farm to formula|process\/ethos|scent family|how to|directions?|q:|note:|we recommend|best for:|reconnect with|love & gratitude|does not make any medical|disclaimer|no added sugar|no artificial|safety information|keep out of reach|for external use|zero sugar|designed to align|just clean hydration|ideal for those|this product has not been evaluated|available blends|why you.?ll love|add a pea-sized|brush twice|application|apply (body|liberally)|locally sourced|why i'?|handmade and hand-tested|handmade in reno|handcrafted in the usa|real customer reviews|salt lake city|limited edition packaging|perfect after a workout|clean hands|clear conscience|glow naturally|sleep deeper|confident protection|give your (skin|locks)|use as part of your daily|heals scarring|balances skin tone|artificial colors|synthetic preservatives|what.?s inside|same clean-ingredient|organic lucuma|patent pending|handmade with love|100% australian made|recyclable materials|vegan friendly|vegan, gluten-free|ensuring that it is suitable|grown on our own farm|whole fresh fruiting|half wild-foraged|to support healthy|contributes to growth|help protect strands|70\+\s*trace|sweetened with|no sugar alcohols|each bar is unique|you.?ll notice|shield your skin|then soaking|ultrasonic|we bottle our|highly adsorbent|draws out dirt|helps resolve|offers intense|cruelty free|leaping bunny|bars vary in size|that actually works|cooling peppermint|creamy lather)\b/i.test(
         s,
       )
     ) {
@@ -193,12 +193,31 @@ function sanitizeIngredients(parts) {
       .replace(/\s*recyclable materials.*$/i, "")
       .replace(/\s+Weight:\s*.*$/i, "")
       .replace(/\s+Net wt\.?\s*.*$/i, "")
+      .replace(/\s*\*Organic All-natural.*$/i, "")
+      .replace(/\s*\*Organic\s*$/i, "")
       .trim();
     if (/^inactive:?$/i.test(s) || /^active:?$/i.test(s) || /^vegan$/i.test(s) || /^weight:?$/i.test(s) || /^net wt/i.test(s)) {
       if (/^weight:?$/i.test(s) || /^net wt/i.test(s)) break;
       continue;
     }
     if (/gluten-free|non-gmo|and amino proteins|this bar strengthens|proteins strengthen|infused with a |help restore shine|restore softness|and protect$/i.test(s)) {
+      break;
+    }
+    s = s.replace(/^and\s+/i, "").replace(/\s+for smooth$/i, "").trim();
+    if (
+      /^(cruelty-free|non-toxic|all-natural|pure|virgin|unrefined|cold-pressed|hexane-free|soothing|repairing|emollient butter for deep)$/i.test(
+        s,
+      )
+    ) {
+      continue;
+    }
+    if (
+      /^helps\b/i.test(s) ||
+      / — /.test(s) ||
+      /wont wash out|scent worth leaning|thats not all|our belnd|variations in size|minimizes the appearance/i.test(
+        s,
+      )
+    ) {
       break;
     }
     if (s.length > 90 || s.length < 2) continue;
@@ -275,7 +294,7 @@ function refineCategory(category, title, brand) {
   if (brand?.slug === "balmy-tallow") {
     if (/sun\s?block|sunscreen|spf/.test(t)) return "sunscreen";
     if (/deodor/.test(t)) return "deodorant";
-    if (/tooth|oral|gum/.test(t)) return "oral";
+    if (/\b(tooth|toothpaste|tooth powder|oral care|\bgum\b)\b/.test(t)) return "oral";
     if (/pomade|beard/.test(t)) return "hair";
     return "skincare";
   }
@@ -295,8 +314,8 @@ function isOnNiche(raw, brand) {
   if (brand.slug === "minvelle") {
     return /gum|hydroxyapatite|remineral/i.test(hay);
   }
-  if (brand.slug === "lift-hydration") {
-    if (/\b(bundle|multi-flavor|multi flavor)\b/i.test(title)) return false;
+    if (brand.slug === "lift-hydration") {
+    if (/\bbundles?\b|multi-flavor|multi flavor/i.test(title)) return false;
     return /hydrat|electrolyt|lemon|strawberry/i.test(hay);
   }
   if (brand.slug === "earth-fed-muscle") {
@@ -532,7 +551,18 @@ function mapOne(raw, brand, brandId, index, variant, flavorLabel, currency) {
     title = title.replace(/^SEASONAL FLAVOR:\s*/i, "");
   }
   if (brand.slug === "lift-hydration") {
-    title = title.replace(/™/g, "").replace(/\s+16 Pack\s*$/i, "").trim();
+    title = title.replace(/™/g, "").replace(/\s+16 Pack\s*$/i, "").replace(/\s+/g, " ").trim();
+  }
+  if (brand.slug === "balmy-tallow") {
+    title = title
+      .replace(/\s*\|\s*Balmy Tallow\s*$/i, "")
+      .replace(/^\s*\d+\s*oz\.?\s*/i, "")
+      .replace(/\s*\|\s*(Earthy Citrus|Nourishing Floral|Calming Natural|Sensitive Skin|Ultra-Rich|Aluminum-Free|Mineral SPF|Natural Lip|Relaxation).*$/i, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (/^lemon lavender tallow balm$/i.test(title) && /4 oz/i.test(baseTitle)) {
+      title = "Lemon Lavender Tallow Balm";
+    }
   }
   if (!title) return null;
   const imageSrc = imageForVariant(raw, variant);
