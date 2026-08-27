@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "truthpaste",
+    "shopBase": "https://truthpaste.co.uk",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1355"
+  },
+  {
+    "slug": "ground-drink",
+    "shopBase": "https://grounddrink.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1356"
+  },
+  {
+    "slug": "miococo",
+    "shopBase": "https://miococo.com",
+    "categories": [
+      "protein",
+      "electrolytes"
+    ],
+    "id": "c1357"
+  },
+  {
+    "slug": "eat-my-face",
+    "shopBase": "https://eatmyface.co",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1358"
+  },
+  {
+    "slug": "naturallow",
+    "shopBase": "https://www.naturallow.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c1359"
+  },
+  {
+    "slug": "judds-suds",
+    "shopBase": "https://juddssuds.com",
+    "categories": [
+      "hair",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1360"
+  }
+]
