@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-08-27T00:08:10.842Z",
+  "wave70Products": 83,
+  "wave70BrandsWithProducts": 6,
+  "totalProducts": 23102,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "fizzy-oral",
+      "brandId": "c1289",
+      "raw": 18,
+      "kept": 21,
+      "withIngredients": 0,
+      "flavorVariants": 20,
+      "shopBase": "https://fizzyoral.com"
+    },
+    {
+      "slug": "cypher",
+      "brandId": "c1290",
+      "raw": 1,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "shopBase": "https://cyphersupps.com"
+    },
+    {
+      "slug": "living-love-superfoods",
+      "brandId": "c1291",
+      "raw": 8,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://livinglovesuperfoods.com"
+    },
+    {
+      "slug": "tallow-balm-company",
+      "brandId": "c1292",
+      "raw": 10,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 5,
+      "shopBase": "https://www.tallowbalmcompany.com"
+    },
+    {
+      "slug": "sunny-soil",
+      "brandId": "c1293",
+      "raw": 28,
+      "kept": 37,
+      "withIngredients": 0,
+      "flavorVariants": 29,
+      "shopBase": "https://sunnysoil.shop"
+    },
+    {
+      "slug": "spruce-creek-mushrooms",
+      "brandId": "c1294",
+      "raw": 28,
+      "kept": 7,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "shopBase": "https://sprucecreekmushrooms.com"
+    }
+  ]
+}
