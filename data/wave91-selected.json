@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "denttabs",
+    "shopBase": "https://denttabs.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1415"
+  },
+  {
+    "slug": "stay-poised-naturals",
+    "shopBase": "https://staypoisednaturals.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1416"
+  },
+  {
+    "slug": "purely-tallow",
+    "shopBase": "https://purelytallow.com",
+    "categories": [
+      "sunscreen",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1417"
+  },
+  {
+    "slug": "dense-nutrition",
+    "shopBase": "https://densenutrition.com",
+    "categories": [
+      "protein",
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1418"
+  },
+  {
+    "slug": "tallow-and-vine",
+    "shopBase": "https://tallowandvine.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c1419"
+  },
+  {
+    "slug": "octagon-farm",
+    "shopBase": "https://octagonfarm.shop",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1420"
+  }
+]

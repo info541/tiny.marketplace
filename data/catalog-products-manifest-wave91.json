@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T21:07:08.778Z",
+  "wave91Products": 119,
+  "wave91BrandsWithProducts": 6,
+  "totalProducts": 23138,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "denttabs",
+      "brandId": "c1415",
+      "raw": 22,
+      "kept": 7,
+      "withIngredients": 6,
+      "flavorVariants": 0,
+      "currency": "EUR",
+      "shopBase": "https://denttabs.com"
+    },
+    {
+      "slug": "stay-poised-naturals",
+      "brandId": "c1416",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://staypoisednaturals.com"
+    },
+    {
+      "slug": "purely-tallow",
+      "brandId": "c1417",
+      "raw": 28,
+      "kept": 52,
+      "withIngredients": 6,
+      "flavorVariants": 52,
+      "currency": "USD",
+      "shopBase": "https://purelytallow.com"
+    },
+    {
+      "slug": "dense-nutrition",
+      "brandId": "c1418",
+      "raw": 27,
+      "kept": 21,
+      "withIngredients": 0,
+      "flavorVariants": 13,
+      "currency": "EUR",
+      "shopBase": "https://densenutrition.com"
+    },
+    {
+      "slug": "tallow-and-vine",
+      "brandId": "c1419",
+      "raw": 10,
+      "kept": 5,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://tallowandvine.com"
+    },
+    {
+      "slug": "octagon-farm",
+      "brandId": "c1420",
+      "raw": 33,
+      "kept": 33,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://octagonfarm.shop"
+    }
+  ]
+}
