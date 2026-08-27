@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "vivi",
+    "shopBase": "https://www.viviteeth.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1301"
+  },
+  {
+    "slug": "keto-vitals",
+    "shopBase": "https://www.ketovitals.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1302"
+  },
+  {
+    "slug": "iconic-protein",
+    "shopBase": "https://www.drinkiconic.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1303"
+  },
+  {
+    "slug": "moose-haven-farm",
+    "shopBase": "https://www.moosehavenfarm.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1304"
+  },
+  {
+    "slug": "vivelle-la",
+    "shopBase": "https://www.vivellela.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1305"
+  },
+  {
+    "slug": "sb-botanicals",
+    "shopBase": "https://sbbotanicalproducts.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1306"
+  }
+]

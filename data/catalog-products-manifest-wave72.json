@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-08-27T02:12:34.089Z",
+  "wave72Products": 89,
+  "wave72BrandsWithProducts": 6,
+  "totalProducts": 23108,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "vivi",
+      "brandId": "c1301",
+      "raw": 1,
+      "kept": 1,
+        "withIngredients": 0,
+        "flavorVariants": 0,
+        "shopBase": "https://www.viviteeth.com"
+    },
+    {
+      "slug": "keto-vitals",
+      "brandId": "c1302",
+      "raw": 27,
+      "kept": 17,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "shopBase": "https://www.ketovitals.com"
+    },
+    {
+      "slug": "iconic-protein",
+      "brandId": "c1303",
+      "raw": 19,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.drinkiconic.com"
+    },
+    {
+      "slug": "moose-haven-farm",
+      "brandId": "c1304",
+      "raw": 19,
+      "kept": 14,
+      "withIngredients": 6,
+      "flavorVariants": 9,
+      "shopBase": "https://www.moosehavenfarm.com"
+    },
+    {
+      "slug": "vivelle-la",
+      "brandId": "c1305",
+      "raw": 5,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "shopBase": "https://www.vivellela.com"
+    },
+    {
+      "slug": "sb-botanicals",
+      "brandId": "c1306",
+      "raw": 30,
+      "kept": 46,
+      "withIngredients": 5,
+      "flavorVariants": 28,
+      "shopBase": "https://sbbotanicalproducts.com"
+    }
+  ]
+}
