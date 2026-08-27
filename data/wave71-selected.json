@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "before",
+    "shopBase": "https://beforecompany.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1295"
+  },
+  {
+    "slug": "rival-sports-fuel",
+    "shopBase": "https://www.rivalsportsfuel.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1296"
+  },
+  {
+    "slug": "farm-wife-tallow",
+    "shopBase": "https://farmwifetallow.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1297"
+  },
+  {
+    "slug": "brookies-tallow",
+    "shopBase": "https://brookiestallow.com",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1298"
+  },
+  {
+    "slug": "tawariki",
+    "shopBase": "https://tawarikigoats.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1299"
+  },
+  {
+    "slug": "mayberry-farms",
+    "shopBase": "https://mayberryfarmswi.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1300"
+  }
+]

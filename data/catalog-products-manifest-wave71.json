@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-08-27T01:09:52.409Z",
+  "wave71Products": 115,
+  "wave71BrandsWithProducts": 6,
+  "totalProducts": 23134,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "before",
+      "brandId": "c1295",
+      "raw": 44,
+      "kept": 10,
+      "withIngredients": 8,
+      "flavorVariants": 0,
+      "shopBase": "https://beforecompany.com"
+    },
+    {
+      "slug": "rival-sports-fuel",
+      "brandId": "c1296",
+      "raw": 9,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 5,
+      "shopBase": "https://www.rivalsportsfuel.com"
+    },
+    {
+      "slug": "farm-wife-tallow",
+      "brandId": "c1297",
+      "raw": 22,
+      "kept": 12,
+      "withIngredients": 2,
+      "flavorVariants": 2,
+      "shopBase": "https://farmwifetallow.com"
+    },
+    {
+      "slug": "brookies-tallow",
+      "brandId": "c1298",
+      "raw": 13,
+      "kept": 7,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "shopBase": "https://brookiestallow.com"
+    },
+    {
+      "slug": "tawariki",
+      "brandId": "c1299",
+      "raw": 87,
+      "kept": 51,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "shopBase": "https://tawarikigoats.com"
+    },
+    {
+      "slug": "mayberry-farms",
+      "brandId": "c1300",
+      "raw": 28,
+      "kept": 25,
+      "withIngredients": 2,
+      "flavorVariants": 11,
+      "shopBase": "https://mayberryfarmswi.com"
+    }
+  ]
+}
