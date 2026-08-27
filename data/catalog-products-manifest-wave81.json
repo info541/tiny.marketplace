@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T11:06:52.603Z",
+  "wave81Products": 188,
+  "wave81BrandsWithProducts": 6,
+  "totalProducts": 23207,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "truthpaste",
+      "brandId": "c1355",
+      "raw": 47,
+      "kept": 11,
+      "withIngredients": 9,
+      "flavorVariants": 0,
+      "currency": "GBP",
+      "shopBase": "https://truthpaste.co.uk"
+    },
+    {
+      "slug": "ground-drink",
+      "brandId": "c1356",
+      "raw": 1,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "currency": "USD",
+      "shopBase": "https://grounddrink.com"
+    },
+    {
+      "slug": "miococo",
+      "brandId": "c1357",
+      "raw": 9,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://miococo.com"
+    },
+    {
+      "slug": "eat-my-face",
+      "brandId": "c1358",
+      "raw": 30,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://eatmyface.co"
+    },
+    {
+      "slug": "naturallow",
+      "brandId": "c1359",
+      "raw": 22,
+      "kept": 33,
+      "withIngredients": 0,
+      "flavorVariants": 28,
+      "currency": "USD",
+      "shopBase": "https://www.naturallow.com"
+    },
+    {
+      "slug": "judds-suds",
+      "brandId": "c1360",
+      "raw": 290,
+      "kept": 122,
+      "withIngredients": 65,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://juddssuds.com"
+    }
+  ]
+}
