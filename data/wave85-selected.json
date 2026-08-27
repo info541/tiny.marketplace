@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "zebra",
+    "shopBase": "https://yayzebra.com",
+    "categories": [
+      "oral",
+      "deodorant"
+    ],
+    "id": "c1379"
+  },
+  {
+    "slug": "nion-health",
+    "shopBase": "https://nionhealth.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1380"
+  },
+  {
+    "slug": "happy-way",
+    "shopBase": "https://happyway.com.au",
+    "categories": [
+      "protein",
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1381"
+  },
+  {
+    "slug": "icarus",
+    "shopBase": "https://icaruszerochemical.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1382"
+  },
+  {
+    "slug": "tallowbourn",
+    "shopBase": "https://tallowbourn.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c1383"
+  },
+  {
+    "slug": "hikakai",
+    "shopBase": "https://hikakai.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c1384"
+  }
+]
