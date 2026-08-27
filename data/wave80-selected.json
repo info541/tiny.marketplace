@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "minvelle",
+    "shopBase": "https://minvelle.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1349"
+  },
+  {
+    "slug": "lift-hydration",
+    "shopBase": "https://lifthydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1350"
+  },
+  {
+    "slug": "earth-fed-muscle",
+    "shopBase": "https://earthfedmuscle.com",
+    "categories": [
+      "protein",
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1351"
+  },
+  {
+    "slug": "balmy-tallow",
+    "shopBase": "https://balmytallow.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "skincare",
+      "oral"
+    ],
+    "id": "c1352"
+  },
+  {
+    "slug": "take-haven",
+    "shopBase": "https://takehaven.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1353"
+  },
+  {
+    "slug": "fat-fox-thrive",
+    "shopBase": "https://fatfoxthrive.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1354"
+  }
+]

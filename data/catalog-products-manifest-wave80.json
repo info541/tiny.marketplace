@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T10:12:08.106Z",
+  "wave80Products": 96,
+  "wave80BrandsWithProducts": 6,
+  "totalProducts": 23115,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "minvelle",
+      "brandId": "c1349",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "EUR",
+      "shopBase": "https://minvelle.com"
+    },
+    {
+      "slug": "lift-hydration",
+      "brandId": "c1350",
+      "raw": 3,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://lifthydration.com"
+    },
+    {
+      "slug": "earth-fed-muscle",
+      "brandId": "c1351",
+      "raw": 116,
+      "kept": 33,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "currency": "USD",
+      "shopBase": "https://earthfedmuscle.com"
+    },
+    {
+      "slug": "balmy-tallow",
+      "brandId": "c1352",
+      "raw": 26,
+      "kept": 12,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://balmytallow.com"
+    },
+    {
+      "slug": "take-haven",
+      "brandId": "c1353",
+      "raw": 61,
+      "kept": 44,
+      "withIngredients": 38,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://takehaven.com"
+    },
+    {
+      "slug": "fat-fox-thrive",
+      "brandId": "c1354",
+      "raw": 4,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "GBP",
+      "shopBase": "https://fatfoxthrive.com"
+    }
+  ]
+}
