@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T19:09:57.445Z",
+  "wave89Products": 107,
+  "wave89BrandsWithProducts": 6,
+  "totalProducts": 23126,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "revive-homestead",
+      "brandId": "c1403",
+      "raw": 34,
+      "kept": 28,
+      "withIngredients": 12,
+      "flavorVariants": 21,
+      "currency": "USD",
+      "shopBase": "https://revivehomestead.com"
+    },
+    {
+      "slug": "untammed",
+      "brandId": "c1404",
+      "raw": 7,
+      "kept": 8,
+      "withIngredients": 5,
+      "flavorVariants": 5,
+      "currency": "USD",
+      "shopBase": "https://untammed.co"
+    },
+    {
+      "slug": "pure-choice-farms",
+      "brandId": "c1405",
+      "raw": 27,
+      "kept": 8,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://www.purechoicefarms.com"
+    },
+    {
+      "slug": "little-pasture",
+      "brandId": "c1406",
+      "raw": 27,
+      "kept": 22,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://thelittlepasture.com"
+    },
+    {
+      "slug": "purely-wild",
+      "brandId": "c1407",
+      "raw": 20,
+      "kept": 21,
+      "withIngredients": 3,
+      "flavorVariants": 12,
+      "currency": "USD",
+      "shopBase": "https://purelywildskinco.com"
+    },
+    {
+      "slug": "inahsi",
+      "brandId": "c1408",
+      "raw": 125,
+      "kept": 20,
+      "withIngredients": 18,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://inahsi.com"
+    }
+  ]
+}
