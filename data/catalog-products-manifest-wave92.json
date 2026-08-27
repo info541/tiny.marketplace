@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T22:06:48.570Z",
+  "wave92Products": 73,
+  "wave92BrandsWithProducts": 6,
+  "totalProducts": 23092,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "nobiesse",
+      "brandId": "c1421",
+      "raw": 40,
+      "kept": 13,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://nobiesse.com"
+    },
+    {
+      "slug": "reef-replenish",
+      "brandId": "c1422",
+      "raw": 6,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://reefreplenish.com"
+    },
+    {
+      "slug": "organic-protein-company",
+      "brandId": "c1423",
+      "raw": 21,
+      "kept": 6,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "GBP",
+      "shopBase": "https://theorganicproteincompany.co.uk"
+    },
+    {
+      "slug": "avocado-zinc",
+      "brandId": "c1424",
+      "raw": 33,
+      "kept": 17,
+      "withIngredients": 0,
+      "flavorVariants": 13,
+      "currency": "AUD",
+      "shopBase": "https://avocadozinc.com"
+    },
+    {
+      "slug": "amallow",
+      "brandId": "c1425",
+      "raw": 41,
+      "kept": 24,
+      "withIngredients": 13,
+      "flavorVariants": 5,
+      "currency": "USD",
+      "shopBase": "https://amallow.com"
+    },
+    {
+      "slug": "hawaiian-health-co",
+      "brandId": "c1426",
+      "raw": 8,
+      "kept": 7,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://hawaiianhealth.co"
+    }
+  ]
+}
