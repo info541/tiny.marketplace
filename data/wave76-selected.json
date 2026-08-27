@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "mouthology",
+    "shopBase": "https://mouthology.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1325"
+  },
+  {
+    "slug": "hydrx",
+    "shopBase": "https://hydrxhydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1326"
+  },
+  {
+    "slug": "australian-natural-protein",
+    "shopBase": "https://ausnaturalprotein.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1327"
+  },
+  {
+    "slug": "pantry",
+    "shopBase": "https://shoppantryproducts.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1328"
+  },
+  {
+    "slug": "heart-tone",
+    "shopBase": "https://htbotanicals.com",
+    "categories": [
+      "oral",
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1329"
+  },
+  {
+    "slug": "bristol-fungarium",
+    "shopBase": "https://fungarium.shop",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1330"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T06:11:30.329Z",
+  "wave76Products": 138,
+  "wave76BrandsWithProducts": 6,
+  "totalProducts": 23157,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "mouthology",
+      "brandId": "c1325",
+      "raw": 18,
+      "kept": 16,
+      "withIngredients": 0,
+      "flavorVariants": 7,
+      "currency": "USD",
+      "shopBase": "https://mouthology.com"
+    },
+    {
+      "slug": "hydrx",
+      "brandId": "c1326",
+      "raw": 2,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "currency": "USD",
+      "shopBase": "https://hydrxhydration.com"
+    },
+    {
+      "slug": "australian-natural-protein",
+      "brandId": "c1327",
+      "raw": 10,
+      "kept": 3,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "currency": "AUD",
+      "shopBase": "https://ausnaturalprotein.com"
+    },
+    {
+      "slug": "pantry",
+      "brandId": "c1328",
+      "raw": 136,
+      "kept": 79,
+      "withIngredients": 51,
+      "flavorVariants": 28,
+      "currency": "USD",
+      "shopBase": "https://shoppantryproducts.com"
+    },
+    {
+      "slug": "heart-tone",
+      "brandId": "c1329",
+      "raw": 51,
+      "kept": 29,
+      "withIngredients": 3,
+      "flavorVariants": 3,
+      "currency": "USD",
+      "shopBase": "https://htbotanicals.com"
+    },
+    {
+      "slug": "bristol-fungarium",
+      "brandId": "c1330",
+      "raw": 20,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "GBP",
+      "shopBase": "https://fungarium.shop"
+    }
+  ]
+}
