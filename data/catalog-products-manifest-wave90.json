@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T20:09:51.335Z",
+  "wave90Products": 131,
+  "wave90BrandsWithProducts": 6,
+  "totalProducts": 23150,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "primal-life-organics",
+      "brandId": "c1409",
+      "raw": 91,
+      "kept": 73,
+      "withIngredients": 56,
+      "flavorVariants": 51,
+      "currency": "USD",
+      "shopBase": "https://primallifeorganics.com"
+    },
+    {
+      "slug": "adapt-electrolytes",
+      "brandId": "c1410",
+      "raw": 7,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://adaptnutrition.co"
+    },
+    {
+      "slug": "go-good",
+      "brandId": "c1411",
+      "raw": 24,
+      "kept": 14,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "currency": "NZD",
+      "shopBase": "https://gogood.co.nz"
+    },
+    {
+      "slug": "tallow-cosmetics",
+      "brandId": "c1412",
+      "raw": 17,
+      "kept": 11,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "EUR",
+      "shopBase": "https://tallowcosmetics.com"
+    },
+    {
+      "slug": "royal-tallow",
+      "brandId": "c1413",
+      "raw": 5,
+      "kept": 11,
+      "withIngredients": 8,
+      "flavorVariants": 11,
+      "currency": "USD",
+      "shopBase": "https://www.royaltallow.com"
+    },
+    {
+      "slug": "organicules",
+      "brandId": "c1414",
+      "raw": 26,
+      "kept": 19,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "currency": "EUR",
+      "shopBase": "https://organicules.ie"
+    }
+  ]
+}
