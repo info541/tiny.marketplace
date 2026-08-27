@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T23:09:06.089Z",
+  "wave93Products": 64,
+  "wave93BrandsWithProducts": 6,
+  "totalProducts": 23083,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "zoobalab",
+      "brandId": "c1427",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://zoobalab.com"
+    },
+    {
+      "slug": "island-butter",
+      "brandId": "c1428",
+      "raw": 2,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://islandbutter.co"
+    },
+    {
+      "slug": "blueshift",
+      "brandId": "c1429",
+      "raw": 16,
+      "kept": 11,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://blueshiftnutrition.com"
+    },
+    {
+      "slug": "natural-force",
+      "brandId": "c1430",
+      "raw": 10,
+      "kept": 8,
+      "withIngredients": 4,
+      "flavorVariants": 3,
+      "currency": "USD",
+      "shopBase": "https://naturalforce.com"
+    },
+    {
+      "slug": "tiffs-tallow",
+      "brandId": "c1431",
+      "raw": 20,
+      "kept": 14,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://tiffstallow.com"
+    },
+    {
+      "slug": "josh-rosebrook",
+      "brandId": "c1432",
+      "raw": 58,
+      "kept": 29,
+      "withIngredients": 28,
+      "flavorVariants": 1,
+      "currency": "USD",
+      "shopBase": "https://joshrosebrook.com"
+    }
+  ]
+}
