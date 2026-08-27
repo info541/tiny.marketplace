@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "chomp",
+    "shopBase": "https://chomptoothpaste.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1331"
+  },
+  {
+    "slug": "horsepower",
+    "shopBase": "https://horsepowerhydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1332"
+  },
+  {
+    "slug": "levels",
+    "shopBase": "https://levelsprotein.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1333"
+  },
+  {
+    "slug": "sky-and-sol",
+    "shopBase": "https://skyandsol.co",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1334"
+  },
+  {
+    "slug": "fat-chance-farm",
+    "shopBase": "https://fatchancesoap.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1335"
+  },
+  {
+    "slug": "hodgins-harvest",
+    "shopBase": "https://hodginsharvest.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1336"
+  }
+]
