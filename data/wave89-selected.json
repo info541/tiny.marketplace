@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "revive-homestead",
+    "shopBase": "https://revivehomestead.com",
+    "categories": [
+      "oral",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1403"
+  },
+  {
+    "slug": "untammed",
+    "shopBase": "https://untammed.co",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1404"
+  },
+  {
+    "slug": "pure-choice-farms",
+    "shopBase": "https://www.purechoicefarms.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1405"
+  },
+  {
+    "slug": "little-pasture",
+    "shopBase": "https://thelittlepasture.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1406"
+  },
+  {
+    "slug": "purely-wild",
+    "shopBase": "https://purelywildskinco.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1407"
+  },
+  {
+    "slug": "inahsi",
+    "shopBase": "https://inahsi.com",
+    "categories": [
+      "hair"
+    ],
+    "id": "c1408"
+  }
+]
