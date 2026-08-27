@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "miltodent",
+    "shopBase": "https://miltodent.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1373"
+  },
+  {
+    "slug": "key-nutrients",
+    "shopBase": "https://keynutrients.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1374"
+  },
+  {
+    "slug": "wild-society",
+    "shopBase": "https://wildsocietynutrition.com",
+    "categories": [
+      "protein",
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1375"
+  },
+  {
+    "slug": "sunmud",
+    "shopBase": "https://sunmudsunscreen.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1376"
+  },
+  {
+    "slug": "finally-all-natural",
+    "shopBase": "https://finallyallnatural.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1377"
+  },
+  {
+    "slug": "teelixir",
+    "shopBase": "https://teelixir.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1378"
+  }
+]

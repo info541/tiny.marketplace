@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T14:14:52.898Z",
+  "wave84Products": 79,
+  "wave84BrandsWithProducts": 6,
+  "totalProducts": 23098,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "miltodent",
+      "brandId": "c1373",
+      "raw": 2,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://miltodent.com"
+    },
+    {
+      "slug": "key-nutrients",
+      "brandId": "c1374",
+      "raw": 7,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 8,
+      "currency": "USD",
+      "shopBase": "https://keynutrients.com"
+    },
+    {
+      "slug": "wild-society",
+      "brandId": "c1375",
+      "raw": 19,
+      "kept": 11,
+      "withIngredients": 0,
+      "flavorVariants": 7,
+      "currency": "USD",
+      "shopBase": "https://wildsocietynutrition.com"
+    },
+    {
+      "slug": "sunmud",
+      "brandId": "c1376",
+      "raw": 16,
+      "kept": 11,
+      "withIngredients": 8,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://sunmudsunscreen.com"
+    },
+    {
+      "slug": "finally-all-natural",
+      "brandId": "c1377",
+      "raw": 23,
+      "kept": 15,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "currency": "USD",
+      "shopBase": "https://finallyallnatural.com"
+    },
+    {
+      "slug": "teelixir",
+      "brandId": "c1378",
+      "raw": 62,
+      "kept": 31,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "AUD",
+      "shopBase": "https://teelixir.com"
+    }
+  ]
+}
