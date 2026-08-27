@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "yafa-queen",
+    "shopBase": "https://yafaqueen.com",
+    "categories": [
+      "oral",
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1391"
+  },
+  {
+    "slug": "sodii",
+    "shopBase": "https://sodii.com.au",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1392"
+  },
+  {
+    "slug": "madeof-life",
+    "shopBase": "https://madeof.life",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1393"
+  },
+  {
+    "slug": "doos-naturals",
+    "shopBase": "https://doosnaturals.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1394"
+  },
+  {
+    "slug": "tallow-twins",
+    "shopBase": "https://tallowtwins.ca",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1395"
+  },
+  {
+    "slug": "sunshine-fungi",
+    "shopBase": "https://sunshinefungifarms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1396"
+  }
+]

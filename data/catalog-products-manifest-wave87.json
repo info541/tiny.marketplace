@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T17:08:28.948Z",
+  "wave87Products": 113,
+  "wave87BrandsWithProducts": 6,
+  "totalProducts": 23132,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "yafa-queen",
+      "brandId": "c1391",
+      "raw": 90,
+      "kept": 55,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://yafaqueen.com"
+    },
+    {
+      "slug": "sodii",
+      "brandId": "c1392",
+      "raw": 16,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://sodii.com.au"
+    },
+    {
+      "slug": "madeof-life",
+      "brandId": "c1393",
+      "raw": 4,
+      "kept": 3,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://madeof.life"
+    },
+    {
+      "slug": "doos-naturals",
+      "brandId": "c1394",
+      "raw": 11,
+      "kept": 13,
+      "withIngredients": 3,
+      "flavorVariants": 7,
+      "currency": "USD",
+      "shopBase": "https://doosnaturals.com"
+    },
+    {
+      "slug": "tallow-twins",
+      "brandId": "c1395",
+      "raw": 38,
+      "kept": 27,
+      "withIngredients": 0,
+      "flavorVariants": 8,
+      "currency": "CAD",
+      "shopBase": "https://tallowtwins.ca"
+    },
+    {
+      "slug": "sunshine-fungi",
+      "brandId": "c1396",
+      "raw": 20,
+      "kept": 6,
+      "withIngredients": 6,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://sunshinefungifarms.com"
+    }
+  ]
+}
