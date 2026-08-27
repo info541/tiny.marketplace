@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T18:09:23.464Z",
+  "wave88Products": 109,
+  "wave88BrandsWithProducts": 6,
+  "totalProducts": 23128,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "living-well-dr-michelle",
+      "brandId": "c1397",
+      "raw": 109,
+      "kept": 33,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://livingwellwithdrmichelle.com"
+    },
+    {
+      "slug": "hydrant",
+      "brandId": "c1398",
+      "raw": 17,
+      "kept": 12,
+      "withIngredients": 0,
+      "flavorVariants": 10,
+      "currency": "USD",
+      "shopBase": "https://drinkhydrant.com"
+    },
+    {
+      "slug": "centenarius",
+      "brandId": "c1399",
+      "raw": 14,
+      "kept": 6,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://centenariusnutrition.com"
+    },
+    {
+      "slug": "oak-and-sage",
+      "brandId": "c1400",
+      "raw": 32,
+      "kept": 27,
+      "withIngredients": 0,
+      "flavorVariants": 7,
+      "currency": "USD",
+      "shopBase": "https://oaksageskincare.com"
+    },
+    {
+      "slug": "tus-tallow",
+      "brandId": "c1401",
+      "raw": 19,
+      "kept": 18,
+      "withIngredients": 17,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://tustallow.com"
+    },
+    {
+      "slug": "mycolove-farm",
+      "brandId": "c1402",
+      "raw": 17,
+      "kept": 13,
+      "withIngredients": 13,
+      "flavorVariants": 13,
+      "currency": "USD",
+      "shopBase": "https://www.mycolove.farm"
+    }
+  ]
+}
