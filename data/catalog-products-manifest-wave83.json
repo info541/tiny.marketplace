@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T13:08:58.898Z",
+  "wave83Products": 98,
+  "wave83BrandsWithProducts": 6,
+  "totalProducts": 23117,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "uncle-harrys",
+      "brandId": "c1367",
+      "raw": 196,
+      "kept": 66,
+      "withIngredients": 36,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://uncleharrys.com"
+    },
+    {
+      "slug": "only-hydration",
+      "brandId": "c1368",
+      "raw": 11,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://onlyhydration.com"
+    },
+    {
+      "slug": "norcal-organic",
+      "brandId": "c1369",
+      "raw": 8,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "currency": "USD",
+      "shopBase": "https://norcal-organic.com"
+    },
+    {
+      "slug": "bpm-deodorant",
+      "brandId": "c1370",
+      "raw": 9,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://bpmdeodorant.com"
+    },
+    {
+      "slug": "wild-gold-tallow",
+      "brandId": "c1371",
+      "raw": 5,
+      "kept": 5,
+      "withIngredients": 1,
+      "flavorVariants": 3,
+      "currency": "USD",
+      "shopBase": "https://wildgoldtallow.com"
+    },
+    {
+      "slug": "baltispore",
+      "brandId": "c1372",
+      "raw": 54,
+      "kept": 12,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://baltispore.com"
+    }
+  ]
+}

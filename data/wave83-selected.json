@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "uncle-harrys",
+    "shopBase": "https://uncleharrys.com",
+    "categories": [
+      "oral",
+      "hair",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1367"
+  },
+  {
+    "slug": "only-hydration",
+    "shopBase": "https://onlyhydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1368"
+  },
+  {
+    "slug": "norcal-organic",
+    "shopBase": "https://norcal-organic.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1369"
+  },
+  {
+    "slug": "bpm-deodorant",
+    "shopBase": "https://bpmdeodorant.com",
+    "categories": [
+      "deodorant"
+    ],
+    "id": "c1370"
+  },
+  {
+    "slug": "wild-gold-tallow",
+    "shopBase": "https://wildgoldtallow.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1371"
+  },
+  {
+    "slug": "baltispore",
+    "shopBase": "https://baltispore.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1372"
+  }
+]
