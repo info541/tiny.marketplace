@@ -95,7 +95,7 @@ export const catalogBrandsWave82: Brand[] = [
     rating: 4.8,
     reviewCount: 2400,
     followerCount: 18000,
-    websiteUrl: "https://www.grizzlynaturals.com",
+    websiteUrl: "https://grizzlynaturals.com",
     logoUrl: "/brands/grizzly-naturals.svg",
   },
 ];

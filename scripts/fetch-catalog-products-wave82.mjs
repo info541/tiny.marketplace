@@ -27,7 +27,7 @@ const SKIP_TITLE =
   /\b(gift card|e[- ]?gift|gift certificate|store credit|membership|subscription box|not for sale|tester only|wholesale|100%\s*off|t-?shirt|\btee\b|hoodie|sweatshirt|\bhat\b|tote bag|\btote\b|sticker|mug\b|apparel|book\b|ebook|e-guide|workshop|event|free gift|for pets?|\bpet\b|dog soap|dog shampoo|shipping protection|package protection|\bcandle\b|soap savers?|soap dish|sisal bag|sample pack|sample set|gift set|gift box|gift basket|bundle & save|starter kit|discovery kit|variety pack|3[- ]pack|6[- ]pack|family pack|couples pack)\b/i;
 
 const WAVE82_EXTRA =
-  /\b(gift card|e-gift|gift pack|gift set|gift basket|mystery (box|gift)|shipping protection|package protection|navidium|build your (own )?bundle|bundles?\b|duo\b|duet\b|trio\b|sets?\b|variety pack|holiday gift|shaker bottle|shakers?\b|sampler pack|sling bag|pre-?workout|fat burner|testosterone|stim free|laundry|dish wash|dish soap|dog soap|doggone|imperfect|soda ash|stearic acid spots|inconsistent coloring|uneven shape|air pockets|soap scraps?|scrap pack|reusable soap bag|liquid soap|hand liquid|egift|try '?em all|grizzly sized|18 pack|6-pack|3-pack|best sellers|shampoo bar saver|saver bag|travel tin|bamboo shampoo|starter kit|fortify starter|tone starter|soothe starter|relax starter|maintain starter|boost starter|freeze-dried|ramen|rotisserie|pico-de-gallo|peas and corn|umami garden|fire rub|castor oil with|comfrey infused|aloe vera powder)\b/i;
+  /\b(gift card|e-gift|gift pack|gift set|gift basket|mystery (box|gift)|shipping protection|package protection|navidium|build your (own )?bundle|bundles?\b|duo\b|duet\b|trio\b|sets?\b|variety pack|holiday gift|shaker bottle|shakers?\b|sampler pack|sling bag|pre-?workout|fat burner|testosterone|stim free|laundry|dish wash|dish soap|dog soap|doggone|imperfect|soda ash|stearic acid spots|inconsistent coloring|uneven shape|air pockets|soap scraps?|scrap pack|reusable soap bag|liquid soap|hand liquid|egift|try '?em all|grizzly sized|18 pack|6[-–—‑]?pack|3[-–—‑]?pack|best sellers|shampoo bar saver|saver bag|travel tin|bamboo shampoo|starter kit|fortify starter|tone starter|soothe starter|relax starter|maintain starter|boost starter|freeze-dried|ramen|rotisserie|pico-de-gallo|peas and corn|umami garden|fire rub|castor oil with|comfrey infused|aloe vera powder)\b/i;
 
 const NICHE =
   /\b(spf\s*\d+|sunscreen|sun\s?screen|sunblock|sun butter|sunbalms?|sun[- ]?balms?|sun cream|sun protectant|after sun|zinc oxide|\bzinc\b|antiperspir|underarm|\bdeo\b|toothpaste|toothbrush|tooth powder|floss|mouthwash|mouth rinse|oil pull|tongue clean|oral (care|health)|hydroxyapatite|n[- ]?ha|remineraliz|shampoo|conditioner|hair (oil|mask|serum|care|juice|bar|clay)|scalp|beard|protein|whey|casein|collagen|creatine|electrolyte|hydration|vitamin|supplement|capsule|probiotic|lion'?s mane|reishi|chaga|cordyceps|turkey tail|shiitake|oyster mushroom|mushroom|tincture|serums?|moisturizer|cleanser|cream|lotion|oil|mask|balm|body (lotion|butter|wash|cream|oil|bar)|soap|tallow|lip|hydrosol|magnesium|shaving|gum|pomade|complexion|dry shampoo|face wash)\b|deodor|electrolyt|hydrat|wpi\b/i;
@@ -322,13 +322,13 @@ function isOnNiche(raw, brand) {
   const hay = `${title} ${type} ${handle}`;
   if (SKIP_TITLE.test(title) || WAVE82_EXTRA.test(title)) return false;
   if (brand.slug === "barepaste") {
-    if (/\b(3[- ]?pack|bundle|duo|kit)\b/i.test(title)) return false;
+    if (/\b(3[-–—‑]?pack|bundle|duo|kit)\b/i.test(title)) return false;
     return /toothpaste|hydroxyapatite|bare mint|barepaste/i.test(hay);
   }
   if (brand.slug === "protocol-performance") {
     if (/\b(shaker|sling|mystery|pre-?workout|fat burner|testosterone|stim free|gift)\b/i.test(title))
       return false;
-    return /\b(protein|whey|electrolyt|hydrat)\b/i.test(hay);
+    return /\b(protein|whey|electrolyt|hydrat)/i.test(hay);
   }
   if (brand.slug === "hope-and-health") {
     if (/\b(bundle|kit|gift|trio|duo)\b/i.test(title)) return false;
@@ -545,6 +545,22 @@ function mapOne(raw, brand, brandId, index, variant, flavorLabel, currency) {
     .replace(/\.+$/, "")
     .replace(/^\s*\(NEW\)\s*/i, "")
     .replace(/\s*\(NEW\)\s*$/i, "");
+  if (brand.slug === "grizzly-naturals") {
+    baseTitle = baseTitle
+      .replace(/\s*\|\s*shampoo bar & conditioner bar.*$/i, "")
+      .replace(/\s*\|\s*aluminum-free.*$/i, "")
+      .replace(/\s*\|\s*organic beeswax.*$/i, "")
+      .replace(/\s*\|\s*natural daily moisturizer.*$/i, "")
+      .replace(/\s+–\s+natural (beard conditioner|lip care).*$/i, "")
+      .replace(/\s+-\s+natural deodorant for men.*$/i, "")
+      .replace(/\s+for men\s*[–-]\s*natural beard conditioner.*$/i, "")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+  if (brand.slug === "loxy") {
+    if (/wonder dust/i.test(baseTitle)) baseTitle = "Loxy Wonder Dust Dry Shampoo";
+    if (/hydrating lip balm/i.test(baseTitle)) baseTitle = "Loxy Lip Balm";
+  }
   let flavorClean = flavorLabel ? String(flavorLabel).trim() : flavorLabel;
   if (flavorClean) flavorClean = lotionScentLabel(flavorClean);
   if (flavorClean && /^\s*\d+(\.\d+)?\s*(oz|ml|g|kg|lb|fl\.?\s*oz)\s*$/i.test(flavorClean)) {
@@ -576,9 +592,18 @@ function mapOne(raw, brand, brandId, index, variant, flavorLabel, currency) {
     .replace(/&#39;/g, "'")
     .replace(/&quot;/g, '"');
   if (brand.slug === "protocol-performance") {
-    title = title.replace(/^Electrolyte Hydration Powder\b/i, "Protocol Electrolytes");
-    title = title.replace(/^Grass Fed Whey Isolate Protein Powder\b/i, "Protocol Whey Isolate");
-    title = title.replace(/^Vegan Protein Powder\b/i, "Protocol Vegan Protein");
+    title = title
+      .replace(/^Electrolyte Hydration Powder\b[^—–-]*[—–-]\s*/i, "Protocol Electrolytes — ")
+      .replace(/^Electrolyte Hydration Powder\b/i, "Protocol Electrolytes")
+      .replace(/^Grass Fed Whey Isolate Protein Powder\b[^—–-]*[—–-]\s*/i, "Protocol Whey Isolate — ")
+      .replace(/^Grass Fed Whey Isolate Protein Powder\b/i, "Protocol Whey Isolate")
+      .replace(/^Vegan Protein Powder\b[^—–-]*[—–-]\s*/i, "Protocol Vegan Protein — ")
+      .replace(/^Vegan Protein Powder\b/i, "Protocol Vegan Protein")
+      .replace(/\s*—\s*No Artificial Sweeteners, No Fillers/i, "")
+      .replace(/\s*—\s*Plant Based, No Artificial Sweeteners, No Fillers/i, "")
+      .replace(/\s*—\s*Natural Flavors, No Artificial Sweeteners, No Sugar/i, "")
+      .replace(/\s+/g, " ")
+      .trim();
   }
   if (brand.slug === "hope-and-health") {
     title = title
@@ -593,7 +618,19 @@ function mapOne(raw, brand, brandId, index, variant, flavorLabel, currency) {
   if (brand.slug === "grizzly-naturals") {
     title = title
       .replace(/\s*\|\s*shampoo bar & conditioner bar.*$/i, "")
-      .replace(/\s+—\s+(shampoo bar|conditioner bar|conditoner bar)$/i, " — $1")
+      .replace(/\s+—\s+conditoner bar$/i, " — Conditioner Bar")
+      .replace(/\s+—\s+(shampoo bar|conditioner bar)$/i, " — $1")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (/deodor/i.test(raw.title || "") && !/deodor/i.test(title)) {
+      title = `${title} Deodorant`;
+    }
+  }
+  if (brand.slug === "loxy") {
+    title = title
+      .replace(/^Wonder Dust Dry Shampoo:[^—–-]*/i, "Loxy Wonder Dust Dry Shampoo ")
+      .replace(/^Hydrating Lip Balm for Dry Lips:[^—–-]*/i, "Loxy Lip Balm ")
+      .replace(/\s+[—–-]\s+/g, " — ")
       .replace(/\s+/g, " ")
       .trim();
   }
@@ -616,18 +653,23 @@ function mapOne(raw, brand, brandId, index, variant, flavorLabel, currency) {
   const slugRoom = Math.max(12, 140 - slugPrefix.length - flavorSlug.length);
   const productSlug = `${slugPrefix}${handle.slice(0, slugRoom)}${flavorSlug}`;
   let ingredients = sanitizeIngredients(extractIngredients(body));
-  if (brand.slug === "protocol-performance" || brand.slug === "soil-to-soul") {
-    if (ingredients.length && looksLikeMarketing(ingredients.join(", "))) ingredients = [];
+  if (
+    brand.slug === "protocol-performance" ||
+    brand.slug === "soil-to-soul" ||
+    brand.slug === "hope-and-health" ||
+    brand.slug === "barepaste"
+  ) {
+    ingredients = [];
   }
   const freeFrom = inferFreeFrom(`${title} ${description} ${stripHtml(body)}`);
   const category = refineCategory(
     inferCategory(
       brand.categories || ["skincare"],
-      `${title} ${raw.product_type || ""}`,
+      `${raw.title || title} ${raw.product_type || ""}`,
       raw.product_type || "",
       raw.tags || [],
     ),
-    title,
+    `${raw.title || ""} ${title}`,
     brand,
   );
 

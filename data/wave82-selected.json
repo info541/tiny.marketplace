@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "barepaste",
+    "shopBase": "https://www.barepaste.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1361"
+  },
+  {
+    "slug": "protocol-performance",
+    "shopBase": "https://protocolperformance.com",
+    "categories": [
+      "protein",
+      "electrolytes"
+    ],
+    "id": "c1362"
+  },
+  {
+    "slug": "hope-and-health",
+    "shopBase": "https://hopeandhealth.shop",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair",
+      "sunscreen"
+    ],
+    "id": "c1363"
+  },
+  {
+    "slug": "loxy",
+    "shopBase": "https://loxyhair.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1364"
+  },
+  {
+    "slug": "soil-to-soul",
+    "shopBase": "https://soiltosoul.us",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1365"
+  },
+  {
+    "slug": "grizzly-naturals",
+    "shopBase": "https://grizzlynaturals.com",
+    "categories": [
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1366"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T12:10:26.977Z",
+  "wave82Products": 200,
+  "wave82BrandsWithProducts": 6,
+  "totalProducts": 23219,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "barepaste",
+      "brandId": "c1361",
+      "raw": 2,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://www.barepaste.com"
+    },
+    {
+      "slug": "protocol-performance",
+      "brandId": "c1362",
+      "raw": 10,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 8,
+      "currency": "USD",
+      "shopBase": "https://protocolperformance.com"
+    },
+    {
+      "slug": "hope-and-health",
+      "brandId": "c1363",
+      "raw": 31,
+      "kept": 37,
+      "withIngredients": 0,
+      "flavorVariants": 7,
+      "currency": "USD",
+      "shopBase": "https://hopeandhealth.shop"
+    },
+    {
+      "slug": "loxy",
+      "brandId": "c1364",
+      "raw": 51,
+      "kept": 40,
+      "withIngredients": 16,
+      "flavorVariants": 11,
+      "currency": "USD",
+      "shopBase": "https://loxyhair.com"
+    },
+    {
+      "slug": "soil-to-soul",
+      "brandId": "c1365",
+      "raw": 29,
+      "kept": 12,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://soiltosoul.us"
+    },
+    {
+      "slug": "grizzly-naturals",
+      "brandId": "c1366",
+      "raw": 133,
+      "kept": 102,
+      "withIngredients": 91,
+      "flavorVariants": 38,
+      "currency": "USD",
+      "shopBase": "https://grizzlynaturals.com"
+    }
+  ]
+}
