@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "happy-tooth",
+    "shopBase": "https://tryhappytooth.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1313"
+  },
+  {
+    "slug": "brdy-juice",
+    "shopBase": "https://www.brdyjuice.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1314"
+  },
+  {
+    "slug": "agn-roots",
+    "shopBase": "https://agnroots.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1315"
+  },
+  {
+    "slug": "kozon",
+    "shopBase": "https://kozonskincare.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1316"
+  },
+  {
+    "slug": "sunniemade",
+    "shopBase": "https://sunniemade.com",
+    "categories": [
+      "hair",
+      "skincare"
+    ],
+    "id": "c1317"
+  },
+  {
+    "slug": "shroomery-nm",
+    "shopBase": "https://theshroomerynm.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1318"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T04:04:01.015Z",
+  "wave74Products": 44,
+  "wave74BrandsWithProducts": 6,
+  "totalProducts": 23063,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "happy-tooth",
+      "brandId": "c1313",
+      "raw": 68,
+      "kept": 12,
+      "withIngredients": 1,
+      "flavorVariants": 3,
+      "currency": "USD",
+      "shopBase": "https://tryhappytooth.com"
+    },
+    {
+      "slug": "brdy-juice",
+      "brandId": "c1314",
+      "raw": 7,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://www.brdyjuice.com"
+    },
+    {
+      "slug": "agn-roots",
+      "brandId": "c1315",
+      "raw": 2,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://agnroots.com"
+    },
+    {
+      "slug": "kozon",
+      "brandId": "c1316",
+      "raw": 17,
+      "kept": 13,
+      "withIngredients": 5,
+      "flavorVariants": 2,
+      "currency": "USD",
+      "shopBase": "https://kozonskincare.com"
+    },
+    {
+      "slug": "sunniemade",
+      "brandId": "c1317",
+      "raw": 26,
+      "kept": 13,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://sunniemade.com"
+    },
+    {
+      "slug": "shroomery-nm",
+      "brandId": "c1318",
+      "raw": 8,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://theshroomerynm.com"
+    }
+  ]
+}
