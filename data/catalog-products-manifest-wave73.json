@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T03:08:10.416Z",
+  "wave73Products": 202,
+  "wave73BrandsWithProducts": 6,
+  "totalProducts": 23221,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "grind-goods",
+      "brandId": "c1307",
+      "raw": 23,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://grindgoods.com"
+    },
+    {
+      "slug": "eirlyte",
+      "brandId": "c1308",
+      "raw": 1,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "currency": "USD",
+      "shopBase": "https://www.eirlyte.com"
+    },
+    {
+      "slug": "peachie-spoon",
+      "brandId": "c1309",
+      "raw": 10,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://thepeachiespoon.com"
+    },
+    {
+      "slug": "fango",
+      "brandId": "c1310",
+      "raw": 29,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 10,
+      "currency": "USD",
+      "shopBase": "https://fangospf.com"
+    },
+    {
+      "slug": "goat-milk-stuff",
+      "brandId": "c1311",
+      "raw": 175,
+      "kept": 147,
+      "withIngredients": 0,
+      "flavorVariants": 50,
+      "currency": "USD",
+      "shopBase": "https://goatmilkstuff.com"
+    },
+    {
+      "slug": "humby-organics",
+      "brandId": "c1312",
+      "raw": 58,
+      "kept": 26,
+      "withIngredients": 0,
+      "flavorVariants": 22,
+      "currency": "USD",
+      "shopBase": "https://humbyorganics.com"
+    }
+  ]
+}
