@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "shwally-home",
+    "shopBase": "https://shwallyhome.com",
+    "categories": [
+      "oral",
+      "deodorant",
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1517"
+  },
+  {
+    "slug": "kona-hydration",
+    "shopBase": "https://konahydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1518"
+  },
+  {
+    "slug": "elevate-organic",
+    "shopBase": "https://elevateorganic.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1519"
+  },
+  {
+    "slug": "2-sisters-pure-goods",
+    "shopBase": "https://2sisterspuregoods.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1520"
+  },
+  {
+    "slug": "powdr",
+    "shopBase": "https://drinkpowdr.com",
+    "categories": [
+      "electrolytes",
+      "protein",
+      "supplements"
+    ],
+    "id": "c1521"
+  },
+  {
+    "slug": "bloomcap-naturals",
+    "shopBase": "https://bloomcapnaturals.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1522"
+  }
+]

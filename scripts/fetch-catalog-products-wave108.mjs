@@ -276,6 +276,7 @@ function refineCategory(category, title, brand) {
     if (/deodorant|deo\b/i.test(t)) return "deodorant";
     if (/sunbalm|sunguard|sunscreen|spf/i.test(t)) return "sunscreen";
     if (/toothpaste|tooth powder|mouth rinse|pulling oil|mouthwash/i.test(t)) return "oral";
+    if (/soap/i.test(t)) return "skincare";
     if (/shampoo|hair/i.test(t)) return "hair";
     return "skincare";
   }
@@ -588,6 +589,11 @@ function mapOne(raw, brand, brandId, index, variant, flavorLabel, currency) {
     else if (h === "shwally-black-seed-coconut-peppermint-pulling-oil-8oz")
       baseTitle = "Shwally Black Seed Coconut Peppermint Pulling Oil";
     else if (h === "shwally-tallow-soap-shampoo-shaving-cream") baseTitle = "Shwally Tallow Soap";
+    else if (h === "shwally-nourish-protect-hair-body-oil") baseTitle = "Shwally Hair & Body Oil";
+    else if (h === "shwally-baby-bootie-balm") baseTitle = "Shwally Baby Bootie Lip & Nipple Balm";
+    else if (h === "shwally-zinc-calendula-chamomile-baby-balm-2oz") baseTitle = "Shwally Baby Booty Diaper Cream";
+    else if (h === "shwally-primal-beauty-squalane-face-balm") baseTitle = "Shwally Tallow & Squalane Face Balm";
+    else if (h === "shwally-face-and-body-balm") baseTitle = "Shwally Tallow & Calendula Face & Body Balm";
     else if (!/^shwally\b/i.test(baseTitle)) baseTitle = `Shwally ${baseTitle}`;
   }
   if (brand.slug === "kona-hydration") {
@@ -611,6 +617,18 @@ function mapOne(raw, brand, brandId, index, variant, flavorLabel, currency) {
     else if (h === "pure-lotion") baseTitle = "2 Sisters Grass-Fed Tallow Body Lotion";
     else if (h === "lotion-bar") baseTitle = "2 Sisters Lotion Bar";
     else if (h === "soap-bar") baseTitle = "2 Sisters Tallow Soap Bar";
+    else if (h === "face-cream") baseTitle = "2 Sisters Tallow Face Cream";
+    else if (h === "face-serum") baseTitle = "2 Sisters Botanical Face Serum";
+    else if (h === "hair-mist") baseTitle = "2 Sisters Argan Rosemary Hair Mist";
+    else if (h === "hair-refresher") baseTitle = "2 Sisters Rosewater Rosemary Hair Refresher";
+    else if (h === "hair-serum") baseTitle = "2 Sisters Argan Rosemary Hair Serum";
+    else if (h === "toner") baseTitle = "2 Sisters Botanical Face Toner";
+    else if (h === "tattoo-butter-tallow-calendula-aftercare-balm") baseTitle = "2 Sisters Tallow Calendula Tattoo Butter";
+    else if (h === "muscle-rub") baseTitle = "2 Sisters Tallow Muscle Rub";
+    else if (h === "salt-scrub") baseTitle = "2 Sisters Himalayan Salt Scrub";
+    else if (h === "man-clay") baseTitle = "2 Sisters Man Clay";
+    else if (h === "man-wax") baseTitle = "2 Sisters Man Wax";
+    else if (h === "sleep-spray") baseTitle = "2 Sisters Magnesium Lavender Sleep Spray";
     else if (!/^2 sisters\b/i.test(baseTitle)) baseTitle = `2 Sisters ${baseTitle}`;
   }
   if (brand.slug === "powdr") {
@@ -696,8 +714,22 @@ function mapOne(raw, brand, brandId, index, variant, flavorLabel, currency) {
   const slugRoom = Math.max(12, 140 - slugPrefix.length - flavorSlug.length);
   const productSlug = `${slugPrefix}${handle.slice(0, slugRoom)}${flavorSlug}`;
   let ingredients = sanitizeIngredients(extractIngredients(body));
-  if (brand.slug === "shwally-home" || brand.slug === "kona-hydration" || brand.slug === "powdr") {
+  if (brand.slug === "shwally-home" || brand.slug === "kona-hydration") {
     ingredients = [];
+  }
+  if (brand.slug === "powdr") {
+    const h = raw.handle || "";
+    if (h === "powdr-whey-protein-power-cream-vanilla") {
+      ingredients = ["Grass-fed whey protein"];
+    } else if (h === "powdr-bovine-collagen-peptides-unflavored") {
+      ingredients = ["Grass-fed bovine collagen peptides"];
+    } else if (h === "powdr-bovine-collagen-protein-shake-creamy-cocoa") {
+      ingredients = ["Grass-fed bovine collagen peptides"];
+    } else if (h === "powdr-electrolyte-hydration-lemonberry-twist") {
+      ingredients = ["Organic coconut water powder", "Pink Himalayan salt", "ConcenTrace trace minerals"];
+    } else {
+      ingredients = [];
+    }
   }
   if (brand.slug === "elevate-organic") {
     const h = raw.handle || "";

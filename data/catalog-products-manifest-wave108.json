@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T14:29:16.449Z",
+  "wave108Products": 58,
+  "wave108BrandsWithProducts": 6,
+  "totalProducts": 23077,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "shwally-home",
+      "brandId": "c1517",
+      "raw": 43,
+      "kept": 17,
+      "withIngredients": 0,
+      "flavorVariants": 9,
+      "currency": "USD",
+      "shopBase": "https://shwallyhome.com"
+    },
+    {
+      "slug": "kona-hydration",
+      "brandId": "c1518",
+      "raw": 1,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "currency": "USD",
+      "shopBase": "https://konahydration.com"
+    },
+    {
+      "slug": "elevate-organic",
+      "brandId": "c1519",
+      "raw": 15,
+      "kept": 6,
+      "withIngredients": 6,
+      "flavorVariants": 6,
+      "currency": "USD",
+      "shopBase": "https://elevateorganic.com"
+    },
+    {
+      "slug": "2-sisters-pure-goods",
+      "brandId": "c1520",
+      "raw": 20,
+      "kept": 23,
+      "withIngredients": 5,
+      "flavorVariants": 9,
+      "currency": "USD",
+      "shopBase": "https://2sisterspuregoods.com"
+    },
+    {
+      "slug": "powdr",
+      "brandId": "c1521",
+      "raw": 12,
+      "kept": 6,
+      "withIngredients": 4,
+      "flavorVariants": 5,
+      "currency": "USD",
+      "shopBase": "https://drinkpowdr.com"
+    },
+    {
+      "slug": "bloomcap-naturals",
+      "brandId": "c1522",
+      "raw": 4,
+      "kept": 4,
+      "withIngredients": 4,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://bloomcapnaturals.com"
+    }
+  ]
+}
