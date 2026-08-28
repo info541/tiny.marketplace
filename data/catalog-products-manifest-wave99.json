@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T05:05:13.247Z",
+  "wave99Products": 113,
+  "wave99BrandsWithProducts": 6,
+  "totalProducts": 23132,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "fygg",
+      "brandId": "c1463",
+      "raw": 16,
+      "kept": 11,
+      "withIngredients": 0,
+      "flavorVariants": 7,
+      "currency": "USD",
+      "shopBase": "https://fygg.com"
+    },
+    {
+      "slug": "tears-hydration",
+      "brandId": "c1464",
+      "raw": 2,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "currency": "USD",
+      "shopBase": "https://www.drinktears.co"
+    },
+    {
+      "slug": "purishh",
+      "brandId": "c1465",
+      "raw": 20,
+      "kept": 11,
+      "withIngredients": 0,
+      "flavorVariants": 5,
+      "currency": "USD",
+      "shopBase": "https://www.purishh.com"
+    },
+    {
+      "slug": "lenus",
+      "brandId": "c1466",
+      "raw": 48,
+      "kept": 41,
+      "withIngredients": 40,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://shoplenus.com"
+    },
+    {
+      "slug": "verdant-wild",
+      "brandId": "c1467",
+      "raw": 54,
+      "kept": 42,
+      "withIngredients": 0,
+      "flavorVariants": 12,
+      "currency": "USD",
+      "shopBase": "https://verdantwild.com"
+    },
+    {
+      "slug": "long-beach-mushrooms",
+      "brandId": "c1468",
+      "raw": 12,
+      "kept": 6,
+      "withIngredients": 6,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://longbeachmushrooms.com"
+    }
+  ]
+}
