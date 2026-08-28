@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T17:17:08.604Z",
+  "wave110Products": 74,
+  "wave110BrandsWithProducts": 6,
+  "totalProducts": 23093,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "zing-toothpaste",
+      "brandId": "c1529",
+      "raw": 23,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "GBP",
+      "shopBase": "https://zingtoothpaste.com"
+    },
+    {
+      "slug": "hydro-trapp",
+      "brandId": "c1530",
+      "raw": 8,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "currency": "USD",
+      "shopBase": "https://hydrotrapp.com"
+    },
+    {
+      "slug": "stomp-nutrition",
+      "brandId": "c1531",
+      "raw": 13,
+      "kept": 2,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://stomp-nutrition.com"
+    },
+    {
+      "slug": "solara-suncare",
+      "brandId": "c1532",
+      "raw": 28,
+      "kept": 13,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "currency": "USD",
+      "shopBase": "https://www.solarasuncare.com"
+    },
+    {
+      "slug": "haus-of-sage",
+      "brandId": "c1533",
+      "raw": 46,
+      "kept": 40,
+      "withIngredients": 38,
+      "flavorVariants": 24,
+      "currency": "USD",
+      "shopBase": "https://thehausofsage.com"
+    },
+    {
+      "slug": "sugarshack-mushrooms",
+      "brandId": "c1534",
+      "raw": 31,
+      "kept": 6,
+      "withIngredients": 6,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://sugarshackmushrooms.com"
+    }
+  ]
+}
