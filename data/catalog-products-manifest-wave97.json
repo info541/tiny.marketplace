@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T03:05:55.741Z",
+  "wave97Products": 81,
+  "wave97BrandsWithProducts": 6,
+  "totalProducts": 23100,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "clockwork",
+      "brandId": "c1451",
+      "raw": 11,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "currency": "INR",
+      "shopBase": "https://www.clockworkrituals.com"
+    },
+    {
+      "slug": "elation-hydration",
+      "brandId": "c1452",
+      "raw": 5,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "currency": "USD",
+      "shopBase": "https://elationhydration.com"
+    },
+    {
+      "slug": "kono-nutrition",
+      "brandId": "c1453",
+      "raw": 19,
+      "kept": 7,
+      "withIngredients": 4,
+      "flavorVariants": 6,
+      "currency": "USD",
+      "shopBase": "https://kononutrition.com"
+    },
+    {
+      "slug": "mama-sol",
+      "brandId": "c1454",
+      "raw": 16,
+      "kept": 11,
+      "withIngredients": 1,
+      "flavorVariants": 10,
+      "currency": "USD",
+      "shopBase": "https://www.shopmamasol.com"
+    },
+    {
+      "slug": "rivas-ranch",
+      "brandId": "c1455",
+      "raw": 28,
+      "kept": 25,
+      "withIngredients": 11,
+      "flavorVariants": 9,
+      "currency": "USD",
+      "shopBase": "https://grassfedtallowproducts.com"
+    },
+    {
+      "slug": "feral-fungi",
+      "brandId": "c1456",
+      "raw": 41,
+      "kept": 31,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://feralfungi.com"
+    }
+  ]
+}
