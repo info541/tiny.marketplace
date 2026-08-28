@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T10:07:46.074Z",
+  "wave104Products": 64,
+  "wave104BrandsWithProducts": 6,
+  "totalProducts": 23083,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "huppy",
+      "brandId": "c1493",
+      "raw": 13,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "currency": "USD",
+      "shopBase": "https://www.behuppy.com"
+    },
+    {
+      "slug": "drinkwel",
+      "brandId": "c1494",
+      "raw": 12,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "currency": "USD",
+      "shopBase": "https://drinkwel.com"
+    },
+    {
+      "slug": "pulsin",
+      "brandId": "c1495",
+      "raw": 22,
+      "kept": 8,
+      "withIngredients": 4,
+      "flavorVariants": 4,
+      "currency": "GBP",
+      "shopBase": "https://pulsin.co.uk"
+    },
+    {
+      "slug": "swellies",
+      "brandId": "c1496",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://swellies.com"
+    },
+    {
+      "slug": "little-tallow-co",
+      "brandId": "c1497",
+      "raw": 45,
+      "kept": 32,
+      "withIngredients": 5,
+      "flavorVariants": 27,
+      "currency": "USD",
+      "shopBase": "https://littletallow.com"
+    },
+    {
+      "slug": "gribb",
+      "brandId": "c1498",
+      "raw": 63,
+      "kept": 9,
+      "withIngredients": 9,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://gribbworld.com"
+    }
+  ]
+}

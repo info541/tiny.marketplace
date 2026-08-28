@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "huppy",
+    "shopBase": "https://www.behuppy.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1493"
+  },
+  {
+    "slug": "drinkwel",
+    "shopBase": "https://drinkwel.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1494"
+  },
+  {
+    "slug": "pulsin",
+    "shopBase": "https://pulsin.co.uk",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1495"
+  },
+  {
+    "slug": "swellies",
+    "shopBase": "https://swellies.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1496"
+  },
+  {
+    "slug": "little-tallow-co",
+    "shopBase": "https://littletallow.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1497"
+  },
+  {
+    "slug": "gribb",
+    "shopBase": "https://gribbworld.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1498"
+  }
+]
