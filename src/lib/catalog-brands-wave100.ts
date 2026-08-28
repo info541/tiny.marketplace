@@ -8,7 +8,7 @@ export const catalogBrandsWave100: Brand[] = [
     name: "nudge",
     tagline: "10% nano-hydroxyapatite toothpaste — fluoride-free, SLS-free, lab-tested",
     story:
-      "Harrisburg leftover unused multi-SKU n-HA house after wave4–99 shops ran out. Keep Natural Mint / Orange / Watermelon / Cinnamon and Clove toothpaste, Mint / Cinnamon and Clove tablets, alcohol-free mouthwash, PFAS-free silk floss, bamboo brushes, and probiotic gum. Pack count is size. Oral-care box, whitening kit/pen, purple serum, and travel pouch stay boxed. Cart.js is USD. Pages are key-ingredient marketing (leave empty).",
+      "Harrisburg-born oral care built around 10% rod-shaped nano-hydroxyapatite — fluoride-free, SLS-free toothpaste and tablets in real flavors, plus silk floss, bamboo brushes, and probiotic gum. Third-party lab tested, made in small batches for people who want enamel care without the junk.",
     location: "Harrisburg, PA",
     founded: 2023,
     categories: ["oral"],
@@ -25,7 +25,7 @@ export const catalogBrandsWave100: Brand[] = [
     name: "CocoBana",
     tagline: "Five-ingredient electrolytes — coconut, banana, lemon, sea salt, marine magnesium",
     story:
-      "Unused one-SKU real-fruit hydration house after wave4–99. Keep the clean electrolyte stick packs. No stevia, no monk fruit, no natural flavors. Cart.js is USD. Hardcode the published five-ingredient list.",
+      "Five real ingredients, nothing else — organic coconut water, banana, and lemon powders with sea salt and marine magnesium. No stevia, no monk fruit, no natural flavors. Stick packs for tennis, travel, and everyday sweat.",
     location: "United States",
     founded: 2024,
     categories: ["electrolytes"],
@@ -42,7 +42,7 @@ export const catalogBrandsWave100: Brand[] = [
     name: "Rare Forms",
     tagline: "UK all-in-one whey isolate — creatine, collagen, and daily minerals in one scoop",
     story:
-      "Unused London performance-protein house. Keep Performance Blend and Protein & Collagen Blend. Flavour is Vanilla-only. Shaker, straw, bottle, tumbler, and gift card stay boxed. Cart.js is GBP (× 1.27). Pages are stack-essay marketing (leave empty).",
+      "London all-in-one whey isolate — one scoop covers protein, creatine, collagen, and daily minerals without a cabinet of tubs. Vanilla only, short labels, built for people who want the stack without the merch.",
     location: "United Kingdom",
     founded: 2023,
     categories: ["protein", "supplements"],
@@ -59,7 +59,7 @@ export const catalogBrandsWave100: Brand[] = [
     name: "Birch Babe",
     tagline: "Canadian mineral SPF 40, CertClean skin, and sulfate-free shampoo bars",
     story:
-      "Leftover unused Ontario mineral SPF + wash-day house after wave4–99 (sample/$0-gift-heavy). Scent expands SPF, body quench, body oils, baby lotion/wash, and beard. Bar Type expands body/face/shave/exfoliating bars. Keep full-size serums, creams, toner, micellar, mouthwash, and diaper balm. Samples, $0 gifts, bulk, wholesale, bundles, kits, and merch stay boxed. Cart.js is CAD (× 0.73). Hardcode published SPF + mouthwash INCI; other pages are benefit marketing (leave empty).",
+      "Ontario-made CertClean botanicals — 100% mineral SPF 40 in a compostable tube, sulfate-free shampoo and body bars, and short-list face care. Vegan, cruelty-free, and packaged for people who want reef-safe sun and wash-day without the megastore list.",
     location: "Ontario, Canada",
     founded: 2016,
     categories: ["sunscreen", "skincare", "hair", "oral"],
@@ -76,7 +76,7 @@ export const catalogBrandsWave100: Brand[] = [
     name: "Magic Moo Tallow",
     tagline: "Grass-fed tallow deodorant, mineral sun protectant, and whipped ancestral balms",
     story:
-      "Leftover unused tallow deodorant + sun protectant house after wave4–99. Scent expands Lavender Mint / Cedar Spruce / Cocoa Clementine deodorant. Keep sun protectant, all-purpose whip and stick, magnesium whip, men's salve, vanilla everywhere cream, emu elixir, and Magic Mist. Bundles, gift cards, illuminator, and lip-balm trio stay boxed. Jar oz is size. Cart.js is USD. Hardcode published deodorant + magnesium lists; sun page is a farm essay (leave empty).",
+      "Grass-fed tallow from pasture to pit — aluminum-free deodorant in lavender mint, cedar spruce, and cocoa clementine, plus a mineral sun protectant and whipped ancestral balms. Short labels you could read at the farm stand.",
     location: "United States",
     founded: 2022,
     categories: ["deodorant", "sunscreen", "skincare"],
@@ -93,7 +93,7 @@ export const catalogBrandsWave100: Brand[] = [
     name: "Mogo Farm",
     tagline: "Derbyshire fruiting-body tinctures — grown, extracted, and bottled on the farm",
     story:
-      "Unused Peak District dual-extract house after wave4–99. Keep Lion's Mane, Reishi, Cordyceps, Chaga, Shiitake, Maitake, Birch Polypore, and 5 Mushroom Blend. Free gift, 6-tincture bundle, and gift card stay boxed. Cart.js is GBP (× 1.27). Hardcode published fruiting-body + dual-extract lists.",
+      "Derbyshire farm tinctures grown, extracted, and bottled on the same Peak District land — 100% fruiting bodies, 1:3 dual extract, no grain filler. Lion's Mane through Birch Polypore, plus a five-mushroom blend, third-party tested from farm to bottle.",
     location: "Derbyshire, United Kingdom",
     founded: 2021,
     categories: ["supplements"],

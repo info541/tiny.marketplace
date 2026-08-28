@@ -245,10 +245,7 @@ function refineCategory(category, title, brand) {
   const t = title.toLowerCase();
   if (brand?.slug === "nudge") return "oral";
   if (brand?.slug === "cocobana") return "electrolytes";
-  if (brand?.slug === "rare-forms") {
-    if (/collagen|protein|whey/i.test(t)) return "protein";
-    return "supplements";
-  }
+  if (brand?.slug === "rare-forms") return "protein";
   if (brand?.slug === "birch-babe") {
     if (/sunscreen|spf/i.test(t)) return "sunscreen";
     if (/mouthwash|oral/i.test(t)) return "oral";
@@ -269,7 +266,6 @@ function isOnNiche(raw, brand) {
   const type = raw.product_type || "";
   const handle = raw.handle || "";
   const hay = `${title} ${type} ${handle}`;
-  if (SKIP_TITLE.test(title) || WAVE100_EXTRA.test(title) || WAVE100_EXTRA.test(handle)) return false;
   if (Number((raw.variants || [])[0]?.price || 0) <= 0) return false;
   if (brand.slug === "nudge") {
     if (/\b(box|kit|whitening|pen|serum|pouch|oral-care)\b/i.test(hay)) return false;
@@ -308,6 +304,7 @@ function isOnNiche(raw, brand) {
       handle,
     );
   }
+  if (SKIP_TITLE.test(title) || WAVE100_EXTRA.test(title) || WAVE100_EXTRA.test(handle)) return false;
   return NICHE.test(hay);
 }
 
