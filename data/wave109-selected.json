@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "theodent",
+    "shopBase": "https://www.theodent.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1523"
+  },
+  {
+    "slug": "voli-wellness",
+    "shopBase": "https://voliwellness.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1524"
+  },
+  {
+    "slug": "hela-nutrition",
+    "shopBase": "https://helanutrition.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1525"
+  },
+  {
+    "slug": "indie-paradiso",
+    "shopBase": "https://indieparadiso.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1526"
+  },
+  {
+    "slug": "ancestral-cosmetics",
+    "shopBase": "https://ancestralcosmetics.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "sunscreen",
+      "hair"
+    ],
+    "id": "c1527"
+  },
+  {
+    "slug": "yamabushi-farms",
+    "shopBase": "https://yamabushifarms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1528"
+  }
+]
