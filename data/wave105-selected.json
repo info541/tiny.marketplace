@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "akamai",
+    "shopBase": "https://akamaibasics.com",
+    "categories": [
+      "oral",
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1499"
+  },
+  {
+    "slug": "cure-hydration",
+    "shopBase": "https://www.curehydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1500"
+  },
+  {
+    "slug": "mindful-crumb",
+    "shopBase": "https://shop.mindfulcrumb.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1501"
+  },
+  {
+    "slug": "aelia-sun",
+    "shopBase": "https://aeliasun.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1502"
+  },
+  {
+    "slug": "wild-crafted-kitchen",
+    "shopBase": "https://wildcraftedkitchenmn.myshopify.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair",
+      "sunscreen"
+    ],
+    "id": "c1503"
+  },
+  {
+    "slug": "arbor-spring-farms",
+    "shopBase": "https://arborspringfarms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1504"
+  }
+]
