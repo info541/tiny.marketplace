@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "fygg",
+    "shopBase": "https://fygg.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1463"
+  },
+  {
+    "slug": "tears-hydration",
+    "shopBase": "https://www.drinktears.co",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1464"
+  },
+  {
+    "slug": "purishh",
+    "shopBase": "https://www.purishh.com",
+    "categories": [
+      "protein",
+      "electrolytes",
+      "supplements",
+      "hair"
+    ],
+    "id": "c1465"
+  },
+  {
+    "slug": "lenus",
+    "shopBase": "https://shoplenus.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1466"
+  },
+  {
+    "slug": "verdant-wild",
+    "shopBase": "https://verdantwild.com",
+    "categories": [
+      "hair",
+      "deodorant",
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c1467"
+  },
+  {
+    "slug": "long-beach-mushrooms",
+    "shopBase": "https://longbeachmushrooms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1468"
+  }
+]
