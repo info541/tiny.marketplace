@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T12:23:55.373Z",
+  "wave106Products": 168,
+  "wave106BrandsWithProducts": 6,
+  "totalProducts": 23187,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "underbrush",
+      "brandId": "c1505",
+      "raw": 25,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "currency": "USD",
+      "shopBase": "https://nathanandsons.com"
+    },
+    {
+      "slug": "electrik-kids",
+      "brandId": "c1506",
+      "raw": 5,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 4,
+      "currency": "USD",
+      "shopBase": "https://get-electrik.com"
+    },
+    {
+      "slug": "noordcode",
+      "brandId": "c1507",
+      "raw": 61,
+      "kept": 7,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "currency": "EUR",
+      "shopBase": "https://noordcode.com"
+    },
+    {
+      "slug": "lazuli-farms",
+      "brandId": "c1508",
+      "raw": 92,
+      "kept": 45,
+      "withIngredients": 45,
+      "flavorVariants": 15,
+      "currency": "USD",
+      "shopBase": "https://lazulifarms.com"
+    },
+    {
+      "slug": "cattle-creek",
+      "brandId": "c1509",
+      "raw": 73,
+      "kept": 59,
+      "withIngredients": 44,
+      "flavorVariants": 40,
+      "currency": "USD",
+      "shopBase": "https://cattle-creek.com"
+    },
+    {
+      "slug": "roots-apothecary",
+      "brandId": "c1510",
+      "raw": 79,
+      "kept": 44,
+      "withIngredients": 6,
+      "flavorVariants": 24,
+      "currency": "USD",
+      "shopBase": "https://www.rootsapothecary.com"
+    }
+  ]
+}
