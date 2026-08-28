@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T15:20:21.477Z",
+  "wave109Products": 38,
+  "wave109BrandsWithProducts": 6,
+  "totalProducts": 23057,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "theodent",
+      "brandId": "c1523",
+      "raw": 7,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://www.theodent.com"
+    },
+    {
+      "slug": "voli-wellness",
+      "brandId": "c1524",
+      "raw": 32,
+      "kept": 5,
+      "withIngredients": 5,
+      "flavorVariants": 5,
+      "currency": "USD",
+      "shopBase": "https://voliwellness.com"
+    },
+    {
+      "slug": "hela-nutrition",
+      "brandId": "c1525",
+      "raw": 13,
+      "kept": 4,
+      "withIngredients": 4,
+      "flavorVariants": 3,
+      "currency": "USD",
+      "shopBase": "https://helanutrition.com"
+    },
+    {
+      "slug": "indie-paradiso",
+      "brandId": "c1526",
+      "raw": 6,
+      "kept": 2,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "currency": "AUD",
+      "shopBase": "https://indieparadiso.com"
+    },
+    {
+      "slug": "ancestral-cosmetics",
+      "brandId": "c1527",
+      "raw": 38,
+      "kept": 19,
+      "withIngredients": 14,
+      "flavorVariants": 11,
+      "currency": "USD",
+      "shopBase": "https://ancestralcosmetics.com"
+    },
+    {
+      "slug": "yamabushi-farms",
+      "brandId": "c1528",
+      "raw": 8,
+      "kept": 5,
+      "withIngredients": 5,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://yamabushifarms.com"
+    }
+  ]
+}
