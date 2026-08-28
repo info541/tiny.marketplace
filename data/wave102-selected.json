@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "great-oral-health",
+    "shopBase": "https://greatoralhealth.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1481"
+  },
+  {
+    "slug": "fire-salt",
+    "shopBase": "https://drinkfiresalt.com",
+    "categories": [
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1482"
+  },
+  {
+    "slug": "chizfit",
+    "shopBase": "https://chizfitwell.com",
+    "categories": [
+      "protein",
+      "skincare"
+    ],
+    "id": "c1483"
+  },
+  {
+    "slug": "kokua-sun-care",
+    "shopBase": "https://kokua-sun-care.myshopify.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1484"
+  },
+  {
+    "slug": "creations-by-the-creek",
+    "shopBase": "https://creationsbythecreek.com",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1485"
+  },
+  {
+    "slug": "rooted-mushrooms",
+    "shopBase": "https://rootedmushrooms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1486"
+  }
+]

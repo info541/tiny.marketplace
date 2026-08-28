@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T08:09:50.206Z",
+  "wave102Products": 89,
+  "wave102BrandsWithProducts": 6,
+  "totalProducts": 23108,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "great-oral-health",
+      "brandId": "c1481",
+      "raw": 24,
+      "kept": 12,
+      "withIngredients": 0,
+      "flavorVariants": 7,
+      "currency": "USD",
+      "shopBase": "https://greatoralhealth.com"
+    },
+    {
+      "slug": "fire-salt",
+      "brandId": "c1482",
+      "raw": 6,
+      "kept": 16,
+      "withIngredients": 0,
+      "flavorVariants": 16,
+      "currency": "USD",
+      "shopBase": "https://drinkfiresalt.com"
+    },
+    {
+      "slug": "chizfit",
+      "brandId": "c1483",
+      "raw": 19,
+      "kept": 7,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "currency": "USD",
+      "shopBase": "https://chizfitwell.com"
+    },
+    {
+      "slug": "kokua-sun-care",
+      "brandId": "c1484",
+      "raw": 9,
+      "kept": 3,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://kokua-sun-care.myshopify.com"
+    },
+    {
+      "slug": "creations-by-the-creek",
+      "brandId": "c1485",
+      "raw": 61,
+      "kept": 42,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://creationsbythecreek.com"
+    },
+    {
+      "slug": "rooted-mushrooms",
+      "brandId": "c1486",
+      "raw": 11,
+      "kept": 9,
+      "withIngredients": 9,
+      "flavorVariants": 9,
+      "currency": "USD",
+      "shopBase": "https://rootedmushrooms.com"
+    }
+  ]
+}
