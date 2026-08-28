@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "underbrush",
+    "shopBase": "https://nathanandsons.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1505"
+  },
+  {
+    "slug": "electrik-kids",
+    "shopBase": "https://get-electrik.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1506"
+  },
+  {
+    "slug": "noordcode",
+    "shopBase": "https://noordcode.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1507"
+  },
+  {
+    "slug": "lazuli-farms",
+    "shopBase": "https://lazulifarms.com",
+    "categories": [
+      "sunscreen",
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1508"
+  },
+  {
+    "slug": "cattle-creek",
+    "shopBase": "https://cattle-creek.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1509"
+  },
+  {
+    "slug": "roots-apothecary",
+    "shopBase": "https://www.rootsapothecary.com",
+    "categories": [
+      "supplements",
+      "skincare",
+      "deodorant"
+    ],
+    "id": "c1510"
+  }
+]
