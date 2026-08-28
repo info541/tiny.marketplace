@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "clockwork",
+    "shopBase": "https://www.clockworkrituals.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1451"
+  },
+  {
+    "slug": "elation-hydration",
+    "shopBase": "https://elationhydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1452"
+  },
+  {
+    "slug": "kono-nutrition",
+    "shopBase": "https://kononutrition.com",
+    "categories": [
+      "protein",
+      "electrolytes"
+    ],
+    "id": "c1453"
+  },
+  {
+    "slug": "mama-sol",
+    "shopBase": "https://www.shopmamasol.com",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1454"
+  },
+  {
+    "slug": "rivas-ranch",
+    "shopBase": "https://grassfedtallowproducts.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c1455"
+  },
+  {
+    "slug": "feral-fungi",
+    "shopBase": "https://feralfungi.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1456"
+  }
+]
