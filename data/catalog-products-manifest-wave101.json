@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T07:06:17.154Z",
+  "wave101Products": 103,
+  "wave101BrandsWithProducts": 6,
+  "totalProducts": 23122,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "smart-charlie-naturals",
+      "brandId": "c1475",
+      "raw": 4,
+      "kept": 11,
+      "withIngredients": 0,
+      "flavorVariants": 10,
+      "currency": "USD",
+      "shopBase": "https://smartcharlienaturals.com"
+    },
+    {
+      "slug": "warrior-salt",
+      "brandId": "c1476",
+      "raw": 3,
+      "kept": 2,
+      "withIngredients": 2,
+      "flavorVariants": 2,
+      "currency": "USD",
+      "shopBase": "https://warriorsalt.com"
+    },
+    {
+      "slug": "natural-nutrients",
+      "brandId": "c1477",
+      "raw": 29,
+      "kept": 23,
+      "withIngredients": 0,
+      "flavorVariants": 10,
+      "currency": "USD",
+      "shopBase": "https://naturalnutrients.co.uk"
+    },
+    {
+      "slug": "miyazaki-tallow",
+      "brandId": "c1478",
+      "raw": 4,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://miyazakitallow.com"
+    },
+    {
+      "slug": "toups-and-co",
+      "brandId": "c1479",
+      "raw": 101,
+      "kept": 60,
+      "withIngredients": 11,
+      "flavorVariants": 33,
+      "currency": "USD",
+      "shopBase": "https://toupsandco.com"
+    },
+    {
+      "slug": "mama-shrooms",
+      "brandId": "c1480",
+      "raw": 7,
+      "kept": 4,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "GBP",
+      "shopBase": "https://mamashrooms.co.uk"
+    }
+  ]
+}
