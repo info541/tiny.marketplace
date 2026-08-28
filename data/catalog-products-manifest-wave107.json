@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T13:17:19.358Z",
+  "wave107Products": 91,
+  "wave107BrandsWithProducts": 6,
+  "totalProducts": 23110,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "oris",
+      "brandId": "c1511",
+      "raw": 19,
+      "kept": 9,
+      "withIngredients": 0,
+      "flavorVariants": 7,
+      "currency": "USD",
+      "shopBase": "https://tryoris.com"
+    },
+    {
+      "slug": "deadshot",
+      "brandId": "c1512",
+      "raw": 25,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 6,
+      "currency": "USD",
+      "shopBase": "https://deadshotnutrition.com"
+    },
+    {
+      "slug": "alpenpower",
+      "brandId": "c1513",
+      "raw": 95,
+      "kept": 30,
+      "withIngredients": 24,
+      "flavorVariants": 18,
+      "currency": "EUR",
+      "shopBase": "https://en.alpenpower.com"
+    },
+    {
+      "slug": "atom-fresh",
+      "brandId": "c1514",
+      "raw": 50,
+      "kept": 28,
+      "withIngredients": 0,
+      "flavorVariants": 28,
+      "currency": "USD",
+      "shopBase": "https://atomfresh.com"
+    },
+    {
+      "slug": "cowski",
+      "brandId": "c1515",
+      "raw": 12,
+      "kept": 8,
+      "withIngredients": 6,
+      "flavorVariants": 0,
+      "currency": "GBP",
+      "shopBase": "https://www.cowski.co.uk"
+    },
+    {
+      "slug": "mushroom-revival",
+      "brandId": "c1516",
+      "raw": 23,
+      "kept": 10,
+      "withIngredients": 3,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://mushroomrevival.com"
+    }
+  ]
+}
