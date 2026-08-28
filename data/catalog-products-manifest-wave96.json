@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T02:08:07.927Z",
+  "wave96Products": 51,
+  "wave96BrandsWithProducts": 6,
+  "totalProducts": 23070,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "gutology",
+      "brandId": "c1445",
+      "raw": 9,
+      "kept": 4,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://gutology.co"
+    },
+    {
+      "slug": "plan-d",
+      "brandId": "c1446",
+      "raw": 4,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 1,
+      "currency": "USD",
+      "shopBase": "https://drinkpland.com"
+    },
+    {
+      "slug": "forall-nutrition",
+      "brandId": "c1447",
+      "raw": 3,
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://forallnutrition.com"
+    },
+    {
+      "slug": "maui-mana-skincare",
+      "brandId": "c1448",
+      "raw": 10,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://mauimanaskincare.myshopify.com"
+    },
+    {
+      "slug": "cowlo",
+      "brandId": "c1449",
+      "raw": 26,
+      "kept": 25,
+      "withIngredients": 15,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://www.cowlotallow.com"
+    },
+    {
+      "slug": "noble-mushrooms",
+      "brandId": "c1450",
+      "raw": 16,
+      "kept": 10,
+      "withIngredients": 10,
+      "flavorVariants": 4,
+      "currency": "USD",
+      "shopBase": "https://www.noblemushrooms.com"
+    }
+  ]
+}
