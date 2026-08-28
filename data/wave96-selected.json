@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "gutology",
+    "shopBase": "https://gutology.co",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1445"
+  },
+  {
+    "slug": "plan-d",
+    "shopBase": "https://drinkpland.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1446"
+  },
+  {
+    "slug": "forall-nutrition",
+    "shopBase": "https://forallnutrition.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1447"
+  },
+  {
+    "slug": "maui-mana-skincare",
+    "shopBase": "https://mauimanaskincare.myshopify.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1448"
+  },
+  {
+    "slug": "cowlo",
+    "shopBase": "https://www.cowlotallow.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1449"
+  },
+  {
+    "slug": "noble-mushrooms",
+    "shopBase": "https://www.noblemushrooms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1450"
+  }
+]
