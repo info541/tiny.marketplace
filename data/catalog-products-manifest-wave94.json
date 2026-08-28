@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T00:09:45.174Z",
+  "wave94Products": 89,
+  "wave94BrandsWithProducts": 6,
+  "totalProducts": 23108,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "elims",
+      "brandId": "c1433",
+      "raw": 22,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://elims.co"
+    },
+    {
+      "slug": "clean-kind",
+      "brandId": "c1434",
+      "raw": 10,
+      "kept": 16,
+      "withIngredients": 0,
+      "flavorVariants": 11,
+      "currency": "USD",
+      "shopBase": "https://shopcleankind.com"
+    },
+    {
+      "slug": "suprey",
+      "brandId": "c1435",
+      "raw": 3,
+      "kept": 5,
+      "withIngredients": 0,
+      "flavorVariants": 5,
+      "currency": "EUR",
+      "shopBase": "https://shop.suprey.life"
+    },
+    {
+      "slug": "muscle-feast",
+      "brandId": "c1436",
+      "raw": 12,
+      "kept": 36,
+      "withIngredients": 0,
+      "flavorVariants": 36,
+      "currency": "USD",
+      "shopBase": "https://musclefeast.com"
+    },
+    {
+      "slug": "willow-valley",
+      "brandId": "c1437",
+      "raw": 44,
+      "kept": 18,
+      "withIngredients": 7,
+      "flavorVariants": 0,
+      "currency": "CAD",
+      "shopBase": "https://willowvalleywellness.com"
+    },
+    {
+      "slug": "malama-mushrooms",
+      "brandId": "c1438",
+      "raw": 60,
+      "kept": 11,
+      "withIngredients": 6,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://www.malamamushrooms.com"
+    }
+  ]
+}

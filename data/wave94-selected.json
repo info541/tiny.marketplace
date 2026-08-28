@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "elims",
+    "shopBase": "https://elims.co",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1433"
+  },
+  {
+    "slug": "clean-kind",
+    "shopBase": "https://shopcleankind.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1434"
+  },
+  {
+    "slug": "suprey",
+    "shopBase": "https://shop.suprey.life",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1435"
+  },
+  {
+    "slug": "muscle-feast",
+    "shopBase": "https://musclefeast.com",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1436"
+  },
+  {
+    "slug": "willow-valley",
+    "shopBase": "https://willowvalleywellness.com",
+    "categories": [
+      "deodorant",
+      "hair",
+      "skincare"
+    ],
+    "id": "c1437"
+  },
+  {
+    "slug": "malama-mushrooms",
+    "shopBase": "https://www.malamamushrooms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1438"
+  }
+]
