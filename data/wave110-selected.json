@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "zing-toothpaste",
+    "shopBase": "https://zingtoothpaste.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1529"
+  },
+  {
+    "slug": "hydro-trapp",
+    "shopBase": "https://hydrotrapp.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1530"
+  },
+  {
+    "slug": "stomp-nutrition",
+    "shopBase": "https://stomp-nutrition.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1531"
+  },
+  {
+    "slug": "solara-suncare",
+    "shopBase": "https://www.solarasuncare.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1532"
+  },
+  {
+    "slug": "haus-of-sage",
+    "shopBase": "https://thehausofsage.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "sunscreen"
+    ],
+    "id": "c1533"
+  },
+  {
+    "slug": "sugarshack-mushrooms",
+    "shopBase": "https://sugarshackmushrooms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1534"
+  }
+]
