@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T01:13:25.040Z",
+  "wave95Products": 36,
+  "wave95BrandsWithProducts": 6,
+  "totalProducts": 23055,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "lumineux",
+      "brandId": "c1439",
+      "raw": 13,
+      "kept": 4,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://www.lumineuxhealth.com"
+    },
+    {
+      "slug": "cota-hydration",
+      "brandId": "c1440",
+      "raw": 3,
+      "kept": 3,
+      "withIngredients": 3,
+      "flavorVariants": 3,
+      "currency": "USD",
+      "shopBase": "https://cotahydration.com"
+    },
+    {
+      "slug": "simplyfuel",
+      "brandId": "c1441",
+      "raw": 7,
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://simplyfuel.com"
+    },
+    {
+      "slug": "sunkissed-by-heaven",
+      "brandId": "c1442",
+      "raw": 3,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://sunkissedbyheaven.com"
+    },
+    {
+      "slug": "taddos-tallow",
+      "brandId": "c1443",
+      "raw": 11,
+      "kept": 17,
+      "withIngredients": 0,
+      "flavorVariants": 16,
+      "currency": "USD",
+      "shopBase": "https://taddostallow.com"
+    },
+    {
+      "slug": "mahealani-farms",
+      "brandId": "c1444",
+      "raw": 22,
+      "kept": 9,
+      "withIngredients": 6,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://mahealanifarms.store"
+    }
+  ]
+}

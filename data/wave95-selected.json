@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "lumineux",
+    "shopBase": "https://www.lumineuxhealth.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1439"
+  },
+  {
+    "slug": "cota-hydration",
+    "shopBase": "https://cotahydration.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1440"
+  },
+  {
+    "slug": "simplyfuel",
+    "shopBase": "https://simplyfuel.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1441"
+  },
+  {
+    "slug": "sunkissed-by-heaven",
+    "shopBase": "https://sunkissedbyheaven.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1442"
+  },
+  {
+    "slug": "taddos-tallow",
+    "shopBase": "https://taddostallow.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1443"
+  },
+  {
+    "slug": "mahealani-farms",
+    "shopBase": "https://mahealanifarms.store",
+    "categories": [
+      "supplements",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1444"
+  }
+]
