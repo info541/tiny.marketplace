@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "jack-n-jill",
+    "shopBase": "https://www.jackandjillkids.com",
+    "categories": [
+      "oral",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1487"
+  },
+  {
+    "slug": "natrilyte",
+    "shopBase": "https://natrilyte.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1488"
+  },
+  {
+    "slug": "smash-melon",
+    "shopBase": "https://www.smashmelon.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1489"
+  },
+  {
+    "slug": "we-are-feel-good-inc",
+    "shopBase": "https://wearefeelgoodinc.com.au",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1490"
+  },
+  {
+    "slug": "mooses-tallow",
+    "shopBase": "https://moosestallow.com",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1491"
+  },
+  {
+    "slug": "forest-of-dean-mushrooms",
+    "shopBase": "https://www.forestofdeanmushrooms.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1492"
+  }
+]

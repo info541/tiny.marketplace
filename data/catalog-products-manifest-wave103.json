@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T09:10:25.926Z",
+  "wave103Products": 125,
+  "wave103BrandsWithProducts": 6,
+  "totalProducts": 23144,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "jack-n-jill",
+      "brandId": "c1487",
+      "raw": 50,
+      "kept": 31,
+      "withIngredients": 6,
+      "flavorVariants": 12,
+      "currency": "USD",
+      "shopBase": "https://www.jackandjillkids.com"
+    },
+    {
+      "slug": "natrilyte",
+      "brandId": "c1488",
+      "raw": 1,
+      "kept": 3,
+      "withIngredients": 0,
+      "flavorVariants": 3,
+      "currency": "CAD",
+      "shopBase": "https://natrilyte.com"
+    },
+    {
+      "slug": "smash-melon",
+      "brandId": "c1489",
+      "raw": 2,
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://www.smashmelon.com"
+    },
+    {
+      "slug": "we-are-feel-good-inc",
+      "brandId": "c1490",
+      "raw": 36,
+      "kept": 28,
+      "withIngredients": 0,
+      "flavorVariants": 6,
+      "currency": "AUD",
+      "shopBase": "https://wearefeelgoodinc.com.au"
+    },
+    {
+      "slug": "mooses-tallow",
+      "brandId": "c1491",
+      "raw": 59,
+      "kept": 60,
+      "withIngredients": 12,
+      "flavorVariants": 6,
+      "currency": "USD",
+      "shopBase": "https://moosestallow.com"
+    },
+    {
+      "slug": "forest-of-dean-mushrooms",
+      "brandId": "c1492",
+      "raw": 6,
+      "kept": 2,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "currency": "GBP",
+      "shopBase": "https://www.forestofdeanmushrooms.com"
+    }
+  ]
+}
