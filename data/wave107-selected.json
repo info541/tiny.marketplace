@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "oris",
+    "shopBase": "https://tryoris.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1511"
+  },
+  {
+    "slug": "deadshot",
+    "shopBase": "https://deadshotnutrition.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1512"
+  },
+  {
+    "slug": "alpenpower",
+    "shopBase": "https://en.alpenpower.com",
+    "categories": [
+      "protein"
+    ],
+    "id": "c1513"
+  },
+  {
+    "slug": "atom-fresh",
+    "shopBase": "https://atomfresh.com",
+    "categories": [
+      "deodorant",
+      "skincare"
+    ],
+    "id": "c1514"
+  },
+  {
+    "slug": "cowski",
+    "shopBase": "https://www.cowski.co.uk",
+    "categories": [
+      "skincare"
+    ],
+    "id": "c1515"
+  },
+  {
+    "slug": "mushroom-revival",
+    "shopBase": "https://mushroomrevival.com",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1516"
+  }
+]
