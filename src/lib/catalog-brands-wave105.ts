@@ -17,7 +17,7 @@ export const catalogBrandsWave105: Brand[] = [
     reviewCount: 1680,
     followerCount: 12400,
     websiteUrl: "https://akamaibasics.com",
-    logoUrl: "/brands/akamai.svg",
+    logoUrl: "/brands/akamai.png",
   },
   {
     id: "c1500",

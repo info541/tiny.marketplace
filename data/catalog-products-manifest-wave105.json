@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T11:11:01.479Z",
+  "wave105Products": 92,
+  "wave105BrandsWithProducts": 6,
+  "totalProducts": 23111,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "akamai",
+      "brandId": "c1499",
+      "raw": 25,
+      "kept": 15,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "currency": "USD",
+      "shopBase": "https://akamaibasics.com"
+    },
+    {
+      "slug": "cure-hydration",
+      "brandId": "c1500",
+      "raw": 45,
+      "kept": 18,
+      "withIngredients": 0,
+      "flavorVariants": 18,
+      "currency": "USD",
+      "shopBase": "https://www.curehydration.com"
+    },
+    {
+      "slug": "mindful-crumb",
+      "brandId": "c1501",
+      "raw": 10,
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://shop.mindfulcrumb.com"
+    },
+    {
+      "slug": "aelia-sun",
+      "brandId": "c1502",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://aeliasun.com"
+    },
+    {
+      "slug": "wild-crafted-kitchen",
+      "brandId": "c1503",
+      "raw": 46,
+      "kept": 55,
+      "withIngredients": 2,
+      "flavorVariants": 25,
+      "currency": "USD",
+      "shopBase": "https://wildcraftedkitchenmn.myshopify.com"
+    },
+    {
+      "slug": "arbor-spring-farms",
+      "brandId": "c1504",
+      "raw": 3,
+      "kept": 2,
+      "withIngredients": 2,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://arborspringfarms.com"
+    }
+  ]
+}
