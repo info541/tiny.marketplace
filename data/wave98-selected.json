@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "toothpow",
+    "shopBase": "https://toothpow.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1457"
+  },
+  {
+    "slug": "saltivate",
+    "shopBase": "https://saltivate.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1458"
+  },
+  {
+    "slug": "purist-nutrition",
+    "shopBase": "https://www.puristnutrition.com",
+    "categories": [
+      "protein",
+      "electrolytes",
+      "supplements"
+    ],
+    "id": "c1459"
+  },
+  {
+    "slug": "aussiezinc",
+    "shopBase": "https://www.aussiezincsunscreen.com.au",
+    "categories": [
+      "sunscreen"
+    ],
+    "id": "c1460"
+  },
+  {
+    "slug": "lathr",
+    "shopBase": "https://lathr.com",
+    "categories": [
+      "deodorant",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1461"
+  },
+  {
+    "slug": "vesper-mushrooms",
+    "shopBase": "https://vespermushrooms.com",
+    "categories": [
+      "supplements",
+      "skincare"
+    ],
+    "id": "c1462"
+  }
+]

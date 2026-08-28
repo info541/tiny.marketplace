@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T04:07:14.920Z",
+  "wave98Products": 148,
+  "wave98BrandsWithProducts": 6,
+  "totalProducts": 23167,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "toothpow",
+      "brandId": "c1457",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://toothpow.com"
+    },
+    {
+      "slug": "saltivate",
+      "brandId": "c1458",
+      "raw": 36,
+      "kept": 4,
+      "withIngredients": 4,
+      "flavorVariants": 4,
+      "currency": "USD",
+      "shopBase": "https://saltivate.com"
+    },
+    {
+      "slug": "purist-nutrition",
+      "brandId": "c1459",
+      "raw": 33,
+      "kept": 8,
+      "withIngredients": 0,
+      "flavorVariants": 8,
+      "currency": "USD",
+      "shopBase": "https://www.puristnutrition.com"
+    },
+    {
+      "slug": "aussiezinc",
+      "brandId": "c1460",
+      "raw": 7,
+      "kept": 6,
+      "withIngredients": 0,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://www.aussiezincsunscreen.com.au"
+    },
+    {
+      "slug": "lathr",
+      "brandId": "c1461",
+      "raw": 258,
+      "kept": 113,
+      "withIngredients": 0,
+      "flavorVariants": 11,
+      "currency": "CAD",
+      "shopBase": "https://lathr.com"
+    },
+    {
+      "slug": "vesper-mushrooms",
+      "brandId": "c1462",
+      "raw": 36,
+      "kept": 16,
+      "withIngredients": 16,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://vespermushrooms.com"
+    }
+  ]
+}
