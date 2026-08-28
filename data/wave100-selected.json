@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "nudge",
+    "shopBase": "https://shopnudge.com",
+    "categories": [
+      "oral"
+    ],
+    "id": "c1469"
+  },
+  {
+    "slug": "cocobana",
+    "shopBase": "https://drinkcocobana.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1470"
+  },
+  {
+    "slug": "rare-forms",
+    "shopBase": "https://rareforms.co",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1471"
+  },
+  {
+    "slug": "birch-babe",
+    "shopBase": "https://birchbabe.com",
+    "categories": [
+      "sunscreen",
+      "skincare",
+      "hair",
+      "oral"
+    ],
+    "id": "c1472"
+  },
+  {
+    "slug": "magic-moo-tallow",
+    "shopBase": "https://magicmootallow.com",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1473"
+  },
+  {
+    "slug": "mogo-farm",
+    "shopBase": "https://mogofarm.co.uk",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1474"
+  }
+]

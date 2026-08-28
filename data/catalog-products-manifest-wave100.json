@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-28T06:09:01.470Z",
+  "wave100Products": 76,
+  "wave100BrandsWithProducts": 6,
+  "totalProducts": 23095,
+  "brandCount": 444,
+  "failures": [],
+  "imageHosts": [
+    "cdn.shopify.com",
+    "schmidts-assets.nyc3.cdn.digitaloceanspaces.com"
+  ],
+  "perBrand": [
+    {
+      "slug": "nudge",
+      "brandId": "c1469",
+      "raw": 12,
+      "kept": 10,
+      "withIngredients": 0,
+      "flavorVariants": 7,
+      "currency": "USD",
+      "shopBase": "https://shopnudge.com"
+    },
+    {
+      "slug": "cocobana",
+      "brandId": "c1470",
+      "raw": 1,
+      "kept": 1,
+      "withIngredients": 1,
+      "flavorVariants": 0,
+      "currency": "USD",
+      "shopBase": "https://drinkcocobana.com"
+    },
+    {
+      "slug": "rare-forms",
+      "brandId": "c1471",
+      "raw": 7,
+      "kept": 2,
+      "withIngredients": 0,
+      "flavorVariants": 2,
+      "currency": "USD",
+      "shopBase": "https://rareforms.co"
+    },
+    {
+      "slug": "birch-babe",
+      "brandId": "c1472",
+      "raw": 73,
+      "kept": 44,
+      "withIngredients": 3,
+      "flavorVariants": 30,
+      "currency": "CAD",
+      "shopBase": "https://birchbabe.com"
+    },
+    {
+      "slug": "magic-moo-tallow",
+      "brandId": "c1473",
+      "raw": 16,
+      "kept": 11,
+      "withIngredients": 4,
+      "flavorVariants": 3,
+      "currency": "USD",
+      "shopBase": "https://magicmootallow.com"
+    },
+    {
+      "slug": "mogo-farm",
+      "brandId": "c1474",
+      "raw": 11,
+      "kept": 8,
+      "withIngredients": 8,
+      "flavorVariants": 0,
+      "currency": "GBP",
+      "shopBase": "https://mogofarm.co.uk"
+    }
+  ]
+}
