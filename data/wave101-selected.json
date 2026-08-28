@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "smart-charlie-naturals",
+    "shopBase": "https://smartcharlienaturals.com",
+    "categories": [
+      "oral",
+      "skincare"
+    ],
+    "id": "c1475"
+  },
+  {
+    "slug": "warrior-salt",
+    "shopBase": "https://warriorsalt.com",
+    "categories": [
+      "electrolytes"
+    ],
+    "id": "c1476"
+  },
+  {
+    "slug": "natural-nutrients",
+    "shopBase": "https://naturalnutrients.co.uk",
+    "categories": [
+      "protein",
+      "supplements"
+    ],
+    "id": "c1477"
+  },
+  {
+    "slug": "miyazaki-tallow",
+    "shopBase": "https://miyazakitallow.com",
+    "categories": [
+      "sunscreen",
+      "skincare"
+    ],
+    "id": "c1478"
+  },
+  {
+    "slug": "toups-and-co",
+    "shopBase": "https://toupsandco.com",
+    "categories": [
+      "deodorant",
+      "sunscreen",
+      "skincare",
+      "hair"
+    ],
+    "id": "c1479"
+  },
+  {
+    "slug": "mama-shrooms",
+    "shopBase": "https://mamashrooms.co.uk",
+    "categories": [
+      "supplements"
+    ],
+    "id": "c1480"
+  }
+]
